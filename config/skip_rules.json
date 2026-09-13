@@ -1,0 +1,6 @@
+[
+  {"model":"INNOX PRO LO TF","color":"*","width":"*","reason":"excluded model"},
+  {"model":"ZEPHYR MK2 GTX MID TF","color":"dark brown","width":"wide","reason":"explicit user rule"},
+  {"model":"FORTUX","color":"black","width":"standard","reason":"explicit user rule"},
+  {"model":"FORTUX","color":"ranger green","width":"standard","reason":"unresolved mapping; source currently zero"}
+]

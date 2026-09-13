@@ -1,0 +1,26 @@
+services:
+  - type: web
+    name: outfish-lowa-stock-sync
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app --bind 0.0.0.0:$PORT --workers 2 --threads 4 --timeout 120
+    healthCheckPath: /health
+    envVars:
+      - key: SHOPIFY_STORE_DOMAIN
+        value: 153ac6-2.myshopify.com
+      - key: SHOPIFY_API_VERSION
+        value: 2026-07
+      - key: LOWA_LOCATION_ID
+        value: gid://shopify/Location/107817075026
+      - key: VEIKALS_LOCATION_ID
+        value: gid://shopify/Location/84891861330
+      - key: FJORD_LOCATION_ID
+        value: gid://shopify/Location/107805770066
+      - key: ALLOW_LIVE_SYNC
+        value: "false"
+      - key: SUPPLIER_XLSX_URL
+        sync: false
+      - key: SHOPIFY_ACCESS_TOKEN
+        sync: false
+      - key: SYNC_SECRET
+        generateValue: true
