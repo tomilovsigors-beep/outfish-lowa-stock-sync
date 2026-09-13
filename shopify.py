@@ -1,48 +1,84 @@
+import os
+import time
 import requests
 
-PRODUCT_QUERY = r'''
-query ProductInventory($id: ID!) {
-  product(id: $id) {
-    id title
-    variants(first: 100) {
-      nodes {
-        id title
-        selectedOptions { name value }
-        inventoryItem {
-          id
-          inventoryLevels(first: 20) {
-            nodes {
-              location { id name }
-              quantities(names: ["on_hand", "available", "committed"]) { name quantity }
-            }
-          }
-        }
-      }
-    }
-  }
-}
-'''
 
-SET_MUTATION = r'''
-mutation SetInventory($input: InventorySetQuantitiesInput!) {
-  inventorySetQuantities(input: $input) {
-    inventoryAdjustmentGroup { createdAt reason referenceDocumentUri changes { name delta } }
-    userErrors { code field message }
-  }
+_token_cache = {
+    "access_token": None,
+    "expires_at": 0,
 }
-'''
 
-class Shopify:
-    def __init__(self, domain, token, version="2026-07"):
-        self.url=f"https://{domain}/admin/api/{version}/graphql.json"
-        self.headers={"X-Shopify-Access-Token": token, "Content-Type":"application/json"}
-    def gql(self, query, variables):
-        r=requests.post(self.url, headers=self.headers, json={"query":query,"variables":variables}, timeout=60)
-        r.raise_for_status(); data=r.json()
-        if data.get("errors"): raise RuntimeError(data["errors"])
-        return data["data"]
-    def product_inventory(self, product_id):
-        return self.gql(PRODUCT_QUERY,{"id":product_id})["product"]
-    def set_on_hand(self, quantities, reference_uri):
-        inp={"name":"on_hand","reason":"correction","referenceDocumentUri":reference_uri,"quantities":quantities}
-        return self.gql(SET_MUTATION,{"input":inp})["inventorySetQuantities"]
+
+def get_access_token():
+    now = time.time()
+
+    if (
+        _token_cache["access_token"]
+        and now < _token_cache["expires_at"] - 300
+    ):
+        return _token_cache["access_token"]
+
+    shop = os.environ["SHOPIFY_STORE_DOMAIN"]
+    client_id = os.environ["SHOPIFY_CLIENT_ID"]
+    client_secret = os.environ["SHOPIFY_CLIENT_SECRET"]
+
+    url = f"https://{shop}/admin/oauth/access_token"
+
+    response = requests.post(
+        url,
+        json={
+            "grant_type": "client_credentials",
+            "client_id": client_id,
+            "client_secret": client_secret,
+        },
+        timeout=30,
+    )
+
+    response.raise_for_status()
+    data = response.json()
+
+    token = data["access_token"]
+    expires_in = int(data.get("expires_in", 86400))
+
+    _token_cache["access_token"] = token
+    _token_cache["expires_at"] = now + expires_in
+
+    return token
+
+
+class ShopifyClient:
+    def __init__(self):
+        self.shop = os.environ["SHOPIFY_STORE_DOMAIN"]
+        self.api_version = os.environ.get(
+            "SHOPIFY_API_VERSION",
+            "2026-07",
+        )
+
+    def graphql(self, query, variables=None):
+        token = get_access_token()
+
+        url = (
+            f"https://{self.shop}/admin/api/"
+            f"{self.api_version}/graphql.json"
+        )
+
+        response = requests.post(
+            url,
+            headers={
+                "X-Shopify-Access-Token": token,
+                "Content-Type": "application/json",
+            },
+            json={
+                "query": query,
+                "variables": variables or {},
+            },
+            timeout=60,
+        )
+
+        response.raise_for_status()
+        payload = response.json()
+
+        if payload.get("errors"):
+            raise RuntimeError(payload["errors"])
+
+        return payload["data"]
