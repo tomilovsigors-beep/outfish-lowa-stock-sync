@@ -1,6 +1,8 @@
 import os
 import time
+
 import requests
+
 
 PRODUCT_QUERY = r'''
 query ProductInventory($id: ID!) {
@@ -38,9 +40,14 @@ query ProductInventory($id: ID!) {
 }
 '''
 
+
 SET_MUTATION = r'''
-mutation SetInventory($input: InventorySetQuantitiesInput!) {
-  inventorySetQuantities(input: $input) {
+mutation SetInventory(
+  $input: InventorySetQuantitiesInput!,
+  $idempotencyKey: String!
+) {
+  inventorySetQuantities(input: $input)
+    @idempotent(key: $idempotencyKey) {
     inventoryAdjustmentGroup {
       createdAt
       reason
@@ -48,6 +55,7 @@ mutation SetInventory($input: InventorySetQuantitiesInput!) {
       changes {
         name
         delta
+        quantityAfterChange
       }
     }
     userErrors {
@@ -58,6 +66,7 @@ mutation SetInventory($input: InventorySetQuantitiesInput!) {
   }
 }
 '''
+
 
 _token_cache = {
     "access_token": None,
@@ -79,15 +88,23 @@ def get_access_token():
     client_secret = os.getenv("SHOPIFY_CLIENT_SECRET")
 
     if not domain:
-        raise RuntimeError("SHOPIFY_STORE_DOMAIN is not configured")
+        raise RuntimeError(
+            "SHOPIFY_STORE_DOMAIN is not configured"
+        )
 
     if not client_id:
-        raise RuntimeError("SHOPIFY_CLIENT_ID is not configured")
+        raise RuntimeError(
+            "SHOPIFY_CLIENT_ID is not configured"
+        )
 
     if not client_secret:
-        raise RuntimeError("SHOPIFY_CLIENT_SECRET is not configured")
+        raise RuntimeError(
+            "SHOPIFY_CLIENT_SECRET is not configured"
+        )
 
-    url = f"https://{domain}/admin/oauth/access_token"
+    url = (
+        f"https://{domain}/admin/oauth/access_token"
+    )
 
     response = requests.post(
         url,
@@ -109,16 +126,24 @@ def get_access_token():
         )
 
     token = data["access_token"]
-    expires_in = int(data.get("expires_in", 86400))
+    expires_in = int(
+        data.get("expires_in", 86400)
+    )
 
     _token_cache["access_token"] = token
-    _token_cache["expires_at"] = now + expires_in
+    _token_cache["expires_at"] = (
+        now + expires_in
+    )
 
     return token
 
 
 class Shopify:
-    def __init__(self, domain=None, version=None):
+    def __init__(
+        self,
+        domain=None,
+        version=None,
+    ):
         self.domain = (
             domain
             or os.getenv(
@@ -137,21 +162,32 @@ class Shopify:
 
         self.url = (
             f"https://{self.domain}"
-            f"/admin/api/{self.version}/graphql.json"
+            f"/admin/api/{self.version}"
+            f"/graphql.json"
         )
 
-    def gql(self, query, variables=None):
+    def gql(
+        self,
+        query,
+        variables=None,
+    ):
         token = get_access_token()
 
         response = requests.post(
             self.url,
             headers={
-                "X-Shopify-Access-Token": token,
-                "Content-Type": "application/json",
+                "X-Shopify-Access-Token": (
+                    token
+                ),
+                "Content-Type": (
+                    "application/json"
+                ),
             },
             json={
                 "query": query,
-                "variables": variables or {},
+                "variables": (
+                    variables or {}
+                ),
             },
             timeout=60,
         )
@@ -161,21 +197,29 @@ class Shopify:
         data = response.json()
 
         if data.get("errors"):
-            raise RuntimeError(data["errors"])
+            raise RuntimeError(
+                data["errors"]
+            )
 
         return data["data"]
 
-    def product_inventory(self, product_id):
+    def product_inventory(
+        self,
+        product_id,
+    ):
         data = self.gql(
             PRODUCT_QUERY,
-            {"id": product_id},
+            {
+                "id": product_id,
+            },
         )
 
         product = data["product"]
 
         if product is None:
             raise RuntimeError(
-                f"Shopify product not found: {product_id}"
+                "Shopify product not found: "
+                f"{product_id}"
             )
 
         return product
@@ -184,17 +228,27 @@ class Shopify:
         self,
         quantities,
         reference_uri,
+        idempotency_key,
     ):
         input_data = {
             "name": "on_hand",
             "reason": "correction",
-            "referenceDocumentUri": reference_uri,
+            "referenceDocumentUri": (
+                reference_uri
+            ),
             "quantities": quantities,
         }
 
         data = self.gql(
             SET_MUTATION,
-            {"input": input_data},
+            {
+                "input": input_data,
+                "idempotencyKey": (
+                    idempotency_key
+                ),
+            },
         )
 
-        return data["inventorySetQuantities"]
+        return data[
+            "inventorySetQuantities"
+        ]
