@@ -1,12 +1,15 @@
 import os
 import uuid
-import requests
 
+import requests
 from flask import Flask, jsonify, request
 
 from supplier import parse_xlsx_bytes
 from shopify import Shopify
-from engine import make_dry_run, build_sync_batch
+from engine import (
+    make_dry_run,
+    build_sync_batch,
+)
 
 
 app = Flask(__name__)
@@ -17,11 +20,14 @@ def shop():
 
 
 def supplier_rows():
-    url = os.getenv("SUPPLIER_XLSX_URL")
+    url = os.getenv(
+        "SUPPLIER_XLSX_URL"
+    )
 
     if not url:
         raise RuntimeError(
-            "SUPPLIER_XLSX_URL is not configured"
+            "SUPPLIER_XLSX_URL "
+            "is not configured"
         )
 
     response = requests.get(
@@ -40,7 +46,9 @@ def supplier_rows():
 def index():
     return {
         "ok": True,
-        "service": "outfish-lowa-stock-sync",
+        "service": (
+            "outfish-lowa-stock-sync"
+        ),
         "health": "/health",
         "dryRun": "/dry-run",
         "scopes": "/scopes",
@@ -58,7 +66,9 @@ def index():
 def health():
     return {
         "ok": True,
-        "service": "outfish-lowa-stock-sync",
+        "service": (
+            "outfish-lowa-stock-sync"
+        ),
         "liveSyncEnabled": (
             os.getenv(
                 "ALLOW_LIVE_SYNC",
@@ -85,7 +95,8 @@ def scopes():
 
     scopes = [
         item["handle"]
-        for item in data[
+        for item
+        in data[
             "currentAppInstallation"
         ]["accessScopes"]
     ]
@@ -94,7 +105,8 @@ def scopes():
         {
             "scopes": scopes,
             "hasWriteInventory": (
-                "write_inventory" in scopes
+                "write_inventory"
+                in scopes
             ),
         }
     )
@@ -113,7 +125,11 @@ def dry_run():
         action = row["action"]
 
         counts[action] = (
-            counts.get(action, 0) + 1
+            counts.get(
+                action,
+                0,
+            )
+            + 1
         )
 
     return jsonify(
@@ -134,10 +150,14 @@ def sync():
         != "true"
     ):
         return {
-            "error": "live sync disabled"
+            "error": (
+                "live sync disabled"
+            )
         }, 403
 
-    secret = os.getenv("SYNC_SECRET")
+    secret = os.getenv(
+        "SYNC_SECRET"
+    )
 
     if (
         not secret
@@ -155,15 +175,16 @@ def sync():
         shop(),
     )
 
-    batch, rejected = build_sync_batch(
-        rows
+    batch, rejected = (
+        build_sync_batch(rows)
     )
 
     if rejected:
         return jsonify(
             {
                 "error": (
-                    "unlocked mappings present"
+                    "unlocked mappings "
+                    "present"
                 ),
                 "blocked": rejected,
                 "proposed": batch,
@@ -173,12 +194,13 @@ def sync():
     if not batch:
         return {
             "ok": True,
-            "message": "nothing to change",
+            "message": (
+                "nothing to change"
+            ),
             "changed": 0,
         }
 
     client = shop()
-
     all_results = []
 
     for i in range(
@@ -186,32 +208,52 @@ def sync():
         len(batch),
         50,
     ):
-        part = batch[i:i + 50]
+        part = batch[
+            i:i + 50
+        ]
+
+        operation_id = str(
+            uuid.uuid4()
+        )
 
         reference_uri = (
-            "gid://outfish-lowa-stock-sync/"
-            f"SyncJob/{uuid.uuid4()}"
+            "gid://"
+            "outfish-lowa-stock-sync/"
+            f"SyncJob/{operation_id}"
         )
 
         result = client.set_on_hand(
             part,
             reference_uri,
+            operation_id,
         )
 
-        if result.get("userErrors"):
+        if result.get(
+            "userErrors"
+        ):
             return jsonify(
                 {
                     "error": (
-                        "shopify rejected batch"
+                        "shopify "
+                        "rejected batch"
                     ),
                     "details": (
-                        result["userErrors"]
+                        result[
+                            "userErrors"
+                        ]
                     ),
-                    "reference": reference_uri,
+                    "reference": (
+                        reference_uri
+                    ),
+                    "idempotencyKey": (
+                        operation_id
+                    ),
                 }
             ), 409
 
-        all_results.append(result)
+        all_results.append(
+            result
+        )
 
     return jsonify(
         {
