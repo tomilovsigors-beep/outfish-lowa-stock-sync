@@ -43,6 +43,7 @@ def index():
         "service": "outfish-lowa-stock-sync",
         "health": "/health",
         "dryRun": "/dry-run",
+        "scopes": "/scopes",
         "liveSyncEnabled": (
             os.getenv(
                 "ALLOW_LIVE_SYNC",
@@ -66,6 +67,37 @@ def health():
             == "true"
         ),
     }
+
+
+@app.get("/scopes")
+def scopes():
+    query = """
+    query {
+      currentAppInstallation {
+        accessScopes {
+          handle
+        }
+      }
+    }
+    """
+
+    data = shop().gql(query)
+
+    scopes = [
+        item["handle"]
+        for item in data[
+            "currentAppInstallation"
+        ]["accessScopes"]
+    ]
+
+    return jsonify(
+        {
+            "scopes": scopes,
+            "hasWriteInventory": (
+                "write_inventory" in scopes
+            ),
+        }
+    )
 
 
 @app.get("/dry-run")
@@ -94,8 +126,6 @@ def dry_run():
 
 @app.post("/sync")
 def sync():
-    # Lock 1:
-    # live sync must be explicitly enabled.
     if (
         os.getenv(
             "ALLOW_LIVE_SYNC",
@@ -107,8 +137,6 @@ def sync():
             "error": "live sync disabled"
         }, 403
 
-    # Lock 2:
-    # request must contain private sync secret.
     secret = os.getenv("SYNC_SECRET")
 
     if (
@@ -131,9 +159,6 @@ def sync():
         rows
     )
 
-    # Lock 3:
-    # every inventory item must exist
-    # in reviewed immutable map.
     if rejected:
         return jsonify(
             {
@@ -156,7 +181,6 @@ def sync():
 
     all_results = []
 
-    # Shopify batches kept deliberately small.
     for i in range(
         0,
         len(batch),
