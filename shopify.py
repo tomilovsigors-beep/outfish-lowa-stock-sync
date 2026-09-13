@@ -2,6 +2,62 @@ import os
 import time
 import requests
 
+PRODUCT_QUERY = r'''
+query ProductInventory($id: ID!) {
+  product(id: $id) {
+    id
+    title
+    variants(first: 100) {
+      nodes {
+        id
+        title
+        selectedOptions {
+          name
+          value
+        }
+        inventoryItem {
+          id
+          inventoryLevels(first: 20) {
+            nodes {
+              location {
+                id
+                name
+              }
+              quantities(
+                names: ["on_hand", "available", "committed"]
+              ) {
+                name
+                quantity
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+'''
+
+SET_MUTATION = r'''
+mutation SetInventory($input: InventorySetQuantitiesInput!) {
+  inventorySetQuantities(input: $input) {
+    inventoryAdjustmentGroup {
+      createdAt
+      reason
+      referenceDocumentUri
+      changes {
+        name
+        delta
+      }
+    }
+    userErrors {
+      code
+      field
+      message
+    }
+  }
+}
+'''
 
 _token_cache = {
     "access_token": None,
@@ -18,11 +74,20 @@ def get_access_token():
     ):
         return _token_cache["access_token"]
 
-    shop = os.environ["SHOPIFY_STORE_DOMAIN"]
-    client_id = os.environ["SHOPIFY_CLIENT_ID"]
-    client_secret = os.environ["SHOPIFY_CLIENT_SECRET"]
+    domain = os.getenv("SHOPIFY_STORE_DOMAIN")
+    client_id = os.getenv("SHOPIFY_CLIENT_ID")
+    client_secret = os.getenv("SHOPIFY_CLIENT_SECRET")
 
-    url = f"https://{shop}/admin/oauth/access_token"
+    if not domain:
+        raise RuntimeError("SHOPIFY_STORE_DOMAIN is not configured")
+
+    if not client_id:
+        raise RuntimeError("SHOPIFY_CLIENT_ID is not configured")
+
+    if not client_secret:
+        raise RuntimeError("SHOPIFY_CLIENT_SECRET is not configured")
+
+    url = f"https://{domain}/admin/oauth/access_token"
 
     response = requests.post(
         url,
@@ -35,7 +100,13 @@ def get_access_token():
     )
 
     response.raise_for_status()
+
     data = response.json()
+
+    if "access_token" not in data:
+        raise RuntimeError(
+            f"Shopify did not return access_token: {data}"
+        )
 
     token = data["access_token"]
     expires_in = int(data.get("expires_in", 86400))
@@ -46,24 +117,34 @@ def get_access_token():
     return token
 
 
-class ShopifyClient:
-    def __init__(self):
-        self.shop = os.environ["SHOPIFY_STORE_DOMAIN"]
-        self.api_version = os.environ.get(
-            "SHOPIFY_API_VERSION",
-            "2026-07",
+class Shopify:
+    def __init__(self, domain=None, version=None):
+        self.domain = (
+            domain
+            or os.getenv(
+                "SHOPIFY_STORE_DOMAIN",
+                "153ac6-2.myshopify.com",
+            )
         )
 
-    def graphql(self, query, variables=None):
+        self.version = (
+            version
+            or os.getenv(
+                "SHOPIFY_API_VERSION",
+                "2026-07",
+            )
+        )
+
+        self.url = (
+            f"https://{self.domain}"
+            f"/admin/api/{self.version}/graphql.json"
+        )
+
+    def gql(self, query, variables=None):
         token = get_access_token()
 
-        url = (
-            f"https://{self.shop}/admin/api/"
-            f"{self.api_version}/graphql.json"
-        )
-
         response = requests.post(
-            url,
+            self.url,
             headers={
                 "X-Shopify-Access-Token": token,
                 "Content-Type": "application/json",
@@ -76,9 +157,44 @@ class ShopifyClient:
         )
 
         response.raise_for_status()
-        payload = response.json()
 
-        if payload.get("errors"):
-            raise RuntimeError(payload["errors"])
+        data = response.json()
 
-        return payload["data"]
+        if data.get("errors"):
+            raise RuntimeError(data["errors"])
+
+        return data["data"]
+
+    def product_inventory(self, product_id):
+        data = self.gql(
+            PRODUCT_QUERY,
+            {"id": product_id},
+        )
+
+        product = data["product"]
+
+        if product is None:
+            raise RuntimeError(
+                f"Shopify product not found: {product_id}"
+            )
+
+        return product
+
+    def set_on_hand(
+        self,
+        quantities,
+        reference_uri,
+    ):
+        input_data = {
+            "name": "on_hand",
+            "reason": "correction",
+            "referenceDocumentUri": reference_uri,
+            "quantities": quantities,
+        }
+
+        data = self.gql(
+            SET_MUTATION,
+            {"input": input_data},
+        )
+
+        return data["inventorySetQuantities"]
