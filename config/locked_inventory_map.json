@@ -1,10 +1,482 @@
 {
+  "gid://shopify/Product/10040596496722|36.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/53911409623378",
+    "model": "FORTUX GTX QC",
+    "size": "36.5",
+    "variantId": "gid://shopify/ProductVariant/51857941922130",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10040596496722|37": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/53911409656146",
+    "model": "FORTUX GTX QC",
+    "size": "37",
+    "variantId": "gid://shopify/ProductVariant/51857941954898",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10040596496722|37.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/53911409688914",
+    "model": "FORTUX GTX QC",
+    "size": "37.5",
+    "variantId": "gid://shopify/ProductVariant/51857941987666",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10040596496722|38": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/53911409721682",
+    "model": "FORTUX GTX QC",
+    "size": "38",
+    "variantId": "gid://shopify/ProductVariant/51857942020434",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10040596496722|39": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/53911409754450",
+    "model": "FORTUX GTX QC",
+    "size": "39",
+    "variantId": "gid://shopify/ProductVariant/51857942053202",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10040596496722|39.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/53911409787218",
+    "model": "FORTUX GTX QC",
+    "size": "39.5",
+    "variantId": "gid://shopify/ProductVariant/51857942085970",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10040596496722|40": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52709473091922",
+    "model": "FORTUX GTX QC",
+    "size": "40",
+    "variantId": "gid://shopify/ProductVariant/50636028215634",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10040596496722|41": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52709473124690",
+    "model": "FORTUX GTX QC",
+    "size": "41",
+    "variantId": "gid://shopify/ProductVariant/50636028248402",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10040596496722|41.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52709473157458",
+    "model": "FORTUX GTX QC",
+    "size": "41.5",
+    "variantId": "gid://shopify/ProductVariant/50636028281170",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10040596496722|42": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52709473190226",
+    "model": "FORTUX GTX QC",
+    "size": "42",
+    "variantId": "gid://shopify/ProductVariant/50636028313938",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10040596496722|42.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52709473222994",
+    "model": "FORTUX GTX QC",
+    "size": "42.5",
+    "variantId": "gid://shopify/ProductVariant/50636028346706",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10040596496722|43.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52709473255762",
+    "model": "FORTUX GTX QC",
+    "size": "43.5",
+    "variantId": "gid://shopify/ProductVariant/50636028379474",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10040596496722|44": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52709473288530",
+    "model": "FORTUX GTX QC",
+    "size": "44",
+    "variantId": "gid://shopify/ProductVariant/50636028412242",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10040596496722|44.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52709473321298",
+    "model": "FORTUX GTX QC",
+    "size": "44.5",
+    "variantId": "gid://shopify/ProductVariant/50636028445010",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10040596496722|45": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52709473354066",
+    "model": "FORTUX GTX QC",
+    "size": "45",
+    "variantId": "gid://shopify/ProductVariant/50636028477778",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10040596496722|46": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52709473386834",
+    "model": "FORTUX GTX QC",
+    "size": "46",
+    "variantId": "gid://shopify/ProductVariant/50636028510546",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10040596496722|46.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52709473419602",
+    "model": "FORTUX GTX QC",
+    "size": "46.5",
+    "variantId": "gid://shopify/ProductVariant/50636028543314",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10040596496722|47": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52709473452370",
+    "model": "FORTUX GTX QC",
+    "size": "47",
+    "variantId": "gid://shopify/ProductVariant/50636028576082",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10040596496722|48.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/55088367599954",
+    "model": "FORTUX GTX QC",
+    "size": "48.5",
+    "variantId": "gid://shopify/ProductVariant/53028274110802",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10181914460498|40": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/53236143292754",
+    "model": "Z-8S C",
+    "size": "40",
+    "variantId": "gid://shopify/ProductVariant/51176175173970",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10181914460498|41": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/53236143325522",
+    "model": "Z-8S C",
+    "size": "41",
+    "variantId": "gid://shopify/ProductVariant/51176175206738",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10181914460498|41.5": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/53236143358290",
+    "model": "Z-8S C",
+    "size": "41.5",
+    "variantId": "gid://shopify/ProductVariant/51176175239506",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10181914460498|42": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/53236146667858",
+    "model": "Z-8S C",
+    "size": "42",
+    "variantId": "gid://shopify/ProductVariant/51176178549074",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10181914460498|42.5": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/53236146700626",
+    "model": "Z-8S C",
+    "size": "42.5",
+    "variantId": "gid://shopify/ProductVariant/51176178581842",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10181914460498|43.5": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/53236146733394",
+    "model": "Z-8S C",
+    "size": "43.5",
+    "variantId": "gid://shopify/ProductVariant/51176178614610",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10181914460498|44": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/53236146766162",
+    "model": "Z-8S C",
+    "size": "44",
+    "variantId": "gid://shopify/ProductVariant/51176178647378",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10181914460498|44.5": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/53236146798930",
+    "model": "Z-8S C",
+    "size": "44.5",
+    "variantId": "gid://shopify/ProductVariant/51176178680146",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10181914460498|45": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/53236146831698",
+    "model": "Z-8S C",
+    "size": "45",
+    "variantId": "gid://shopify/ProductVariant/51176178712914",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10181914460498|46.5": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/53236146864466",
+    "model": "Z-8S C",
+    "size": "46.5",
+    "variantId": "gid://shopify/ProductVariant/51176178745682",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10181914460498|47": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/53236146897234",
+    "model": "Z-8S C",
+    "size": "47",
+    "variantId": "gid://shopify/ProductVariant/51176178778450",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10263568712018|40": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/53564570829138",
+    "model": "ZEPHYR MK2 HI",
+    "size": "40",
+    "variantId": "gid://shopify/ProductVariant/51511954342226",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10263568712018|41": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/53564570861906",
+    "model": "ZEPHYR MK2 HI",
+    "size": "41",
+    "variantId": "gid://shopify/ProductVariant/51511954374994",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10263568712018|41.5": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/53564570894674",
+    "model": "ZEPHYR MK2 HI",
+    "size": "41.5",
+    "variantId": "gid://shopify/ProductVariant/51511954407762",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10263568712018|42": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/53564570927442",
+    "model": "ZEPHYR MK2 HI",
+    "size": "42",
+    "variantId": "gid://shopify/ProductVariant/51511954440530",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10263568712018|42.5": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/53564570960210",
+    "model": "ZEPHYR MK2 HI",
+    "size": "42.5",
+    "variantId": "gid://shopify/ProductVariant/51511954473298",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10263568712018|43.5": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/53564570992978",
+    "model": "ZEPHYR MK2 HI",
+    "size": "43.5",
+    "variantId": "gid://shopify/ProductVariant/51511954506066",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10263568712018|44": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/53564571025746",
+    "model": "ZEPHYR MK2 HI",
+    "size": "44",
+    "variantId": "gid://shopify/ProductVariant/51511954538834",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10263568712018|44.5": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/53564571058514",
+    "model": "ZEPHYR MK2 HI",
+    "size": "44.5",
+    "variantId": "gid://shopify/ProductVariant/51511954571602",
+    "width": "standard"
+  },
   "gid://shopify/Product/10263568712018|45": {
     "color": "coyote op",
     "inventoryItemId": "gid://shopify/InventoryItem/53564571091282",
     "model": "ZEPHYR MK2 HI",
     "size": "45",
     "variantId": "gid://shopify/ProductVariant/51511954604370",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10263568712018|46": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/53564571124050",
+    "model": "ZEPHYR MK2 HI",
+    "size": "46",
+    "variantId": "gid://shopify/ProductVariant/51511954637138",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10263568712018|47": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/53564571156818",
+    "model": "ZEPHYR MK2 HI",
+    "size": "47",
+    "variantId": "gid://shopify/ProductVariant/51511954669906",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10263922868562|37": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/53911439475026",
+    "model": "FORTUX GTX",
+    "size": "37",
+    "variantId": "gid://shopify/ProductVariant/51857971773778",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10263922868562|37.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/53911427481938",
+    "model": "FORTUX GTX",
+    "size": "37.5",
+    "variantId": "gid://shopify/ProductVariant/51857959780690",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10263922868562|38": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/53911439507794",
+    "model": "FORTUX GTX",
+    "size": "38",
+    "variantId": "gid://shopify/ProductVariant/51857971806546",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10263922868562|39": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/53911427547474",
+    "model": "FORTUX GTX",
+    "size": "39",
+    "variantId": "gid://shopify/ProductVariant/51857959846226",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10263922868562|39.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/53911427580242",
+    "model": "FORTUX GTX",
+    "size": "39.5",
+    "variantId": "gid://shopify/ProductVariant/51857959878994",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10263922868562|40": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/53575347994962",
+    "model": "FORTUX GTX",
+    "size": "40",
+    "variantId": "gid://shopify/ProductVariant/51522696282450",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10263922868562|41": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/53575348027730",
+    "model": "FORTUX GTX",
+    "size": "41",
+    "variantId": "gid://shopify/ProductVariant/51522696315218",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10263922868562|41.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/53575348060498",
+    "model": "FORTUX GTX",
+    "size": "41.5",
+    "variantId": "gid://shopify/ProductVariant/51522696347986",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10263922868562|42": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/53575348388178",
+    "model": "FORTUX GTX",
+    "size": "42",
+    "variantId": "gid://shopify/ProductVariant/51522696675666",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10263922868562|42.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/53575348093266",
+    "model": "FORTUX GTX",
+    "size": "42.5",
+    "variantId": "gid://shopify/ProductVariant/51522696380754",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10263922868562|43.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/53575348126034",
+    "model": "FORTUX GTX",
+    "size": "43.5",
+    "variantId": "gid://shopify/ProductVariant/51522696413522",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10263922868562|44": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/53575348322642",
+    "model": "FORTUX GTX",
+    "size": "44",
+    "variantId": "gid://shopify/ProductVariant/51522696610130",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10263922868562|44.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/53575348191570",
+    "model": "FORTUX GTX",
+    "size": "44.5",
+    "variantId": "gid://shopify/ProductVariant/51522696479058",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10263922868562|45": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/53575348289874",
+    "model": "FORTUX GTX",
+    "size": "45",
+    "variantId": "gid://shopify/ProductVariant/51522696577362",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10263922868562|46": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/53575348257106",
+    "model": "FORTUX GTX",
+    "size": "46",
+    "variantId": "gid://shopify/ProductVariant/51522696544594",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10263922868562|46.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/53575348158802",
+    "model": "FORTUX GTX",
+    "size": "46.5",
+    "variantId": "gid://shopify/ProductVariant/51522696446290",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10263922868562|47": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/53575348224338",
+    "model": "FORTUX GTX",
+    "size": "47",
+    "variantId": "gid://shopify/ProductVariant/51522696511826",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10263922868562|48.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/55088371663186",
+    "model": "FORTUX GTX",
+    "size": "48.5",
+    "variantId": "gid://shopify/ProductVariant/53028278174034",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10306098069842|36.5": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/54506342449490",
+    "model": "Z-6N GTX C",
+    "size": "36.5",
+    "variantId": "gid://shopify/ProductVariant/52451210723666",
     "width": "standard"
   },
   "gid://shopify/Product/10306098069842|37": {
@@ -15,12 +487,172 @@
     "variantId": "gid://shopify/ProductVariant/51691953455442",
     "width": "standard"
   },
+  "gid://shopify/Product/10306098069842|37.5": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/53745820434770",
+    "model": "Z-6N GTX C",
+    "size": "37.5",
+    "variantId": "gid://shopify/ProductVariant/51691984945490",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10306098069842|38": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/53745831575890",
+    "model": "Z-6N GTX C",
+    "size": "38",
+    "variantId": "gid://shopify/ProductVariant/51691996086610",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10306098069842|39": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/53745831543122",
+    "model": "Z-6N GTX C",
+    "size": "39",
+    "variantId": "gid://shopify/ProductVariant/51691996053842",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10306098069842|39.5": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/53745859789138",
+    "model": "Z-6N GTX C",
+    "size": "39.5",
+    "variantId": "gid://shopify/ProductVariant/51692024299858",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10306098069842|40": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/54506342482258",
+    "model": "Z-6N GTX C",
+    "size": "40",
+    "variantId": "gid://shopify/ProductVariant/52451210756434",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10306098069842|41": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/54506342515026",
+    "model": "Z-6N GTX C",
+    "size": "41",
+    "variantId": "gid://shopify/ProductVariant/52451210789202",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10306098069842|41.5": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/54181367808338",
+    "model": "Z-6N GTX C",
+    "size": "41.5",
+    "variantId": "gid://shopify/ProductVariant/52127214141778",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10306098069842|42": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/54506342547794",
+    "model": "Z-6N GTX C",
+    "size": "42",
+    "variantId": "gid://shopify/ProductVariant/52451210821970",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10306098069842|43.5": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/54181367841106",
+    "model": "Z-6N GTX C",
+    "size": "43.5",
+    "variantId": "gid://shopify/ProductVariant/52127214174546",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10306098069842|44": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/54506342580562",
+    "model": "Z-6N GTX C",
+    "size": "44",
+    "variantId": "gid://shopify/ProductVariant/52451210854738",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10306098069842|44.5": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/54181367873874",
+    "model": "Z-6N GTX C",
+    "size": "44.5",
+    "variantId": "gid://shopify/ProductVariant/52127214207314",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10306098069842|45": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/54506342613330",
+    "model": "Z-6N GTX C",
+    "size": "45",
+    "variantId": "gid://shopify/ProductVariant/52451210887506",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10306098069842|46": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/54181367906642",
+    "model": "Z-6N GTX C",
+    "size": "46",
+    "variantId": "gid://shopify/ProductVariant/52127214240082",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10306098069842|46.5": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/54506342646098",
+    "model": "Z-6N GTX C",
+    "size": "46.5",
+    "variantId": "gid://shopify/ProductVariant/52451210920274",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10306098069842|47": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/54181367939410",
+    "model": "Z-6N GTX C",
+    "size": "47",
+    "variantId": "gid://shopify/ProductVariant/52127214272850",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10306098069842|48": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/54506342678866",
+    "model": "Z-6N GTX C",
+    "size": "48",
+    "variantId": "gid://shopify/ProductVariant/52451210953042",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10306575270226|37": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/55089148494162",
+    "model": "Z-8S GTX C",
+    "size": "37",
+    "variantId": "gid://shopify/ProductVariant/53029053661522",
+    "width": "wide"
+  },
+  "gid://shopify/Product/10306575270226|40": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/53747263537490",
+    "model": "Z-8S GTX C",
+    "size": "40",
+    "variantId": "gid://shopify/ProductVariant/51693426835794",
+    "width": "wide"
+  },
+  "gid://shopify/Product/10306575270226|41": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/55089148526930",
+    "model": "Z-8S GTX C",
+    "size": "41",
+    "variantId": "gid://shopify/ProductVariant/53029053694290",
+    "width": "wide"
+  },
   "gid://shopify/Product/10306575270226|41.5": {
     "color": "dark brown",
     "inventoryItemId": "gid://shopify/InventoryItem/53747263570258",
     "model": "Z-8S GTX C",
     "size": "41.5",
     "variantId": "gid://shopify/ProductVariant/51693426868562",
+    "width": "wide"
+  },
+  "gid://shopify/Product/10306575270226|42": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/53747263603026",
+    "model": "Z-8S GTX C",
+    "size": "42",
+    "variantId": "gid://shopify/ProductVariant/51693426901330",
     "width": "wide"
   },
   "gid://shopify/Product/10306575270226|42.5": {
@@ -47,6 +679,22 @@
     "variantId": "gid://shopify/ProductVariant/53029053727058",
     "width": "wide"
   },
+  "gid://shopify/Product/10306575270226|44.5": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/55089148592466",
+    "model": "Z-8S GTX C",
+    "size": "44.5",
+    "variantId": "gid://shopify/ProductVariant/53029053759826",
+    "width": "wide"
+  },
+  "gid://shopify/Product/10306575270226|45": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/55089148625234",
+    "model": "Z-8S GTX C",
+    "size": "45",
+    "variantId": "gid://shopify/ProductVariant/53029053792594",
+    "width": "wide"
+  },
   "gid://shopify/Product/10306575270226|46": {
     "color": "dark brown",
     "inventoryItemId": "gid://shopify/InventoryItem/53747263701330",
@@ -63,6 +711,70 @@
     "variantId": "gid://shopify/ProductVariant/51693427032402",
     "width": "wide"
   },
+  "gid://shopify/Product/10306575270226|48": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/55089148658002",
+    "model": "Z-8S GTX C",
+    "size": "48",
+    "variantId": "gid://shopify/ProductVariant/53029053825362",
+    "width": "wide"
+  },
+  "gid://shopify/Product/10306575270226|49.5": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/55089148690770",
+    "model": "Z-8S GTX C",
+    "size": "49.5",
+    "variantId": "gid://shopify/ProductVariant/53029053858130",
+    "width": "wide"
+  },
+  "gid://shopify/Product/10306575270226|51": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/55089148723538",
+    "model": "Z-8S GTX C",
+    "size": "51",
+    "variantId": "gid://shopify/ProductVariant/53029053890898",
+    "width": "wide"
+  },
+  "gid://shopify/Product/10522771718482|42": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/54498081046866",
+    "model": "RENEGADE II GTX HI",
+    "size": "42",
+    "variantId": "gid://shopify/ProductVariant/52442974519634",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10522771718482|42.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/54498081079634",
+    "model": "RENEGADE II GTX HI",
+    "size": "42.5",
+    "variantId": "gid://shopify/ProductVariant/52442974552402",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10522771718482|43.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/54498081112402",
+    "model": "RENEGADE II GTX HI",
+    "size": "43.5",
+    "variantId": "gid://shopify/ProductVariant/52442974585170",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10522771718482|45": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/54498081145170",
+    "model": "RENEGADE II GTX HI",
+    "size": "45",
+    "variantId": "gid://shopify/ProductVariant/52442974617938",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10522771718482|46": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/55796572455250",
+    "model": "RENEGADE II GTX HI",
+    "size": "46",
+    "variantId": "gid://shopify/ProductVariant/53728051265874",
+    "width": "standard"
+  },
   "gid://shopify/Product/10525013672274|37": {
     "color": "black/grey",
     "inventoryItemId": "gid://shopify/InventoryItem/56790898245970",
@@ -71,12 +783,132 @@
     "variantId": "gid://shopify/ProductVariant/54713588089170",
     "width": "standard"
   },
+  "gid://shopify/Product/10525013672274|37.5": {
+    "color": "black/grey",
+    "inventoryItemId": "gid://shopify/InventoryItem/54507055382866",
+    "model": "RENEGADE EVO ICE 2 GTX",
+    "size": "37.5",
+    "variantId": "gid://shopify/ProductVariant/52451921854802",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10525013672274|38": {
+    "color": "black/grey",
+    "inventoryItemId": "gid://shopify/InventoryItem/54507055415634",
+    "model": "RENEGADE EVO ICE 2 GTX",
+    "size": "38",
+    "variantId": "gid://shopify/ProductVariant/52451921887570",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10525013672274|39": {
+    "color": "black/grey",
+    "inventoryItemId": "gid://shopify/InventoryItem/54507055350098",
+    "model": "RENEGADE EVO ICE 2 GTX",
+    "size": "39",
+    "variantId": "gid://shopify/ProductVariant/52451921822034",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10525013672274|39.5": {
+    "color": "black/grey",
+    "inventoryItemId": "gid://shopify/InventoryItem/54507058200914",
+    "model": "RENEGADE EVO ICE 2 GTX",
+    "size": "39.5",
+    "variantId": "gid://shopify/ProductVariant/52451924672850",
+    "width": "standard"
+  },
   "gid://shopify/Product/10525013672274|40": {
     "color": "black/grey",
     "inventoryItemId": "gid://shopify/InventoryItem/54507055448402",
     "model": "RENEGADE EVO ICE 2 GTX",
     "size": "40",
     "variantId": "gid://shopify/ProductVariant/52451921920338",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10525013672274|41": {
+    "color": "black/grey",
+    "inventoryItemId": "gid://shopify/InventoryItem/54507055481170",
+    "model": "RENEGADE EVO ICE 2 GTX",
+    "size": "41",
+    "variantId": "gid://shopify/ProductVariant/52451921953106",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10525013672274|41.5": {
+    "color": "black/grey",
+    "inventoryItemId": "gid://shopify/InventoryItem/54507055513938",
+    "model": "RENEGADE EVO ICE 2 GTX",
+    "size": "41.5",
+    "variantId": "gid://shopify/ProductVariant/52451921985874",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10525013672274|42": {
+    "color": "black/grey",
+    "inventoryItemId": "gid://shopify/InventoryItem/54507055546706",
+    "model": "RENEGADE EVO ICE 2 GTX",
+    "size": "42",
+    "variantId": "gid://shopify/ProductVariant/52451922018642",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10525013672274|42.5": {
+    "color": "black/grey",
+    "inventoryItemId": "gid://shopify/InventoryItem/54507055579474",
+    "model": "RENEGADE EVO ICE 2 GTX",
+    "size": "42.5",
+    "variantId": "gid://shopify/ProductVariant/52451922051410",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10525013672274|43.5": {
+    "color": "black/grey",
+    "inventoryItemId": "gid://shopify/InventoryItem/54507055612242",
+    "model": "RENEGADE EVO ICE 2 GTX",
+    "size": "43.5",
+    "variantId": "gid://shopify/ProductVariant/52451922084178",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10525013672274|44": {
+    "color": "black/grey",
+    "inventoryItemId": "gid://shopify/InventoryItem/54507055645010",
+    "model": "RENEGADE EVO ICE 2 GTX",
+    "size": "44",
+    "variantId": "gid://shopify/ProductVariant/52451922116946",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10525013672274|44.5": {
+    "color": "black/grey",
+    "inventoryItemId": "gid://shopify/InventoryItem/54507055677778",
+    "model": "RENEGADE EVO ICE 2 GTX",
+    "size": "44.5",
+    "variantId": "gid://shopify/ProductVariant/52451922149714",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10525013672274|45": {
+    "color": "black/grey",
+    "inventoryItemId": "gid://shopify/InventoryItem/54507055710546",
+    "model": "RENEGADE EVO ICE 2 GTX",
+    "size": "45",
+    "variantId": "gid://shopify/ProductVariant/52451922182482",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10525013672274|46": {
+    "color": "black/grey",
+    "inventoryItemId": "gid://shopify/InventoryItem/54507055743314",
+    "model": "RENEGADE EVO ICE 2 GTX",
+    "size": "46",
+    "variantId": "gid://shopify/ProductVariant/52451922215250",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10525013672274|46.5": {
+    "color": "black/grey",
+    "inventoryItemId": "gid://shopify/InventoryItem/54507055776082",
+    "model": "RENEGADE EVO ICE 2 GTX",
+    "size": "46.5",
+    "variantId": "gid://shopify/ProductVariant/52451922248018",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10525013672274|47": {
+    "color": "black/grey",
+    "inventoryItemId": "gid://shopify/InventoryItem/54507055808850",
+    "model": "RENEGADE EVO ICE 2 GTX",
+    "size": "47",
+    "variantId": "gid://shopify/ProductVariant/52451922280786",
     "width": "standard"
   },
   "gid://shopify/Product/10525013672274|48.5": {
@@ -94,6 +926,134 @@
     "size": "42",
     "variantId": "gid://shopify/ProductVariant/52452040638802",
     "width": "standard"
+  },
+  "gid://shopify/Product/10525114466642|44.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/54507174887762",
+    "model": "R-8 GTX THERMO",
+    "size": "44.5",
+    "variantId": "gid://shopify/ProductVariant/52452040671570",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10525114466642|45": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/55088375497042",
+    "model": "R-8 GTX THERMO",
+    "size": "45",
+    "variantId": "gid://shopify/ProductVariant/53028282007890",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10525114466642|46": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/54507174920530",
+    "model": "R-8 GTX THERMO",
+    "size": "46",
+    "variantId": "gid://shopify/ProductVariant/52452040704338",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10525114466642|46.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/54507174953298",
+    "model": "R-8 GTX THERMO",
+    "size": "46.5",
+    "variantId": "gid://shopify/ProductVariant/52452040737106",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10525114466642|47": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/54507174986066",
+    "model": "R-8 GTX THERMO",
+    "size": "47",
+    "variantId": "gid://shopify/ProductVariant/52452040769874",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10795170791762|42": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/55564333744466",
+    "model": "FORTUX",
+    "size": "42",
+    "variantId": "gid://shopify/ProductVariant/53498324648274",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10795170791762|42.5": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/55597611319634",
+    "model": "FORTUX",
+    "size": "42.5",
+    "variantId": "gid://shopify/ProductVariant/53531427602770",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10795170791762|43.5": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/55597628752210",
+    "model": "FORTUX",
+    "size": "43.5",
+    "variantId": "gid://shopify/ProductVariant/53531445100882",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10795170791762|44": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/55597629440338",
+    "model": "FORTUX",
+    "size": "44",
+    "variantId": "gid://shopify/ProductVariant/53531445723474",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10795170791762|44.5": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/55597629702482",
+    "model": "FORTUX",
+    "size": "44.5",
+    "variantId": "gid://shopify/ProductVariant/53531445985618",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10795170791762|45": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/55597629866322",
+    "model": "FORTUX",
+    "size": "45",
+    "variantId": "gid://shopify/ProductVariant/53531446149458",
+    "width": "standard"
+  },
+  "gid://shopify/Product/10862362886482|40": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/55796934443346",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "40",
+    "variantId": "gid://shopify/ProductVariant/53728400965970",
+    "width": "wide"
+  },
+  "gid://shopify/Product/10862362886482|41": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/55796934476114",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "41",
+    "variantId": "gid://shopify/ProductVariant/53728400998738",
+    "width": "wide"
+  },
+  "gid://shopify/Product/10862362886482|42": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/55796934508882",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "42",
+    "variantId": "gid://shopify/ProductVariant/53728401031506",
+    "width": "wide"
+  },
+  "gid://shopify/Product/10862362886482|42.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/55796934541650",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "42.5",
+    "variantId": "gid://shopify/ProductVariant/53728401064274",
+    "width": "wide"
+  },
+  "gid://shopify/Product/10862362886482|43.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/55796934574418",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "43.5",
+    "variantId": "gid://shopify/ProductVariant/53728401097042",
+    "width": "wide"
   },
   "gid://shopify/Product/11063067214162|42": {
     "color": "dark brown",
@@ -695,6 +1655,14 @@
     "variantId": "gid://shopify/ProductVariant/54713359925586",
     "width": "wide"
   },
+  "gid://shopify/Product/11141353734482|41.5": {
+    "color": "ranger green",
+    "inventoryItemId": "gid://shopify/InventoryItem/56790670115154",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "41.5",
+    "variantId": "gid://shopify/ProductVariant/54713359958354",
+    "width": "wide"
+  },
   "gid://shopify/Product/11141353734482|42": {
     "color": "ranger green",
     "inventoryItemId": "gid://shopify/InventoryItem/56790670147922",
@@ -725,6 +1693,14 @@
     "model": "ZEPHYR MK2 GTX MID TF",
     "size": "44",
     "variantId": "gid://shopify/ProductVariant/54713360089426",
+    "width": "wide"
+  },
+  "gid://shopify/Product/11141353734482|44.5": {
+    "color": "ranger green",
+    "inventoryItemId": "gid://shopify/InventoryItem/56790670278994",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "44.5",
+    "variantId": "gid://shopify/ProductVariant/54713360122194",
     "width": "wide"
   },
   "gid://shopify/Product/11141353734482|45": {
@@ -975,12 +1951,156 @@
     "variantId": "gid://shopify/ProductVariant/54714903888210",
     "width": "standard"
   },
+  "gid://shopify/Product/8562768118098|40": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49308656140626",
+    "model": "MADDOX GTX LO TF",
+    "size": "40",
+    "variantId": "gid://shopify/ProductVariant/47221598126418",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8562768118098|41": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/50680090165586",
+    "model": "MADDOX GTX LO TF",
+    "size": "41",
+    "variantId": "gid://shopify/ProductVariant/48593888543058",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8562768118098|41.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49700839915858",
+    "model": "MADDOX GTX LO TF",
+    "size": "41.5",
+    "variantId": "gid://shopify/ProductVariant/47612673392978",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8562768118098|42": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49048784372050",
+    "model": "MADDOX GTX LO TF",
+    "size": "42",
+    "variantId": "gid://shopify/ProductVariant/46954987749714",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8562768118098|42.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49308656173394",
+    "model": "MADDOX GTX LO TF",
+    "size": "42.5",
+    "variantId": "gid://shopify/ProductVariant/47221598159186",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8562768118098|43.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49308656206162",
+    "model": "MADDOX GTX LO TF",
+    "size": "43.5",
+    "variantId": "gid://shopify/ProductVariant/47221598191954",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8562768118098|44": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49308656238930",
+    "model": "MADDOX GTX LO TF",
+    "size": "44",
+    "variantId": "gid://shopify/ProductVariant/47221598224722",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8562768118098|44.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/50680100946258",
+    "model": "MADDOX GTX LO TF",
+    "size": "44.5",
+    "variantId": "gid://shopify/ProductVariant/48593899323730",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8562768118098|45": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/50680100979026",
+    "model": "MADDOX GTX LO TF",
+    "size": "45",
+    "variantId": "gid://shopify/ProductVariant/48593899356498",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8562768118098|46": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/51814615384402",
+    "model": "MADDOX GTX LO TF",
+    "size": "46",
+    "variantId": "gid://shopify/ProductVariant/49769559327058",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8562768118098|46.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49308656271698",
+    "model": "MADDOX GTX LO TF",
+    "size": "46.5",
+    "variantId": "gid://shopify/ProductVariant/47221598257490",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8562768118098|47": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49308656304466",
+    "model": "MADDOX GTX LO TF",
+    "size": "47",
+    "variantId": "gid://shopify/ProductVariant/47221598290258",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8562768118098|48": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52236683379026",
+    "model": "MADDOX GTX LO TF",
+    "size": "48",
+    "variantId": "gid://shopify/ProductVariant/50163247087954",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564725711186|36.5": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/54179296969042",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "36.5",
+    "variantId": "gid://shopify/ProductVariant/52125143630162",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564725711186|37": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/54179297001810",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "37",
+    "variantId": "gid://shopify/ProductVariant/52125143662930",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564725711186|37.5": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/54179297034578",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "37.5",
+    "variantId": "gid://shopify/ProductVariant/52125143695698",
+    "width": "standard"
+  },
   "gid://shopify/Product/8564725711186|38": {
     "color": "dark brown",
     "inventoryItemId": "gid://shopify/InventoryItem/54179297067346",
     "model": "ZEPHYR MK2 GTX MID TF",
     "size": "38",
     "variantId": "gid://shopify/ProductVariant/52125143728466",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564725711186|39": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/54179297100114",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "39",
+    "variantId": "gid://shopify/ProductVariant/52125143761234",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564725711186|39.5": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/54179297132882",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "39.5",
+    "variantId": "gid://shopify/ProductVariant/52125143794002",
     "width": "standard"
   },
   "gid://shopify/Product/8564725711186|40": {
@@ -1079,6 +2199,70 @@
     "variantId": "gid://shopify/ProductVariant/47216625451346",
     "width": "standard"
   },
+  "gid://shopify/Product/8564725711186|48.5": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/49507136995666",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "48.5",
+    "variantId": "gid://shopify/ProductVariant/47420174303570",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564725711186|49.5": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/49507137028434",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "49.5",
+    "variantId": "gid://shopify/ProductVariant/47420174336338",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564725711186|51": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/49507137061202",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "51",
+    "variantId": "gid://shopify/ProductVariant/47420174369106",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564740882770|36.5": {
+    "color": "ranger green",
+    "inventoryItemId": "gid://shopify/InventoryItem/54180539924818",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "36.5",
+    "variantId": "gid://shopify/ProductVariant/52126386717010",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564740882770|37": {
+    "color": "ranger green",
+    "inventoryItemId": "gid://shopify/InventoryItem/54180539957586",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "37",
+    "variantId": "gid://shopify/ProductVariant/52126386749778",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564740882770|37.5": {
+    "color": "ranger green",
+    "inventoryItemId": "gid://shopify/InventoryItem/55088329130322",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "37.5",
+    "variantId": "gid://shopify/ProductVariant/53028235641170",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564740882770|38": {
+    "color": "ranger green",
+    "inventoryItemId": "gid://shopify/InventoryItem/55088329163090",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "38",
+    "variantId": "gid://shopify/ProductVariant/53028235673938",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564740882770|39": {
+    "color": "ranger green",
+    "inventoryItemId": "gid://shopify/InventoryItem/55088329195858",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "39",
+    "variantId": "gid://shopify/ProductVariant/53028235706706",
+    "width": "standard"
+  },
   "gid://shopify/Product/8564740882770|39.5": {
     "color": "ranger green",
     "inventoryItemId": "gid://shopify/InventoryItem/55088329228626",
@@ -1095,12 +2279,36 @@
     "variantId": "gid://shopify/ProductVariant/47216665592146",
     "width": "standard"
   },
+  "gid://shopify/Product/8564740882770|41": {
+    "color": "ranger green",
+    "inventoryItemId": "gid://shopify/InventoryItem/49303717806418",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "41",
+    "variantId": "gid://shopify/ProductVariant/47216665624914",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564740882770|41.5": {
+    "color": "ranger green",
+    "inventoryItemId": "gid://shopify/InventoryItem/49303717839186",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "41.5",
+    "variantId": "gid://shopify/ProductVariant/47216665657682",
+    "width": "standard"
+  },
   "gid://shopify/Product/8564740882770|42": {
     "color": "ranger green",
     "inventoryItemId": "gid://shopify/InventoryItem/49059444654418",
     "model": "ZEPHYR MK2 GTX MID TF",
     "size": "42",
     "variantId": "gid://shopify/ProductVariant/46965630501202",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564740882770|42.5": {
+    "color": "ranger green",
+    "inventoryItemId": "gid://shopify/InventoryItem/49303717871954",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "42.5",
+    "variantId": "gid://shopify/ProductVariant/47216665690450",
     "width": "standard"
   },
   "gid://shopify/Product/8564740882770|43.5": {
@@ -1111,12 +2319,212 @@
     "variantId": "gid://shopify/ProductVariant/47216665723218",
     "width": "standard"
   },
+  "gid://shopify/Product/8564740882770|44": {
+    "color": "ranger green",
+    "inventoryItemId": "gid://shopify/InventoryItem/49805025444178",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "44",
+    "variantId": "gid://shopify/ProductVariant/47715988078930",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564740882770|44.5": {
+    "color": "ranger green",
+    "inventoryItemId": "gid://shopify/InventoryItem/49619993919826",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "44.5",
+    "variantId": "gid://shopify/ProductVariant/47532367970642",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564740882770|45": {
+    "color": "ranger green",
+    "inventoryItemId": "gid://shopify/InventoryItem/49805025476946",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "45",
+    "variantId": "gid://shopify/ProductVariant/47715988111698",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564740882770|46": {
+    "color": "ranger green",
+    "inventoryItemId": "gid://shopify/InventoryItem/49805028360530",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "46",
+    "variantId": "gid://shopify/ProductVariant/47715990995282",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564740882770|46.5": {
+    "color": "ranger green",
+    "inventoryItemId": "gid://shopify/InventoryItem/49619993952594",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "46.5",
+    "variantId": "gid://shopify/ProductVariant/47532368003410",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564740882770|47": {
+    "color": "ranger green",
+    "inventoryItemId": "gid://shopify/InventoryItem/49619993985362",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "47",
+    "variantId": "gid://shopify/ProductVariant/47532368036178",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564740882770|48.5": {
+    "color": "ranger green",
+    "inventoryItemId": "gid://shopify/InventoryItem/54506089513298",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "48.5",
+    "variantId": "gid://shopify/ProductVariant/52450964341074",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564753498450|40": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/54181848514898",
+    "model": "Z-6S GTX C",
+    "size": "40",
+    "variantId": "gid://shopify/ProductVariant/52127694848338",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564753498450|41": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/50047922209106",
+    "model": "Z-6S GTX C",
+    "size": "41",
+    "variantId": "gid://shopify/ProductVariant/47958761636178",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564753498450|41.5": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/50047922241874",
+    "model": "Z-6S GTX C",
+    "size": "41.5",
+    "variantId": "gid://shopify/ProductVariant/47958761668946",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564753498450|42": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/49245185835346",
+    "model": "Z-6S GTX C",
+    "size": "42",
+    "variantId": "gid://shopify/ProductVariant/47158171238738",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564753498450|42.5": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/50047922274642",
+    "model": "Z-6S GTX C",
+    "size": "42.5",
+    "variantId": "gid://shopify/ProductVariant/47958761701714",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564753498450|43.5": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/50047922307410",
+    "model": "Z-6S GTX C",
+    "size": "43.5",
+    "variantId": "gid://shopify/ProductVariant/47958761734482",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564753498450|44": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/49059562422610",
+    "model": "Z-6S GTX C",
+    "size": "44",
+    "variantId": "gid://shopify/ProductVariant/46965748302162",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564753498450|44.5": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/50047922340178",
+    "model": "Z-6S GTX C",
+    "size": "44.5",
+    "variantId": "gid://shopify/ProductVariant/47958761767250",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564753498450|45": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/49059562520914",
+    "model": "Z-6S GTX C",
+    "size": "45",
+    "variantId": "gid://shopify/ProductVariant/46965748400466",
+    "width": "standard"
+  },
   "gid://shopify/Product/8564753498450|46": {
     "color": "coyote op",
     "inventoryItemId": "gid://shopify/InventoryItem/49308954329426",
     "model": "Z-6S GTX C",
     "size": "46",
     "variantId": "gid://shopify/ProductVariant/47221901164882",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564753498450|46.5": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/49308954296658",
+    "model": "Z-6S GTX C",
+    "size": "46.5",
+    "variantId": "gid://shopify/ProductVariant/47221901099346",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564753498450|47": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/50047922372946",
+    "model": "Z-6S GTX C",
+    "size": "47",
+    "variantId": "gid://shopify/ProductVariant/47958761800018",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564753498450|48": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/49805059752274",
+    "model": "Z-6S GTX C",
+    "size": "48",
+    "variantId": "gid://shopify/ProductVariant/47716022387026",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564753498450|49.5": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/49507164455250",
+    "model": "Z-6S GTX C",
+    "size": "49.5",
+    "variantId": "gid://shopify/ProductVariant/47420201763154",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564753498450|51": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/49507164488018",
+    "model": "Z-6S GTX C",
+    "size": "51",
+    "variantId": "gid://shopify/ProductVariant/47420201795922",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564770111826|37.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52173514441042",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "37.5",
+    "variantId": "gid://shopify/ProductVariant/50102539551058",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564770111826|38": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52173514703186",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "38",
+    "variantId": "gid://shopify/ProductVariant/50102539813202",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564770111826|39": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52169394454866",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "39",
+    "variantId": "gid://shopify/ProductVariant/50098809831762",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564770111826|39.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52173516603730",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "39.5",
+    "variantId": "gid://shopify/ProductVariant/50102541713746",
     "width": "standard"
   },
   "gid://shopify/Product/8564770111826|40": {
@@ -1127,12 +2535,188 @@
     "variantId": "gid://shopify/ProductVariant/50102542827858",
     "width": "standard"
   },
+  "gid://shopify/Product/8564770111826|41": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52173516931410",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "41",
+    "variantId": "gid://shopify/ProductVariant/50102542041426",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564770111826|41.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49309208281426",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "41.5",
+    "variantId": "gid://shopify/ProductVariant/47222154625362",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564770111826|42": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49245100179794",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "42",
+    "variantId": "gid://shopify/ProductVariant/47158085681490",
+    "width": "standard"
+  },
   "gid://shopify/Product/8564770111826|42.5": {
     "color": "black",
     "inventoryItemId": "gid://shopify/InventoryItem/49245111681362",
     "model": "ZEPHYR MK2 GTX MID TF",
     "size": "42.5",
     "variantId": "gid://shopify/ProductVariant/47158097084754",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564770111826|43.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49059678224722",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "43.5",
+    "variantId": "gid://shopify/ProductVariant/46965864104274",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564770111826|44": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49815599939922",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "44",
+    "variantId": "gid://shopify/ProductVariant/47726558380370",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564770111826|44.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49059678257490",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "44.5",
+    "variantId": "gid://shopify/ProductVariant/46965864137042",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564770111826|45": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49815599972690",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "45",
+    "variantId": "gid://shopify/ProductVariant/47726558413138",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564770111826|46": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49815600005458",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "46",
+    "variantId": "gid://shopify/ProductVariant/47726558445906",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564770111826|46.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49307313733970",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "46.5",
+    "variantId": "gid://shopify/ProductVariant/47220256702802",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564770111826|47": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/50047807324498",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "47",
+    "variantId": "gid://shopify/ProductVariant/47958646751570",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564770111826|48.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52709292900690",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "48.5",
+    "variantId": "gid://shopify/ProductVariant/50635848155474",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564770111826|49.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52173517226322",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "49.5",
+    "variantId": "gid://shopify/ProductVariant/50102542336338",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8564770111826|51": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52173517422930",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "51",
+    "variantId": "gid://shopify/ProductVariant/50102542532946",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8614371098962|36.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52169636675922",
+    "model": "Z-6N GTX C",
+    "size": "36.5",
+    "variantId": "gid://shopify/ProductVariant/50099029475666",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8614371098962|37": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52169637331282",
+    "model": "Z-6N GTX C",
+    "size": "37",
+    "variantId": "gid://shopify/ProductVariant/50099030131026",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8614371098962|37.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52169637462354",
+    "model": "Z-6N GTX C",
+    "size": "37.5",
+    "variantId": "gid://shopify/ProductVariant/50099030262098",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8614371098962|38": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52169637658962",
+    "model": "Z-6N GTX C",
+    "size": "38",
+    "variantId": "gid://shopify/ProductVariant/50099030458706",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8614371098962|39": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52169637691730",
+    "model": "Z-6N GTX C",
+    "size": "39",
+    "variantId": "gid://shopify/ProductVariant/50099030491474",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8614371098962|39.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52169637790034",
+    "model": "Z-6N GTX C",
+    "size": "39.5",
+    "variantId": "gid://shopify/ProductVariant/50099030589778",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8614371098962|40": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52169637953874",
+    "model": "Z-6N GTX C",
+    "size": "40",
+    "variantId": "gid://shopify/ProductVariant/50099030753618",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8614371098962|41": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49620065648978",
+    "model": "Z-6N GTX C",
+    "size": "41",
+    "variantId": "gid://shopify/ProductVariant/47532439699794",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8614371098962|41.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49304596087122",
+    "model": "Z-6N GTX C",
+    "size": "41.5",
+    "variantId": "gid://shopify/ProductVariant/47217542791506",
     "width": "standard"
   },
   "gid://shopify/Product/8614371098962|42": {
@@ -1143,12 +2727,148 @@
     "variantId": "gid://shopify/ProductVariant/47158677340498",
     "width": "standard"
   },
+  "gid://shopify/Product/8614371098962|42.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49245693018450",
+    "model": "Z-6N GTX C",
+    "size": "42.5",
+    "variantId": "gid://shopify/ProductVariant/47158677930322",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8614371098962|43.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49245693051218",
+    "model": "Z-6N GTX C",
+    "size": "43.5",
+    "variantId": "gid://shopify/ProductVariant/47158677963090",
+    "width": "standard"
+  },
   "gid://shopify/Product/8614371098962|44": {
     "color": "black",
     "inventoryItemId": "gid://shopify/InventoryItem/49245693083986",
     "model": "Z-6N GTX C",
     "size": "44",
     "variantId": "gid://shopify/ProductVariant/47158677995858",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8614371098962|44.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/50505092596050",
+    "model": "Z-6N GTX C",
+    "size": "44.5",
+    "variantId": "gid://shopify/ProductVariant/48417494892882",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8614371098962|45": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49245693116754",
+    "model": "Z-6N GTX C",
+    "size": "45",
+    "variantId": "gid://shopify/ProductVariant/47158678028626",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8614371098962|46": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49304596119890",
+    "model": "Z-6N GTX C",
+    "size": "46",
+    "variantId": "gid://shopify/ProductVariant/47217542824274",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8614371098962|46.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49304596152658",
+    "model": "Z-6N GTX C",
+    "size": "46.5",
+    "variantId": "gid://shopify/ProductVariant/47217542857042",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8614371098962|47": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49304596185426",
+    "model": "Z-6N GTX C",
+    "size": "47",
+    "variantId": "gid://shopify/ProductVariant/47217542889810",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8614371098962|49.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49507156197714",
+    "model": "Z-6N GTX C",
+    "size": "49.5",
+    "variantId": "gid://shopify/ProductVariant/47420193505618",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8614371098962|51": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49507156230482",
+    "model": "Z-6N GTX C",
+    "size": "51",
+    "variantId": "gid://shopify/ProductVariant/47420193538386",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8632743723346|38": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/54506102128978",
+    "model": "ZEPHYR MK2 GTX HI TF",
+    "size": "38",
+    "variantId": "gid://shopify/ProductVariant/52450976956754",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8632743723346|39": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/54506102161746",
+    "model": "ZEPHYR MK2 GTX HI TF",
+    "size": "39",
+    "variantId": "gid://shopify/ProductVariant/52450976989522",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8632743723346|39.5": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/54506102194514",
+    "model": "ZEPHYR MK2 GTX HI TF",
+    "size": "39.5",
+    "variantId": "gid://shopify/ProductVariant/52450977022290",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8632743723346|40": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/54506102227282",
+    "model": "ZEPHYR MK2 GTX HI TF",
+    "size": "40",
+    "variantId": "gid://shopify/ProductVariant/52450977055058",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8632743723346|41": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/51814314770770",
+    "model": "ZEPHYR MK2 GTX HI TF",
+    "size": "41",
+    "variantId": "gid://shopify/ProductVariant/49769258942802",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8632743723346|41.5": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/51814314803538",
+    "model": "ZEPHYR MK2 GTX HI TF",
+    "size": "41.5",
+    "variantId": "gid://shopify/ProductVariant/49769258975570",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8632743723346|42": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/49309263692114",
+    "model": "ZEPHYR MK2 GTX HI TF",
+    "size": "42",
+    "variantId": "gid://shopify/ProductVariant/47222209904978",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8632743723346|42.5": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/49309263561042",
+    "model": "ZEPHYR MK2 GTX HI TF",
+    "size": "42.5",
+    "variantId": "gid://shopify/ProductVariant/47222209773906",
     "width": "standard"
   },
   "gid://shopify/Product/8632743723346|43.5": {
@@ -1165,6 +2885,14 @@
     "model": "ZEPHYR MK2 GTX HI TF",
     "size": "44",
     "variantId": "gid://shopify/ProductVariant/47222210003282",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8632743723346|44.5": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/49309263823186",
+    "model": "ZEPHYR MK2 GTX HI TF",
+    "size": "44.5",
+    "variantId": "gid://shopify/ProductVariant/47222210036050",
     "width": "standard"
   },
   "gid://shopify/Product/8632743723346|45": {
@@ -1197,6 +2925,158 @@
     "model": "ZEPHYR MK2 GTX HI TF",
     "size": "47",
     "variantId": "gid://shopify/ProductVariant/47222210167122",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8632743723346|48.5": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/49507150922066",
+    "model": "ZEPHYR MK2 GTX HI TF",
+    "size": "48.5",
+    "variantId": "gid://shopify/ProductVariant/47420188229970",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8632743723346|49.5": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/49507150954834",
+    "model": "ZEPHYR MK2 GTX HI TF",
+    "size": "49.5",
+    "variantId": "gid://shopify/ProductVariant/47420188262738",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8632743723346|51": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/49507150987602",
+    "model": "ZEPHYR MK2 GTX HI TF",
+    "size": "51",
+    "variantId": "gid://shopify/ProductVariant/47420188295506",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8632762073426|36.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/54506512679250",
+    "model": "Z-8N GTX C",
+    "size": "36.5",
+    "variantId": "gid://shopify/ProductVariant/52451379872082",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8632762073426|37.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/54506512712018",
+    "model": "Z-8N GTX C",
+    "size": "37.5",
+    "variantId": "gid://shopify/ProductVariant/52451379904850",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8632762073426|38": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/54506512744786",
+    "model": "Z-8N GTX C",
+    "size": "38",
+    "variantId": "gid://shopify/ProductVariant/52451379937618",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8632762073426|41": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49314216673618",
+    "model": "Z-8N GTX C",
+    "size": "41",
+    "variantId": "gid://shopify/ProductVariant/47227156365650",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8632762073426|41.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49309381132626",
+    "model": "Z-8N GTX C",
+    "size": "41.5",
+    "variantId": "gid://shopify/ProductVariant/47222326952274",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8632762073426|42": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49834912579922",
+    "model": "Z-8N GTX C",
+    "size": "42",
+    "variantId": "gid://shopify/ProductVariant/47745858732370",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8632762073426|42.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49309381165394",
+    "model": "Z-8N GTX C",
+    "size": "42.5",
+    "variantId": "gid://shopify/ProductVariant/47222326985042",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8632762073426|43.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49834915660114",
+    "model": "Z-8N GTX C",
+    "size": "43.5",
+    "variantId": "gid://shopify/ProductVariant/47745861812562",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8632762073426|44": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49834915692882",
+    "model": "Z-8N GTX C",
+    "size": "44",
+    "variantId": "gid://shopify/ProductVariant/47745861845330",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8632762073426|44.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49834915725650",
+    "model": "Z-8N GTX C",
+    "size": "44.5",
+    "variantId": "gid://shopify/ProductVariant/47745861878098",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8632762073426|45": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49309381198162",
+    "model": "Z-8N GTX C",
+    "size": "45",
+    "variantId": "gid://shopify/ProductVariant/47222327017810",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8632762073426|46": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49309381230930",
+    "model": "Z-8N GTX C",
+    "size": "46",
+    "variantId": "gid://shopify/ProductVariant/47222327050578",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8632762073426|46.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49309381263698",
+    "model": "Z-8N GTX C",
+    "size": "46.5",
+    "variantId": "gid://shopify/ProductVariant/47222327083346",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8632762073426|47": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49309381296466",
+    "model": "Z-8N GTX C",
+    "size": "47",
+    "variantId": "gid://shopify/ProductVariant/47222327116114",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8632762073426|48": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49309381329234",
+    "model": "Z-8N GTX C",
+    "size": "48",
+    "variantId": "gid://shopify/ProductVariant/47222327148882",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8634583515474|36.5": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/54506545971538",
+    "model": "Z-8S GTX C",
+    "size": "36.5",
+    "variantId": "gid://shopify/ProductVariant/52451412902226",
     "width": "standard"
   },
   "gid://shopify/Product/8634583515474|40": {
@@ -1239,6 +3119,62 @@
     "variantId": "gid://shopify/ProductVariant/47532561629522",
     "width": "standard"
   },
+  "gid://shopify/Product/8634583515474|43.5": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/49620187644242",
+    "model": "Z-8S GTX C",
+    "size": "43.5",
+    "variantId": "gid://shopify/ProductVariant/47532561662290",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8634583515474|44": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/49620187677010",
+    "model": "Z-8S GTX C",
+    "size": "44",
+    "variantId": "gid://shopify/ProductVariant/47532561695058",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8634583515474|44.5": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/49620187709778",
+    "model": "Z-8S GTX C",
+    "size": "44.5",
+    "variantId": "gid://shopify/ProductVariant/47532561727826",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8634583515474|45": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/49620187742546",
+    "model": "Z-8S GTX C",
+    "size": "45",
+    "variantId": "gid://shopify/ProductVariant/47532561793362",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8634583515474|46": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/49314527117650",
+    "model": "Z-8S GTX C",
+    "size": "46",
+    "variantId": "gid://shopify/ProductVariant/47227464646994",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8634583515474|46.5": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/49314527150418",
+    "model": "Z-8S GTX C",
+    "size": "46.5",
+    "variantId": "gid://shopify/ProductVariant/47227464679762",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8634583515474|47": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/49314527183186",
+    "model": "Z-8S GTX C",
+    "size": "47",
+    "variantId": "gid://shopify/ProductVariant/47227464712530",
+    "width": "standard"
+  },
   "gid://shopify/Product/8634583515474|48": {
     "color": "coyote op",
     "inventoryItemId": "gid://shopify/InventoryItem/49314527215954",
@@ -1255,12 +3191,52 @@
     "variantId": "gid://shopify/ProductVariant/47420216672594",
     "width": "standard"
   },
+  "gid://shopify/Product/8634583515474|49.5": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/49507179397458",
+    "model": "Z-8S GTX C",
+    "size": "49.5",
+    "variantId": "gid://shopify/ProductVariant/47420216705362",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8634630996306|36.5": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/56790851780946",
+    "model": "Z-8S GTX C",
+    "size": "36.5",
+    "variantId": "gid://shopify/ProductVariant/54713555845458",
+    "width": "standard"
+  },
   "gid://shopify/Product/8634630996306|37": {
     "color": "dark brown",
     "inventoryItemId": "gid://shopify/InventoryItem/54506666164562",
     "model": "Z-8S GTX C",
     "size": "37",
     "variantId": "gid://shopify/ProductVariant/52451533095250",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8634630996306|37.5": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/54506666197330",
+    "model": "Z-8S GTX C",
+    "size": "37.5",
+    "variantId": "gid://shopify/ProductVariant/52451533128018",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8634630996306|40": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/52131802218834",
+    "model": "Z-8S GTX C",
+    "size": "40",
+    "variantId": "gid://shopify/ProductVariant/50066636177746",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8634630996306|41": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/49357492224338",
+    "model": "Z-8S GTX C",
+    "size": "41",
+    "variantId": "gid://shopify/ProductVariant/47270383518034",
     "width": "standard"
   },
   "gid://shopify/Product/8634630996306|41.5": {
@@ -1279,6 +3255,14 @@
     "variantId": "gid://shopify/ProductVariant/47612605727058",
     "width": "standard"
   },
+  "gid://shopify/Product/8634630996306|42.5": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/50048118817106",
+    "model": "Z-8S GTX C",
+    "size": "42.5",
+    "variantId": "gid://shopify/ProductVariant/47958958244178",
+    "width": "standard"
+  },
   "gid://shopify/Product/8634630996306|43.5": {
     "color": "dark brown",
     "inventoryItemId": "gid://shopify/InventoryItem/50048118849874",
@@ -1287,12 +3271,324 @@
     "variantId": "gid://shopify/ProductVariant/47958958276946",
     "width": "standard"
   },
+  "gid://shopify/Product/8634630996306|44": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/49700772282706",
+    "model": "Z-8S GTX C",
+    "size": "44",
+    "variantId": "gid://shopify/ProductVariant/47612605759826",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8634630996306|44.5": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/49700772315474",
+    "model": "Z-8S GTX C",
+    "size": "44.5",
+    "variantId": "gid://shopify/ProductVariant/47612605792594",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8634630996306|45": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/49700772348242",
+    "model": "Z-8S GTX C",
+    "size": "45",
+    "variantId": "gid://shopify/ProductVariant/47612605825362",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8634630996306|46": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/49314700689746",
+    "model": "Z-8S GTX C",
+    "size": "46",
+    "variantId": "gid://shopify/ProductVariant/47227637956946",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8634630996306|46.5": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/49314700722514",
+    "model": "Z-8S GTX C",
+    "size": "46.5",
+    "variantId": "gid://shopify/ProductVariant/47227637989714",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8634630996306|47": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/49314700755282",
+    "model": "Z-8S GTX C",
+    "size": "47",
+    "variantId": "gid://shopify/ProductVariant/47227638022482",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8634630996306|48": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/49314700788050",
+    "model": "Z-8S GTX C",
+    "size": "48",
+    "variantId": "gid://shopify/ProductVariant/47227638055250",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8634630996306|49.5": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/50048175636818",
+    "model": "Z-8S GTX C",
+    "size": "49.5",
+    "variantId": "gid://shopify/ProductVariant/47959015063890",
+    "width": "standard"
+  },
   "gid://shopify/Product/8634630996306|51": {
     "color": "dark brown",
     "inventoryItemId": "gid://shopify/InventoryItem/56790851813714",
     "model": "Z-8S GTX C",
     "size": "51",
     "variantId": "gid://shopify/ProductVariant/54713555878226",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8634729693522|37": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/54506858905938",
+    "model": "Z-11S GTX C",
+    "size": "37",
+    "variantId": "gid://shopify/ProductVariant/52451725377874",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8634729693522|37.5": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/54506859037010",
+    "model": "Z-11S GTX C",
+    "size": "37.5",
+    "variantId": "gid://shopify/ProductVariant/52451725508946",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8634729693522|38": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/54506858938706",
+    "model": "Z-11S GTX C",
+    "size": "38",
+    "variantId": "gid://shopify/ProductVariant/52451725410642",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8634729693522|39": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/54506858971474",
+    "model": "Z-11S GTX C",
+    "size": "39",
+    "variantId": "gid://shopify/ProductVariant/52451725443410",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8634729693522|39.5": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/54506859004242",
+    "model": "Z-11S GTX C",
+    "size": "39.5",
+    "variantId": "gid://shopify/ProductVariant/52451725476178",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8634729693522|42": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/49314902671698",
+    "model": "Z-11S GTX C",
+    "size": "42",
+    "variantId": "gid://shopify/ProductVariant/47227839775058",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8634729693522|42.5": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/49314902704466",
+    "model": "Z-11S GTX C",
+    "size": "42.5",
+    "variantId": "gid://shopify/ProductVariant/47227839807826",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8634729693522|43.5": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/49314902737234",
+    "model": "Z-11S GTX C",
+    "size": "43.5",
+    "variantId": "gid://shopify/ProductVariant/47227839840594",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8634729693522|44": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/49314902770002",
+    "model": "Z-11S GTX C",
+    "size": "44",
+    "variantId": "gid://shopify/ProductVariant/47227839873362",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8634729693522|44.5": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/49314902802770",
+    "model": "Z-11S GTX C",
+    "size": "44.5",
+    "variantId": "gid://shopify/ProductVariant/47227839906130",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8634729693522|45": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/49314902835538",
+    "model": "Z-11S GTX C",
+    "size": "45",
+    "variantId": "gid://shopify/ProductVariant/47227839938898",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8634729693522|46": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/49314902868306",
+    "model": "Z-11S GTX C",
+    "size": "46",
+    "variantId": "gid://shopify/ProductVariant/47227839971666",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8634729693522|46.5": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/49314902901074",
+    "model": "Z-11S GTX C",
+    "size": "46.5",
+    "variantId": "gid://shopify/ProductVariant/47227840004434",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8634729693522|47": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/49314902933842",
+    "model": "Z-11S GTX C",
+    "size": "47",
+    "variantId": "gid://shopify/ProductVariant/47227840037202",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8634729693522|48": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/49314902966610",
+    "model": "Z-11S GTX C",
+    "size": "48",
+    "variantId": "gid://shopify/ProductVariant/47227840069970",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8634729693522|48.5": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/49620206420306",
+    "model": "Z-11S GTX C",
+    "size": "48.5",
+    "variantId": "gid://shopify/ProductVariant/47532580471122",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8651524702546|37.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52455834976594",
+    "model": "BREACHER GTX MID",
+    "size": "37.5",
+    "variantId": "gid://shopify/ProductVariant/50382707261778",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8651524702546|40": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/50504687878482",
+    "model": "BREACHER GTX MID",
+    "size": "40",
+    "variantId": "gid://shopify/ProductVariant/48417086669138",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8651524702546|41": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49385058763090",
+    "model": "BREACHER GTX MID",
+    "size": "41",
+    "variantId": "gid://shopify/ProductVariant/47298066678098",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8651524702546|41.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49385058795858",
+    "model": "BREACHER GTX MID",
+    "size": "41.5",
+    "variantId": "gid://shopify/ProductVariant/47298066743634",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8651524702546|43.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49385058894162",
+    "model": "BREACHER GTX MID",
+    "size": "43.5",
+    "variantId": "gid://shopify/ProductVariant/47298066841938",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8651524702546|44": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/51814291210578",
+    "model": "BREACHER GTX MID",
+    "size": "44",
+    "variantId": "gid://shopify/ProductVariant/49769235382610",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8651524702546|44.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/51540774846802",
+    "model": "BREACHER GTX MID",
+    "size": "44.5",
+    "variantId": "gid://shopify/ProductVariant/49498106233170",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8651524702546|45": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49385058926930",
+    "model": "BREACHER GTX MID",
+    "size": "45",
+    "variantId": "gid://shopify/ProductVariant/47298066874706",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8651524702546|46": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49385058959698",
+    "model": "BREACHER GTX MID",
+    "size": "46",
+    "variantId": "gid://shopify/ProductVariant/47298066907474",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8651524702546|46.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49385058992466",
+    "model": "BREACHER GTX MID",
+    "size": "46.5",
+    "variantId": "gid://shopify/ProductVariant/47298066940242",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8651524702546|47": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49385059025234",
+    "model": "BREACHER GTX MID",
+    "size": "47",
+    "variantId": "gid://shopify/ProductVariant/47298066973010",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8651524702546|48.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/51814296420690",
+    "model": "BREACHER GTX MID",
+    "size": "48.5",
+    "variantId": "gid://shopify/ProductVariant/49769240592722",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8651524702546|49.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/51814296453458",
+    "model": "BREACHER GTX MID",
+    "size": "49.5",
+    "variantId": "gid://shopify/ProductVariant/49769240625490",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8651524702546|51": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/51814296486226",
+    "model": "BREACHER GTX MID",
+    "size": "51",
+    "variantId": "gid://shopify/ProductVariant/49769240658258",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8673271742802|40": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/54178831466834",
+    "model": "ZEPHYR MK2 MID",
+    "size": "40",
+    "variantId": "gid://shopify/ProductVariant/52124678127954",
     "width": "standard"
   },
   "gid://shopify/Product/8673271742802|41": {
@@ -1311,12 +3607,100 @@
     "variantId": "gid://shopify/ProductVariant/50964412727634",
     "width": "standard"
   },
+  "gid://shopify/Product/8673271742802|42": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/53032380531026",
+    "model": "ZEPHYR MK2 MID",
+    "size": "42",
+    "variantId": "gid://shopify/ProductVariant/50964394672466",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8673271742802|42.5": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/53032398455122",
+    "model": "ZEPHYR MK2 MID",
+    "size": "42.5",
+    "variantId": "gid://shopify/ProductVariant/50964412760402",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8673271742802|43.5": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/53032380563794",
+    "model": "ZEPHYR MK2 MID",
+    "size": "43.5",
+    "variantId": "gid://shopify/ProductVariant/50964394705234",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8673271742802|44": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/53032380596562",
+    "model": "ZEPHYR MK2 MID",
+    "size": "44",
+    "variantId": "gid://shopify/ProductVariant/50964394738002",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8673271742802|44.5": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/53032398487890",
+    "model": "ZEPHYR MK2 MID",
+    "size": "44.5",
+    "variantId": "gid://shopify/ProductVariant/50964412793170",
+    "width": "standard"
+  },
   "gid://shopify/Product/8673271742802|45": {
     "color": "coyote op",
     "inventoryItemId": "gid://shopify/InventoryItem/53032380629330",
     "model": "ZEPHYR MK2 MID",
     "size": "45",
     "variantId": "gid://shopify/ProductVariant/50964394770770",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8673271742802|46": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/53032380662098",
+    "model": "ZEPHYR MK2 MID",
+    "size": "46",
+    "variantId": "gid://shopify/ProductVariant/50964394803538",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8673271742802|46.5": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/53638676087122",
+    "model": "ZEPHYR MK2 MID",
+    "size": "46.5",
+    "variantId": "gid://shopify/ProductVariant/51585365639506",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8673271742802|47": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/53638676119890",
+    "model": "ZEPHYR MK2 MID",
+    "size": "47",
+    "variantId": "gid://shopify/ProductVariant/51585365672274",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8703421776210|38": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/54181068767570",
+    "model": "ZEPHYR MK2 GTX HI TF",
+    "size": "38",
+    "variantId": "gid://shopify/ProductVariant/52126915494226",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8703421776210|39": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/54181068800338",
+    "model": "ZEPHYR MK2 GTX HI TF",
+    "size": "39",
+    "variantId": "gid://shopify/ProductVariant/52126915526994",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8703421776210|39.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/54181068833106",
+    "model": "ZEPHYR MK2 GTX HI TF",
+    "size": "39.5",
+    "variantId": "gid://shopify/ProductVariant/52126915559762",
     "width": "standard"
   },
   "gid://shopify/Product/8703421776210|40": {
@@ -1423,12 +3807,332 @@
     "variantId": "gid://shopify/ProductVariant/47532380488018",
     "width": "standard"
   },
+  "gid://shopify/Product/8703421776210|49.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49620006469970",
+    "model": "ZEPHYR MK2 GTX HI TF",
+    "size": "49.5",
+    "variantId": "gid://shopify/ProductVariant/47532380520786",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8703421776210|51": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/49620006502738",
+    "model": "ZEPHYR MK2 GTX HI TF",
+    "size": "51",
+    "variantId": "gid://shopify/ProductVariant/47532380553554",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8703437898066|38": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/54506478502226",
+    "model": "Z-6S GTX C",
+    "size": "38",
+    "variantId": "gid://shopify/ProductVariant/52451346219346",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8703437898066|39": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/54506478534994",
+    "model": "Z-6S GTX C",
+    "size": "39",
+    "variantId": "gid://shopify/ProductVariant/52451346252114",
+    "width": "standard"
+  },
   "gid://shopify/Product/8703437898066|39.5": {
     "color": "dark brown",
     "inventoryItemId": "gid://shopify/InventoryItem/54506478567762",
     "model": "Z-6S GTX C",
     "size": "39.5",
     "variantId": "gid://shopify/ProductVariant/52451346284882",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8703437898066|40": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/54182088474962",
+    "model": "Z-6S GTX C",
+    "size": "40",
+    "variantId": "gid://shopify/ProductVariant/52127934808402",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8703437898066|41": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/50048067830098",
+    "model": "Z-6S GTX C",
+    "size": "41",
+    "variantId": "gid://shopify/ProductVariant/47958907257170",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8703437898066|41.5": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/49620109263186",
+    "model": "Z-6S GTX C",
+    "size": "41.5",
+    "variantId": "gid://shopify/ProductVariant/47532483314002",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8703437898066|42": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/49620082950482",
+    "model": "Z-6S GTX C",
+    "size": "42",
+    "variantId": "gid://shopify/ProductVariant/47532457001298",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8703437898066|42.5": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/49620109295954",
+    "model": "Z-6S GTX C",
+    "size": "42.5",
+    "variantId": "gid://shopify/ProductVariant/47532483346770",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8703437898066|43.5": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/49620109328722",
+    "model": "Z-6S GTX C",
+    "size": "43.5",
+    "variantId": "gid://shopify/ProductVariant/47532483379538",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8703437898066|46": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/49620083048786",
+    "model": "Z-6S GTX C",
+    "size": "46",
+    "variantId": "gid://shopify/ProductVariant/47532457099602",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8703437898066|48.5": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/52236928319826",
+    "model": "Z-6S GTX C",
+    "size": "48.5",
+    "variantId": "gid://shopify/ProductVariant/50163489505618",
+    "width": "standard"
+  },
+  "gid://shopify/Product/8703437898066|51": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/49620083147090",
+    "model": "Z-6S GTX C",
+    "size": "51",
+    "variantId": "gid://shopify/ProductVariant/47532457197906",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9329307025746|40": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/50679664836946",
+    "model": "RENEGADE II GTX MID MF",
+    "size": "40",
+    "variantId": "gid://shopify/ProductVariant/48593465639250",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9329307025746|41": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/50679664869714",
+    "model": "RENEGADE II GTX MID MF",
+    "size": "41",
+    "variantId": "gid://shopify/ProductVariant/48593465672018",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9329307025746|41.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/50679664902482",
+    "model": "RENEGADE II GTX MID MF",
+    "size": "41.5",
+    "variantId": "gid://shopify/ProductVariant/48593465704786",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9329307025746|42": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/50679664935250",
+    "model": "RENEGADE II GTX MID MF",
+    "size": "42",
+    "variantId": "gid://shopify/ProductVariant/48593465737554",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9329307025746|42.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/50679664968018",
+    "model": "RENEGADE II GTX MID MF",
+    "size": "42.5",
+    "variantId": "gid://shopify/ProductVariant/48593465770322",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9329307025746|43.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/50679665000786",
+    "model": "RENEGADE II GTX MID MF",
+    "size": "43.5",
+    "variantId": "gid://shopify/ProductVariant/48593465803090",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9329307025746|44": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/50679665131858",
+    "model": "RENEGADE II GTX MID MF",
+    "size": "44",
+    "variantId": "gid://shopify/ProductVariant/48593465934162",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9329307025746|44.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/50679665099090",
+    "model": "RENEGADE II GTX MID MF",
+    "size": "44.5",
+    "variantId": "gid://shopify/ProductVariant/48593465901394",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9329307025746|45": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/50679665033554",
+    "model": "RENEGADE II GTX MID MF",
+    "size": "45",
+    "variantId": "gid://shopify/ProductVariant/48593465835858",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9329307025746|46": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/50679665066322",
+    "model": "RENEGADE II GTX MID MF",
+    "size": "46",
+    "variantId": "gid://shopify/ProductVariant/48593465868626",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9702621249874|36.5": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/54504048591186",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "36.5",
+    "variantId": "gid://shopify/ProductVariant/52448925778258",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9702621249874|37": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/54504048623954",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "37",
+    "variantId": "gid://shopify/ProductVariant/52448925811026",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9702621249874|37.5": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/54504048656722",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "37.5",
+    "variantId": "gid://shopify/ProductVariant/52448925843794",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9702621249874|38": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/53361611964754",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "38",
+    "variantId": "gid://shopify/ProductVariant/51308910707026",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9702621249874|39": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/53361611997522",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "39",
+    "variantId": "gid://shopify/ProductVariant/51308910739794",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9702621249874|39.5": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/54178886877522",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "39.5",
+    "variantId": "gid://shopify/ProductVariant/52124733505874",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9702621249874|40": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/53638693421394",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "40",
+    "variantId": "gid://shopify/ProductVariant/51585382154578",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9702621249874|41": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/51540328776018",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "41",
+    "variantId": "gid://shopify/ProductVariant/49497668616530",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9702621249874|41.5": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/51540328743250",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "41.5",
+    "variantId": "gid://shopify/ProductVariant/49497668583762",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9702621249874|42": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/51540328612178",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "42",
+    "variantId": "gid://shopify/ProductVariant/49497668452690",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9702621249874|42.5": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/51540328644946",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "42.5",
+    "variantId": "gid://shopify/ProductVariant/49497668485458",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9702621249874|43.5": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/51540328677714",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "43.5",
+    "variantId": "gid://shopify/ProductVariant/49497668518226",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9702621249874|44": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/51540328710482",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "44",
+    "variantId": "gid://shopify/ProductVariant/49497668550994",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9702621249874|44.5": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/51540668514642",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "44.5",
+    "variantId": "gid://shopify/ProductVariant/49497999901010",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9702621249874|45": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/51540668547410",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "45",
+    "variantId": "gid://shopify/ProductVariant/49497999933778",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9702621249874|46": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/51540668580178",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "46",
+    "variantId": "gid://shopify/ProductVariant/49497999966546",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9702621249874|46.5": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/51540668612946",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "46.5",
+    "variantId": "gid://shopify/ProductVariant/49497999999314",
     "width": "standard"
   },
   "gid://shopify/Product/9702621249874|47": {
@@ -1439,6 +4143,54 @@
     "variantId": "gid://shopify/ProductVariant/50072025858386",
     "width": "standard"
   },
+  "gid://shopify/Product/9702621249874|48.5": {
+    "color": "coyote op",
+    "inventoryItemId": "gid://shopify/InventoryItem/54504060813650",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "48.5",
+    "variantId": "gid://shopify/ProductVariant/52448938000722",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9702630130002|37.5": {
+    "color": "wolf",
+    "inventoryItemId": "gid://shopify/InventoryItem/51540359807314",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "37.5",
+    "variantId": "gid://shopify/ProductVariant/49497693946194",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9702630130002|38": {
+    "color": "wolf",
+    "inventoryItemId": "gid://shopify/InventoryItem/51540359840082",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "38",
+    "variantId": "gid://shopify/ProductVariant/49497693978962",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9702630130002|39": {
+    "color": "wolf",
+    "inventoryItemId": "gid://shopify/InventoryItem/51540359872850",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "39",
+    "variantId": "gid://shopify/ProductVariant/49497694011730",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9702630130002|39.5": {
+    "color": "wolf",
+    "inventoryItemId": "gid://shopify/InventoryItem/51540359905618",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "39.5",
+    "variantId": "gid://shopify/ProductVariant/49497694044498",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9702630130002|40": {
+    "color": "wolf",
+    "inventoryItemId": "gid://shopify/InventoryItem/51540359774546",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "40",
+    "variantId": "gid://shopify/ProductVariant/49497693913426",
+    "width": "standard"
+  },
   "gid://shopify/Product/9702630130002|41": {
     "color": "wolf",
     "inventoryItemId": "gid://shopify/InventoryItem/52222489952594",
@@ -1447,12 +4199,132 @@
     "variantId": "gid://shopify/ProductVariant/50149048320338",
     "width": "standard"
   },
+  "gid://shopify/Product/9702630130002|41.5": {
+    "color": "wolf",
+    "inventoryItemId": "gid://shopify/InventoryItem/52222489985362",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "41.5",
+    "variantId": "gid://shopify/ProductVariant/50149048353106",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9702630130002|42": {
+    "color": "wolf",
+    "inventoryItemId": "gid://shopify/InventoryItem/52222490018130",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "42",
+    "variantId": "gid://shopify/ProductVariant/50149048385874",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9702630130002|42.5": {
+    "color": "wolf",
+    "inventoryItemId": "gid://shopify/InventoryItem/52234836738386",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "42.5",
+    "variantId": "gid://shopify/ProductVariant/50161400086866",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9702630130002|43.5": {
+    "color": "wolf",
+    "inventoryItemId": "gid://shopify/InventoryItem/52169662497106",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "43.5",
+    "variantId": "gid://shopify/ProductVariant/50099052216658",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9702630130002|44": {
+    "color": "wolf",
+    "inventoryItemId": "gid://shopify/InventoryItem/52169662562642",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "44",
+    "variantId": "gid://shopify/ProductVariant/50099052282194",
+    "width": "standard"
+  },
   "gid://shopify/Product/9702630130002|44.5": {
     "color": "wolf",
     "inventoryItemId": "gid://shopify/InventoryItem/52169662595410",
     "model": "ZEPHYR MK2 GTX MID TF",
     "size": "44.5",
     "variantId": "gid://shopify/ProductVariant/50099052314962",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9702630130002|45": {
+    "color": "wolf",
+    "inventoryItemId": "gid://shopify/InventoryItem/52169662660946",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "45",
+    "variantId": "gid://shopify/ProductVariant/50099052380498",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9702630130002|46": {
+    "color": "wolf",
+    "inventoryItemId": "gid://shopify/InventoryItem/52169662726482",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "46",
+    "variantId": "gid://shopify/ProductVariant/50099052446034",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9702630130002|46.5": {
+    "color": "wolf",
+    "inventoryItemId": "gid://shopify/InventoryItem/52169662759250",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "46.5",
+    "variantId": "gid://shopify/ProductVariant/50099052478802",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9702630130002|47": {
+    "color": "wolf",
+    "inventoryItemId": "gid://shopify/InventoryItem/52169662824786",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "47",
+    "variantId": "gid://shopify/ProductVariant/50099052544338",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9702630130002|48.5": {
+    "color": "wolf",
+    "inventoryItemId": "gid://shopify/InventoryItem/52234868654418",
+    "model": "ZEPHYR MK2 GTX MID TF",
+    "size": "48.5",
+    "variantId": "gid://shopify/ProductVariant/50161432002898",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9732338712914|37": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/53744850829650",
+    "model": "ZEPHYR MK2 GTX LO",
+    "size": "37",
+    "variantId": "gid://shopify/ProductVariant/51690999611730",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9732338712914|37.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/53744850862418",
+    "model": "ZEPHYR MK2 GTX LO",
+    "size": "37.5",
+    "variantId": "gid://shopify/ProductVariant/51690999644498",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9732338712914|38": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/53744850895186",
+    "model": "ZEPHYR MK2 GTX LO",
+    "size": "38",
+    "variantId": "gid://shopify/ProductVariant/51690999677266",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9732338712914|39": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/53744850927954",
+    "model": "ZEPHYR MK2 GTX LO",
+    "size": "39",
+    "variantId": "gid://shopify/ProductVariant/51690999710034",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9732338712914|39.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/53744850960722",
+    "model": "ZEPHYR MK2 GTX LO",
+    "size": "39.5",
+    "variantId": "gid://shopify/ProductVariant/51690999742802",
     "width": "standard"
   },
   "gid://shopify/Product/9732338712914|40": {
@@ -1527,6 +4399,22 @@
     "variantId": "gid://shopify/ProductVariant/49608476492114",
     "width": "standard"
   },
+  "gid://shopify/Product/9732338712914|46": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52709338054994",
+    "model": "ZEPHYR MK2 GTX LO",
+    "size": "46",
+    "variantId": "gid://shopify/ProductVariant/50635893309778",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9732338712914|46.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/54495746720082",
+    "model": "ZEPHYR MK2 GTX LO",
+    "size": "46.5",
+    "variantId": "gid://shopify/ProductVariant/52440643731794",
+    "width": "standard"
+  },
   "gid://shopify/Product/9870891155794|40": {
     "color": "dark brown",
     "inventoryItemId": "gid://shopify/InventoryItem/56790578397522",
@@ -1583,6 +4471,22 @@
     "variantId": "gid://shopify/ProductVariant/50071803134290",
     "width": "standard"
   },
+  "gid://shopify/Product/9870891155794|44.5": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/52137932423506",
+    "model": "COMBAT BOOT MK2 GTX",
+    "size": "44.5",
+    "variantId": "gid://shopify/ProductVariant/50071803167058",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9870891155794|45": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/52137932456274",
+    "model": "COMBAT BOOT MK2 GTX",
+    "size": "45",
+    "variantId": "gid://shopify/ProductVariant/50071803199826",
+    "width": "standard"
+  },
   "gid://shopify/Product/9870891155794|46": {
     "color": "dark brown",
     "inventoryItemId": "gid://shopify/InventoryItem/52137932489042",
@@ -1599,12 +4503,172 @@
     "variantId": "gid://shopify/ProductVariant/50071803265362",
     "width": "standard"
   },
+  "gid://shopify/Product/9870891155794|47": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/52137932554578",
+    "model": "COMBAT BOOT MK2 GTX",
+    "size": "47",
+    "variantId": "gid://shopify/ProductVariant/50071803298130",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9870891155794|48": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/52137932587346",
+    "model": "COMBAT BOOT MK2 GTX",
+    "size": "48",
+    "variantId": "gid://shopify/ProductVariant/50071803330898",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9870891155794|48.5": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/52141023723858",
+    "model": "COMBAT BOOT MK2 GTX",
+    "size": "48.5",
+    "variantId": "gid://shopify/ProductVariant/50074306642258",
+    "width": "standard"
+  },
   "gid://shopify/Product/9870891155794|49.5": {
     "color": "dark brown",
     "inventoryItemId": "gid://shopify/InventoryItem/52141024051538",
     "model": "COMBAT BOOT MK2 GTX",
     "size": "49.5",
     "variantId": "gid://shopify/ProductVariant/50074306806098",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9870891155794|51": {
+    "color": "dark brown",
+    "inventoryItemId": "gid://shopify/InventoryItem/52141024084306",
+    "model": "COMBAT BOOT MK2 GTX",
+    "size": "51",
+    "variantId": "gid://shopify/ProductVariant/50074306838866",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9901073465682|36": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52455553728850",
+    "model": "RENEGADE II GTX LO",
+    "size": "36",
+    "variantId": "gid://shopify/ProductVariant/50382425948498",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9901073465682|37": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/53235648823634",
+    "model": "RENEGADE II GTX LO",
+    "size": "37",
+    "variantId": "gid://shopify/ProductVariant/51175684669778",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9901073465682|39": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52455553761618",
+    "model": "RENEGADE II GTX LO",
+    "size": "39",
+    "variantId": "gid://shopify/ProductVariant/50382425981266",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9901073465682|40": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52231906787666",
+    "model": "RENEGADE II GTX LO",
+    "size": "40",
+    "variantId": "gid://shopify/ProductVariant/50158472495442",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9901073465682|41": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52231906820434",
+    "model": "RENEGADE II GTX LO",
+    "size": "41",
+    "variantId": "gid://shopify/ProductVariant/50158472528210",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9901073465682|41.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52231906853202",
+    "model": "RENEGADE II GTX LO",
+    "size": "41.5",
+    "variantId": "gid://shopify/ProductVariant/50158472560978",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9901073465682|42": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52231906885970",
+    "model": "RENEGADE II GTX LO",
+    "size": "42",
+    "variantId": "gid://shopify/ProductVariant/50158472593746",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9901073465682|42.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52231906918738",
+    "model": "RENEGADE II GTX LO",
+    "size": "42.5",
+    "variantId": "gid://shopify/ProductVariant/50158472626514",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9901073465682|43.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52231906951506",
+    "model": "RENEGADE II GTX LO",
+    "size": "43.5",
+    "variantId": "gid://shopify/ProductVariant/50158472659282",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9901073465682|44": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52231906984274",
+    "model": "RENEGADE II GTX LO",
+    "size": "44",
+    "variantId": "gid://shopify/ProductVariant/50158472692050",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9901073465682|44.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52231907017042",
+    "model": "RENEGADE II GTX LO",
+    "size": "44.5",
+    "variantId": "gid://shopify/ProductVariant/50158472724818",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9901073465682|45": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52231907049810",
+    "model": "RENEGADE II GTX LO",
+    "size": "45",
+    "variantId": "gid://shopify/ProductVariant/50158472757586",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9901073465682|46": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52231907082578",
+    "model": "RENEGADE II GTX LO",
+    "size": "46",
+    "variantId": "gid://shopify/ProductVariant/50158472790354",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9901073465682|46.5": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52231988183378",
+    "model": "RENEGADE II GTX LO",
+    "size": "46.5",
+    "variantId": "gid://shopify/ProductVariant/50158553923922",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9901073465682|47": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52231988216146",
+    "model": "RENEGADE II GTX LO",
+    "size": "47",
+    "variantId": "gid://shopify/ProductVariant/50158553956690",
+    "width": "standard"
+  },
+  "gid://shopify/Product/9901073465682|48": {
+    "color": "black",
+    "inventoryItemId": "gid://shopify/InventoryItem/52231988248914",
+    "model": "RENEGADE II GTX LO",
+    "size": "48",
+    "variantId": "gid://shopify/ProductVariant/50158553989458",
     "width": "standard"
   }
 }
