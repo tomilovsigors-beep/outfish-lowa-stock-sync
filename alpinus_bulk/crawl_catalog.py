@@ -1,6 +1,6 @@
 import asyncio, json, os, re
 from datetime import datetime, timezone
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urlparse
 from app import BASE_URL, open_logged_in_page
 
 MAX_PRODUCTS=int(os.getenv("ALPINUS_MAX_PRODUCTS","600"))
@@ -13,13 +13,37 @@ def emit(event,payload):
 def same_host(url):
     return urlparse(url).netloc==urlparse(BASE_URL).netloc
 
+async def safe_goto(page,url,timeout=60000):
+    last=None
+    for attempt in range(1,4):
+        try:
+            await page.goto(url,wait_until="domcontentloaded",timeout=timeout)
+            return True
+        except Exception as exc:
+            last=exc
+            msg=str(exc)
+            if "ERR_ABORTED" in msg or "Navigation interrupted" in msg:
+                await asyncio.sleep(1.0*attempt)
+                try:
+                    if page.url and same_host(page.url):
+                        return True
+                except Exception:
+                    pass
+                continue
+            if attempt<3:
+                await asyncio.sleep(1.5*attempt)
+                continue
+            raise
+    emit("navigation_warning",{"url":url,"error":f"{type(last).__name__}: {last}"})
+    return False
+
 async def extract_product(page,url):
-    await page.goto(url,wait_until="domcontentloaded",timeout=60000)
+    await safe_goto(page,url)
     try:
         await page.wait_for_load_state("networkidle",timeout=10000)
     except Exception:
         pass
-    data=await page.evaluate("""() => {
+    data=await page.evaluate(r"""() => {
       const clean=v=>(v||'').replace(/\s+/g,' ').trim();
       const title=clean(document.querySelector('h1')?.innerText||document.title);
       const body=clean(document.body?.innerText||'');
@@ -34,12 +58,7 @@ async def extract_product(page,url):
         name:el.getAttribute('name'),
         id:el.id||''
       }));
-      const attrs=[...document.querySelectorAll('*')].map(el=>{
-        const o={}; for (const a of el.attributes||[]) if (/ean|gtin|stock|price|netto|size|variant|supply|symbol|code/i.test(a.name)) o[a.name]=a.value;
-        return Object.keys(o).length?{tag:el.tagName,attrs:o,text:clean(el.innerText||'').slice(0,300)}:null;
-      }).filter(Boolean).slice(0,250);
-      const links=[...document.querySelectorAll('a[href]')].map(a=>({text:clean(a.innerText),href:a.href})).filter(x=>x.text&&x.href);
-      return {title,body:body.slice(0,25000),imgs:imgs.slice(0,80),rows,attrs,links:links.slice(0,120)};
+      return {title,body:body.slice(0,25000),imgs:imgs.slice(0,80),rows};
     }""")
     low=data["body"].lower()
     symbol=""
@@ -72,18 +91,22 @@ async def main():
             url=queue.pop(0)
             if url in seen_pages: continue
             seen_pages.add(url)
-            await page.goto(url,wait_until="domcontentloaded",timeout=60000)
-            try: await page.wait_for_load_state("networkidle",timeout=8000)
-            except Exception: pass
-            links=await page.locator("a[href]").evaluate_all("""els=>els.map(a=>a.href).filter(Boolean)""")
+            try:
+                await safe_goto(page,url)
+                try: await page.wait_for_load_state("networkidle",timeout=8000)
+                except Exception: pass
+                links=await page.locator("a[href]").evaluate_all("""els=>els.map(a=>a.href).filter(Boolean)""")
+            except Exception as exc:
+                emit("discovery_page_error",{"url":url,"error":f"{type(exc).__name__}: {exc}"})
+                continue
             for href in links:
                 href=href.split("#")[0]
                 if not same_host(href): continue
                 path=urlparse(href).path.lower()
                 if re.search(r"/3-\d+-\d+$",path):
                     if href not in product_urls: product_urls.append(href)
-                elif any(k in path for k in ["/but","/odzie","/biel","/spod","/kurt","/plecak","/akces","/skarp","/produkt"]):
-                    if href not in seen_pages and href not in queue and len(queue)<300: queue.append(href)
+                elif any(k in path for k in ["/but","/odzie","/biel","/spod","/kurt","/plecak","/akces","/skarp","/produkt","/term","/obuw"]):
+                    if href not in seen_pages and href not in queue and len(queue)<500: queue.append(href)
             emit("discovery_progress",{"pages":len(seen_pages),"products":len(product_urls),"queue":len(queue)})
         rows=[]
         for i,url in enumerate(product_urls[:MAX_PRODUCTS],1):
