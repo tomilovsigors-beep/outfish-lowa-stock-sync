@@ -31,18 +31,6 @@ def supplier_product_id(url):
     m=PRODUCT_ID_RE.search(urlparse(url).path.lower())
     return m.group(1) if m else ""
 
-async def safe_goto(page,url,timeout=20000):
-    for attempt in range(1,3):
-        try:
-            await page.goto(url,wait_until="commit",timeout=timeout)
-            try: await page.wait_for_selector("body",timeout=6000)
-            except Exception: pass
-            return True
-        except Exception:
-            if attempt<2: await asyncio.sleep(1)
-            else: raise
-    return False
-
 def normalize_image(src):
     if not src:
         return None
@@ -70,6 +58,15 @@ def detect_size(text, qty):
         if n != qty:
             return str(n)
     return None
+
+def extract_links(base_url, html):
+    soup=BeautifulSoup(html,"html.parser")
+    out=[]
+    for a in soup.find_all("a",href=True):
+        href=urljoin(base_url,a.get("href"))
+        if href and href not in out:
+            out.append(href)
+    return out
 
 def parse_product_html(url, html):
     soup=BeautifulSoup(html,"html.parser")
@@ -110,6 +107,7 @@ def parse_product_html(url, html):
                 size_rows.append(row)
         else:
             generic.append(qty)
+
     return {
         "supplier_product_id":supplier_product_id(url),
         "source_url":url,
@@ -123,25 +121,29 @@ def parse_product_html(url, html):
         "body_excerpt":body[:8000]
     }
 
-async def fetch_product(request_ctx,url):
+async def fetch_html(request_ctx,url,timeout=15000):
     last=None
     for attempt in range(1,4):
         try:
-            resp=await request_ctx.get(url,timeout=20000,fail_on_status_code=False)
-            status=resp.status
+            resp=await request_ctx.get(url,timeout=timeout,fail_on_status_code=False)
             text=await resp.text()
-            if status==200 and len(text)>500:
-                return parse_product_html(url,text)
-            last=RuntimeError(f"HTTP {status}, len={len(text)}")
+            if resp.status==200 and len(text)>300:
+                return text
+            last=RuntimeError(f"HTTP {resp.status}, len={len(text)}")
         except Exception as exc:
             last=exc
-        await asyncio.sleep(attempt)
-    raise last or RuntimeError("Unknown fetch error")
+        await asyncio.sleep(0.5*attempt)
+    raise last or RuntimeError("Unknown HTTP fetch error")
+
+async def fetch_product(request_ctx,url):
+    html=await fetch_html(request_ctx,url,timeout=20000)
+    return parse_product_html(url,html)
 
 async def main():
     p=browser=context=None
     try:
         p,browser,context,page=await open_logged_in_page()
+        request_ctx=context.request
 
         product_by_id={}
         product_categories={}
@@ -161,10 +163,8 @@ async def main():
                 seen_pages.add(url)
                 total_pages+=1
                 try:
-                    await safe_goto(page,url)
-                    try: await page.wait_for_timeout(350)
-                    except Exception: pass
-                    links=await page.locator("a[href]").evaluate_all("els=>els.map(a=>a.href).filter(Boolean)")
+                    html=await fetch_html(request_ctx,url,timeout=15000)
+                    links=extract_links(url,html)
                 except Exception as exc:
                     emit("discovery_page_error",{"category":category,"url":url,"error":f"{type(exc).__name__}: {exc}"})
                     continue
@@ -210,6 +210,7 @@ async def main():
         }
         membership_sum=sum(category_counts.values())
         unique_union=len(product_by_id)
+
         emit("category_summary",{
             "category_counts":category_counts,
             "membership_sum":membership_sum,
@@ -231,7 +232,7 @@ async def main():
         q=asyncio.Queue()
         for i,u in enumerate(product_urls,1):
             q.put_nowait((i,u))
-        rows=[]; lock=asyncio.Lock(); request_ctx=context.request
+        rows=[]; lock=asyncio.Lock()
 
         async def worker(worker_id):
             while True:
@@ -260,6 +261,7 @@ async def main():
         with open(OUTPUT,"w",encoding="utf-8") as fh:
             for row in rows:
                 fh.write(json.dumps(row,ensure_ascii=False)+"\n")
+
         audit={
             "with_numeric_stock":sum(1 for r in rows if r["numeric_stock_rows"]),
             "with_generic_stock":sum(1 for r in rows if r["generic_stock"] is not None),
