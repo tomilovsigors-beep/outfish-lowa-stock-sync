@@ -188,7 +188,7 @@ async def main():
                         category_products.add(pid)
                         product_by_id.setdefault(pid,href)
                         product_categories.setdefault(pid,set()).add(category)
-                    elif path.startswith("/produkty/produkty/"):
+                    elif CATALOG_PAGE_RE.match(path.rstrip("/")):
                         clean=href.split("?")[0].rstrip("/")
                         if clean and clean not in seen_pages and clean not in queue and len(queue)<2500:
                             queue.append(clean)
