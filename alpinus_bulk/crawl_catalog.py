@@ -14,6 +14,13 @@ TEXT_SIZE_RE=re.compile(r"\b(2XL|3XL|4XL|XL|XS|S|M|L)\b",re.I)
 RANGE_SIZE_RE=re.compile(r"\b(3[0-9]|4[0-9]|50)\s*[-/]\s*(3[0-9]|4[0-9]|50)\b")
 NUM_SIZE_RE=re.compile(r"\b(3[4-9]|4[0-9]|50)\b")
 
+CATEGORY_ROOTS={
+    "MEN": BASE_URL+"/produkty/produkty/mezczyzni/2-6",
+    "WOMEN": BASE_URL+"/produkty/produkty/kobiety/2-5",
+    "EQUIPMENT": BASE_URL+"/produkty/produkty/wyposazenie/2-8",
+    "KIDS": BASE_URL+"/produkty/produkty/dzieci/2-7",
+}
+
 def emit(event,payload):
     print(json.dumps({"event":event,"ts":datetime.now(timezone.utc).isoformat(),**payload},ensure_ascii=False,separators=(",",":")),flush=True)
 
@@ -59,8 +66,6 @@ def detect_size(text, qty):
     if m:
         return f"{m.group(1)}-{m.group(2)}"
     nums=[int(x) for x in NUM_SIZE_RE.findall(text)]
-    # Never treat the stock number itself as a size. If a nearby distinct
-    # footwear/apparel-sized number exists, use that; otherwise stock is generic.
     for n in nums:
         if n != qty:
             return str(n)
@@ -137,46 +142,91 @@ async def main():
     p=browser=context=None
     try:
         p,browser,context,page=await open_logged_in_page()
-        seen_pages=set(); product_by_id={}; raw_product_urls=0
-        queue=[
-            BASE_URL+"/produkty/produkty/mezczyzni/2-6",
-            BASE_URL+"/produkty/produkty/kobiety/2-5",
-            BASE_URL+"/produkty/produkty/wyposazenie/2-8",
-            BASE_URL+"/produkty/produkty/dzieci/2-7",
-        ]
-        while queue and len(seen_pages)<MAX_PAGES and len(product_by_id)<MAX_PRODUCTS:
-            url=queue.pop(0)
-            if url in seen_pages:
-                continue
-            seen_pages.add(url)
-            try:
-                await safe_goto(page,url)
-                try: await page.wait_for_timeout(400)
-                except Exception: pass
-                links=await page.locator("a[href]").evaluate_all("els=>els.map(a=>a.href).filter(Boolean)")
-            except Exception as exc:
-                emit("discovery_page_error",{"url":url,"error":f"{type(exc).__name__}: {exc}"})
-                continue
-            for href in links:
-                href=href.split("#")[0]
-                if not same_host(href):
+
+        product_by_id={}
+        product_categories={}
+        category_stats={}
+        total_pages=0
+
+        for category,root in CATEGORY_ROOTS.items():
+            seen_pages=set()
+            queue=[root]
+            raw_links=0
+            category_products=set()
+
+            while queue and total_pages<MAX_PAGES and len(product_by_id)<MAX_PRODUCTS:
+                url=queue.pop(0)
+                if url in seen_pages:
                     continue
-                path=urlparse(href).path.lower()
-                pid=supplier_product_id(href)
-                if pid:
-                    raw_product_urls+=1
-                    product_by_id.setdefault(pid,href)
-                elif "/produkty/" in path:
-                    # Traverse the supplier's catalog graph exhaustively from the
-                    # four top-level roots. This catches pagination and nested
-                    # categories without relying on Polish keyword heuristics.
-                    clean=href.split("?")[0].rstrip("/")
-                    if clean and clean not in seen_pages and clean not in queue and len(queue)<2500:
-                        queue.append(clean)
-            emit("discovery_progress",{"pages":len(seen_pages),"raw_product_urls":raw_product_urls,"unique_products":len(product_by_id),"queue":len(queue)})
+                seen_pages.add(url)
+                total_pages+=1
+                try:
+                    await safe_goto(page,url)
+                    try: await page.wait_for_timeout(350)
+                    except Exception: pass
+                    links=await page.locator("a[href]").evaluate_all("els=>els.map(a=>a.href).filter(Boolean)")
+                except Exception as exc:
+                    emit("discovery_page_error",{"category":category,"url":url,"error":f"{type(exc).__name__}: {exc}"})
+                    continue
+
+                for href in links:
+                    href=href.split("#")[0]
+                    if not same_host(href):
+                        continue
+                    path=urlparse(href).path.lower()
+                    pid=supplier_product_id(href)
+                    if pid:
+                        raw_links+=1
+                        category_products.add(pid)
+                        product_by_id.setdefault(pid,href)
+                        product_categories.setdefault(pid,set()).add(category)
+                    elif "/produkty/" in path:
+                        clean=href.split("?")[0].rstrip("/")
+                        if clean and clean not in seen_pages and clean not in queue and len(queue)<2500:
+                            queue.append(clean)
+
+                emit("category_discovery_progress",{
+                    "category":category,
+                    "category_pages":len(seen_pages),
+                    "total_pages":total_pages,
+                    "raw_product_links":raw_links,
+                    "category_unique_products":len(category_products),
+                    "union_unique_products":len(product_by_id),
+                    "queue":len(queue)
+                })
+
+            category_stats[category]={
+                "pages":len(seen_pages),
+                "raw_product_links":raw_links,
+                "unique_products":len(category_products)
+            }
+            emit("category_discovery_complete",{"category":category,**category_stats[category]})
+
+        memberships={k:sorted(v) for k,v in product_categories.items()}
+        category_counts={c:sum(1 for cats in memberships.values() if c in cats) for c in CATEGORY_ROOTS}
+        overlap_counts={
+            "multi_category_products":sum(1 for cats in memberships.values() if len(cats)>1),
+            "single_category_products":sum(1 for cats in memberships.values() if len(cats)==1),
+        }
+        membership_sum=sum(category_counts.values())
+        unique_union=len(product_by_id)
+        emit("category_summary",{
+            "category_counts":category_counts,
+            "membership_sum":membership_sum,
+            "unique_union":unique_union,
+            "duplicate_memberships":membership_sum-unique_union,
+            "overlap_counts":overlap_counts,
+            "category_stats":category_stats
+        })
 
         product_urls=list(product_by_id.values())[:MAX_PRODUCTS]
-        emit("discovery_complete",{"pages":len(seen_pages),"raw_product_urls":raw_product_urls,"unique_products":len(product_urls),"duplicates_removed":max(0,raw_product_urls-len(product_urls))})
+        emit("discovery_complete",{
+            "pages":total_pages,
+            "unique_products":len(product_urls),
+            "category_counts":category_counts,
+            "membership_sum":membership_sum,
+            "duplicates_across_categories":membership_sum-len(product_urls)
+        })
 
         q=asyncio.Queue()
         for i,u in enumerate(product_urls,1):
@@ -189,10 +239,13 @@ async def main():
                 except asyncio.QueueEmpty: break
                 try:
                     row=await fetch_product(request_ctx,url)
+                    pid=row["supplier_product_id"]
+                    row["categories"]=memberships.get(pid,[])
                     async with lock: rows.append(row)
                     emit("product_data",{
                         "i":i,"total":len(product_urls),"worker":worker_id,
-                        "supplier_product_id":row["supplier_product_id"],
+                        "supplier_product_id":pid,
+                        "categories":row["categories"],
                         "source_url":row["source_url"],"title":row["title"],"symbol":row["symbol"],
                         "eans":row["eans"],"numeric_stock_rows":row["numeric_stock_rows"],
                         "generic_stock":row["generic_stock"],"prices_pln_detected":row["prices_pln_detected"],
@@ -215,7 +268,15 @@ async def main():
             "with_images":sum(1 for r in rows if r["images"]),
             "with_prices":sum(1 for r in rows if r["prices_pln_detected"])
         }
-        emit("crawl_summary",{"ok":True,"products_discovered":len(product_urls),"rows":len(rows),"audit":audit,"output":OUTPUT})
+        emit("crawl_summary",{
+            "ok":True,
+            "products_discovered":len(product_urls),
+            "rows":len(rows),
+            "category_counts":category_counts,
+            "membership_sum":membership_sum,
+            "audit":audit,
+            "output":OUTPUT
+        })
     finally:
         if context: await context.close()
         if browser: await browser.close()
