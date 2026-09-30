@@ -160,64 +160,69 @@ async def main():
         category_stats={}
         total_pages=0
 
-        # Deterministic branch discovery: Alpinus pagination is ?pageId=N and
-        # product detail URLs encode the top-level group as /3-{group_id}-{product_id}.
-        # This avoids global navigation links leaking products across categories.
+        # Deterministic branch discovery using only each top-level branch listing.
+        # Alpinus product links in raw HTTP may encode a deeper category id (/3-51-ID etc.),
+        # so membership is determined by presence on the branch's own paginated listing.
         for category,root in CATEGORY_ROOTS.items():
-            group_id=CATEGORY_GROUP_IDS[category]
             category_products=set()
             raw_links=0
+            pages_seen=0
 
-            try:
-                first_html=await fetch_html(request_ctx,root,timeout=15000)
-            except Exception as exc:
-                emit("category_discovery_error",{"category":category,"url":root,"error":f"{type(exc).__name__}: {exc}"})
-                category_stats[category]={"pages":0,"raw_product_links":0,"unique_products":0}
-                continue
-
-            first_soup=BeautifulSoup(first_html,"html.parser")
-            first_text=first_soup.get_text(" ",strip=True)
-            page_matches=[int(x) for x in re.findall(r"\\bz\\s+(\\d+)\\b",first_text,re.I)]
-            pages=max(page_matches) if page_matches else 1
-            pages=max(1,min(pages,50))
-
-            for page_num in range(1,pages+1):
+            for page_num in range(1,31):
                 if total_pages>=MAX_PAGES:
                     break
                 page_url=root if page_num==1 else f"{root}?pageId={page_num}"
                 total_pages+=1
+                pages_seen+=1
                 try:
-                    html=first_html if page_num==1 else await fetch_html(request_ctx,page_url,timeout=15000)
+                    html=await fetch_html(request_ctx,page_url,timeout=15000)
                     links=extract_links(page_url,html)
                 except Exception as exc:
                     emit("discovery_page_error",{"category":category,"page":page_num,"url":page_url,"error":f"{type(exc).__name__}: {exc}"})
-                    continue
+                    break
 
-                branch_re=re.compile(rf"/3-{re.escape(group_id)}-(\\d+)$")
+                page_ids=set()
+                page_urls={}
                 for href in links:
                     if not same_host(href):
                         continue
-                    path=urlparse(href).path.lower().rstrip("/")
-                    m=branch_re.search(path)
-                    if not m:
+                    pid=supplier_product_id(href.split("?")[0].rstrip("/"))
+                    if not pid:
                         continue
-                    pid=m.group(1)
-                    raw_links+=1
+                    page_ids.add(pid)
+                    page_urls.setdefault(pid,href.split("?")[0])
+
+                new_ids=page_ids-category_products
+                raw_links+=len(page_ids)
+
+                # A page that contributes no new products means we passed the end
+                # (or the server repeated the previous/first page).
+                if page_num>1 and not new_ids:
+                    pages_seen-=1
+                    break
+
+                for pid in new_ids:
                     category_products.add(pid)
-                    product_by_id.setdefault(pid,href.split("?")[0])
+                    product_by_id.setdefault(pid,page_urls[pid])
                     product_categories.setdefault(pid,set()).add(category)
 
                 emit("category_discovery_progress",{
                     "category":category,
                     "page":page_num,
-                    "pages":pages,
-                    "raw_product_links":raw_links,
+                    "page_products":len(page_ids),
+                    "new_products":len(new_ids),
                     "category_unique_products":len(category_products),
                     "union_unique_products":len(product_by_id)
                 })
 
+                # Listings use 20 products/page; a short non-empty page is final.
+                if page_ids and len(page_ids)<20:
+                    break
+                if not page_ids:
+                    break
+
             category_stats[category]={
-                "pages":pages,
+                "pages":pages_seen,
                 "raw_product_links":raw_links,
                 "unique_products":len(category_products)
             }
