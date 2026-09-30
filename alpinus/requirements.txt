@@ -1,2 +1,1 @@
 playwright==1.55.0
-./alpinus/probe_buildhook
