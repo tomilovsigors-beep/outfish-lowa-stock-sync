@@ -90,12 +90,61 @@ def parse_product_html(url, html):
             symbol=m.group(1).upper()
             break
     eans=sorted(set(re.findall(r"\b\d{13}\b",body)))
-    prices=re.findall(r"(\d+[\.,]\d{2})\s*PLN",body,re.I)
+    def parse_pln_from_node(node):
+        if not node:
+            return None
+        txt=node.get_text(" ",strip=True)
+        m=re.search(r"(\d[\d\s]*[\.,]\d{2})\s*PLN",txt,re.I)
+        if not m:
+            return None
+        return m.group(1).replace(" ","").replace(",", ".")
+
+    rrp_pln=None
+    for node in soup.select(".brutto-previous-lq"):
+        txt=node.get_text(" ",strip=True).lower()
+        if "sugerowana" in txt or node.select_one(".suger-mob") or "suger-mob" in (node.get("class") or []):
+            rrp_pln=parse_pln_from_node(node)
+            if rrp_pln:
+                break
+    if not rrp_pln:
+        for node in soup.select(".suger-mob"):
+            rrp_pln=parse_pln_from_node(node)
+            if rrp_pln:
+                break
+
+    net_cost_pln=None
+    for sel in [".netto-ui.netto-lq",".netto-price-ui",".netto-ui"]:
+        for node in soup.select(sel):
+            txt=node.get_text(" ",strip=True).lower()
+            if "netto" in txt:
+                net_cost_pln=parse_pln_from_node(node)
+                if net_cost_pln:
+                    break
+        if net_cost_pln:
+            break
+
+    gross_b2b_pln=None
+    for sel in [".brutto-ui.brutto-lq",".brutto-price-ui",".brutto-ui"]:
+        for node in soup.select(sel):
+            txt=node.get_text(" ",strip=True).lower()
+            if "brutto" in txt and "sugerowana" not in txt:
+                gross_b2b_pln=parse_pln_from_node(node)
+                if gross_b2b_pln:
+                    break
+        if gross_b2b_pln:
+            break
     images=[]
-    for img in soup.find_all("img"):
+    gallery_imgs=soup.select("img.open-gallery-lq")
+    for img in gallery_imgs:
         src=normalize_image(img.get("src") or img.get("data-src") or img.get("data-original"))
         if src and src not in images:
             images.append(src)
+    # Fallback for pages whose gallery class is missing in raw HTML.
+    if not images:
+        for img in soup.find_all("img"):
+            src=normalize_image(img.get("src") or img.get("data-src") or img.get("data-original"))
+            if src and src not in images:
+                images.append(src)
 
     size_rows=[]; generic=[]
     candidates=soup.select("[data-stock-value], [data-max], input[max], input[name*=quantity], input[name*=ilosc], input[name*=qty]")
@@ -118,6 +167,26 @@ def parse_product_html(url, html):
         else:
             generic.append(qty)
 
+    variant_rows=[]
+    row_selector=".attribute-button-ui.table-row-ui, .attribute-button-ui .table-row-ui"
+    for row in soup.select(row_selector):
+        row_text=row.get_text(" ",strip=True)
+        qty=None
+        for el in row.select("[data-stock-value], [data-max], input[max]"):
+            raw=el.get("data-stock-value") or el.get("data-max") or el.get("max")
+            if raw and str(raw).isdigit():
+                qty=int(raw)
+                break
+        size=detect_size(row_text,qty if qty is not None else -1)
+        row_eans=sorted(set(re.findall(r"\b\d{13}\b",row_text)))
+        if size or qty is not None or row_eans:
+            variant_rows.append({
+                "size":size,
+                "qty":qty,
+                "eans":row_eans,
+                "ean_mapping_safe": bool(size and qty is not None and len(row_eans)==1)
+            })
+
     return {
         "supplier_product_id":supplier_product_id(url),
         "source_url":url,
@@ -125,8 +194,12 @@ def parse_product_html(url, html):
         "symbol":symbol,
         "eans":eans,
         "numeric_stock_rows":size_rows,
+        "variant_rows":variant_rows,
+        "variant_ean_mapping_safe": bool(variant_rows) and all(r["ean_mapping_safe"] for r in variant_rows if r.get("size")),
         "generic_stock":max(generic) if generic else None,
-        "prices_pln_detected":prices[:20],
+        "rrp_pln":rrp_pln,
+        "b2b_gross_pln":gross_b2b_pln,
+        "net_cost_pln":net_cost_pln,
         "images":images[:40],
         "body_excerpt":body[:8000]
     }
@@ -275,7 +348,9 @@ async def main():
                         "categories":row["categories"],
                         "source_url":row["source_url"],"title":row["title"],"symbol":row["symbol"],
                         "eans":row["eans"],"numeric_stock_rows":row["numeric_stock_rows"],
-                        "generic_stock":row["generic_stock"],"prices_pln_detected":row["prices_pln_detected"],
+                        "variant_rows":row["variant_rows"],"variant_ean_mapping_safe":row["variant_ean_mapping_safe"],
+                        "generic_stock":row["generic_stock"],"rrp_pln":row["rrp_pln"],
+                        "b2b_gross_pln":row["b2b_gross_pln"],"net_cost_pln":row["net_cost_pln"],
                         "images":row["images"][:12]
                     })
                 except Exception as exc:
@@ -294,7 +369,9 @@ async def main():
             "with_any_stock":sum(1 for r in rows if r["numeric_stock_rows"] or r["generic_stock"] is not None),
             "with_ean":sum(1 for r in rows if r["eans"]),
             "with_images":sum(1 for r in rows if r["images"]),
-            "with_prices":sum(1 for r in rows if r["prices_pln_detected"])
+            "with_rrp":sum(1 for r in rows if r["rrp_pln"]),
+            "with_net_cost":sum(1 for r in rows if r["net_cost_pln"]),
+            "with_safe_variant_ean_mapping":sum(1 for r in rows if r["variant_ean_mapping_safe"])
         }
         emit("crawl_summary",{
             "ok":True,
