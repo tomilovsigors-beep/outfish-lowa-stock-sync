@@ -1,11 +1,12 @@
 import asyncio, json, os, re
 from datetime import datetime, timezone
 from urllib.parse import urlparse
+from bs4 import BeautifulSoup
 from app import BASE_URL, open_logged_in_page
 
 MAX_PRODUCTS=int(os.getenv("ALPINUS_MAX_PRODUCTS","600"))
 MAX_PAGES=int(os.getenv("ALPINUS_MAX_PAGES","45"))
-CONCURRENCY=int(os.getenv("ALPINUS_CONCURRENCY","2"))
+CONCURRENCY=int(os.getenv("ALPINUS_CONCURRENCY","6"))
 OUTPUT=os.getenv("ALPINUS_OUTPUT_JSONL","/tmp/alpinus_catalog.jsonl")
 
 def emit(event,payload):
@@ -15,66 +16,85 @@ def same_host(url):
     return urlparse(url).netloc==urlparse(BASE_URL).netloc
 
 async def safe_goto(page,url,timeout=20000):
-    for attempt in range(1,4):
+    for attempt in range(1,3):
         try:
             await page.goto(url,wait_until="commit",timeout=timeout)
-            try:
-                await page.wait_for_selector("body",timeout=8000)
-            except Exception:
-                pass
+            try: await page.wait_for_selector("body",timeout=6000)
+            except Exception: pass
             return True
         except Exception as exc:
-            msg=str(exc)
-            if "ERR_ABORTED" in msg or "Navigation interrupted" in msg:
-                await asyncio.sleep(.5*attempt)
-                if page.url and same_host(page.url):
-                    return True
-            elif attempt<3:
-                await asyncio.sleep(1.0*attempt)
+            if attempt<2:
+                await asyncio.sleep(1)
             else:
                 raise
     return False
 
-async def extract_product(page,url):
-    await safe_goto(page,url)
-    try: await page.wait_for_timeout(1200)
-    except Exception: pass
-    data=await page.evaluate(r"""() => {
-      const clean=v=>(v||'').replace(/\s+/g,' ').trim();
-      const title=clean(document.querySelector('h1')?.innerText||document.title);
-      const body=clean(document.body?.innerText||'');
-      const imgs=[...new Set([...document.querySelectorAll('img[src]')].map(i=>i.currentSrc||i.src).filter(Boolean))];
-      const rows=[...document.querySelectorAll('[data-stock-value], [data-max], input[max], input[name*=quantity], input[name*=ilosc], input[name*=qty]')].map(el=>({
-        text:clean(el.innerText||el.parentElement?.innerText||'').slice(0,500),
-        stock:el.getAttribute('data-stock-value'),
-        dataMax:el.getAttribute('data-max'),
-        max:el.getAttribute('max')
-      }));
-      return {title,body:body.slice(0,25000),imgs:imgs.slice(0,80),rows};
-    }""")
-    low=data["body"].lower()
+def parse_product_html(url, html):
+    soup=BeautifulSoup(html,"html.parser")
+    title=(soup.find("h1").get_text(" ",strip=True) if soup.find("h1") else (soup.title.get_text(" ",strip=True) if soup.title else ""))
+    body=soup.get_text(" ",strip=True)
+    low=body.lower()
     symbol=""
     for pat in [r"symbol\s*[:\-]?\s*([a-z0-9\-]+)",r"kod producenta\s*[:\-]?\s*([a-z0-9\-]+)"]:
         m=re.search(pat,low,re.I)
-        if m: symbol=m.group(1).upper(); break
-    eans=sorted(set(re.findall(r"\b\d{13}\b",data["body"])))
-    prices=re.findall(r"(\d+[\.,]\d{2})\s*PLN",data["body"],re.I)
-    sizes=[]; generic=[]
-    for el in data["rows"]:
-        txt=el.get("text") or ""
-        qty=el.get("stock") or el.get("dataMax") or el.get("max")
-        if not (qty and str(qty).isdigit()): continue
+        if m:
+            symbol=m.group(1).upper()
+            break
+    eans=sorted(set(re.findall(r"\b\d{13}\b",body)))
+    prices=re.findall(r"(\d+[\.,]\d{2})\s*PLN",body,re.I)
+    images=[]
+    for img in soup.find_all("img"):
+        src=img.get("src") or img.get("data-src") or img.get("data-original")
+        if src and "/img/" in src:
+            if src.startswith("/"):
+                src=BASE_URL+src
+            if src not in images:
+                images.append(src)
+
+    size_rows=[]; generic=[]
+    candidates=soup.select("[data-stock-value], [data-max], input[max], input[name*=quantity], input[name*=ilosc], input[name*=qty]")
+    for el in candidates:
+        qty=el.get("data-stock-value") or el.get("data-max") or el.get("max")
+        if not (qty and str(qty).isdigit()):
+            continue
         qty=int(qty)
+        txt=" ".join(filter(None,[
+            el.get_text(" ",strip=True),
+            el.parent.get_text(" ",strip=True) if el.parent else ""
+        ]))
         m=re.search(r"\b(2XL|3XL|4XL|XL|XS|S|M|L|\d{2}(?:-\d{2})?)\b",txt,re.I)
-        if m: sizes.append({"size":m.group(1).upper(),"qty":qty})
-        else: generic.append(qty)
+        if m:
+            row={"size":m.group(1).upper(),"qty":qty}
+            if row not in size_rows:
+                size_rows.append(row)
+        else:
+            generic.append(qty)
     return {
-      "source_url":url,"title":data["title"],"symbol":symbol,"eans":eans,
-      "numeric_stock_rows":sizes,"generic_stock":max(generic) if generic else None,
-      "prices_pln_detected":prices[:20],
-      "images":[x for x in data["imgs"] if "/img/" in x][:40],
-      "body_excerpt":data["body"][:8000]
+        "source_url":url,
+        "title":title,
+        "symbol":symbol,
+        "eans":eans,
+        "numeric_stock_rows":size_rows,
+        "generic_stock":max(generic) if generic else None,
+        "prices_pln_detected":prices[:20],
+        "images":images[:40],
+        "body_excerpt":body[:8000]
     }
+
+async def fetch_product(request_ctx,url):
+    last=None
+    for attempt in range(1,4):
+        try:
+            resp=await request_ctx.get(url,timeout=20000,fail_on_status_code=False)
+            status=resp.status
+            text=await resp.text()
+            if status==200 and len(text)>500:
+                return parse_product_html(url,text)
+            last=RuntimeError(f"HTTP {status}, len={len(text)}")
+        except Exception as exc:
+            last=exc
+        await asyncio.sleep(attempt)
+    raise last or RuntimeError("Unknown fetch error")
 
 async def main():
     p=browser=context=None
@@ -83,53 +103,73 @@ async def main():
         seen_pages=set(); product_urls=[]; queue=[BASE_URL+"/"]
         while queue and len(seen_pages)<MAX_PAGES and len(product_urls)<MAX_PRODUCTS:
             url=queue.pop(0)
-            if url in seen_pages: continue
+            if url in seen_pages:
+                continue
             seen_pages.add(url)
             try:
                 await safe_goto(page,url)
-                try: await page.wait_for_timeout(500)
+                try: await page.wait_for_timeout(400)
                 except Exception: pass
-                links=await page.locator("a[href]").evaluate_all("""els=>els.map(a=>a.href).filter(Boolean)""")
+                links=await page.locator("a[href]").evaluate_all("els=>els.map(a=>a.href).filter(Boolean)")
             except Exception as exc:
                 emit("discovery_page_error",{"url":url,"error":f"{type(exc).__name__}: {exc}"})
                 continue
             for href in links:
                 href=href.split("#")[0]
-                if not same_host(href): continue
+                if not same_host(href):
+                    continue
                 path=urlparse(href).path.lower()
                 if re.search(r"/3-\d+-\d+$",path):
-                    if href not in product_urls: product_urls.append(href)
+                    if href not in product_urls:
+                        product_urls.append(href)
                 elif any(k in path for k in ["/but","/odzie","/biel","/spod","/kurt","/plecak","/akces","/skarp","/produkt","/term","/obuw"]):
-                    if href not in seen_pages and href not in queue and len(queue)<500: queue.append(href)
+                    if href not in seen_pages and href not in queue and len(queue)<500:
+                        queue.append(href)
             emit("discovery_progress",{"pages":len(seen_pages),"products":len(product_urls),"queue":len(queue)})
+
         product_urls=product_urls[:MAX_PRODUCTS]
         emit("discovery_complete",{"pages":len(seen_pages),"products":len(product_urls)})
+
         q=asyncio.Queue()
-        for i,u in enumerate(product_urls,1): q.put_nowait((i,u))
+        for i,u in enumerate(product_urls,1):
+            q.put_nowait((i,u))
         rows=[]; lock=asyncio.Lock()
+        request_ctx=context.request
+
         async def worker(worker_id):
-            wp=await context.new_page()
             while True:
-                try: i,url=q.get_nowait()
-                except asyncio.QueueEmpty: break
                 try:
-                    row=await extract_product(wp,url)
-                    async with lock: rows.append(row)
-                    emit("product_data",{"i":i,"total":len(product_urls),"worker":worker_id,**{k:row[k] for k in ["source_url","title","symbol","eans","numeric_stock_rows","generic_stock","prices_pln_detected"]},"images":row["images"][:12]})
+                    i,url=q.get_nowait()
+                except asyncio.QueueEmpty:
+                    break
+                try:
+                    row=await fetch_product(request_ctx,url)
+                    async with lock:
+                        rows.append(row)
+                    emit("product_data",{
+                        "i":i,"total":len(product_urls),"worker":worker_id,
+                        "source_url":row["source_url"],"title":row["title"],"symbol":row["symbol"],
+                        "eans":row["eans"],"numeric_stock_rows":row["numeric_stock_rows"],
+                        "generic_stock":row["generic_stock"],"prices_pln_detected":row["prices_pln_detected"],
+                        "images":row["images"][:12]
+                    })
                 except Exception as exc:
                     emit("product_error",{"i":i,"worker":worker_id,"url":url,"error":f"{type(exc).__name__}: {exc}"})
-                finally: q.task_done()
-            await wp.close()
+                finally:
+                    q.task_done()
+
         await asyncio.gather(*[worker(i) for i in range(1,CONCURRENCY+1)])
+
         with open(OUTPUT,"w",encoding="utf-8") as fh:
-            for row in rows: fh.write(json.dumps(row,ensure_ascii=False)+"\n")
+            for row in rows:
+                fh.write(json.dumps(row,ensure_ascii=False)+"\n")
         audit={
-          "with_numeric_stock":sum(1 for r in rows if r["numeric_stock_rows"]),
-          "with_generic_stock":sum(1 for r in rows if r["generic_stock"] is not None),
-          "with_any_stock":sum(1 for r in rows if r["numeric_stock_rows"] or r["generic_stock"] is not None),
-          "with_ean":sum(1 for r in rows if r["eans"]),
-          "with_images":sum(1 for r in rows if r["images"]),
-          "with_prices":sum(1 for r in rows if r["prices_pln_detected"])
+            "with_numeric_stock":sum(1 for r in rows if r["numeric_stock_rows"]),
+            "with_generic_stock":sum(1 for r in rows if r["generic_stock"] is not None),
+            "with_any_stock":sum(1 for r in rows if r["numeric_stock_rows"] or r["generic_stock"] is not None),
+            "with_ean":sum(1 for r in rows if r["eans"]),
+            "with_images":sum(1 for r in rows if r["images"]),
+            "with_prices":sum(1 for r in rows if r["prices_pln_detected"])
         }
         emit("crawl_summary",{"ok":True,"products_discovered":len(product_urls),"rows":len(rows),"audit":audit,"output":OUTPUT})
     finally:
