@@ -40,11 +40,14 @@ async def extract_product(page,url):
       const title=clean(document.querySelector('h1')?.innerText||document.title);
       const body=clean(document.body?.innerText||'');
       const imgs=[...new Set([...document.querySelectorAll('img[src]')].map(i=>i.currentSrc||i.src).filter(Boolean))];
-      const rows=[...document.querySelectorAll('[data-stock-value], [data-max], input[max]')].map(el=>({
+      const rows=[...document.querySelectorAll('[data-stock-value], [data-max], input[max], input[name*=quantity], input[name*=ilosc], input[name*=qty]')].map(el=>({
         text:clean(el.innerText||el.parentElement?.innerText||'').slice(0,500),
         stock:el.getAttribute('data-stock-value'),
         dataMax:el.getAttribute('data-max'),
-        max:el.getAttribute('max')
+        max:el.getAttribute('max'),
+        value:el.getAttribute('value'),
+        name:el.getAttribute('name'),
+        id:el.id||''
       }));
       return {title,body:body.slice(0,25000),imgs:imgs.slice(0,80),rows};
     }""")
@@ -55,16 +58,23 @@ async def extract_product(page,url):
         if m: symbol=m.group(1).upper(); break
     eans=sorted(set(re.findall(r"\b\d{13}\b",data["body"])))
     prices=re.findall(r"(\d+[\.,]\d{2})\s*PLN",data["body"],re.I)
-    sizes=[]
+    sizes=[]; generic=[]
     for el in data["rows"]:
         txt=el.get("text") or ""
-        m=re.search(r"\b(2XL|3XL|4XL|XL|XS|S|M|L|\d{2}(?:-\d{2})?)\b",txt,re.I)
         qty=el.get("stock") or el.get("dataMax") or el.get("max")
-        if m and qty and str(qty).isdigit():
-            sizes.append({"size":m.group(1).upper(),"qty":int(qty)})
+        if not (qty and str(qty).isdigit()):
+            continue
+        qty=int(qty)
+        m=re.search(r"\b(2XL|3XL|4XL|XL|XS|S|M|L|\d{2}(?:-\d{2})?)\b",txt,re.I)
+        if m:
+            sizes.append({"size":m.group(1).upper(),"qty":qty})
+        else:
+            generic.append(qty)
+    generic_stock=max(generic) if generic else None
     return {
       "source_url":url,"title":data["title"],"symbol":symbol,"eans":eans,
-      "numeric_stock_rows":sizes,"prices_pln_detected":prices[:20],
+      "numeric_stock_rows":sizes,"generic_stock":generic_stock,
+      "prices_pln_detected":prices[:20],
       "images":[x for x in data["imgs"] if "/img/" in x][:40],
       "body_excerpt":data["body"][:8000]
     }
@@ -108,7 +118,13 @@ async def main():
                 try:
                     row=await extract_product(wp,url)
                     async with lock: rows.append(row)
-                    emit("product",{"i":i,"total":len(product_urls),"worker":worker_id,"url":url,"title":row["title"],"stock_rows":len(row["numeric_stock_rows"]),"eans":len(row["eans"])})
+                    emit("product_data",{
+                      "i":i,"total":len(product_urls),"worker":worker_id,
+                      "source_url":row["source_url"],"title":row["title"],"symbol":row["symbol"],
+                      "eans":row["eans"],"numeric_stock_rows":row["numeric_stock_rows"],
+                      "generic_stock":row["generic_stock"],"prices_pln_detected":row["prices_pln_detected"],
+                      "images":row["images"][:12]
+                    })
                 except Exception as exc:
                     emit("product_error",{"i":i,"worker":worker_id,"url":url,"error":f"{type(exc).__name__}: {exc}"})
                 finally: q.task_done()
@@ -118,6 +134,8 @@ async def main():
             for row in rows: fh.write(json.dumps(row,ensure_ascii=False)+"\n")
         audit={
           "with_numeric_stock":sum(1 for r in rows if r["numeric_stock_rows"]),
+          "with_generic_stock":sum(1 for r in rows if r["generic_stock"] is not None),
+          "with_any_stock":sum(1 for r in rows if r["numeric_stock_rows"] or r["generic_stock"] is not None),
           "with_ean":sum(1 for r in rows if r["eans"]),
           "with_images":sum(1 for r in rows if r["images"]),
           "with_prices":sum(1 for r in rows if r["prices_pln_detected"])
