@@ -63,7 +63,15 @@ def extract_links(base_url, html):
     soup=BeautifulSoup(html,"html.parser")
     out=[]
     for a in soup.find_all("a",href=True):
-        href=urljoin(base_url,a.get("href"))
+        raw=(a.get("href") or "").strip()
+        if not raw or raw.startswith(("#","javascript:","mailto:","tel:")):
+            continue
+        # Alpinus emits many root-relative-looking hrefs without a leading slash.
+        # Resolve those from the site root, never from the current category path.
+        if raw.startswith(("http://","https://","//")):
+            href=urljoin(BASE_URL+"/",raw)
+        else:
+            href=urljoin(BASE_URL+"/",raw.lstrip("/"))
         if href and href not in out:
             out.append(href)
     return out
@@ -180,7 +188,7 @@ async def main():
                         category_products.add(pid)
                         product_by_id.setdefault(pid,href)
                         product_categories.setdefault(pid,set()).add(category)
-                    elif "/produkty/" in path:
+                    elif path.startswith("/produkty/produkty/"):
                         clean=href.split("?")[0].rstrip("/")
                         if clean and clean not in seen_pages and clean not in queue and len(queue)<2500:
                             queue.append(clean)
