@@ -1,6 +1,6 @@
 import asyncio, json, os, re
 from datetime import datetime, timezone
-from urllib.parse import urlparse
+from urllib.parse import urlparse, urljoin
 from bs4 import BeautifulSoup
 from app import BASE_URL, open_logged_in_page
 
@@ -9,11 +9,20 @@ MAX_PAGES=int(os.getenv("ALPINUS_MAX_PAGES","45"))
 CONCURRENCY=int(os.getenv("ALPINUS_CONCURRENCY","6"))
 OUTPUT=os.getenv("ALPINUS_OUTPUT_JSONL","/tmp/alpinus_catalog.jsonl")
 
+PRODUCT_ID_RE=re.compile(r"/3-\d+-(\d+)$")
+TEXT_SIZE_RE=re.compile(r"\b(2XL|3XL|4XL|XL|XS|S|M|L)\b",re.I)
+RANGE_SIZE_RE=re.compile(r"\b(3[0-9]|4[0-9]|50)\s*[-/]\s*(3[0-9]|4[0-9]|50)\b")
+NUM_SIZE_RE=re.compile(r"\b(3[4-9]|4[0-9]|50)\b")
+
 def emit(event,payload):
     print(json.dumps({"event":event,"ts":datetime.now(timezone.utc).isoformat(),**payload},ensure_ascii=False,separators=(",",":")),flush=True)
 
 def same_host(url):
     return urlparse(url).netloc==urlparse(BASE_URL).netloc
+
+def supplier_product_id(url):
+    m=PRODUCT_ID_RE.search(urlparse(url).path.lower())
+    return m.group(1) if m else ""
 
 async def safe_goto(page,url,timeout=20000):
     for attempt in range(1,3):
@@ -22,12 +31,40 @@ async def safe_goto(page,url,timeout=20000):
             try: await page.wait_for_selector("body",timeout=6000)
             except Exception: pass
             return True
-        except Exception as exc:
-            if attempt<2:
-                await asyncio.sleep(1)
-            else:
-                raise
+        except Exception:
+            if attempt<2: await asyncio.sleep(1)
+            else: raise
     return False
+
+def normalize_image(src):
+    if not src:
+        return None
+    low=src.lower()
+    if "css/img/" in low or low.endswith(".gif") or "produktpolski" in low:
+        return None
+    if src.startswith("//"):
+        src="https:"+src
+    elif src.startswith("/"):
+        src=urljoin(BASE_URL+"/",src)
+    elif not src.startswith("http"):
+        src=urljoin(BASE_URL+"/",src)
+    return src if "/img/" in src else None
+
+def detect_size(text, qty):
+    text=re.sub(r"\s+"," ",text or "").strip()
+    m=TEXT_SIZE_RE.search(text)
+    if m:
+        return m.group(1).upper()
+    m=RANGE_SIZE_RE.search(text)
+    if m:
+        return f"{m.group(1)}-{m.group(2)}"
+    nums=[int(x) for x in NUM_SIZE_RE.findall(text)]
+    # Never treat the stock number itself as a size. If a nearby distinct
+    # footwear/apparel-sized number exists, use that; otherwise stock is generic.
+    for n in nums:
+        if n != qty:
+            return str(n)
+    return None
 
 def parse_product_html(url, html):
     soup=BeautifulSoup(html,"html.parser")
@@ -44,12 +81,9 @@ def parse_product_html(url, html):
     prices=re.findall(r"(\d+[\.,]\d{2})\s*PLN",body,re.I)
     images=[]
     for img in soup.find_all("img"):
-        src=img.get("src") or img.get("data-src") or img.get("data-original")
-        if src and "/img/" in src:
-            if src.startswith("/"):
-                src=BASE_URL+src
-            if src not in images:
-                images.append(src)
+        src=normalize_image(img.get("src") or img.get("data-src") or img.get("data-original"))
+        if src and src not in images:
+            images.append(src)
 
     size_rows=[]; generic=[]
     candidates=soup.select("[data-stock-value], [data-max], input[max], input[name*=quantity], input[name*=ilosc], input[name*=qty]")
@@ -60,16 +94,19 @@ def parse_product_html(url, html):
         qty=int(qty)
         txt=" ".join(filter(None,[
             el.get_text(" ",strip=True),
-            el.parent.get_text(" ",strip=True) if el.parent else ""
+            el.parent.get_text(" ",strip=True) if el.parent else "",
+            el.get("name") or "",
+            el.get("id") or ""
         ]))
-        m=re.search(r"\b(2XL|3XL|4XL|XL|XS|S|M|L|\d{2}(?:-\d{2})?)\b",txt,re.I)
-        if m:
-            row={"size":m.group(1).upper(),"qty":qty}
+        size=detect_size(txt,qty)
+        if size:
+            row={"size":size,"qty":qty}
             if row not in size_rows:
                 size_rows.append(row)
         else:
             generic.append(qty)
     return {
+        "supplier_product_id":supplier_product_id(url),
         "source_url":url,
         "title":title,
         "symbol":symbol,
@@ -100,8 +137,8 @@ async def main():
     p=browser=context=None
     try:
         p,browser,context,page=await open_logged_in_page()
-        seen_pages=set(); product_urls=[]; queue=[BASE_URL+"/"]
-        while queue and len(seen_pages)<MAX_PAGES and len(product_urls)<MAX_PRODUCTS:
+        seen_pages=set(); product_by_id={}; raw_product_urls=0; queue=[BASE_URL+"/"]
+        while queue and len(seen_pages)<MAX_PAGES and len(product_by_id)<MAX_PRODUCTS:
             url=queue.pop(0)
             if url in seen_pages:
                 continue
@@ -119,35 +156,33 @@ async def main():
                 if not same_host(href):
                     continue
                 path=urlparse(href).path.lower()
-                if re.search(r"/3-\d+-\d+$",path):
-                    if href not in product_urls:
-                        product_urls.append(href)
+                pid=supplier_product_id(href)
+                if pid:
+                    raw_product_urls+=1
+                    product_by_id.setdefault(pid,href)
                 elif any(k in path for k in ["/but","/odzie","/biel","/spod","/kurt","/plecak","/akces","/skarp","/produkt","/term","/obuw"]):
                     if href not in seen_pages and href not in queue and len(queue)<500:
                         queue.append(href)
-            emit("discovery_progress",{"pages":len(seen_pages),"products":len(product_urls),"queue":len(queue)})
+            emit("discovery_progress",{"pages":len(seen_pages),"raw_product_urls":raw_product_urls,"unique_products":len(product_by_id),"queue":len(queue)})
 
-        product_urls=product_urls[:MAX_PRODUCTS]
-        emit("discovery_complete",{"pages":len(seen_pages),"products":len(product_urls)})
+        product_urls=list(product_by_id.values())[:MAX_PRODUCTS]
+        emit("discovery_complete",{"pages":len(seen_pages),"raw_product_urls":raw_product_urls,"unique_products":len(product_urls),"duplicates_removed":max(0,raw_product_urls-len(product_urls))})
 
         q=asyncio.Queue()
         for i,u in enumerate(product_urls,1):
             q.put_nowait((i,u))
-        rows=[]; lock=asyncio.Lock()
-        request_ctx=context.request
+        rows=[]; lock=asyncio.Lock(); request_ctx=context.request
 
         async def worker(worker_id):
             while True:
-                try:
-                    i,url=q.get_nowait()
-                except asyncio.QueueEmpty:
-                    break
+                try: i,url=q.get_nowait()
+                except asyncio.QueueEmpty: break
                 try:
                     row=await fetch_product(request_ctx,url)
-                    async with lock:
-                        rows.append(row)
+                    async with lock: rows.append(row)
                     emit("product_data",{
                         "i":i,"total":len(product_urls),"worker":worker_id,
+                        "supplier_product_id":row["supplier_product_id"],
                         "source_url":row["source_url"],"title":row["title"],"symbol":row["symbol"],
                         "eans":row["eans"],"numeric_stock_rows":row["numeric_stock_rows"],
                         "generic_stock":row["generic_stock"],"prices_pln_detected":row["prices_pln_detected"],
@@ -155,8 +190,7 @@ async def main():
                     })
                 except Exception as exc:
                     emit("product_error",{"i":i,"worker":worker_id,"url":url,"error":f"{type(exc).__name__}: {exc}"})
-                finally:
-                    q.task_done()
+                finally: q.task_done()
 
         await asyncio.gather(*[worker(i) for i in range(1,CONCURRENCY+1)])
 
