@@ -10,6 +10,7 @@ CONCURRENCY=int(os.getenv("ALPINUS_CONCURRENCY","6"))
 OUTPUT=os.getenv("ALPINUS_OUTPUT_JSONL","/tmp/alpinus_catalog.jsonl")
 
 PRODUCT_ID_RE=re.compile(r"/3-\d+-(\d+)$")
+CATALOG_PAGE_RE=re.compile(r"^/produkty/produkty/(?:[^/?#]+/)*2-\d+$", re.I)
 TEXT_SIZE_RE=re.compile(r"\b(2XL|3XL|4XL|XL|XS|S|M|L)\b",re.I)
 RANGE_SIZE_RE=re.compile(r"\b(3[0-9]|4[0-9]|50)\s*[-/]\s*(3[0-9]|4[0-9]|50)\b")
 NUM_SIZE_RE=re.compile(r"\b(3[4-9]|4[0-9]|50)\b")
