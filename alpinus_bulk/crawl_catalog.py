@@ -133,6 +133,33 @@ def parse_product_html(url, html):
                     break
         if gross_b2b_pln:
             break
+    # Verified supplier content blocks (authenticated product page).
+    description_node=soup.select_one(".product-description-ui.product-description-lq")
+    description_text=""
+    description_html=""
+    if description_node:
+        description_text=re.sub(r"\\s+"," ",description_node.get_text(" ",strip=True)).strip()
+        description_html=str(description_node)
+
+    attributes=[]
+    attributes_node=soup.select_one(".product-attributes-ui.product-attributes-js")
+    if attributes_node:
+        # Parse label/value pairs conservatively from table-like rows.
+        for row in attributes_node.select("tr, .table-row-ui, .attribute-row-ui, li"):
+            cells=[re.sub(r"\\s+"," ",x.get_text(" ",strip=True)).strip() for x in row.select("th,td,.name-ui,.value-ui,.attribute-name-ui,.attribute-value-ui")]
+            cells=[x for x in cells if x]
+            if len(cells)>=2:
+                label=cells[0]
+                value=" ".join(cells[1:])
+                pair={"label":label,"value":value}
+                if pair not in attributes:
+                    attributes.append(pair)
+        # Fallback: preserve clean text if markup is not table-like.
+        if not attributes:
+            txt=re.sub(r"\\s+"," ",attributes_node.get_text(" | ",strip=True)).strip()
+            if txt:
+                attributes=[{"label":"raw","value":txt}]
+
     images=[]
     gallery_imgs=soup.select("img.open-gallery-lq")
     for img in gallery_imgs:
@@ -200,6 +227,9 @@ def parse_product_html(url, html):
         "rrp_pln":rrp_pln,
         "b2b_gross_pln":gross_b2b_pln,
         "net_cost_pln":net_cost_pln,
+        "description_text":description_text,
+        "description_html":description_html,
+        "attributes":attributes,
         "images":images[:40],
         "body_excerpt":body[:8000]
     }
@@ -351,6 +381,7 @@ async def main():
                         "variant_rows":row["variant_rows"],"variant_ean_mapping_safe":row["variant_ean_mapping_safe"],
                         "generic_stock":row["generic_stock"],"rrp_pln":row["rrp_pln"],
                         "b2b_gross_pln":row["b2b_gross_pln"],"net_cost_pln":row["net_cost_pln"],
+                        "description_text":row["description_text"],"attributes":row["attributes"],
                         "images":row["images"][:12]
                     })
                 except Exception as exc:
@@ -371,6 +402,8 @@ async def main():
             "with_images":sum(1 for r in rows if r["images"]),
             "with_rrp":sum(1 for r in rows if r["rrp_pln"]),
             "with_net_cost":sum(1 for r in rows if r["net_cost_pln"]),
+            "with_description":sum(1 for r in rows if r["description_text"]),
+            "with_attributes":sum(1 for r in rows if r["attributes"]),
             "with_safe_variant_ean_mapping":sum(1 for r in rows if r["variant_ean_mapping_safe"])
         }
         emit("crawl_summary",{
