@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from app import BASE_URL, open_logged_in_page
 
 MAX_PRODUCTS=int(os.getenv("ALPINUS_MAX_PRODUCTS","600"))
-MAX_PAGES=int(os.getenv("ALPINUS_MAX_PAGES","45"))
+MAX_PAGES=int(os.getenv("ALPINUS_MAX_PAGES","300"))
 CONCURRENCY=int(os.getenv("ALPINUS_CONCURRENCY","6"))
 OUTPUT=os.getenv("ALPINUS_OUTPUT_JSONL","/tmp/alpinus_catalog.jsonl")
 
@@ -137,7 +137,13 @@ async def main():
     p=browser=context=None
     try:
         p,browser,context,page=await open_logged_in_page()
-        seen_pages=set(); product_by_id={}; raw_product_urls=0; queue=[BASE_URL+"/"]
+        seen_pages=set(); product_by_id={}; raw_product_urls=0
+        queue=[
+            BASE_URL+"/produkty/produkty/mezczyzni/2-6",
+            BASE_URL+"/produkty/produkty/kobiety/2-5",
+            BASE_URL+"/produkty/produkty/wyposazenie/2-8",
+            BASE_URL+"/produkty/produkty/dzieci/2-7",
+        ]
         while queue and len(seen_pages)<MAX_PAGES and len(product_by_id)<MAX_PRODUCTS:
             url=queue.pop(0)
             if url in seen_pages:
@@ -160,9 +166,13 @@ async def main():
                 if pid:
                     raw_product_urls+=1
                     product_by_id.setdefault(pid,href)
-                elif any(k in path for k in ["/but","/odzie","/biel","/spod","/kurt","/plecak","/akces","/skarp","/produkt","/term","/obuw"]):
-                    if href not in seen_pages and href not in queue and len(queue)<500:
-                        queue.append(href)
+                elif "/produkty/" in path:
+                    # Traverse the supplier's catalog graph exhaustively from the
+                    # four top-level roots. This catches pagination and nested
+                    # categories without relying on Polish keyword heuristics.
+                    clean=href.split("?")[0].rstrip("/")
+                    if clean and clean not in seen_pages and clean not in queue and len(queue)<2500:
+                        queue.append(clean)
             emit("discovery_progress",{"pages":len(seen_pages),"raw_product_urls":raw_product_urls,"unique_products":len(product_by_id),"queue":len(queue)})
 
         product_urls=list(product_by_id.values())[:MAX_PRODUCTS]
