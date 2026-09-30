@@ -21,6 +21,7 @@ CATEGORY_ROOTS={
     "EQUIPMENT": BASE_URL+"/produkty/produkty/wyposazenie/2-8",
     "KIDS": BASE_URL+"/produkty/produkty/dzieci/2-7",
 }
+CATEGORY_GROUP_IDS={"MEN":"6","WOMEN":"5","EQUIPMENT":"8","KIDS":"7"}
 
 def emit(event,payload):
     print(json.dumps({"event":event,"ts":datetime.now(timezone.utc).isoformat(),**payload},ensure_ascii=False,separators=(",",":")),flush=True)
@@ -159,53 +160,64 @@ async def main():
         category_stats={}
         total_pages=0
 
+        # Deterministic branch discovery: Alpinus pagination is ?pageId=N and
+        # product detail URLs encode the top-level group as /3-{group_id}-{product_id}.
+        # This avoids global navigation links leaking products across categories.
         for category,root in CATEGORY_ROOTS.items():
-            seen_pages=set()
-            queue=[root]
-            raw_links=0
+            group_id=CATEGORY_GROUP_IDS[category]
             category_products=set()
+            raw_links=0
 
-            while queue and total_pages<MAX_PAGES and len(product_by_id)<MAX_PRODUCTS:
-                url=queue.pop(0)
-                if url in seen_pages:
-                    continue
-                seen_pages.add(url)
+            try:
+                first_html=await fetch_html(request_ctx,root,timeout=15000)
+            except Exception as exc:
+                emit("category_discovery_error",{"category":category,"url":root,"error":f"{type(exc).__name__}: {exc}"})
+                category_stats[category]={"pages":0,"raw_product_links":0,"unique_products":0}
+                continue
+
+            first_soup=BeautifulSoup(first_html,"html.parser")
+            first_text=first_soup.get_text(" ",strip=True)
+            page_matches=[int(x) for x in re.findall(r"\\bz\\s+(\\d+)\\b",first_text,re.I)]
+            pages=max(page_matches) if page_matches else 1
+            pages=max(1,min(pages,50))
+
+            for page_num in range(1,pages+1):
+                if total_pages>=MAX_PAGES:
+                    break
+                page_url=root if page_num==1 else f"{root}?pageId={page_num}"
                 total_pages+=1
                 try:
-                    html=await fetch_html(request_ctx,url,timeout=15000)
-                    links=extract_links(url,html)
+                    html=first_html if page_num==1 else await fetch_html(request_ctx,page_url,timeout=15000)
+                    links=extract_links(page_url,html)
                 except Exception as exc:
-                    emit("discovery_page_error",{"category":category,"url":url,"error":f"{type(exc).__name__}: {exc}"})
+                    emit("discovery_page_error",{"category":category,"page":page_num,"url":page_url,"error":f"{type(exc).__name__}: {exc}"})
                     continue
 
+                branch_re=re.compile(rf"/3-{re.escape(group_id)}-(\\d+)$")
                 for href in links:
-                    href=href.split("#")[0]
                     if not same_host(href):
                         continue
-                    path=urlparse(href).path.lower()
-                    pid=supplier_product_id(href)
-                    if pid:
-                        raw_links+=1
-                        category_products.add(pid)
-                        product_by_id.setdefault(pid,href)
-                        product_categories.setdefault(pid,set()).add(category)
-                    elif CATALOG_PAGE_RE.match(path.rstrip("/")):
-                        clean=href.split("?")[0].rstrip("/")
-                        if clean and clean not in seen_pages and clean not in queue and len(queue)<2500:
-                            queue.append(clean)
+                    path=urlparse(href).path.lower().rstrip("/")
+                    m=branch_re.search(path)
+                    if not m:
+                        continue
+                    pid=m.group(1)
+                    raw_links+=1
+                    category_products.add(pid)
+                    product_by_id.setdefault(pid,href.split("?")[0])
+                    product_categories.setdefault(pid,set()).add(category)
 
                 emit("category_discovery_progress",{
                     "category":category,
-                    "category_pages":len(seen_pages),
-                    "total_pages":total_pages,
+                    "page":page_num,
+                    "pages":pages,
                     "raw_product_links":raw_links,
                     "category_unique_products":len(category_products),
-                    "union_unique_products":len(product_by_id),
-                    "queue":len(queue)
+                    "union_unique_products":len(product_by_id)
                 })
 
             category_stats[category]={
-                "pages":len(seen_pages),
+                "pages":pages,
                 "raw_product_links":raw_links,
                 "unique_products":len(category_products)
             }
