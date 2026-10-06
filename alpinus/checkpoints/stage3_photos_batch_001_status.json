@@ -2,16 +2,18 @@
   "stage": "3_original_supplier_photos",
   "batch": 1,
   "report_date": "2026-10-06",
-  "status": "BLOCKED_AUTH_NOT_PERSISTING_TINYFISH_PROFILE",
+  "status": "PARTIAL_49_OF_50_SUPPLIER_THUMBNAILS_ARCHIVED_IN_PRIVATE_GOOGLE_DOC",
   "selected_scope": "First 50 eligible supplier products, original catalog indices 1-59 (not 1-50 contiguous); selection reuses Stage 2 batch 1 verified supplier IDs",
   "totals": {
     "products_in_batch": 50,
     "products_with_original_supplier_source_url": 50,
     "products_with_photos_from_prior_render_crawl": 0,
-    "products_with_verified_photo_urls": 0,
-    "products_with_original_photo_files_stored_privately": 0,
-    "products_with_source_identity_verified": 0,
-    "private_manifest_rows": 50
+    "products_with_verified_photo_urls": 49,
+    "products_with_original_photo_files_stored_privately": 49,
+    "products_with_source_identity_verified": 49,
+    "private_manifest_rows": 50,
+    "verified_image_count": 49,
+    "products_without_any_image": 1
   },
   "diagnostics": {
     "previous_photo_extractor": "Limited img src to '/img/' path and relied primarily on img.open-gallery-lq. Other media/gallery/zoom/source-image patterns were not processed.",
@@ -47,7 +49,29 @@
       "gallery_photo_urls_found": 0,
       "profile_signed_in_sites": [],
       "note": "User reported Save profile, but browser profile listing still has no site sign-in and live authenticated page check redirects to /logowanie/7."
-    }
+    },
+    "render_auth_photo_execution": {
+      "method": "existing Render authorized service, NOT TinyFish",
+      "service_id": "crn-dau3nlek1f9s73a7qpu0",
+      "start_command": "python alpinus/probe.py",
+      "photo_runner": "alpinus_bulk/photo_stage3_once.py",
+      "source_index_scope": "first 50 eligible source products, exact supplier IDs",
+      "reported_products": 50,
+      "photo_files_validated_in_render_tmp": 49,
+      "products_with_downloads": 49,
+      "files_saved_permanently_in_private_google_doc": 49,
+      "missing_product": {
+        "source_catalog_index": 1,
+        "supplier_product_id": "1204",
+        "sku": "SU11922",
+        "problem": "source gallery returned no candidate photos"
+      },
+      "thumbnail_quality_note": "All 49 are /img/small/ (~2-4KB) source thumbnails; high resolution not collected",
+      "render_temp_files_are_permanent": false
+    },
+    "render_cron_flag_disabled": true,
+    "render_cron_flag_reset_deployment": "dep-db2krcui0phs738v3v3g",
+    "render_cron_flag_reset_status": "live"
   },
   "private_manifest": {
     "provider": "Google Drive",
@@ -66,5 +90,15 @@
   },
   "batch_complete": false,
   "next_batch_rule": "Do not claim photo stage progressed to next 50 until source photo extraction and original image bytes have been collected and verified for batch 1.",
-  "next_action": "Authenticate TinyFish Outfish Alpinus B2B browser profile through provider setup, or configure isolated authorized Render execution on recovery branch with private persistent photo archive; then retry only these 50 and verify actual image bytes and product IDs."
+  "next_action": "Resolve missing Arbent SU11922/ID1204 and obtain full-resolution originals; DO NOT mark this batch complete or move to next until verified.",
+  "private_photo_archive": {
+    "provider": "Google Docs (inline image objects, copied by Google from original supplier URLs)",
+    "document_id": "1ULR3NzVFAt_Zy5eST2Sd1Cln9TdH_xLcDbZWCksMqsQ",
+    "folder_id": "14RMSK-P-iWAqPce96RWzDk529iUxC07v",
+    "access": "owner-only",
+    "embedded_image_objects_readback": 49,
+    "distinct_source_uris": 49,
+    "asset_format_validation": "Render byte magic, minimum size and SHA-256 check for each of 49; metadata in Drive archive",
+    "image_quality": "thumbnails only, not source full-resolution"
+  }
 }
