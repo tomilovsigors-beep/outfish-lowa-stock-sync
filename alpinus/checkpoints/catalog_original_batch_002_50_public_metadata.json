@@ -1,0 +1,1226 @@
+{
+  "source": "Render outfish-alpinus-readonly-test logs",
+  "captured_at": "2026-10-06T14:36Z",
+  "batch": "original_run_indices_51_to_100",
+  "supplier_count_at_capture": 439,
+  "sensitive_prices_excluded": true,
+  "products": [
+    {
+      "batch_index": 51,
+      "supplier_product_id": "1028",
+      "source_url": "https://alpinusgroup.com/koszulka-meska-polo-alpinus-sherali-fp11862/3-6-1028",
+      "title": "Koszulka męska polo Alpinus Sherali FP11862",
+      "symbol": "FP11862",
+      "eans": [
+        "5905616118628",
+        "5905616118635",
+        "5905616118642",
+        "5905616118659",
+        "5905616118666",
+        "5905616118673"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 52,
+      "supplier_product_id": "1027",
+      "source_url": "https://alpinusgroup.com/koszulka-meska-polo-alpinus-sherali-fp11856/3-6-1027",
+      "title": "Koszulka męska polo  Alpinus Sherali FP11856",
+      "symbol": "FP11856",
+      "eans": [
+        "5905616118567",
+        "5905616118574",
+        "5905616118581",
+        "5905616118598",
+        "5905616118604",
+        "5905616118611"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 53,
+      "supplier_product_id": "1029",
+      "source_url": "https://alpinusgroup.com/koszulka-meska-polo-alpinus-sherali-fp11868/3-6-1029",
+      "title": "Koszulka męska polo  Alpinus Sherali FP11868",
+      "symbol": "FP11868",
+      "eans": [
+        "5905616118680",
+        "5905616118697",
+        "5905616118703",
+        "5905616118710",
+        "5905616118727",
+        "5905616118734"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 54,
+      "supplier_product_id": "1034",
+      "source_url": "https://alpinusgroup.com/koszulka-meska-alpinus-kitreli-fp11898/3-6-1034",
+      "title": "Koszulka męska  Alpinus Kitreli FP11898",
+      "symbol": "FP11898",
+      "eans": [
+        "5905616118987",
+        "5905616118994",
+        "5905616119007",
+        "5905616119014",
+        "5905616119021",
+        "5905616119038"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 55,
+      "supplier_product_id": "1073",
+      "source_url": "https://alpinusgroup.com/kurtka-meska-2-5-warstwowa-alpinus-girdiman-nq3501/3-6-1073",
+      "title": "Kurtka męska 2,5-warstwowa Alpinus Girdiman NQ35018",
+      "symbol": "NQ35018",
+      "eans": [
+        "5907153350189",
+        "5907153350196",
+        "5907153350202",
+        "5907153350219",
+        "5907153350226",
+        "5907153350233"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 56,
+      "supplier_product_id": "1056",
+      "source_url": "https://alpinusgroup.com/spodnie-trekkingowe-meskie-alpinus-vitorog/3-6-1056",
+      "title": "Spodnie trekkingowe męskie  Alpinus Vitorog",
+      "symbol": "JA11934",
+      "eans": [
+        "5905616119342",
+        "5905616119359",
+        "5905616119366",
+        "5905616119373",
+        "5905616119380",
+        "5905616119397"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 57,
+      "supplier_product_id": "1072",
+      "source_url": "https://alpinusgroup.com/kurtka-meska-2-5-warstwowa-alpinus-girdiman-nq3501/3-6-1072",
+      "title": "Kurtka męska 2,5-warstwowa  Alpinus Girdiman NQ35012",
+      "symbol": "NQ35012",
+      "eans": [
+        "5907153350127",
+        "5907153350134",
+        "5907153350141",
+        "5907153350158",
+        "5907153350165",
+        "5907153350172"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 58,
+      "supplier_product_id": "1016",
+      "source_url": "https://alpinusgroup.com/kurtka-meska-hardshell-alpinus-gedu-nq11680/3-6-1016",
+      "title": "Kurtka męska hardshell 3-warstwowa  Alpinus Gedu\r\nKurtka męska hardshell 3-warstwowa  Alpinus Gedu\r\nKurtka męska hardshell 3-warstwowa  Alpinus Gedu",
+      "symbol": "NQ11680",
+      "eans": [
+        "5905616116808",
+        "5905616116815",
+        "5905616116822",
+        "5905616116839",
+        "5905616116846",
+        "5905616116853"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 59,
+      "supplier_product_id": "1055",
+      "source_url": "https://alpinusgroup.com/sandaly-alpinus-sosneado/3-6-1055",
+      "title": "Sandały  Alpinus Sosneado",
+      "symbol": "GH11425",
+      "eans": [
+        "5905616114255",
+        "5905616114262",
+        "5905616114279",
+        "5905616114286",
+        "5905616114293",
+        "5905616114309",
+        "5905616114316"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 60,
+      "supplier_product_id": "1035",
+      "source_url": "https://alpinusgroup.com/koszulka-meska-alpinus-kitreli-fp11904/3-6-1035",
+      "title": "Koszulka męska  Alpinus Kitreli FP11904",
+      "symbol": "FP11898",
+      "eans": [
+        "5905616119045",
+        "5905616119052",
+        "5905616119069",
+        "5905616119076",
+        "5905616119083",
+        "5905616119090"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 61,
+      "supplier_product_id": "1008",
+      "source_url": "https://alpinusgroup.com/kurtka-meska-softshell-alpinus-stenshuvud-br43371/3-6-1008",
+      "title": "Kurtka męska Softshell Alpinus Stenshuvud BR43371",
+      "symbol": "BR11959",
+      "eans": [
+        "5905616119595",
+        "5905616119601",
+        "5905616119618",
+        "5905616119625",
+        "5905616119632",
+        "5905616119649",
+        "5905616119656"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 62,
+      "supplier_product_id": "990",
+      "source_url": "https://alpinusgroup.com/kurtka-meska-puchowa-alpinus-monviso-yt11537/3-6-990",
+      "title": "Kurtka męska puchowa  Alpinus Monviso YT11537",
+      "symbol": "YT11537",
+      "eans": [
+        "5905616115375",
+        "5905616115382",
+        "5905616115399",
+        "5905616115405",
+        "5905616115412",
+        "5905616115429"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 63,
+      "supplier_product_id": "1015",
+      "source_url": "https://alpinusgroup.com/bluza-termoaktywne-unisex-alpinus-merino-aoraki-gt/3-6-1015",
+      "title": "Bielizna termoaktywna unisex Set Alpinus Merino Aoraki pomarańczowe GT11910",
+      "symbol": "GT11910",
+      "eans": [
+        "5905616119106",
+        "5905616119113",
+        "5905616119120",
+        "5905616119137",
+        "5907153352046",
+        "5907153358352"
+      ],
+      "categories": [
+        "MEN",
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 64,
+      "supplier_product_id": "1000",
+      "source_url": "https://alpinusgroup.com/buty-trekkingowe-alpinus-geres-mid-m-gh11607/3-6-1000",
+      "title": "Buty trekkingowe  Alpinus Geres Mid HDTX GH11607",
+      "symbol": "GH11607",
+      "eans": [
+        "5905616116075",
+        "5905616116082",
+        "5905616116099",
+        "5905616116105",
+        "5905616116112",
+        "5905616116129",
+        "5905616116136",
+        "5905616116143"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 65,
+      "supplier_product_id": "994",
+      "source_url": "https://alpinusgroup.com/bluza-meska-alpinus-naryn-mk11483/3-6-994",
+      "title": "Bluza męska  Alpinus Naryn MK11483",
+      "symbol": "MK11483",
+      "eans": [
+        "5905616114835",
+        "5905616114842",
+        "5905616114859",
+        "5905616114866",
+        "5905616114873",
+        "5905616114880"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 66,
+      "supplier_product_id": "1009",
+      "source_url": "https://alpinusgroup.com/kurtka-meska-softshell-alpinus-pourri/3-6-1009",
+      "title": "Kurtka męska softshell  Alpinus Pourri  FF11976",
+      "symbol": "FF11976",
+      "eans": [
+        "5905616119762",
+        "5905616119779",
+        "5905616119786",
+        "5905616119793",
+        "5905616119809",
+        "5905616119816"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 67,
+      "supplier_product_id": "1014",
+      "source_url": "https://alpinusgroup.com/bluza-termoaktywne-unisex-alpinus-merino-aoraki-gt/3-6-1014",
+      "title": "Bluza termoaktywna unisex Alpinus Merino Aoraki  GT11918",
+      "symbol": "GT11918",
+      "eans": [
+        "5905616119182",
+        "5905616119199",
+        "5905616119205",
+        "5905616119212",
+        "5907153352060",
+        "5907153358369"
+      ],
+      "categories": [
+        "MEN",
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 68,
+      "supplier_product_id": "1010",
+      "source_url": "https://alpinusgroup.com/buty-trekkingowe-alpinus-atawiros-low-mg11632/3-6-1010",
+      "title": "Buty trekkingowe  Alpinus Atawiros Low MG11632",
+      "symbol": "MG11632",
+      "eans": [
+        "5905616116327",
+        "5905616116334",
+        "5905616116341",
+        "5905616116358",
+        "5905616116365",
+        "5905616116372",
+        "5905616116389",
+        "5905616116396"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 69,
+      "supplier_product_id": "1002",
+      "source_url": "https://alpinusgroup.com/buty-trekkingowe-alpinus-geres-low-g11623/3-6-1002",
+      "title": "Buty trekkingowe  Alpinus Geres HDTX  Low G11623",
+      "symbol": "GH11623",
+      "eans": [
+        "5905616116235",
+        "5905616116242",
+        "5905616116259",
+        "5905616116266",
+        "5905616116273",
+        "5905616116280",
+        "5905616116297",
+        "5905616116303"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 70,
+      "supplier_product_id": "989",
+      "source_url": "https://alpinusgroup.com/kurtka-meska-alpinus-furggen-br11461/3-6-989",
+      "title": "Kurtka męska  Alpinus Furggen BR11461",
+      "symbol": "BR11461",
+      "eans": [
+        "5905616114613",
+        "5905616114620",
+        "5905616114637",
+        "5905616114644",
+        "5905616114651",
+        "5905616114668",
+        "5907153351421"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 71,
+      "supplier_product_id": "1003",
+      "source_url": "https://alpinusgroup.com/buty-trekkingowe-alpinus-geres-mid-m-gh11599/3-6-1003",
+      "title": "Buty trekkingowe  Alpinus Geres HDTX Mid GH11599",
+      "symbol": "GH11599",
+      "eans": [
+        "5905616115993",
+        "5905616116006",
+        "5905616116013",
+        "5905616116020",
+        "5905616116037",
+        "5905616116044",
+        "5905616116051",
+        "5905616116068"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 72,
+      "supplier_product_id": "992",
+      "source_url": "https://alpinusgroup.com/kurtka-meska-alpinus-furggen-br11467/3-6-992",
+      "title": "Kurtka męska  Alpinus Furggen BR11467",
+      "symbol": "BR11467",
+      "eans": [
+        "5905616114675",
+        "5905616114682",
+        "5905616114699",
+        "5905616114705",
+        "5905616114712",
+        "5905616116310"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 73,
+      "supplier_product_id": "993",
+      "source_url": "https://alpinusgroup.com/kurtka-meska-puchowa-alpinus-pollux-yt11531/3-6-993",
+      "title": "Kurtka męska puchowa  Alpinus Pollux YT11531",
+      "symbol": "YT11531",
+      "eans": [
+        "5905616115313",
+        "5905616115320",
+        "5905616115337",
+        "5905616115344",
+        "5905616115351",
+        "5905616115368",
+        "5907153356211"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 74,
+      "supplier_product_id": "1007",
+      "source_url": "https://alpinusgroup.com/kurtka-meska-softshell-alpinus-stenshuvud-br43371/3-6-1007",
+      "title": "Kurtka męska Softshell Alpinus Stenshuvud BR43371",
+      "symbol": "BR11952",
+      "eans": [
+        "5905616119526",
+        "5905616119533",
+        "5905616119540",
+        "5905616119557",
+        "5905616119564",
+        "5905616119571",
+        "5905616119588"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 75,
+      "supplier_product_id": "1018",
+      "source_url": "https://alpinusgroup.com/spodnie-trekkingowe-meskie-membrana-alpinus-gomtu/3-6-1018",
+      "title": "Spodnie trekkingowe męskie membrana  Alpinus Gomtu NQ11692",
+      "symbol": "NQ11692",
+      "eans": [
+        "5905616116921",
+        "5905616116938",
+        "5905616116945",
+        "5905616116952",
+        "5905616116969",
+        "5905616116976"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 76,
+      "supplier_product_id": "995",
+      "source_url": "https://alpinusgroup.com/bluza-meska-alpinus-naryn-mk11489/3-6-995",
+      "title": "Bluza męska Alpinus Naryn MK11489",
+      "symbol": "MK11489",
+      "eans": [
+        "5905616114897",
+        "5905616114903",
+        "5905616114910",
+        "5905616114927",
+        "5905616114934",
+        "5905616114941"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 77,
+      "supplier_product_id": "999",
+      "source_url": "https://alpinusgroup.com/plaszcz-zimowy-meski-alpinus-multan-ej11674/3-6-999",
+      "title": "Płaszcz zimowy męski Alpinus Multan EJ11674",
+      "symbol": "EJ11674",
+      "eans": [
+        "5905616116747",
+        "5905616116754",
+        "5905616116761",
+        "5905616116778",
+        "5905616116785",
+        "5905616116792"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 78,
+      "supplier_product_id": "1001",
+      "source_url": "https://alpinusgroup.com/buty-trekkingowe-alpinus-geres-low-m/3-6-1001",
+      "title": "Buty trekkingowe  Alpinus Geres Low HDTX",
+      "symbol": "GH11615",
+      "eans": [
+        "5905616116150",
+        "5905616116167",
+        "5905616116174",
+        "5905616116181",
+        "5905616116198",
+        "5905616116204",
+        "5905616116211",
+        "5905616116228"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 79,
+      "supplier_product_id": "1013",
+      "source_url": "https://alpinusgroup.com/spodnie-termoaktywne-unisex-alpinus-merino-aoraki/3-6-1013",
+      "title": "Spodnie termoaktywne unisex Alpinus Merino Aoraki  GT11914",
+      "symbol": "GT11914",
+      "eans": [
+        "5905616119144",
+        "5905616119151",
+        "5905616119168",
+        "5905616119175",
+        "5907153352053",
+        "5907153358376"
+      ],
+      "categories": [
+        "MEN",
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 80,
+      "supplier_product_id": "1011",
+      "source_url": "https://alpinusgroup.com/buty-trekkingowe-alpinus-atawiros-mid-mg11640/3-6-1011",
+      "title": "Buty trekkingowe  Alpinus Atawiros Mid MG11640",
+      "symbol": "MG11640",
+      "eans": [
+        "5905616116402",
+        "5905616116419",
+        "5905616116426",
+        "5905616116433",
+        "5905616116440",
+        "5905616116457",
+        "5905616116464",
+        "5905616116471",
+        "5905616116488",
+        "5905616116495",
+        "5905616116501",
+        "5905616116518"
+      ],
+      "categories": [
+        "MEN",
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 81,
+      "supplier_product_id": "942",
+      "source_url": "https://alpinusgroup.com/kurtka-meska-softshell-alpinus-lautaro-ff11355/3-6-942",
+      "title": "Kurtka męska softshell  Alpinus Lautaro FF11355",
+      "symbol": "FF11355",
+      "eans": [
+        "5905616113555",
+        "5905616113562",
+        "5905616113579",
+        "5905616113586",
+        "5905616113593",
+        "5905616113609"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 82,
+      "supplier_product_id": "950",
+      "source_url": "https://alpinusgroup.com/skarpety-merino-alpinus-kuldiga-low-fe11666/3-6-950",
+      "title": "Skarpety Merino  Alpinus Kuldiga Low FE11666",
+      "symbol": "FE11666",
+      "eans": [
+        "5905616116662",
+        "5905616116679",
+        "5905616116686"
+      ],
+      "categories": [
+        "MEN",
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 83,
+      "supplier_product_id": "991",
+      "source_url": "https://alpinusgroup.com/kurtka-meska-puchowa-alpinus-monviso-yt11543/3-6-991",
+      "title": "Kurtka męska puchowa  Alpinus Monviso YT11543",
+      "symbol": "YT11543",
+      "eans": [
+        "5905616115436",
+        "5905616115443",
+        "5905616115450",
+        "5905616115467",
+        "5905616115474",
+        "5905616115481"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 84,
+      "supplier_product_id": "968",
+      "source_url": "https://alpinusgroup.com/kurtka-meska-softshell-alpinus-pelat/3-6-968",
+      "title": "Kurtka męska softshell  Alpinus Pelat",
+      "symbol": "MK11513",
+      "eans": [
+        "5905616115139",
+        "5905616115146",
+        "5905616115153",
+        "5905616115160",
+        "5905616115177",
+        "5905616115184"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 85,
+      "supplier_product_id": "953",
+      "source_url": "https://alpinusgroup.com/koszulka-meska-alpinus-kulin-fu11244/3-6-953",
+      "title": "Koszulka męska  Alpinus Kulin FU11244",
+      "symbol": "FU11244",
+      "eans": [
+        "5905616112442",
+        "5905616112459",
+        "5905616112466",
+        "5905616112473",
+        "5905616112480",
+        "5905616112497"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 86,
+      "supplier_product_id": "987",
+      "source_url": "https://alpinusgroup.com/spodnie-termoaktywne-meskie-alpinus-lillehammer-ao/3-6-987",
+      "title": "Spodnie termoaktywne męskie  Alpinus Lillehammer AO11578",
+      "symbol": "AO11578",
+      "eans": [
+        "5905616115788",
+        "5905616115795",
+        "5905616115801",
+        "5905616117072"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 87,
+      "supplier_product_id": "969",
+      "source_url": "https://alpinusgroup.com/kurtka-meska-softshell-alpinus-roignais-mk11519/3-6-969",
+      "title": "Kurtka męska softshell Alpinus Roignais  MK11519",
+      "symbol": "MK11519",
+      "eans": [
+        "5905616115191",
+        "5905616115207",
+        "5905616115214",
+        "5905616115221",
+        "5905616115238",
+        "5905616115245",
+        "5907153354415"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 88,
+      "supplier_product_id": "988",
+      "source_url": "https://alpinusgroup.com/kurtka-meska-softshell-alpinus-pourri-ff11475/3-6-988",
+      "title": "Kurtka męska softshell  Alpinus Pourri  FF11475",
+      "symbol": "FF11475",
+      "eans": [
+        "5905616114750",
+        "5905616114767",
+        "5905616114774",
+        "5905616114781",
+        "5905616114798",
+        "5905616114804"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 89,
+      "supplier_product_id": "957",
+      "source_url": "https://alpinusgroup.com/koszulka-meska-alpinus-tarnica-fu11298/3-6-957",
+      "title": "Koszulka męska Alpinus Tarnica FU11298",
+      "symbol": "FU11298",
+      "eans": [
+        "5905616112985",
+        "5905616112992",
+        "5905616113005",
+        "5905616113012",
+        "5905616113029",
+        "5905616113036"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 90,
+      "supplier_product_id": "976",
+      "source_url": "https://alpinusgroup.com/rekawiczki-jesienno-wiosenne-alpinus-molvik-do1176/3-6-976",
+      "title": "Rękawiczki jesienno/wiosenne  Alpinus Molvik DO11767",
+      "symbol": "DO11767",
+      "eans": [
+        "5905616117126",
+        "5905616117133",
+        "5905616117676",
+        "5905616117683"
+      ],
+      "categories": [
+        "MEN",
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 91,
+      "supplier_product_id": "952",
+      "source_url": "https://alpinusgroup.com/kurtka-meska-3-warstwowa-alpinus-nookat-mk11325/3-6-952",
+      "title": "Kurtka męska 3-warstwowa  Alpinus Nookat MK11325",
+      "symbol": "MK11325",
+      "eans": [
+        "5905616113258",
+        "5905616113265",
+        "5905616113272",
+        "5905616113289",
+        "5905616113296",
+        "5905616113302"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 92,
+      "supplier_product_id": "967",
+      "source_url": "https://alpinusgroup.com/kurtka-meska-softshell-alpinus-pelat-mk11507/3-6-967",
+      "title": "Kurtka męska softshell  Alpinus Pelat MK11507",
+      "symbol": "MK11507",
+      "eans": [
+        "5905616115078",
+        "5905616115085",
+        "5905616115092",
+        "5905616115108",
+        "5905616115115",
+        "5905616115122"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 93,
+      "supplier_product_id": "956",
+      "source_url": "https://alpinusgroup.com/koszulka-meska-alpinus-mersmel-fu11274/3-6-956",
+      "title": "Koszulka męska  Alpinus Mersmel  FU11274",
+      "symbol": "FU11274",
+      "eans": [
+        "5905616112749",
+        "5905616112756",
+        "5905616112763",
+        "5905616112770",
+        "5905616112787",
+        "5905616112794"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 94,
+      "supplier_product_id": "945",
+      "source_url": "https://alpinusgroup.com/spodnie-trekkingowe-alpinus-dekan-mk11331/3-6-945",
+      "title": "Spodnie trekkingowe męskie  Alpinus Dekan MK11331",
+      "symbol": "MK11331",
+      "eans": [
+        "5905616113319",
+        "5905616113326",
+        "5905616113333",
+        "5905616113340",
+        "5905616113357",
+        "5905616113364"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 95,
+      "supplier_product_id": "977",
+      "source_url": "https://alpinusgroup.com/kurtka-meska-puchowa-alpinus-gilgit/3-6-977",
+      "title": "Kurtka męska puchowa  Alpinus Gilgit",
+      "symbol": "YT11559",
+      "eans": [
+        "5905616115597",
+        "5905616115603",
+        "5905616115610",
+        "5905616115627",
+        "5905616115634",
+        "5905616115641"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 96,
+      "supplier_product_id": "986",
+      "source_url": "https://alpinusgroup.com/bluza-termoaktywna-meska-alpinus-lillehammer-ao115/3-6-986",
+      "title": "Bluza termoaktywna męska Alpinus Lillehammer AO11575",
+      "symbol": "AO11575",
+      "eans": [
+        "5905616115757",
+        "5905616115764",
+        "5905616115771",
+        "5905616117065"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 97,
+      "supplier_product_id": "951",
+      "source_url": "https://alpinusgroup.com/skarpety-merino-alpinus-kuldiga-fe11671/3-6-951",
+      "title": "Skarpety Merino  Alpinus Kuldiga FE11671",
+      "symbol": "FE11671",
+      "eans": [
+        "5905616116716",
+        "5905616116723",
+        "5905616116730"
+      ],
+      "categories": [
+        "MEN",
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 98,
+      "supplier_product_id": "947",
+      "source_url": "https://alpinusgroup.com/kamizelka-polarowa-meska-alpinus-voio-mk11438/3-6-947",
+      "title": "Kamizelka polarowa męska  Alpinus Voio MK11438",
+      "symbol": "MK11438",
+      "eans": [
+        "5905616114385",
+        "5905616114392",
+        "5905616114408",
+        "5905616114415",
+        "5905616114422",
+        "5905616114439"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 99,
+      "supplier_product_id": "955",
+      "source_url": "https://alpinusgroup.com/koszulka-meska-alpinus-mersmel-fu11262/3-6-955",
+      "title": "Koszulka męska  Alpinus Mersmel  FU11262",
+      "symbol": "FU11262",
+      "eans": [
+        "5905616112626",
+        "5905616112633",
+        "5905616112640",
+        "5905616112657",
+        "5905616112664",
+        "5905616112671"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 100,
+      "supplier_product_id": "954",
+      "source_url": "https://alpinusgroup.com/koszulka-meska-alpinus-patkhor-fu11256/3-6-954",
+      "title": "Koszulka męska Alpinus Patkhor FU11256",
+      "symbol": "FU11256",
+      "eans": [
+        "5905616112565",
+        "5905616112572",
+        "5905616112589",
+        "5905616112596",
+        "5905616112602",
+        "5905616112619"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    }
+  ]
+}
