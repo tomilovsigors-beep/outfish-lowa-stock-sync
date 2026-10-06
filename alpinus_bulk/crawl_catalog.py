@@ -3,6 +3,7 @@ from datetime import datetime, timezone
 from urllib.parse import urlparse, urljoin
 from bs4 import BeautifulSoup
 from app import BASE_URL, open_logged_in_page
+from alpinus_bulk.photo_gallery import extract_image_urls
 
 MAX_PRODUCTS=min(50,int(os.getenv("ALPINUS_MAX_PRODUCTS","50")))
 START_INDEX=int(os.getenv("ALPINUS_START_INDEX","0"))
@@ -163,18 +164,9 @@ def parse_product_html(url, html):
             if txt:
                 attributes=[{"label":"raw","value":txt}]
 
-    images=[]
-    gallery_imgs=soup.select("img.open-gallery-lq")
-    for img in gallery_imgs:
-        src=normalize_image(img.get("src") or img.get("data-src") or img.get("data-original"))
-        if src and src not in images:
-            images.append(src)
-    # Fallback for pages whose gallery class is missing in raw HTML.
-    if not images:
-        for img in soup.find_all("img"):
-            src=normalize_image(img.get("src") or img.get("data-src") or img.get("data-original"))
-            if src and src not in images:
-                images.append(src)
+    # Gallery candidate discovery is not proof of successful download.
+    # Capture image URLs while the supplier session is authenticated.
+    images=extract_image_urls(html, url, max_images=40)
 
     size_rows=[]; generic=[]
     candidates=soup.select("[data-stock-value], [data-max], input[max], input[name*=quantity], input[name*=ilosc], input[name*=qty]")
