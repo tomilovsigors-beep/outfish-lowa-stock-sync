@@ -1,0 +1,810 @@
+{
+  "batch": "catalog_original_batch_006_50",
+  "snapshot_date": "2026-10-06",
+  "shopify_vendor_products_checked": 145,
+  "shopify_active_products_seen": 31,
+  "shopify_draft_products_seen": 114,
+  "fx_pln_to_eur": 0.228725,
+  "fx_timestamp": "2026-10-06T15:38:00Z",
+  "pricing": "Supplier RRP PLN x PLN/EUR FX rounded to nearest whole EUR",
+  "checks": "Full Shopify vendor:Alpinus pagination, supplier SKU, all EAN vs variant SKU/barcode, distinctive model overlap, 20 EUR retail minimum",
+  "counts": {
+    "ELIGIBLE_CANDIDATE": 37,
+    "SKIP_UNDER_20": 2,
+    "KEEP_ACTIVE": 4,
+    "HOLD_VARIANT_IDENTITY": 2,
+    "COMPLETE_DRAFT": 5
+  },
+  "changes_to_shopify": 0,
+  "exceptions": "Products eligible for further processing only; existing Active not altered; supplier EAN-size mapping, original photos and costs pending",
+  "rows": [
+    {
+      "batch_index": 251,
+      "supplier_product_id": "984",
+      "symbol": "AO11581",
+      "title": "Bluza termoaktywna damska   Alpinus Lillehammer  AO11581",
+      "model": "Lillehammer",
+      "retail_eur": 36,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 252,
+      "supplier_product_id": "1151",
+      "symbol": "FP35477",
+      "title": "Koszulka damska Alpinus Dirna FP35477",
+      "model": "Dirna",
+      "retail_eur": 18,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/10751282479442",
+          "status": "ACTIVE",
+          "title": "Women’s T-Shirt – Alpinus Dirna"
+        },
+        {
+          "id": "gid://shopify/Product/10751316984146",
+          "status": "ACTIVE",
+          "title": "Women’s T-Shirt – Alpinus Dirna – Pink"
+        }
+      ]
+    },
+    {
+      "batch_index": 253,
+      "supplier_product_id": "997",
+      "symbol": "MK11501",
+      "title": "Bluza damska Alpinus UBA, MK11501",
+      "model": "UBA",
+      "retail_eur": 64,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 254,
+      "supplier_product_id": "943",
+      "symbol": "FF11349",
+      "title": "Kurtka damska softshell  Alpinus Majadita",
+      "model": "Majadita",
+      "retail_eur": 68,
+      "decision": "KEEP_ACTIVE",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/10750985503058",
+          "status": "ACTIVE",
+          "title": "Women’s Softshell Jacket – Alpinus Majadita – DWR – 480 g",
+          "reasons": [
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/10750985503058",
+          "status": "ACTIVE",
+          "title": "Women’s Softshell Jacket – Alpinus Majadita – DWR – 480 g"
+        }
+      ]
+    },
+    {
+      "batch_index": 255,
+      "supplier_product_id": "981",
+      "symbol": "JI11571",
+      "title": "Bielizna termoaktywna damska  Alpinus Verbier Set",
+      "model": "Verbier",
+      "retail_eur": 46,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 256,
+      "supplier_product_id": "885",
+      "symbol": "MK18858",
+      "title": "Kurtka damska softshell Alpinus Minthi MK18858",
+      "model": "Minthi",
+      "retail_eur": 91,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 257,
+      "supplier_product_id": "944",
+      "symbol": "FF11361",
+      "title": "Spodenki trekkingowe damskie  Alpinus Ajribaba FF11361",
+      "model": "Ajribaba",
+      "retail_eur": 46,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 258,
+      "supplier_product_id": "879",
+      "symbol": "MK18827",
+      "title": "Kurtka damska 3-warstwowa Alpinus Gingera MK18827",
+      "model": "Gingera",
+      "retail_eur": 137,
+      "decision": "KEEP_ACTIVE",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/10750929764690",
+          "status": "ACTIVE",
+          "title": "Women’s 3-Layer Rain Jacket – Alpinus Gingera – 10,000 mm – 470 g",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/10750929764690",
+          "status": "ACTIVE",
+          "title": "Women’s 3-Layer Rain Jacket – Alpinus Gingera – 10,000 mm – 470 g"
+        }
+      ]
+    },
+    {
+      "batch_index": 259,
+      "supplier_product_id": "949",
+      "symbol": "SI11182",
+      "title": "Koszulka damska  Alpinus Tulamba",
+      "model": "Tulamba",
+      "retail_eur": 18,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 260,
+      "supplier_product_id": "985",
+      "symbol": "AO11584",
+      "title": "Spodnie termoaktywne damskie   Alpinus Lillehammer  AO11584",
+      "model": "Lillehammer",
+      "retail_eur": 30,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 261,
+      "supplier_product_id": "980",
+      "symbol": "BR11660",
+      "title": "Płaszcz zimowy damski  Alpinus Iparla BR11660",
+      "model": "Iparla",
+      "retail_eur": 121,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 262,
+      "supplier_product_id": "340",
+      "symbol": "SI8922",
+      "title": "Bielizna termoaktywna dla chłopców Alpinus Gausdal Set SI8922",
+      "model": "Gausdal",
+      "retail_eur": 36,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 263,
+      "supplier_product_id": "622",
+      "symbol": "YT18748",
+      "title": "Kurtka damska puchowa Alpinus Cortina YT18748",
+      "model": "Cortina",
+      "retail_eur": 148,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 264,
+      "supplier_product_id": "862",
+      "symbol": "SF11041",
+      "title": "Kurtka damska Alpinus Tunari SF11041",
+      "model": "Tunari",
+      "retail_eur": 80,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 265,
+      "supplier_product_id": "343",
+      "symbol": "SI8933",
+      "title": "Spodnie termoaktywne damskie Alpinus Mora SI8933",
+      "model": "Mora",
+      "retail_eur": 23,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 266,
+      "supplier_product_id": "347",
+      "symbol": "SI1023",
+      "title": "Bielizna termoaktywna dla chłopców Alpinus Idre Set SI1023",
+      "model": "Idre",
+      "retail_eur": 32,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 267,
+      "supplier_product_id": "623",
+      "symbol": "YT18753",
+      "title": "Kurtka puchowa damska Alpinus Rocca YT18753",
+      "model": "Rocca",
+      "retail_eur": 160,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 268,
+      "supplier_product_id": "353",
+      "symbol": "FF18601",
+      "title": "Spodnie trekkingowe damskie Alpinus Marmore czarne FF18601",
+      "model": "Marmore",
+      "retail_eur": 46,
+      "decision": "HOLD_VARIANT_IDENTITY",
+      "reason": "possible existing product with shared model name",
+      "exact_matches": [],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/10751068963154",
+          "status": "ACTIVE",
+          "title": "Women’s Trekking Pants – Alpinus Marmore – UPF 50+ / Quick-Dry / 4-Way Stretch – 250 g"
+        }
+      ]
+    },
+    {
+      "batch_index": 269,
+      "supplier_product_id": "342",
+      "symbol": "SI8929",
+      "title": "Bluza termoaktywna damska Alpinus Mora SI8929",
+      "model": "Mora",
+      "retail_eur": 27,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 270,
+      "supplier_product_id": "675",
+      "symbol": "HO18774",
+      "title": "Kurtka damska  Alpinus Katla",
+      "model": "Katla",
+      "retail_eur": 91,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 271,
+      "supplier_product_id": "851",
+      "symbol": "MK18801",
+      "title": "Koszulka damska Alpinus Bona MK18801",
+      "model": "Bona",
+      "retail_eur": 23,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 272,
+      "supplier_product_id": "344",
+      "symbol": "SI8937",
+      "title": "Bielizna termoaktywna dla dziewczynek  Alpinus Mora Set SI8937",
+      "model": "Mora",
+      "retail_eur": 39,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 273,
+      "supplier_product_id": "617",
+      "symbol": "SU18768",
+      "title": "Spodnie trekkingowe damskie Alpinus Socompa  SU18768",
+      "model": "Socompa",
+      "retail_eur": 75,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 274,
+      "supplier_product_id": "702",
+      "symbol": "EL18666",
+      "title": "Bluza polarowa damska Alpinus Grivola EL18666",
+      "model": "Grivola",
+      "retail_eur": 80,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 275,
+      "supplier_product_id": "341",
+      "symbol": "SI8925",
+      "title": "Bielizna termoaktywna damska  Alpinus Mora Set SI8925",
+      "model": "Mora",
+      "retail_eur": 48,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 276,
+      "supplier_product_id": "329",
+      "symbol": "GT43210",
+      "title": "Bluza termoaktywna damska Alpinus Tactical Base Layer czarno-niebieska GT43210",
+      "model": "Tactical",
+      "retail_eur": 36,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 277,
+      "supplier_product_id": "333",
+      "symbol": "GT43230",
+      "title": "Bluza termoaktywna damska Alpinus Pro Miyabi Edition szara GT43230",
+      "model": "Pro",
+      "retail_eur": 46,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 278,
+      "supplier_product_id": "331",
+      "symbol": "GT43185",
+      "title": "Spodnie termoaktywne damskie Alpinus Active Base Layer czarno-szare GT43185",
+      "model": "Active",
+      "retail_eur": 23,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 279,
+      "supplier_product_id": "334",
+      "symbol": "GT43235",
+      "title": "Spodnie termoaktywne damskie Alpinus Pro Miyabi Edition szare GT43235",
+      "model": "Pro",
+      "retail_eur": 36,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 280,
+      "supplier_product_id": "318",
+      "symbol": "GT43204",
+      "title": "Bielizna termoaktywna dla dzieci Alpinus Active Set czarno-szara GT43204",
+      "model": "Active",
+      "retail_eur": 43,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 281,
+      "supplier_product_id": "330",
+      "symbol": "GT43180",
+      "title": "Bluza termoaktywna damska Alpinus Active Base Layer czarno-szara GT43180",
+      "model": "Active",
+      "retail_eur": 32,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 282,
+      "supplier_product_id": "328",
+      "symbol": "GT43253",
+      "title": "Bielizna termoaktywna damska Alpinus Active Base Layer Set GT43253",
+      "model": "Active",
+      "retail_eur": 57,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 283,
+      "supplier_product_id": "216",
+      "symbol": "BR18186",
+      "title": "Kurtka damska Softshell Alpinus Bergamo szary BR18186",
+      "model": "Bergamo",
+      "retail_eur": 64,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 284,
+      "supplier_product_id": "212",
+      "symbol": "GT18290",
+      "title": "Koszulka damska funkcyjna Alpinus Misurina grafitowa GT18290",
+      "model": "Misurina",
+      "retail_eur": 32,
+      "decision": "HOLD_VARIANT_IDENTITY",
+      "reason": "possible existing product with shared model name",
+      "exact_matches": [],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/10751348506962",
+          "status": "ACTIVE",
+          "title": "Women’s Quick-Dry T-Shirt – Alpinus Misurina – Nilit Sensil® Breeze Cooling – Graphite"
+        }
+      ]
+    },
+    {
+      "batch_index": 285,
+      "supplier_product_id": "237",
+      "symbol": "ST18338",
+      "title": "Czapka Alpinus Sompion ST18338",
+      "model": "Sompion",
+      "retail_eur": 23,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 286,
+      "supplier_product_id": "214",
+      "symbol": "BR18178",
+      "title": "Kamizelka damska Alpinus Monza mięta BR18178",
+      "model": "Monza",
+      "retail_eur": 57,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 287,
+      "supplier_product_id": "234",
+      "symbol": "ST18335",
+      "title": "Czapka Alpinus Luosto ST18335",
+      "model": "Luosto",
+      "retail_eur": 25,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 288,
+      "supplier_product_id": "236",
+      "symbol": "ST18337",
+      "title": "Czapka  Alpinus Sompion ST18337",
+      "model": "Sompion",
+      "retail_eur": 23,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 289,
+      "supplier_product_id": "235",
+      "symbol": "ST18336",
+      "title": "Czapka Alpinus Luosto ST18336",
+      "model": "Luosto",
+      "retail_eur": 25,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 290,
+      "supplier_product_id": "215",
+      "symbol": "BR18182",
+      "title": "Kurtka damska Softshell Alpinus Bergamo pudrowy róż BR18182",
+      "model": "Bergamo",
+      "retail_eur": 64,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 291,
+      "supplier_product_id": "232",
+      "symbol": "ST18333",
+      "title": "Czapka Alpinus Autiola ST18333",
+      "model": "Autiola",
+      "retail_eur": 23,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191419437394",
+          "status": "DRAFT",
+          "title": "Alpinus Autiola Hat",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191419437394",
+          "status": "DRAFT",
+          "title": "Alpinus Autiola Hat"
+        }
+      ]
+    },
+    {
+      "batch_index": 292,
+      "supplier_product_id": "213",
+      "symbol": "BR18174",
+      "title": "Kamizelka damska Alpinus Monza grafit BR18174",
+      "model": "Monza",
+      "retail_eur": 57,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 293,
+      "supplier_product_id": "257",
+      "symbol": "GT18370",
+      "title": "Bielizna termoaktywna damska Alpinus Tactical Base Layer Set czarno-szara GT18370",
+      "model": "Tactical",
+      "retail_eur": 57,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 294,
+      "supplier_product_id": "258",
+      "symbol": "GT18362",
+      "title": "Bluza termoaktywna damska Alpinus Tactical Base Layer czarno-szara GT18362",
+      "model": "Tactical",
+      "retail_eur": 36,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 295,
+      "supplier_product_id": "1192",
+      "symbol": "PO35502",
+      "title": "Plecak  Alpinus Oliero 22",
+      "model": "Oliero",
+      "retail_eur": 68,
+      "decision": "KEEP_ACTIVE",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11023244820818",
+          "status": "ACTIVE",
+          "title": "Hiking Daypack – Alpinus OLIERO 22 – 22 L – 560 g",
+          "reasons": [
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11023244820818",
+          "status": "ACTIVE",
+          "title": "Hiking Daypack – Alpinus OLIERO 22 – 22 L – 560 g"
+        },
+        {
+          "id": "gid://shopify/Product/11191039557970",
+          "status": "DRAFT",
+          "title": "Alpinus Oliero 22 Backpack"
+        }
+      ]
+    },
+    {
+      "batch_index": 296,
+      "supplier_product_id": "1203",
+      "symbol": "NH35623",
+      "title": "Plecak  Alpinus Toulouse 20 NH35623",
+      "model": "Toulouse",
+      "retail_eur": 36,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191039197522",
+          "status": "DRAFT",
+          "title": "Alpinus Toulouse 20 Backpack",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191039197522",
+          "status": "DRAFT",
+          "title": "Alpinus Toulouse 20 Backpack"
+        },
+        {
+          "id": "gid://shopify/Product/11191277977938",
+          "status": "DRAFT",
+          "title": "Alpinus Toulouse 28 Backpack"
+        }
+      ]
+    },
+    {
+      "batch_index": 297,
+      "supplier_product_id": "1181",
+      "symbol": "NH35484",
+      "title": "Plecak  Alpinus Lecco 25",
+      "model": "Lecco",
+      "retail_eur": 41,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191098638674",
+          "status": "DRAFT",
+          "title": "Alpinus Lecco 25 Backpack",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191098638674",
+          "status": "DRAFT",
+          "title": "Alpinus Lecco 25 Backpack"
+        },
+        {
+          "id": "gid://shopify/Product/11191098868050",
+          "status": "DRAFT",
+          "title": "Alpinus Lecco 15 Backpack"
+        },
+        {
+          "id": "gid://shopify/Product/11191168303442",
+          "status": "DRAFT",
+          "title": "Alpinus Lecco 30 Backpack"
+        }
+      ]
+    },
+    {
+      "batch_index": 298,
+      "supplier_product_id": "1168",
+      "symbol": "LO35275",
+      "title": "Namiot Garda 3 LO35275",
+      "model": "",
+      "retail_eur": 148,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191097885010",
+          "status": "DRAFT",
+          "title": "Alpinus Garda 3 Tent",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 299,
+      "supplier_product_id": "1142",
+      "symbol": "NH35265",
+      "title": "Torba  Alpinus Avila 60 NH35265",
+      "model": "Avila",
+      "retail_eur": 41,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191099031890",
+          "status": "DRAFT",
+          "title": "Alpinus Avila 60 Travel Bag",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191099031890",
+          "status": "DRAFT",
+          "title": "Alpinus Avila 60 Travel Bag"
+        },
+        {
+          "id": "gid://shopify/Product/11191134650706",
+          "status": "DRAFT",
+          "title": "Alpinus Avila 60 Travel Bag"
+        }
+      ]
+    },
+    {
+      "batch_index": 300,
+      "supplier_product_id": "1185",
+      "symbol": "NH11723",
+      "title": "Plecak  Alpinus Teno 24 NH11723",
+      "model": "Teno",
+      "retail_eur": 75,
+      "decision": "KEEP_ACTIVE",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11023320219986",
+          "status": "ACTIVE",
+          "title": "Hiking Backpack – Alpinus TENO 24 – 24 L – 950 g",
+          "reasons": [
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11023320219986",
+          "status": "ACTIVE",
+          "title": "Hiking Backpack – Alpinus TENO 24 – 24 L – 950 g"
+        },
+        {
+          "id": "gid://shopify/Product/11191015702866",
+          "status": "DRAFT",
+          "title": "Alpinus Teno 24 Backpack"
+        }
+      ]
+    }
+  ]
+}
