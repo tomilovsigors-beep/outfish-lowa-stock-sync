@@ -1,0 +1,105 @@
+{
+  "stage": "2_original_source_descriptions",
+  "status": "COMPLETE",
+  "date": "2026-10-06",
+  "eligible_scope": "ELIGIBLE_CANDIDATE 231 + COMPLETE_DRAFT 71 from read-only supplier-to-Shopify reconciliation",
+  "totals": {
+    "supplier_catalog_products": 439,
+    "eligible_for_originals": 302,
+    "originals_stored_and_verified": 302,
+    "unique_supplier_ids": 302,
+    "unique_catalog_positions": 302,
+    "original_description_sections": 302,
+    "original_attribute_sections": 302,
+    "ean_and_sku_sections": 302,
+    "source_size_and_stock_sections": 302,
+    "private_drive_documents": 7,
+    "batches_completed": 7,
+    "shopify_mutations": 0
+  },
+  "storage": {
+    "provider": "Google Drive",
+    "folder_id": "14RMSK-P-iWAqPce96RWzDk529iUxC07v",
+    "sharing": "private, owner only (verified)",
+    "note": "Original supplier Polish copy, attributes, SKU/EAN and source inventory rows live ONLY in private Drive docs; not in this public GitHub report."
+  },
+  "batches": [
+    {
+      "batch": 1,
+      "processed_products": 50,
+      "source_index_start": 1,
+      "source_index_end": 59,
+      "control_checkpoint": "alpinus/checkpoints/stage2_originals_batch_001_50_status.json",
+      "drive_document_id": "1Mb6YOhd8ZiZ3Jb1rkKhHTzrFFVl5891kt8OERDJrl98",
+      "readback_verified": true
+    },
+    {
+      "batch": 2,
+      "processed_products": 50,
+      "source_index_start": 60,
+      "source_index_end": 121,
+      "control_checkpoint": "alpinus/checkpoints/stage2_originals_batch_002_50_status.json",
+      "drive_document_id": "1xJ9W69gUY2Xjb9u0t202ktnDHrSlVmhDVcyDfuREOYw",
+      "readback_verified": true
+    },
+    {
+      "batch": 3,
+      "processed_products": 50,
+      "source_index_start": 122,
+      "source_index_end": 195,
+      "control_checkpoint": "alpinus/checkpoints/stage2_originals_batch_003_50_status.json",
+      "drive_document_id": "1om2HmjAzoWMFsdHnozcE0yp9qYC-fAGoJZ_DjDhUTgo",
+      "readback_verified": true
+    },
+    {
+      "batch": 4,
+      "processed_products": 50,
+      "source_index_start": 196,
+      "source_index_end": 269,
+      "control_checkpoint": "alpinus/checkpoints/stage2_originals_batch_004_50_status.json",
+      "drive_document_id": "1g0pMRpGMw8IDCa5Eu0Yw9i3_0DX3zU9J-B-QWdX9R3o",
+      "readback_verified": true
+    },
+    {
+      "batch": 5,
+      "processed_products": 50,
+      "source_index_start": 270,
+      "source_index_end": 339,
+      "control_checkpoint": "alpinus/checkpoints/stage2_originals_batch_005_50_status.json",
+      "drive_document_id": "1DQQG8_Jydp9VkoFqZ14wLmlaEwOIgtfyYTZp6K5qQFM",
+      "readback_verified": true
+    },
+    {
+      "batch": 6,
+      "processed_products": 50,
+      "source_index_start": 340,
+      "source_index_end": 423,
+      "control_checkpoint": "alpinus/checkpoints/stage2_originals_batch_006_50_status.json",
+      "drive_document_id": "1MhKhCPQuxXJN6FCSbyf0R_VmOtQWklRyl11w54mo-Ds",
+      "readback_verified": true
+    },
+    {
+      "batch": 7,
+      "processed_products": 2,
+      "source_index_start": 424,
+      "source_index_end": 428,
+      "control_checkpoint": "alpinus/checkpoints/stage2_originals_batch_007_2_status.json",
+      "drive_document_id": "1if47D9L5K-J0gO7aWtk96UgCDF48vQsckZASpD37mkc",
+      "readback_verified": true
+    }
+  ],
+  "validation": {
+    "all_checkpoint_rows": 302,
+    "unique_product_ids": 302,
+    "unique_index_positions": 302,
+    "all_batches_readback_verified": true,
+    "folder_access_confirmed_private": true
+  },
+  "shopify_changes": {
+    "created": 0,
+    "updated": 0,
+    "deleted": 0
+  },
+  "next_stage": "3_original_supplier_product_photographs",
+  "photo_caveat": "Previous original supplier crawl extracted no image URLs. Stage 3 requires repairing source photo extraction and verifying image identity per product before any Shopify upload; 50 items maximum per batch."
+}
