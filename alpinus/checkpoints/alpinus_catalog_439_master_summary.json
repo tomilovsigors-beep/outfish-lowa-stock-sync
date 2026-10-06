@@ -1,0 +1,382 @@
+{
+  "title": "Alpinus to Outfish — complete read-only catalog reconciliation (439 supplier products)",
+  "date": "2026-10-06",
+  "status": "PHASE_1_RECONCILIATION_COMPLETE_IMPORT_NOT_STARTED",
+  "repository_branch": "alpinus-batched-import-recovery",
+  "source": "Render crawl event product_data, supplier catalog captured 2026-10-06 14:36–14:37Z",
+  "scope": "Supplier products 1–439, 9 batches. Shopify vendor:Alpinus products read-only, including Active and Draft, latest observed 145",
+  "verification": {
+    "supplier_total": 439,
+    "rows_in_nine_reports": 439,
+    "unique_supplier_product_id": 439,
+    "unique_batch_indices": 439,
+    "complete_index_1_through_439": true,
+    "batch_count": 9
+  },
+  "decision_counts": {
+    "ELIGIBLE_CANDIDATE": 231,
+    "HOLD_VARIANT_IDENTITY": 22,
+    "SKIP_UNDER_20": 99,
+    "KEEP_ACTIVE": 12,
+    "COMPLETE_DRAFT": 71,
+    "HOLD_PRICE": 4
+  },
+  "classification_notes": {
+    "ELIGIBLE_CANDIDATE": "Not found by current exact SKU / EAN / model-name checks. These are candidates only; they are not approved to create Shopify records without variant/EAN verification, stock and photo gates.",
+    "COMPLETE_DRAFT": "Existing Shopify Draft found by exact SKU/EAN; complete it rather than recreate.",
+    "KEEP_ACTIVE": "Existing Shopify Active found by exact SKU/EAN; no content/status modifications allowed.",
+    "SKIP_UNDER_20": "Supplier RRP converted PLN to EUR at 0.228725, rounded whole EUR, under EUR20 excluded from processing; existing Shopify records unaffected.",
+    "HOLD_VARIANT_IDENTITY": "Model-name collision requires manual distinguishing sizes, color and supplier ID; never merge automatically.",
+    "HOLD_PRICE": "Cannot determine RRP in supplier data, do not create or change product."
+  },
+  "price_assumptions": {
+    "min_retail_eur": 20,
+    "fx_pln_to_eur": 0.228725,
+    "fx_as_of": "2026-10-06T15:38:00Z",
+    "retail_rounding": "nearest whole EUR",
+    "warning": "FX and RRP are snapshots. Revalidate before Shopify writes; existing price protection applies."
+  },
+  "batch_breakdown": [
+    {
+      "batch": 1,
+      "range": "1-50",
+      "total": 50,
+      "counts": {
+        "ELIGIBLE_CANDIDATE": 41,
+        "HOLD_VARIANT_IDENTITY": 2,
+        "SKIP_UNDER_20": 6,
+        "KEEP_ACTIVE": 1
+      }
+    },
+    {
+      "batch": 2,
+      "range": "51-100",
+      "total": 50,
+      "counts": {
+        "ELIGIBLE_CANDIDATE": 46,
+        "HOLD_VARIANT_IDENTITY": 2,
+        "SKIP_UNDER_20": 2
+      }
+    },
+    {
+      "batch": 3,
+      "range": "101-150",
+      "total": 50,
+      "counts": {
+        "SKIP_UNDER_20": 16,
+        "ELIGIBLE_CANDIDATE": 34
+      }
+    },
+    {
+      "batch": 4,
+      "range": "151-200",
+      "total": 50,
+      "counts": {
+        "ELIGIBLE_CANDIDATE": 34,
+        "SKIP_UNDER_20": 16
+      }
+    },
+    {
+      "batch": 5,
+      "range": "201-250",
+      "total": 50,
+      "counts": {
+        "ELIGIBLE_CANDIDATE": 31,
+        "SKIP_UNDER_20": 8,
+        "HOLD_VARIANT_IDENTITY": 7,
+        "KEEP_ACTIVE": 4
+      }
+    },
+    {
+      "batch": 6,
+      "range": "251-300",
+      "total": 50,
+      "counts": {
+        "ELIGIBLE_CANDIDATE": 37,
+        "SKIP_UNDER_20": 2,
+        "KEEP_ACTIVE": 4,
+        "HOLD_VARIANT_IDENTITY": 2,
+        "COMPLETE_DRAFT": 5
+      }
+    },
+    {
+      "batch": 7,
+      "range": "301-350",
+      "total": 50,
+      "counts": {
+        "COMPLETE_DRAFT": 26,
+        "SKIP_UNDER_20": 14,
+        "KEEP_ACTIVE": 2,
+        "HOLD_PRICE": 1,
+        "HOLD_VARIANT_IDENTITY": 5,
+        "ELIGIBLE_CANDIDATE": 2
+      }
+    },
+    {
+      "batch": 8,
+      "range": "351-400",
+      "total": 50,
+      "counts": {
+        "ELIGIBLE_CANDIDATE": 5,
+        "COMPLETE_DRAFT": 24,
+        "KEEP_ACTIVE": 1,
+        "SKIP_UNDER_20": 14,
+        "HOLD_PRICE": 3,
+        "HOLD_VARIANT_IDENTITY": 3
+      }
+    },
+    {
+      "batch": 9,
+      "range": "401-439",
+      "total": 39,
+      "counts": {
+        "COMPLETE_DRAFT": 16,
+        "SKIP_UNDER_20": 21,
+        "HOLD_VARIANT_IDENTITY": 1,
+        "ELIGIBLE_CANDIDATE": 1
+      }
+    }
+  ],
+  "unconfirmed_prices": [
+    {
+      "index": 332,
+      "supplier_product_id": "1107",
+      "sku": "UZ35039",
+      "title": "Butelka trytanowa  Alpinus Trysil GOPR 650ml"
+    },
+    {
+      "index": 359,
+      "supplier_product_id": "1025",
+      "sku": "RO11773",
+      "title": "Namiot  Alpinus Gandia RO11773"
+    },
+    {
+      "index": 361,
+      "supplier_product_id": "1026",
+      "sku": "RO11774",
+      "title": "Namiot  Alpinus Sella RO11774"
+    },
+    {
+      "index": 380,
+      "supplier_product_id": "910",
+      "sku": "RO11107",
+      "title": "Namiot Alpinus Abisko 2, RO11107"
+    }
+  ],
+  "variant_identity_review": [
+    {
+      "index": 4,
+      "supplier_product_id": "1211",
+      "sku": "TT35554",
+      "title": "Czapka merino  Alpinus Bleik TT35554",
+      "matched_shopify_ids": []
+    },
+    {
+      "index": 14,
+      "supplier_product_id": "1210",
+      "sku": "TT35552",
+      "title": "Czapka merino  Alpinus Bleik TT35552",
+      "matched_shopify_ids": []
+    },
+    {
+      "index": 68,
+      "supplier_product_id": "1010",
+      "sku": "MG11632",
+      "title": "Buty trekkingowe  Alpinus Atawiros Low MG11632",
+      "matched_shopify_ids": [
+        "gid://shopify/Product/11028102414674"
+      ]
+    },
+    {
+      "index": 80,
+      "supplier_product_id": "1011",
+      "sku": "MG11640",
+      "title": "Buty trekkingowe  Alpinus Atawiros Mid MG11640",
+      "matched_shopify_ids": [
+        "gid://shopify/Product/11028102414674"
+      ]
+    },
+    {
+      "index": 231,
+      "supplier_product_id": "1166",
+      "sku": "SU35421",
+      "title": "Spodnie joggery damskie  Alpinus Tatlica SU35421",
+      "matched_shopify_ids": [
+        "gid://shopify/Product/10751037636946"
+      ]
+    },
+    {
+      "index": 232,
+      "supplier_product_id": "1155",
+      "sku": "JI35316",
+      "title": "Koszulka damska merino  Alpinus Otago",
+      "matched_shopify_ids": [
+        "gid://shopify/Product/11018193830226",
+        "gid://shopify/Product/11018195304786"
+      ]
+    },
+    {
+      "index": 234,
+      "supplier_product_id": "1170",
+      "sku": "MG35354",
+      "title": "Buty trekkingowe  Alpinus Caulana W MG35354",
+      "matched_shopify_ids": [
+        "gid://shopify/Product/11027954925906",
+        "gid://shopify/Product/11189248131410"
+      ]
+    },
+    {
+      "index": 235,
+      "supplier_product_id": "1164",
+      "sku": "FN35427",
+      "title": "Legginsy trekkingowe damskie  Alpinus Orta FN35427",
+      "matched_shopify_ids": [
+        "gid://shopify/Product/10751013880146"
+      ]
+    },
+    {
+      "index": 238,
+      "supplier_product_id": "1171",
+      "sku": "MG35360",
+      "title": "Buty trekkingowe  Alpinus Bordaglia W, MG35360",
+      "matched_shopify_ids": [
+        "gid://shopify/Product/11028007289170"
+      ]
+    },
+    {
+      "index": 240,
+      "supplier_product_id": "1165",
+      "sku": "SU35415",
+      "title": "Spodnie joggery damskie  Alpinus Tatlica SU35415",
+      "matched_shopify_ids": [
+        "gid://shopify/Product/10751037636946"
+      ]
+    },
+    {
+      "index": 248,
+      "supplier_product_id": "1074",
+      "sku": "NQ35000",
+      "title": "Kurtka damska 2-warstwowa  Alpinus Selenga NQ35000",
+      "matched_shopify_ids": [
+        "gid://shopify/Product/10750909251922"
+      ]
+    },
+    {
+      "index": 268,
+      "supplier_product_id": "353",
+      "sku": "FF18601",
+      "title": "Spodnie trekkingowe damskie Alpinus Marmore czarne FF18601",
+      "matched_shopify_ids": [
+        "gid://shopify/Product/10751068963154"
+      ]
+    },
+    {
+      "index": 284,
+      "supplier_product_id": "212",
+      "sku": "GT18290",
+      "title": "Koszulka damska funkcyjna Alpinus Misurina grafitowa GT18290",
+      "matched_shopify_ids": [
+        "gid://shopify/Product/10751348506962"
+      ]
+    },
+    {
+      "index": 336,
+      "supplier_product_id": "1078",
+      "sku": "NH11387",
+      "title": "Plecak Alpinus Grenoble 25 NH11387",
+      "matched_shopify_ids": [
+        "gid://shopify/Product/11191015637330"
+      ]
+    },
+    {
+      "index": 343,
+      "supplier_product_id": "1096",
+      "sku": "NH11719",
+      "title": "Plecak Alpinus Lecco 30 NH11719",
+      "matched_shopify_ids": [
+        "gid://shopify/Product/11191098638674",
+        "gid://shopify/Product/11191098868050",
+        "gid://shopify/Product/11191168303442"
+      ]
+    },
+    {
+      "index": 345,
+      "supplier_product_id": "1093",
+      "sku": "NH11716",
+      "title": "Plecak Alpinus Lecco 25 NH11716",
+      "matched_shopify_ids": [
+        "gid://shopify/Product/11191098638674",
+        "gid://shopify/Product/11191098868050",
+        "gid://shopify/Product/11191168303442"
+      ]
+    },
+    {
+      "index": 347,
+      "supplier_product_id": "1086",
+      "sku": "NH11715",
+      "title": "Plecak Alpinus Lecco 15 NH11715",
+      "matched_shopify_ids": [
+        "gid://shopify/Product/11191098638674",
+        "gid://shopify/Product/11191098868050",
+        "gid://shopify/Product/11191168303442"
+      ]
+    },
+    {
+      "index": 350,
+      "supplier_product_id": "1094",
+      "sku": "NH11717",
+      "title": "Plecak  Alpinus Lecco 25 NH11717",
+      "matched_shopify_ids": [
+        "gid://shopify/Product/11191098638674",
+        "gid://shopify/Product/11191098868050",
+        "gid://shopify/Product/11191168303442"
+      ]
+    },
+    {
+      "index": 372,
+      "supplier_product_id": "972",
+      "sku": "NH11386",
+      "title": "Torba  Alpinus Avila 60 NH11386",
+      "matched_shopify_ids": [
+        "gid://shopify/Product/11191099031890",
+        "gid://shopify/Product/11191134650706"
+      ]
+    },
+    {
+      "index": 381,
+      "supplier_product_id": "905",
+      "sku": "AI11156",
+      "title": "Plecak Alpinus Peyto 22 AI11156",
+      "matched_shopify_ids": [
+        "gid://shopify/Product/11191141564754"
+      ]
+    },
+    {
+      "index": 394,
+      "supplier_product_id": "906",
+      "sku": "AI11155",
+      "title": "Plecak  Alpinus Peyto 22  Al11155",
+      "matched_shopify_ids": [
+        "gid://shopify/Product/11191141564754"
+      ]
+    },
+    {
+      "index": 411,
+      "supplier_product_id": "904",
+      "sku": "LC11146",
+      "title": "Mata samopompująca Alpinus Adrspach LC11146",
+      "matched_shopify_ids": [
+        "gid://shopify/Product/11191193764178",
+        "gid://shopify/Product/11191278797138"
+      ]
+    }
+  ],
+  "write_safety": {
+    "shopify_creates": 0,
+    "shopify_updates": 0,
+    "shopify_deletes": 0,
+    "shopify_status_changes": 0,
+    "active_cards_unchanged": true
+  },
+  "next_phase": "Complete source descriptions and other verified source product content for all eligible records in batches of <=50. Need durable private storage for supplier descriptions/prices, proper size-to-EAN matching, image collection and user-provided writing prompt later. Do not modify Shopify Active."
+}
