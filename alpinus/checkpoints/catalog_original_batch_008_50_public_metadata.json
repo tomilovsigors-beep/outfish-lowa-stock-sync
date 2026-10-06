@@ -1,0 +1,959 @@
+{
+  "source": "Render outfish-alpinus-readonly-test logs",
+  "captured_at": "2026-10-06T14:36Z",
+  "batch": "original_run_indices_351_to_400",
+  "supplier_count_at_capture": 439,
+  "sensitive_prices_excluded": true,
+  "products": [
+    {
+      "batch_index": 351,
+      "supplier_product_id": "1081",
+      "source_url": "https://alpinusgroup.com/plecak-alpinus-lyon-22-nh11388/3-8-1081",
+      "title": "Plecak Alpinus Lyon 22 NH11388",
+      "symbol": "NH11388",
+      "eans": [
+        "5905616113883"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 352,
+      "supplier_product_id": "1079",
+      "source_url": "https://alpinusgroup.com/plecak-alpinus-toulouse-28-nh11390/3-8-1079",
+      "title": "Plecak  Alpinus Toulouse 28 NH11390",
+      "symbol": "NH11390",
+      "eans": [
+        "5905616113906"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 353,
+      "supplier_product_id": "1091",
+      "source_url": "https://alpinusgroup.com/plecak-alpinus-veymont-45-nh11728/3-8-1091",
+      "title": "Plecak Alpinus Veymont 45 NH11728",
+      "symbol": "NH11728",
+      "eans": [
+        "5905616117287"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 354,
+      "supplier_product_id": "1083",
+      "source_url": "https://alpinusgroup.com/plecak-alpinus-teide-24-nh11720/3-8-1083",
+      "title": "Plecak Alpinus Teide 24 NH11720",
+      "symbol": "NH11720",
+      "eans": [
+        "5905616117201"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 355,
+      "supplier_product_id": "970",
+      "source_url": "https://alpinusgroup.com/portfel-alpinus-davos-nh11095/3-8-970",
+      "title": "Portfel  Alpinus Davos NH11095",
+      "symbol": "NH11095",
+      "eans": [
+        "5905616110950"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 356,
+      "supplier_product_id": "1051",
+      "source_url": "https://alpinusgroup.com/spiwor-alpinus-fiber-pro-w-s-1300-prawy-dn11854/3-8-1051",
+      "title": "Śpiwór Alpinus Fiber Pro W'S 1300 (prawy) DN11854",
+      "symbol": "DN11854",
+      "eans": [
+        "5905616118543"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 357,
+      "supplier_product_id": "975",
+      "source_url": "https://alpinusgroup.com/saszetka-alpinus-nymbodia-nh11101/3-8-975",
+      "title": "Saszetka  Alpinus Nymbodia NH11101",
+      "symbol": "NH11101",
+      "eans": [
+        "5905616111018"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 358,
+      "supplier_product_id": "1021",
+      "source_url": "https://alpinusgroup.com/kubek-emaliowany-alpinus-niedzwiedz-350-ml-hk11971/3-8-1021",
+      "title": "Kubek emaliowany  Alpinus niedźwiedź 350 ML HK11971",
+      "symbol": "HK11970",
+      "eans": [
+        "5905616119717"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 359,
+      "supplier_product_id": "1025",
+      "source_url": "https://alpinusgroup.com/namiot-alpinus-gandia-ro11773/3-8-1025",
+      "title": "Namiot  Alpinus Gandia RO11773",
+      "symbol": "RO11773",
+      "eans": [
+        "5905616117737"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 360,
+      "supplier_product_id": "1047",
+      "source_url": "https://alpinusgroup.com/spiwor-alpinus-fiber-pro-1100-lewy-dn11791/3-8-1047",
+      "title": "Śpiwór Alpinus Fiber Pro 1100 (lewy) DN11791",
+      "symbol": "DN11791",
+      "eans": [
+        "5905616117911"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 361,
+      "supplier_product_id": "1026",
+      "source_url": "https://alpinusgroup.com/namiot-alpinus-sella-ro11774/3-8-1026",
+      "title": "Namiot  Alpinus Sella RO11774",
+      "symbol": "RO11774",
+      "eans": [
+        "5905616117744"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 362,
+      "supplier_product_id": "1020",
+      "source_url": "https://alpinusgroup.com/kubek-emaliowany-alpinus-mapa-350-ml-hk11970/3-8-1020",
+      "title": "Kubek emaliowany Alpinus mapa 350 ML HK11970",
+      "symbol": "HK11970",
+      "eans": [
+        "5905616119700"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 363,
+      "supplier_product_id": "974",
+      "source_url": "https://alpinusgroup.com/saszetka-alpinus-grampians-saszetka-alpinus-grampi/3-8-974",
+      "title": "Saszetka  Alpinus Grampians\r\nSaszetka  Alpinus Grampians NH11100",
+      "symbol": "NH11100",
+      "eans": [
+        "5905616111001"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 364,
+      "supplier_product_id": "1036",
+      "source_url": "https://alpinusgroup.com/namiot-alpinus-velebit-3-ro11770/3-8-1036",
+      "title": "Namiot Alpinus Velebit 3, RO11770",
+      "symbol": "RO11770",
+      "eans": [
+        "5905616117706"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 365,
+      "supplier_product_id": "1037",
+      "source_url": "https://alpinusgroup.com/namiot-alpinus-velebit-3-alu-ro11771/3-8-1037",
+      "title": "Namiot  Alpinus Velebit 3 ALU, RO11771",
+      "symbol": "RO11771",
+      "eans": [
+        "5905616117713"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 366,
+      "supplier_product_id": "1049",
+      "source_url": "https://alpinusgroup.com/spiwor-alpinus-fiber-pro-800-prawy-dn11794/3-8-1049",
+      "title": "Śpiwór Alpinus Fiber Pro 800 (prawy) DN11794",
+      "symbol": "DN11794",
+      "eans": [
+        "5905616117942"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 367,
+      "supplier_product_id": "1042",
+      "source_url": "https://alpinusgroup.com/spiwor-alpinus-fiber-pro-1500-lewy-dn11851/3-8-1042",
+      "title": "Śpiwór Alpinus Fiber Pro 1500 (lewy) DN11851",
+      "symbol": "DN11851",
+      "eans": [
+        "5905616118512"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 368,
+      "supplier_product_id": "971",
+      "source_url": "https://alpinusgroup.com/portfel-alpinus-geneva-nh11097/3-8-971",
+      "title": "Portfel  Alpinus Geneva NH11097",
+      "symbol": "NH11097",
+      "eans": [
+        "5905616110974"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 369,
+      "supplier_product_id": "1043",
+      "source_url": "https://alpinusgroup.com/spiwor-alpinus-fiber-pro-1500-prawy-dn11852/3-8-1043",
+      "title": "Śpiwór Alpinus Fiber Pro 1500 (prawy) DN11852",
+      "symbol": "DN11852",
+      "eans": [
+        "5905616118529"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 370,
+      "supplier_product_id": "1046",
+      "source_url": "https://alpinusgroup.com/spiwor-alpinus-fiber-pro-1100-prawy-dn11792/3-8-1046",
+      "title": "Śpiwór Alpinus Fiber Pro 1100 (prawy) DN11792",
+      "symbol": "DN11792",
+      "eans": [
+        "5905616117928"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 371,
+      "supplier_product_id": "1050",
+      "source_url": "https://alpinusgroup.com/spiwor-alpinus-fiber-pro-w-s-1300-lewy-dn11853/3-8-1050",
+      "title": "Śpiwór Alpinus Fiber Pro W'S 1300 (lewy) DN11853",
+      "symbol": "DN11853",
+      "eans": [
+        "5905616118536"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 372,
+      "supplier_product_id": "972",
+      "source_url": "https://alpinusgroup.com/torba-alpinus-avila-60-nh11386/3-8-972",
+      "title": "Torba  Alpinus Avila 60 NH11386",
+      "symbol": "NH11386",
+      "eans": [
+        "5905616113869"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 373,
+      "supplier_product_id": "1045",
+      "source_url": "https://alpinusgroup.com/spiwor-alpinus-fiber-pro-1300-prawy-dn11790/3-8-1045",
+      "title": "Śpiwór Alpinus Fiber Pro 1300 (prawy) DN11790",
+      "symbol": "DN11790",
+      "eans": [
+        "5905616117904"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 374,
+      "supplier_product_id": "973",
+      "source_url": "https://alpinusgroup.com/saszetka-alpinus-grampians-nh11099/3-8-973",
+      "title": "Saszetka  Alpinus Grampians NH11099",
+      "symbol": "NH11099",
+      "eans": [
+        "5905616110998"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 375,
+      "supplier_product_id": "928",
+      "source_url": "https://alpinusgroup.com/chwytak-do-garnkow-alpinus-de11143/3-8-928",
+      "title": "Chwytak do garnków Alpinus DE11143",
+      "symbol": "DE11143",
+      "eans": [
+        "5905616111438"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 376,
+      "supplier_product_id": "961",
+      "source_url": "https://alpinusgroup.com/saszetka-alpinus-murtosa-ch11385/3-8-961",
+      "title": "Saszetka  Alpinus Murtosa CH11385",
+      "symbol": "CH11385",
+      "eans": [
+        "5905616113852"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 377,
+      "supplier_product_id": "965",
+      "source_url": "https://alpinusgroup.com/recznik-alpinus-antilla-40x80cm-ch11383/3-8-965",
+      "title": "Ręcznik chłodzący   Alpinus Antilla 40 cm x 80 cm CH11383",
+      "symbol": "CH11383",
+      "eans": [
+        "5905616113838"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 378,
+      "supplier_product_id": "963",
+      "source_url": "https://alpinusgroup.com/recznik-alpinus-egremni-75x150cm-ch11447/3-8-963",
+      "title": "Ręcznik Alpinus Egremni 75 cm x 150 cm CH11447",
+      "symbol": "CH11447",
+      "eans": [
+        "5905616114477"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 379,
+      "supplier_product_id": "931",
+      "source_url": "https://alpinusgroup.com/menazka-alpinus-valdes-de11141/3-8-931",
+      "title": "Menażka  Alpinus Valdes DE11141",
+      "symbol": "DE11141",
+      "eans": [
+        "5905616111414"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 380,
+      "supplier_product_id": "910",
+      "source_url": "https://alpinusgroup.com/namiot-alpinus-abisko-2-ro11107/3-8-910",
+      "title": "Namiot Alpinus Abisko 2, RO11107",
+      "symbol": "RO11107",
+      "eans": [
+        "5905616111070"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 381,
+      "supplier_product_id": "905",
+      "source_url": "https://alpinusgroup.com/plecak-alpinus-peyto-22/3-8-905",
+      "title": "Plecak Alpinus Peyto 22 AI11156",
+      "symbol": "AI11156",
+      "eans": [
+        "5905616111568"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 382,
+      "supplier_product_id": "959",
+      "source_url": "https://alpinusgroup.com/kijki-trekkingowe-alpinus-aosta-nx11311/3-8-959",
+      "title": "Kijki trekkingowe  Alpinus Aosta NX11311",
+      "symbol": "NX11311",
+      "eans": [
+        "5905616113111"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 383,
+      "supplier_product_id": "964",
+      "source_url": "https://alpinusgroup.com/hamak-alpinus-letna/3-8-964",
+      "title": "Hamak Alpinus Letna",
+      "symbol": "CH11384",
+      "eans": [
+        "5905616113845"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 384,
+      "supplier_product_id": "916",
+      "source_url": "https://alpinusgroup.com/namiot-alpinus-arco-3-alu-ro11109/3-8-916",
+      "title": "Namiot Alpinus Arco 3 ALU RO11109",
+      "symbol": "RO11109",
+      "eans": [
+        "5905616111094"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 385,
+      "supplier_product_id": "907",
+      "source_url": "https://alpinusgroup.com/plecak-alpinus-muddus-30/3-8-907",
+      "title": "Plecak   Alpinus Muddus 30",
+      "symbol": "AI11153",
+      "eans": [
+        "5905616111537"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 386,
+      "supplier_product_id": "915",
+      "source_url": "https://alpinusgroup.com/namiot-alpinus-arco-3-ro11108/3-8-915",
+      "title": "Namiot Alpinus Arco 3 RO11108",
+      "symbol": "RO11108",
+      "eans": [
+        "5905616111087"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 387,
+      "supplier_product_id": "911",
+      "source_url": "https://alpinusgroup.com/namiot-alpinus-tarragona-3-ro11110/3-8-911",
+      "title": "Namiot  Alpinus Tarragona 3 RO11110",
+      "symbol": "RO11110",
+      "eans": [
+        "5905616111100"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 388,
+      "supplier_product_id": "930",
+      "source_url": "https://alpinusgroup.com/kubek-alpinus-lugo-0-5-l-de11145/3-8-930",
+      "title": "Kubek  Alpinus Lugo 0.5 L, DE11145",
+      "symbol": "DE11145",
+      "eans": [
+        "5905616111452"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 389,
+      "supplier_product_id": "909",
+      "source_url": "https://alpinusgroup.com/kijki-trekkingowe-alpinus-matterhorn/3-8-909",
+      "title": "<p style=\"text-align:left;text-indent:0pt;margin:0pt 0pt 0pt 0pt;\"><span style=\"color:#000000;\">Kijki trekkingowe Alpinus Matterhorn</span></p>",
+      "symbol": "NX11314",
+      "eans": [
+        "5905616113142"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 390,
+      "supplier_product_id": "966",
+      "source_url": "https://alpinusgroup.com/butelka-turystyczna-trytanowa-alpinus-trysil-650-m/3-8-966",
+      "title": "Butelka trytanowa  Alpinus Trysil 650 ml UZ11711",
+      "symbol": "UZ11711",
+      "eans": [
+        "5905616117119"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 391,
+      "supplier_product_id": "962",
+      "source_url": "https://alpinusgroup.com/recznik-alpinus-gialos-50x100cm-ch11446/3-8-962",
+      "title": "Ręcznik Alpinus Gialos 50 cm x 100 cm CH11446",
+      "symbol": "CH11446",
+      "eans": [
+        "5905616114460"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 392,
+      "supplier_product_id": "933",
+      "source_url": "https://alpinusgroup.com/menazka-alpinus-valdes-radiator-de11142/3-8-933",
+      "title": "Menażka   Alpinus Valdes Radiator DE11142",
+      "symbol": "DE11142",
+      "eans": [
+        "5905616111421"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 393,
+      "supplier_product_id": "932",
+      "source_url": "https://alpinusgroup.com/menazka-alpinus-jukatan-de11144/3-8-932",
+      "title": "Menażka  Alpinus Jukatan DE11144",
+      "symbol": "DE11144",
+      "eans": [
+        "5905616111445"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 394,
+      "supplier_product_id": "906",
+      "source_url": "https://alpinusgroup.com/plecak-alpinus-peyto-22-al11155/3-8-906",
+      "title": "Plecak  Alpinus Peyto 22  Al11155",
+      "symbol": "AI11155",
+      "eans": [
+        "5905616111551"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 395,
+      "supplier_product_id": "865",
+      "source_url": "https://alpinusgroup.com/spiwor-puchowy-alpinus-ducklight-300-ac11066/3-8-865",
+      "title": "Śpiwór puchowy Alpinus Ducklight 300 AC11066",
+      "symbol": "AC11066",
+      "eans": [
+        "5905616110660"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 396,
+      "supplier_product_id": "669",
+      "source_url": "https://alpinusgroup.com/spiwor-alpinus-warm-1200-180x75cm-granatowy-ac1895/3-8-669",
+      "title": "Śpiwór Alpinus  Warm 1200 (Prawy) AC18953",
+      "symbol": "AC18953",
+      "eans": [
+        "5904555189539"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 397,
+      "supplier_product_id": "846",
+      "source_url": "https://alpinusgroup.com/butelka-turystyczna-trytanowa-alpinus-trysil-650ml/3-8-846",
+      "title": "Butelka trytanowa  Alpinus Trysil 650ml",
+      "symbol": "UZ11064",
+      "eans": [
+        "5905616110646"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 398,
+      "supplier_product_id": "887",
+      "source_url": "https://alpinusgroup.com/plecak-alpinus-fatra-30-po11103/3-8-887",
+      "title": "Plecak Alpinus Fatra 30 PO11103",
+      "symbol": "PO11103",
+      "eans": [
+        "5905616111032"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 399,
+      "supplier_product_id": "899",
+      "source_url": "https://alpinusgroup.com/materac-alpinus-ticino-zj11148/3-8-899",
+      "title": "Materac Alpinus Ticino ZJ11148",
+      "symbol": "ZJ11148",
+      "eans": [
+        "5905616111483"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 400,
+      "supplier_product_id": "698",
+      "source_url": "https://alpinusgroup.com/butelka-trytanowa-trysil-650-ml-alpinus-active-but/3-8-698",
+      "title": "Butelka trytanowa  Alpinus Trysil 650ml UZ11056",
+      "symbol": "UZ11056",
+      "eans": [
+        "5905616110561"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    }
+  ]
+}
