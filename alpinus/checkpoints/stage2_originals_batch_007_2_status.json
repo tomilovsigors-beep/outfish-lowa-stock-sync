@@ -1,0 +1,53 @@
+{
+  "stage": "2_source_original_descriptions",
+  "batch": 7,
+  "source_snapshot": "2026-10-06",
+  "eligibility": "ELIGIBLE_CANDIDATE or COMPLETE_DRAFT; excludes ACTIVE, below EUR20, unresolved duplicates, missing prices",
+  "original_catalog_range": [
+    424,
+    428
+  ],
+  "processed_products": 2,
+  "selected_supplier_products": [
+    {
+      "supplier_product_id": "287",
+      "catalog_index": 424,
+      "symbol": "HR18401",
+      "previous_reconciliation_decision": "COMPLETE_DRAFT"
+    },
+    {
+      "supplier_product_id": "141",
+      "catalog_index": 428,
+      "symbol": "PO43641",
+      "previous_reconciliation_decision": "COMPLETE_DRAFT"
+    }
+  ],
+  "private_storage": {
+    "provider": "Google Drive",
+    "document_title": "Alpinus originals — stage 2 — batch 007 — final 2 supplier products",
+    "document_id": "1if47D9L5K-J0gO7aWtk96UgCDF48vQsckZASpD37mkc",
+    "folder_id": "14RMSK-P-iWAqPce96RWzDk529iUxC07v",
+    "access": "owner only, verified shared=false",
+    "contents": "full unmodified Polish supplier descriptions and original attributes, SKU, EAN, size and stock info; confidential supplier prices deliberately excluded"
+  },
+  "verified": {
+    "supplier_products": 2,
+    "complete_descriptions": 2,
+    "original_attribute_sections": 2,
+    "source_ean_sections": 2,
+    "size_quantity_sections": 2,
+    "stock_sections": 2,
+    "readback_start_markers": 2,
+    "readback_end_markers": 2,
+    "unique_supplier_ids": 2,
+    "unique_catalog_indices": 2,
+    "drive_private": true
+  },
+  "shopify_writes": {
+    "creates": 0,
+    "updates": 0,
+    "deletes": 0
+  },
+  "next_stage_batch": "Stage 2 ends; next stage is original supplier photos in max 50-product batches",
+  "security": "No confidential source prose, wholesale prices, or original attributes in GitHub"
+}
