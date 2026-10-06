@@ -22,15 +22,15 @@ def emit(event, **values):
 
 
 def signature_ok(data):
-    return (data.startswith(b"\\xff\\xd8\\xff") or
-            data.startswith(b"\\x89PNG\\r\\n\\x1a\\n") or
+    return (data.startswith(bytes.fromhex("ffd8ff")) or
+            data.startswith(bytes.fromhex("89504e470d0a1a0a")) or
             (data.startswith(b"RIFF") and data[8:12] == b"WEBP") or
             (len(data) > 12 and data[4:12] in (b"ftypavif", b"ftypavis")))
 
 
 def extension(data):
-    if data.startswith(b"\\xff\\xd8"): return ".jpg"
-    if data.startswith(b"\\x89PNG"): return ".png"
+    if data.startswith(bytes.fromhex("ffd8")): return ".jpg"
+    if data.startswith(bytes.fromhex("89504e47")): return ".png"
     if data.startswith(b"RIFF"): return ".webp"
     return ".avif"
 
