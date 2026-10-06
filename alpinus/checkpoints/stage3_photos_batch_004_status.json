@@ -1,0 +1,69 @@
+{
+  "stage": "3_supplier_photographs",
+  "batch": 4,
+  "source_snapshot": "2026-10-06",
+  "status": "PARTIAL_THUMBNAILS_ARCHIVED_EXCEPTIONS_DEFERRED",
+  "scope": {
+    "products": 50,
+    "source_catalog_range": [
+      196,
+      269
+    ],
+    "selection": "stage2 batch4 50 eligible supplier IDs, exact source-product/sku mapping"
+  },
+  "outcome": {
+    "products_processed": 50,
+    "products_with_verified_photo_bytes": 47,
+    "thumbnail_images_stored_privately": 47,
+    "products_without_photo": 3,
+    "missing": [
+      {
+        "catalog_index": 196,
+        "supplier_product_id": "125",
+        "sku": "BR43733"
+      },
+      {
+        "catalog_index": 197,
+        "supplier_product_id": "78",
+        "sku": "GT43875"
+      },
+      {
+        "catalog_index": 198,
+        "supplier_product_id": "191",
+        "sku": "SI18144"
+      }
+    ],
+    "image_quality": "Original supplier /img/small/ thumbnails only; full-resolution and other missing images deferred until end of stage3",
+    "validation": "Authorized Render downloaded and checked actual bytes for recognized image format, minimal size and SHA-256. Google Docs received 47 inline image copies; all 47 read back with unique supplier identifiers and image URLs; folder owner-only."
+  },
+  "private_archive": {
+    "provider": "Google Docs",
+    "document_id": "1pHn8PRN9HdgYr-svXx3tN7L8XHCCYP9o3yQLt3I8TjM",
+    "folder_id": "14RMSK-P-iWAqPce96RWzDk529iUxC07v",
+    "private": true,
+    "embedded_images_readback": 47,
+    "unique_supplier_ids_readback": 47,
+    "distinct_source_urls": 47
+  },
+  "render": {
+    "service_id": "crn-dau3nlek1f9s73a7qpu0",
+    "runner": "alpinus_bulk/photo_stage3_batch4.py",
+    "flag": "ALPINUS_STAGE3_PHOTO_BATCH=004",
+    "summary": {
+      "processed": 50,
+      "products_with_downloads": 47,
+      "verified_file_count": 47,
+      "failures": 0,
+      "durable_storage": false
+    },
+    "flag_reset_to": "off",
+    "reset_deploy": "dep-db2mov2d0e5s73bmje1g"
+  },
+  "shopify_writes": {
+    "products_created": 0,
+    "products_updated": 0,
+    "photos_uploaded": 0,
+    "active_modified": 0
+  },
+  "next": "Proceed stage3 photo batch5 (next 50 eligible after original catalog index 269); defer exceptions until catalog photo coverage finished."
+}
