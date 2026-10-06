@@ -1,0 +1,341 @@
+{
+  "stage": "2_source_original_descriptions",
+  "batch": 4,
+  "source_snapshot": "2026-10-06",
+  "eligibility": "ELIGIBLE_CANDIDATE or COMPLETE_DRAFT; excludes ACTIVE, below EUR20, unresolved duplicates, missing prices",
+  "original_catalog_range": [
+    196,
+    269
+  ],
+  "processed_products": 50,
+  "selected_supplier_products": [
+    {
+      "supplier_product_id": "125",
+      "catalog_index": 196,
+      "symbol": "BR43733",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "78",
+      "catalog_index": 197,
+      "symbol": "GT43875",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "191",
+      "catalog_index": 198,
+      "symbol": "SI18144",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "123",
+      "catalog_index": 199,
+      "symbol": "BR43723",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "164",
+      "catalog_index": 200,
+      "symbol": "BR18118",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "243",
+      "catalog_index": 201,
+      "symbol": "AR18342",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "199",
+      "catalog_index": 202,
+      "symbol": "FF18133",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "268",
+      "catalog_index": 203,
+      "symbol": "AR18454",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "267",
+      "catalog_index": 204,
+      "symbol": "SU18299",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "253",
+      "catalog_index": 205,
+      "symbol": "BR18259",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "251",
+      "catalog_index": 206,
+      "symbol": "BR18249",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "255",
+      "catalog_index": 207,
+      "symbol": "TT18275",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "210",
+      "catalog_index": 208,
+      "symbol": "GT18282",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "249",
+      "catalog_index": 209,
+      "symbol": "BR18239",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "209",
+      "catalog_index": 210,
+      "symbol": "AR18277",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "196",
+      "catalog_index": 211,
+      "symbol": "SI18159",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "200",
+      "catalog_index": 212,
+      "symbol": "FF18138",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "256",
+      "catalog_index": 213,
+      "symbol": "TT18273",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "254",
+      "catalog_index": 214,
+      "symbol": "TT18271",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "195",
+      "catalog_index": 215,
+      "symbol": "SI18154",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "250",
+      "catalog_index": 216,
+      "symbol": "BR18244",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "261",
+      "catalog_index": 217,
+      "symbol": "FF18169",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "194",
+      "catalog_index": 218,
+      "symbol": "SI18149",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "260",
+      "catalog_index": 219,
+      "symbol": "FF18164",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "252",
+      "catalog_index": 220,
+      "symbol": "BR18254",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "298",
+      "catalog_index": 228,
+      "symbol": "AR18574",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "299",
+      "catalog_index": 229,
+      "symbol": "AR18580",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "1198",
+      "catalog_index": 230,
+      "symbol": "IM35538",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "1154",
+      "catalog_index": 236,
+      "symbol": "FS35400",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "1199",
+      "catalog_index": 237,
+      "symbol": "IM35545",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "1209",
+      "catalog_index": 241,
+      "symbol": "SF35592",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "1153",
+      "catalog_index": 242,
+      "symbol": "FS35394",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "1005",
+      "catalog_index": 243,
+      "symbol": "GH11593",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "1128",
+      "catalog_index": 245,
+      "symbol": "SU35052",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "1130",
+      "catalog_index": 246,
+      "symbol": "SI35154",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "996",
+      "catalog_index": 250,
+      "symbol": "MK11495",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "984",
+      "catalog_index": 251,
+      "symbol": "AO11581",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "997",
+      "catalog_index": 253,
+      "symbol": "MK11501",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "981",
+      "catalog_index": 255,
+      "symbol": "JI11571",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "885",
+      "catalog_index": 256,
+      "symbol": "MK18858",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "944",
+      "catalog_index": 257,
+      "symbol": "FF11361",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "985",
+      "catalog_index": 260,
+      "symbol": "AO11584",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "980",
+      "catalog_index": 261,
+      "symbol": "BR11660",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "340",
+      "catalog_index": 262,
+      "symbol": "SI8922",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "622",
+      "catalog_index": 263,
+      "symbol": "YT18748",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "862",
+      "catalog_index": 264,
+      "symbol": "SF11041",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "343",
+      "catalog_index": 265,
+      "symbol": "SI8933",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "347",
+      "catalog_index": 266,
+      "symbol": "SI1023",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "623",
+      "catalog_index": 267,
+      "symbol": "YT18753",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    },
+    {
+      "supplier_product_id": "342",
+      "catalog_index": 269,
+      "symbol": "SI8929",
+      "previous_reconciliation_decision": "ELIGIBLE_CANDIDATE"
+    }
+  ],
+  "private_storage": {
+    "provider": "Google Drive",
+    "document_title": "Alpinus originals — stage 2 — batch 004 — 50 supplier products",
+    "document_id": "1g0pMRpGMw8IDCa5Eu0Yw9i3_0DX3zU9J-B-QWdX9R3o",
+    "folder_id": "14RMSK-P-iWAqPce96RWzDk529iUxC07v",
+    "access": "owner only, verified shared=false",
+    "contents": "unedited Polish product descriptions; original characteristics; source IDs, EAN; size quantity and stock data; source private cost/price excluded"
+  },
+  "verified": {
+    "supplier_products": 50,
+    "complete_descriptions": 50,
+    "original_attribute_sections": 50,
+    "source_ean_sections": 50,
+    "size_quantity_sections": 50,
+    "stock_sections": 50,
+    "readback_start_markers": 50,
+    "readback_end_markers": 50,
+    "unique_supplier_ids": 50,
+    "unique_catalog_indices": 50,
+    "drive_private": true
+  },
+  "shopify_writes": {
+    "creates": 0,
+    "updates": 0,
+    "deletes": 0
+  },
+  "next_stage_batch": "Select next 50 eligible records after catalog index 269",
+  "security": "No unedited supplier prose, confidential costs or source attributes in GitHub"
+}
