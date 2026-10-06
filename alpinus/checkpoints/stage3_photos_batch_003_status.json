@@ -1,0 +1,74 @@
+{
+  "stage": "3_supplier_photographs",
+  "batch": 3,
+  "supplier_capture_date": "2026-10-06",
+  "status": "PARTIAL_THUMBNAILS_ARCHIVED_EXCEPTIONS_DEFERRED",
+  "scope": {
+    "products": 50,
+    "original_catalog_range": [
+      122,
+      195
+    ],
+    "selection": "exact eligible stage2 original batch3 supplier IDs"
+  },
+  "outcome": {
+    "products_processed": 50,
+    "products_with_image_bytes_verified": 46,
+    "image_files_checked_in_render": 46,
+    "private_embedded_image_objects_verified": 46,
+    "products_without_supplier_image": 4,
+    "missing": [
+      {
+        "catalog_index": 122,
+        "supplier_product_id": "703",
+        "sku": "FF18591"
+      },
+      {
+        "catalog_index": 123,
+        "supplier_product_id": "848",
+        "sku": "FF18955"
+      },
+      {
+        "catalog_index": 124,
+        "supplier_product_id": "861",
+        "sku": "SF11051"
+      },
+      {
+        "catalog_index": 125,
+        "supplier_product_id": "625",
+        "sku": "FU18481"
+      }
+    ],
+    "source_quality": "Only /img/small/ thumbnails; high resolution to be retrieved during final remediation",
+    "note": "Image bytes were checked for file signature, minimum length and sha256 during authorized Render run; private Google Docs inline images verified by reading document back."
+  },
+  "private_storage": {
+    "type": "owner-only Google Docs with embedded image copies",
+    "document_id": "1QhJNRQyzzvKPS7LcT3Tqf04Md8cbgPLNX4rum28g8Tk",
+    "folder_id": "14RMSK-P-iWAqPce96RWzDk529iUxC07v",
+    "shared": false,
+    "verified_image_objects": 46,
+    "verified_supplier_ids": 46
+  },
+  "source_run": {
+    "provider": "Render",
+    "job_id": "crn-dau3nlek1f9s73a7qpu0",
+    "run_mode": "ALPINUS_STAGE3_PHOTO_BATCH=003",
+    "processed": 50,
+    "products_with_downloads": 46,
+    "verified_file_count": 46,
+    "returned_errors": 0,
+    "temporary_files_durable": false,
+    "reset_mode_to": "off",
+    "reset_deployment": "dep-db2mjjom7kps73977q30",
+    "reset_deployment_status": "build_in_progress when report authored"
+  },
+  "shopify": {
+    "created": 0,
+    "updated": 0,
+    "images_uploaded": 0,
+    "active_modified": 0
+  },
+  "security": "No wholesale prices, source prose or image binaries stored in GitHub; photos only in private Drive",
+  "next_action": "Proceed stage 3 photo batch 004 (next 50 eligible products after original catalog index 195); defer 4 missing and original large images to final photo remediation."
+}
