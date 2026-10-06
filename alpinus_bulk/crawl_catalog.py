@@ -4,10 +4,13 @@ from urllib.parse import urlparse, urljoin
 from bs4 import BeautifulSoup
 from app import BASE_URL, open_logged_in_page
 
-MAX_PRODUCTS=int(os.getenv("ALPINUS_MAX_PRODUCTS","600"))
+MAX_PRODUCTS=min(50,int(os.getenv("ALPINUS_MAX_PRODUCTS","50")))
+START_INDEX=int(os.getenv("ALPINUS_START_INDEX","0"))
+if MAX_PRODUCTS < 1 or START_INDEX < 0:
+    raise ValueError("ALPINUS_MAX_PRODUCTS must be 1..50 and ALPINUS_START_INDEX >= 0")
 MAX_PAGES=int(os.getenv("ALPINUS_MAX_PAGES","300"))
 CONCURRENCY=int(os.getenv("ALPINUS_CONCURRENCY","6"))
-OUTPUT=os.getenv("ALPINUS_OUTPUT_JSONL","/tmp/alpinus_catalog.jsonl")
+OUTPUT=os.getenv("ALPINUS_OUTPUT_JSONL",f"/tmp/alpinus_catalog_batch_{START_INDEX:04d}.jsonl")
 
 PRODUCT_ID_RE=re.compile(r"/3-\d+-(\d+)$")
 CATALOG_PAGE_RE=re.compile(r"^/produkty/produkty/(?:[^/?#]+/)*2-\d+$", re.I)
@@ -349,13 +352,17 @@ async def main():
             "category_stats":category_stats
         })
 
-        product_urls=list(product_by_id.values())[:MAX_PRODUCTS]
+        all_product_urls=sorted(product_by_id.values(), key=lambda u: int(supplier_product_id(u)))
+        product_urls=all_product_urls[START_INDEX:START_INDEX+MAX_PRODUCTS]
         emit("discovery_complete",{
             "pages":total_pages,
-            "unique_products":len(product_urls),
+            "unique_products":len(all_product_urls),
+            "batch_start_index":START_INDEX,
+            "batch_size":len(product_urls),
+            "batch_end_index_exclusive":START_INDEX+len(product_urls),
             "category_counts":category_counts,
             "membership_sum":membership_sum,
-            "duplicates_across_categories":membership_sum-len(product_urls)
+            "duplicates_across_categories":membership_sum-len(all_product_urls)
         })
 
         q=asyncio.Queue()
