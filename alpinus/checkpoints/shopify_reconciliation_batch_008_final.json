@@ -1,0 +1,1777 @@
+{
+  "batch": "catalog_original_batch_008_50",
+  "snapshot_date": "2026-10-06",
+  "shopify_vendor_products_checked": 145,
+  "shopify_active_products_seen": 31,
+  "shopify_draft_products_seen": 114,
+  "fx_pln_to_eur": 0.228725,
+  "fx_timestamp": "2026-10-06T15:38:00Z",
+  "pricing": "Supplier RRP PLN x PLN/EUR FX rounded to nearest whole EUR",
+  "checks": "Full Shopify vendor:Alpinus pagination, supplier SKU, all EAN vs variant SKU/barcode, distinctive model overlap, 20 EUR retail minimum",
+  "counts": {
+    "ELIGIBLE_CANDIDATE": 5,
+    "COMPLETE_DRAFT": 24,
+    "KEEP_ACTIVE": 1,
+    "SKIP_UNDER_20": 14,
+    "HOLD_PRICE": 3,
+    "HOLD_VARIANT_IDENTITY": 3
+  },
+  "changes_to_shopify": 0,
+  "exceptions": "Products eligible for further processing only; existing Active not altered; supplier EAN-size mapping, original photos and costs pending",
+  "rows": [
+    {
+      "batch_index": 351,
+      "supplier_product_id": "1081",
+      "symbol": "NH11388",
+      "title": "Plecak Alpinus Lyon 22 NH11388",
+      "model": "Lyon",
+      "retail_eur": 41,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 352,
+      "supplier_product_id": "1079",
+      "symbol": "NH11390",
+      "title": "Plecak  Alpinus Toulouse 28 NH11390",
+      "model": "Toulouse",
+      "retail_eur": 43,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191277977938",
+          "status": "DRAFT",
+          "title": "Alpinus Toulouse 28 Backpack",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191039197522",
+          "status": "DRAFT",
+          "title": "Alpinus Toulouse 20 Backpack"
+        },
+        {
+          "id": "gid://shopify/Product/11191277977938",
+          "status": "DRAFT",
+          "title": "Alpinus Toulouse 28 Backpack"
+        }
+      ]
+    },
+    {
+      "batch_index": 353,
+      "supplier_product_id": "1091",
+      "symbol": "NH11728",
+      "title": "Plecak Alpinus Veymont 45 NH11728",
+      "model": "Veymont",
+      "retail_eur": 103,
+      "decision": "KEEP_ACTIVE",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11023346303314",
+          "status": "ACTIVE",
+          "title": "Hiking Backpack – Alpinus VEYMONT 45 – 45 L – 1.4 kg",
+          "reasons": [
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11023346303314",
+          "status": "ACTIVE",
+          "title": "Hiking Backpack – Alpinus VEYMONT 45 – 45 L – 1.4 kg"
+        },
+        {
+          "id": "gid://shopify/Product/11191362847058",
+          "status": "DRAFT",
+          "title": "Alpinus Veymont 55 Backpack"
+        }
+      ]
+    },
+    {
+      "batch_index": 354,
+      "supplier_product_id": "1083",
+      "symbol": "NH11720",
+      "title": "Plecak Alpinus Teide 24 NH11720",
+      "model": "Teide",
+      "retail_eur": 52,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 355,
+      "supplier_product_id": "970",
+      "symbol": "NH11095",
+      "title": "Portfel  Alpinus Davos NH11095",
+      "model": "Davos",
+      "retail_eur": 13,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191279321426",
+          "status": "DRAFT",
+          "title": "Alpinus Davos Wallet",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191279321426",
+          "status": "DRAFT",
+          "title": "Alpinus Davos Wallet"
+        }
+      ]
+    },
+    {
+      "batch_index": 356,
+      "supplier_product_id": "1051",
+      "symbol": "DN11854",
+      "title": "Śpiwór Alpinus Fiber Pro W'S 1300 (prawy) DN11854",
+      "model": "Fiber",
+      "retail_eur": 52,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191367205202",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro Women's 1300 Sleeping Bag – Right",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191133864274",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1050 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191134060882",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1050 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191134290258",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1250 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191134421330",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1250 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191365206354",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1300 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191365861714",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1300 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191366746450",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro Women's 1300 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191367008594",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 800 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191367205202",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro Women's 1300 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191393091922",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1100 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191393222994",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1100 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191393386834",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1500 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191393550674",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1500 Sleeping Bag – Left"
+        }
+      ]
+    },
+    {
+      "batch_index": 357,
+      "supplier_product_id": "975",
+      "symbol": "NH11101",
+      "title": "Saszetka  Alpinus Nymbodia NH11101",
+      "model": "Nymbodia",
+      "retail_eur": 18,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191279649106",
+          "status": "DRAFT",
+          "title": "Alpinus Nymbodia Pouch",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191279649106",
+          "status": "DRAFT",
+          "title": "Alpinus Nymbodia Pouch"
+        }
+      ]
+    },
+    {
+      "batch_index": 358,
+      "supplier_product_id": "1021",
+      "symbol": "HK11970",
+      "title": "Kubek emaliowany  Alpinus niedźwiedź 350 ML HK11971",
+      "model": "niedźwiedź",
+      "retail_eur": 18,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11018197303634",
+          "status": "ACTIVE",
+          "title": "Enamel Camping Mug — Alpinus Bear — 350 ml",
+          "reasons": [
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 359,
+      "supplier_product_id": "1025",
+      "symbol": "RO11773",
+      "title": "Namiot  Alpinus Gandia RO11773",
+      "model": "Gandia",
+      "retail_eur": null,
+      "decision": "HOLD_PRICE",
+      "reason": "missing verified RRP",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191366418770",
+          "status": "DRAFT",
+          "title": "Alpinus Gandia Tent",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191366418770",
+          "status": "DRAFT",
+          "title": "Alpinus Gandia Tent"
+        }
+      ]
+    },
+    {
+      "batch_index": 360,
+      "supplier_product_id": "1047",
+      "symbol": "DN11791",
+      "title": "Śpiwór Alpinus Fiber Pro 1100 (lewy) DN11791",
+      "model": "Fiber",
+      "retail_eur": 52,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191393091922",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1100 Sleeping Bag – Left",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191133864274",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1050 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191134060882",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1050 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191134290258",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1250 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191134421330",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1250 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191365206354",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1300 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191365861714",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1300 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191366746450",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro Women's 1300 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191367008594",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 800 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191367205202",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro Women's 1300 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191393091922",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1100 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191393222994",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1100 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191393386834",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1500 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191393550674",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1500 Sleeping Bag – Left"
+        }
+      ]
+    },
+    {
+      "batch_index": 361,
+      "supplier_product_id": "1026",
+      "symbol": "RO11774",
+      "title": "Namiot  Alpinus Sella RO11774",
+      "model": "Sella",
+      "retail_eur": null,
+      "decision": "HOLD_PRICE",
+      "reason": "missing verified RRP",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191366189394",
+          "status": "DRAFT",
+          "title": "Alpinus Sella Tent",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191366189394",
+          "status": "DRAFT",
+          "title": "Alpinus Sella Tent"
+        }
+      ]
+    },
+    {
+      "batch_index": 362,
+      "supplier_product_id": "1020",
+      "symbol": "HK11970",
+      "title": "Kubek emaliowany Alpinus mapa 350 ML HK11970",
+      "model": "mapa",
+      "retail_eur": 18,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 363,
+      "supplier_product_id": "974",
+      "symbol": "NH11100",
+      "title": "Saszetka  Alpinus Grampians\r\nSaszetka  Alpinus Grampians NH11100",
+      "model": "Grampians",
+      "retail_eur": 20,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 364,
+      "supplier_product_id": "1036",
+      "symbol": "RO11770",
+      "title": "Namiot Alpinus Velebit 3, RO11770",
+      "model": "Velebit",
+      "retail_eur": 190,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191393714514",
+          "status": "DRAFT",
+          "title": "Alpinus Velebit 3 Tent",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191365566802",
+          "status": "DRAFT",
+          "title": "Alpinus Velebit 3 ALU Tent"
+        },
+        {
+          "id": "gid://shopify/Product/11191393714514",
+          "status": "DRAFT",
+          "title": "Alpinus Velebit 3 Tent"
+        },
+        {
+          "id": "gid://shopify/Product/11191403807058",
+          "status": "DRAFT",
+          "title": "Alpinus Velebit 2 Tent"
+        },
+        {
+          "id": "gid://shopify/Product/11191407608146",
+          "status": "DRAFT",
+          "title": "Alpinus Velebit 2 ALU Tent"
+        }
+      ]
+    },
+    {
+      "batch_index": 365,
+      "supplier_product_id": "1037",
+      "symbol": "RO11771",
+      "title": "Namiot  Alpinus Velebit 3 ALU, RO11771",
+      "model": "Velebit",
+      "retail_eur": 206,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191365566802",
+          "status": "DRAFT",
+          "title": "Alpinus Velebit 3 ALU Tent",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191365566802",
+          "status": "DRAFT",
+          "title": "Alpinus Velebit 3 ALU Tent"
+        },
+        {
+          "id": "gid://shopify/Product/11191393714514",
+          "status": "DRAFT",
+          "title": "Alpinus Velebit 3 Tent"
+        },
+        {
+          "id": "gid://shopify/Product/11191403807058",
+          "status": "DRAFT",
+          "title": "Alpinus Velebit 2 Tent"
+        },
+        {
+          "id": "gid://shopify/Product/11191407608146",
+          "status": "DRAFT",
+          "title": "Alpinus Velebit 2 ALU Tent"
+        }
+      ]
+    },
+    {
+      "batch_index": 366,
+      "supplier_product_id": "1049",
+      "symbol": "DN11794",
+      "title": "Śpiwór Alpinus Fiber Pro 800 (prawy) DN11794",
+      "model": "Fiber",
+      "retail_eur": 46,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191367008594",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 800 Sleeping Bag – Right",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191133864274",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1050 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191134060882",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1050 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191134290258",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1250 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191134421330",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1250 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191365206354",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1300 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191365861714",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1300 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191366746450",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro Women's 1300 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191367008594",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 800 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191367205202",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro Women's 1300 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191393091922",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1100 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191393222994",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1100 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191393386834",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1500 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191393550674",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1500 Sleeping Bag – Left"
+        }
+      ]
+    },
+    {
+      "batch_index": 367,
+      "supplier_product_id": "1042",
+      "symbol": "DN11851",
+      "title": "Śpiwór Alpinus Fiber Pro 1500 (lewy) DN11851",
+      "model": "Fiber",
+      "retail_eur": 62,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191393550674",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1500 Sleeping Bag – Left",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191133864274",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1050 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191134060882",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1050 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191134290258",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1250 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191134421330",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1250 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191365206354",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1300 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191365861714",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1300 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191366746450",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro Women's 1300 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191367008594",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 800 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191367205202",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro Women's 1300 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191393091922",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1100 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191393222994",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1100 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191393386834",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1500 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191393550674",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1500 Sleeping Bag – Left"
+        }
+      ]
+    },
+    {
+      "batch_index": 368,
+      "supplier_product_id": "971",
+      "symbol": "NH11097",
+      "title": "Portfel  Alpinus Geneva NH11097",
+      "model": "Geneva",
+      "retail_eur": 13,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191279124818",
+          "status": "DRAFT",
+          "title": "Alpinus Geneva Wallet",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191279124818",
+          "status": "DRAFT",
+          "title": "Alpinus Geneva Wallet"
+        }
+      ]
+    },
+    {
+      "batch_index": 369,
+      "supplier_product_id": "1043",
+      "symbol": "DN11852",
+      "title": "Śpiwór Alpinus Fiber Pro 1500 (prawy) DN11852",
+      "model": "Fiber",
+      "retail_eur": 62,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191393386834",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1500 Sleeping Bag – Right",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191133864274",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1050 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191134060882",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1050 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191134290258",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1250 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191134421330",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1250 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191365206354",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1300 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191365861714",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1300 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191366746450",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro Women's 1300 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191367008594",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 800 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191367205202",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro Women's 1300 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191393091922",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1100 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191393222994",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1100 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191393386834",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1500 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191393550674",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1500 Sleeping Bag – Left"
+        }
+      ]
+    },
+    {
+      "batch_index": 370,
+      "supplier_product_id": "1046",
+      "symbol": "DN11792",
+      "title": "Śpiwór Alpinus Fiber Pro 1100 (prawy) DN11792",
+      "model": "Fiber",
+      "retail_eur": 52,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191393222994",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1100 Sleeping Bag – Right",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191133864274",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1050 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191134060882",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1050 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191134290258",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1250 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191134421330",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1250 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191365206354",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1300 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191365861714",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1300 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191366746450",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro Women's 1300 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191367008594",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 800 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191367205202",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro Women's 1300 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191393091922",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1100 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191393222994",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1100 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191393386834",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1500 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191393550674",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1500 Sleeping Bag – Left"
+        }
+      ]
+    },
+    {
+      "batch_index": 371,
+      "supplier_product_id": "1050",
+      "symbol": "DN11853",
+      "title": "Śpiwór Alpinus Fiber Pro W'S 1300 (lewy) DN11853",
+      "model": "Fiber",
+      "retail_eur": 52,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191366746450",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro Women's 1300 Sleeping Bag – Left",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191133864274",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1050 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191134060882",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1050 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191134290258",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1250 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191134421330",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1250 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191365206354",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1300 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191365861714",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1300 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191366746450",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro Women's 1300 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191367008594",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 800 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191367205202",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro Women's 1300 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191393091922",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1100 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191393222994",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1100 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191393386834",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1500 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191393550674",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1500 Sleeping Bag – Left"
+        }
+      ]
+    },
+    {
+      "batch_index": 372,
+      "supplier_product_id": "972",
+      "symbol": "NH11386",
+      "title": "Torba  Alpinus Avila 60 NH11386",
+      "model": "Avila",
+      "retail_eur": 41,
+      "decision": "HOLD_VARIANT_IDENTITY",
+      "reason": "possible existing product with shared model name",
+      "exact_matches": [],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191099031890",
+          "status": "DRAFT",
+          "title": "Alpinus Avila 60 Travel Bag"
+        },
+        {
+          "id": "gid://shopify/Product/11191134650706",
+          "status": "DRAFT",
+          "title": "Alpinus Avila 60 Travel Bag"
+        }
+      ]
+    },
+    {
+      "batch_index": 373,
+      "supplier_product_id": "1045",
+      "symbol": "DN11790",
+      "title": "Śpiwór Alpinus Fiber Pro 1300 (prawy) DN11790",
+      "model": "Fiber",
+      "retail_eur": 57,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191365861714",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1300 Sleeping Bag – Right",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191133864274",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1050 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191134060882",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1050 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191134290258",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1250 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191134421330",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1250 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191365206354",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1300 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191365861714",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1300 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191366746450",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro Women's 1300 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191367008594",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 800 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191367205202",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro Women's 1300 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191393091922",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1100 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191393222994",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1100 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191393386834",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1500 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191393550674",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1500 Sleeping Bag – Left"
+        }
+      ]
+    },
+    {
+      "batch_index": 374,
+      "supplier_product_id": "973",
+      "symbol": "NH11099",
+      "title": "Saszetka  Alpinus Grampians NH11099",
+      "model": "Grampians",
+      "retail_eur": 20,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 375,
+      "supplier_product_id": "928",
+      "symbol": "DE11143",
+      "title": "Chwytak do garnków Alpinus DE11143",
+      "model": "DE11143",
+      "retail_eur": 4,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191397974354",
+          "status": "DRAFT",
+          "title": "Alpinus Pot Gripper",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 376,
+      "supplier_product_id": "961",
+      "symbol": "CH11385",
+      "title": "Saszetka  Alpinus Murtosa CH11385",
+      "model": "Murtosa",
+      "retail_eur": 18,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 377,
+      "supplier_product_id": "965",
+      "symbol": "CH11383",
+      "title": "Ręcznik chłodzący   Alpinus Antilla 40 cm x 80 cm CH11383",
+      "model": "Antilla",
+      "retail_eur": 6,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191397482834",
+          "status": "DRAFT",
+          "title": "Alpinus Antilla Cooling Towel 40 x 80 cm",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191397482834",
+          "status": "DRAFT",
+          "title": "Alpinus Antilla Cooling Towel 40 x 80 cm"
+        },
+        {
+          "id": "gid://shopify/Product/11191413113170",
+          "status": "DRAFT",
+          "title": "Alpinus Antilla Cooling Towel 50 x 100 cm"
+        }
+      ]
+    },
+    {
+      "batch_index": 378,
+      "supplier_product_id": "963",
+      "symbol": "CH11447",
+      "title": "Ręcznik Alpinus Egremni 75 cm x 150 cm CH11447",
+      "model": "Egremni",
+      "retail_eur": 13,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191397810514",
+          "status": "DRAFT",
+          "title": "Alpinus Egremni Towel 75 x 150 cm",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191397810514",
+          "status": "DRAFT",
+          "title": "Alpinus Egremni Towel 75 x 150 cm"
+        }
+      ]
+    },
+    {
+      "batch_index": 379,
+      "supplier_product_id": "931",
+      "symbol": "DE11141",
+      "title": "Menażka  Alpinus Valdes DE11141",
+      "model": "Valdes",
+      "retail_eur": 20,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191397876050",
+          "status": "DRAFT",
+          "title": "Alpinus Valdes Mess Kit",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191397876050",
+          "status": "DRAFT",
+          "title": "Alpinus Valdes Mess Kit"
+        },
+        {
+          "id": "gid://shopify/Product/11191403086162",
+          "status": "DRAFT",
+          "title": "Alpinus Valdes Radiator Mess Kit"
+        }
+      ]
+    },
+    {
+      "batch_index": 380,
+      "supplier_product_id": "910",
+      "symbol": "RO11107",
+      "title": "Namiot Alpinus Abisko 2, RO11107",
+      "model": "Abisko",
+      "retail_eur": null,
+      "decision": "HOLD_PRICE",
+      "reason": "missing verified RRP",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191393845586",
+          "status": "DRAFT",
+          "title": "Alpinus Abisko 2 Tent",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191393845586",
+          "status": "DRAFT",
+          "title": "Alpinus Abisko 2 Tent"
+        }
+      ]
+    },
+    {
+      "batch_index": 381,
+      "supplier_product_id": "905",
+      "symbol": "AI11156",
+      "title": "Plecak Alpinus Peyto 22 AI11156",
+      "model": "Peyto",
+      "retail_eur": 46,
+      "decision": "HOLD_VARIANT_IDENTITY",
+      "reason": "possible existing product with shared model name",
+      "exact_matches": [],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191141564754",
+          "status": "DRAFT",
+          "title": "Alpinus Peyto 22 Backpack"
+        }
+      ]
+    },
+    {
+      "batch_index": 382,
+      "supplier_product_id": "959",
+      "symbol": "NX11311",
+      "title": "Kijki trekkingowe  Alpinus Aosta NX11311",
+      "model": "Aosta",
+      "retail_eur": 52,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191397613906",
+          "status": "DRAFT",
+          "title": "Alpinus Aosta Trekking Poles",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191397613906",
+          "status": "DRAFT",
+          "title": "Alpinus Aosta Trekking Poles"
+        }
+      ]
+    },
+    {
+      "batch_index": 383,
+      "supplier_product_id": "964",
+      "symbol": "CH11384",
+      "title": "Hamak Alpinus Letna",
+      "model": "Letna",
+      "retail_eur": 27,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 384,
+      "supplier_product_id": "916",
+      "symbol": "RO11109",
+      "title": "Namiot Alpinus Arco 3 ALU RO11109",
+      "model": "Arco",
+      "retail_eur": 228,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191397548370",
+          "status": "DRAFT",
+          "title": "Alpinus Arco 3 ALU Tent",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191397548370",
+          "status": "DRAFT",
+          "title": "Alpinus Arco 3 ALU Tent"
+        },
+        {
+          "id": "gid://shopify/Product/11191397679442",
+          "status": "DRAFT",
+          "title": "Alpinus Arco 3 Tent"
+        }
+      ]
+    },
+    {
+      "batch_index": 385,
+      "supplier_product_id": "907",
+      "symbol": "AI11153",
+      "title": "Plecak   Alpinus Muddus 30",
+      "model": "Muddus",
+      "retail_eur": 75,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191403413842",
+          "status": "DRAFT",
+          "title": "Alpinus Muddus 30 Backpack",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191403413842",
+          "status": "DRAFT",
+          "title": "Alpinus Muddus 30 Backpack"
+        }
+      ]
+    },
+    {
+      "batch_index": 386,
+      "supplier_product_id": "915",
+      "symbol": "RO11108",
+      "title": "Namiot Alpinus Arco 3 RO11108",
+      "model": "Arco",
+      "retail_eur": 206,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191397679442",
+          "status": "DRAFT",
+          "title": "Alpinus Arco 3 Tent",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191397548370",
+          "status": "DRAFT",
+          "title": "Alpinus Arco 3 ALU Tent"
+        },
+        {
+          "id": "gid://shopify/Product/11191397679442",
+          "status": "DRAFT",
+          "title": "Alpinus Arco 3 Tent"
+        }
+      ]
+    },
+    {
+      "batch_index": 387,
+      "supplier_product_id": "911",
+      "symbol": "RO11110",
+      "title": "Namiot  Alpinus Tarragona 3 RO11110",
+      "model": "Tarragona",
+      "retail_eur": 160,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191397450066",
+          "status": "DRAFT",
+          "title": "Alpinus Tarragona 3 Tent",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191397450066",
+          "status": "DRAFT",
+          "title": "Alpinus Tarragona 3 Tent"
+        }
+      ]
+    },
+    {
+      "batch_index": 388,
+      "supplier_product_id": "930",
+      "symbol": "DE11145",
+      "title": "Kubek  Alpinus Lugo 0.5 L, DE11145",
+      "model": "Lugo",
+      "retail_eur": 9,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11018201530706",
+          "status": "ACTIVE",
+          "title": "Camping Mug – Alpinus Lugo – Stainless Steel – 500 ml – 114 g",
+          "reasons": [
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11018201530706",
+          "status": "ACTIVE",
+          "title": "Camping Mug – Alpinus Lugo – Stainless Steel – 500 ml – 114 g"
+        }
+      ]
+    },
+    {
+      "batch_index": 389,
+      "supplier_product_id": "909",
+      "symbol": "NX11314",
+      "title": "<p style=\"text-align:left;text-indent:0pt;margin:0pt 0pt 0pt 0pt;\"><span style=\"color:#000000;\">Kijki trekkingowe Alpinus Matterhorn</span></p>",
+      "model": "Matterhornspanp",
+      "retail_eur": 46,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191397417298",
+          "status": "DRAFT",
+          "title": "Alpinus Matterhorn Trekking Poles",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 390,
+      "supplier_product_id": "966",
+      "symbol": "UZ11711",
+      "title": "Butelka trytanowa  Alpinus Trysil 650 ml UZ11711",
+      "model": "Trysil",
+      "retail_eur": 11,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 391,
+      "supplier_product_id": "962",
+      "symbol": "CH11446",
+      "title": "Ręcznik Alpinus Gialos 50 cm x 100 cm CH11446",
+      "model": "Gialos",
+      "retail_eur": 11,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191413539154",
+          "status": "DRAFT",
+          "title": "Alpinus Gialos Towel 50 x 100 cm",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191413539154",
+          "status": "DRAFT",
+          "title": "Alpinus Gialos Towel 50 x 100 cm"
+        }
+      ]
+    },
+    {
+      "batch_index": 392,
+      "supplier_product_id": "933",
+      "symbol": "DE11142",
+      "title": "Menażka   Alpinus Valdes Radiator DE11142",
+      "model": "Valdes",
+      "retail_eur": 27,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191403086162",
+          "status": "DRAFT",
+          "title": "Alpinus Valdes Radiator Mess Kit",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191397876050",
+          "status": "DRAFT",
+          "title": "Alpinus Valdes Mess Kit"
+        },
+        {
+          "id": "gid://shopify/Product/11191403086162",
+          "status": "DRAFT",
+          "title": "Alpinus Valdes Radiator Mess Kit"
+        }
+      ]
+    },
+    {
+      "batch_index": 393,
+      "supplier_product_id": "932",
+      "symbol": "DE11144",
+      "title": "Menażka  Alpinus Jukatan DE11144",
+      "model": "Jukatan",
+      "retail_eur": 27,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191397286226",
+          "status": "DRAFT",
+          "title": "Alpinus Jukatan Mess Kit",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191397286226",
+          "status": "DRAFT",
+          "title": "Alpinus Jukatan Mess Kit"
+        }
+      ]
+    },
+    {
+      "batch_index": 394,
+      "supplier_product_id": "906",
+      "symbol": "AI11155",
+      "title": "Plecak  Alpinus Peyto 22  Al11155",
+      "model": "Peyto",
+      "retail_eur": 46,
+      "decision": "HOLD_VARIANT_IDENTITY",
+      "reason": "possible existing product with shared model name",
+      "exact_matches": [],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191141564754",
+          "status": "DRAFT",
+          "title": "Alpinus Peyto 22 Backpack"
+        }
+      ]
+    },
+    {
+      "batch_index": 395,
+      "supplier_product_id": "865",
+      "symbol": "AC11066",
+      "title": "Śpiwór puchowy Alpinus Ducklight 300 AC11066",
+      "model": "Ducklight",
+      "retail_eur": 171,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191412818258",
+          "status": "DRAFT",
+          "title": "Alpinus Ducklight 300 Down Sleeping Bag",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191412818258",
+          "status": "DRAFT",
+          "title": "Alpinus Ducklight 300 Down Sleeping Bag"
+        },
+        {
+          "id": "gid://shopify/Product/11191413080402",
+          "status": "DRAFT",
+          "title": "Alpinus Ducklight 400 Down Sleeping Bag"
+        }
+      ]
+    },
+    {
+      "batch_index": 396,
+      "supplier_product_id": "669",
+      "symbol": "AC18953",
+      "title": "Śpiwór Alpinus  Warm 1200 (Prawy) AC18953",
+      "model": "Warm",
+      "retail_eur": 41,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191412949330",
+          "status": "DRAFT",
+          "title": "Alpinus Warm 1200 Sleeping Bag – Right",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191402299730",
+          "status": "DRAFT",
+          "title": "Alpinus Warm 1500 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191404265810",
+          "status": "DRAFT",
+          "title": "Alpinus Warm 1200 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191412949330",
+          "status": "DRAFT",
+          "title": "Alpinus Warm 1200 Sleeping Bag – Right"
+        }
+      ]
+    },
+    {
+      "batch_index": 397,
+      "supplier_product_id": "846",
+      "symbol": "UZ11064",
+      "title": "Butelka trytanowa  Alpinus Trysil 650ml",
+      "model": "Trysil",
+      "retail_eur": 11,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 398,
+      "supplier_product_id": "887",
+      "symbol": "PO11103",
+      "title": "Plecak Alpinus Fatra 30 PO11103",
+      "model": "Fatra",
+      "retail_eur": 110,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191412392274",
+          "status": "DRAFT",
+          "title": "Alpinus Fatra 30 Backpack",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191412392274",
+          "status": "DRAFT",
+          "title": "Alpinus Fatra 30 Backpack"
+        }
+      ]
+    },
+    {
+      "batch_index": 399,
+      "supplier_product_id": "899",
+      "symbol": "ZJ11148",
+      "title": "Materac Alpinus Ticino ZJ11148",
+      "model": "Ticino",
+      "retail_eur": 46,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191412785490",
+          "status": "DRAFT",
+          "title": "Alpinus Ticino Camping Mattress",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191412785490",
+          "status": "DRAFT",
+          "title": "Alpinus Ticino Camping Mattress"
+        }
+      ]
+    },
+    {
+      "batch_index": 400,
+      "supplier_product_id": "698",
+      "symbol": "UZ11056",
+      "title": "Butelka trytanowa  Alpinus Trysil 650ml UZ11056",
+      "model": "Trysil",
+      "retail_eur": 11,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [],
+      "model_collisions": []
+    }
+  ]
+}
