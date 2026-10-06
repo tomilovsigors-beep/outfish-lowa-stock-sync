@@ -1,0 +1,45 @@
+{
+  "stage": "3_original_supplier_photos",
+  "batch": 1,
+  "report_date": "2026-10-06",
+  "status": "BLOCKED_PENDING_AUTHENTICATED_PHOTO_RECRAWL",
+  "selected_scope": "First 50 eligible supplier products, original catalog indices 1-59 (not 1-50 contiguous); selection reuses Stage 2 batch 1 verified supplier IDs",
+  "totals": {
+    "products_in_batch": 50,
+    "products_with_original_supplier_source_url": 50,
+    "products_with_photos_from_prior_render_crawl": 0,
+    "products_with_verified_photo_urls": 0,
+    "products_with_original_photo_files_stored_privately": 0,
+    "products_with_source_identity_verified": 0,
+    "private_manifest_rows": 50
+  },
+  "diagnostics": {
+    "previous_photo_extractor": "Limited img src to '/img/' path and relied primarily on img.open-gallery-lq. Other media/gallery/zoom/source-image patterns were not processed.",
+    "direct_source_fallback": "Three sampled supplier URLs returned login_required from external page fetcher; no public-source photo access.",
+    "render_job": "outfish-alpinus-readonly-test is deployed from branch main, autoDeploy disabled, starts python alpinus/probe.py. Recovery-branch photo fixes are not deployed.",
+    "changes_on_recovery_branch": [
+      "alpinus_bulk/photo_gallery.py",
+      "alpinus_bulk/crawl_catalog.py",
+      "tests/test_alpinus_photo_gallery.py"
+    ],
+    "tests": "Test cases committed but have NOT been executed in an authenticated Render environment.",
+    "remaining_issue": "Need authenticated source crawl and real image-file retrieval/checksums plus reliable private image upload. A list of URL candidates by itself is not a photo archive."
+  },
+  "private_manifest": {
+    "provider": "Google Drive",
+    "document_id": "1xp2ieEbrTphsBI3N4H_yJflExfgkAezGJZDHr9E3UvQ",
+    "folder_id": "14RMSK-P-iWAqPce96RWzDk529iUxC07v",
+    "access": "owner only, verified shared=false",
+    "source_id_and_sku_mapping_count": 50,
+    "readback_verified": true
+  },
+  "safety": {
+    "shopify_created": 0,
+    "shopify_updated": 0,
+    "shopify_images_uploaded": 0,
+    "shopify_active_modified": 0,
+    "source_private_data_in_github": false
+  },
+  "batch_complete": false,
+  "next_batch_rule": "Do not claim photo stage progressed to next 50 until source photo extraction and original image bytes have been collected and verified for batch 1."
+}
