@@ -90,7 +90,7 @@ if __name__ == "__main__":
     p.add_argument("--shopify", required=True, help="Shopify product JSON snapshot with variants")
     p.add_argument("--fx-pln-to-eur", required=True, type=Decimal, help="Verified rate, not an estimate")
     p.add_argument("--out", required=True)
-    p.add_argument("--batch-size", type=int, default=20)
+    p.add_argument("--batch-size", type=int, default=50)
     a = p.parse_args()
     if not 1 <= a.batch_size <= 50:
         p.error("batch size must be 1..50")
