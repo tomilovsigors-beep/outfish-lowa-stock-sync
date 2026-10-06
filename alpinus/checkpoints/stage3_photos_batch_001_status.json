@@ -23,7 +23,10 @@
       "tests/test_alpinus_photo_gallery.py"
     ],
     "tests": "Test cases committed but have NOT been executed in an authenticated Render environment.",
-    "remaining_issue": "Need authenticated source crawl and real image-file retrieval/checksums plus reliable private image upload. A list of URL candidates by itself is not a photo archive."
+    "remaining_issue": "Need authenticated source crawl and real image-file retrieval/checksums plus reliable private image upload. A list of URL candidates by itself is not a photo archive.",
+    "browser_context_check": "Two browser profiles exist (Default and Outfish Alpinus B2B), but neither reports alpinusgroup.com as signed in. Website automation requires establishing an authenticated profile before running.",
+    "render_execution_check": "Existing recurring Render job runs main and does not execute the recovery branch image fix; there is no supported in-place command execution or safe branch switch in available Render actions. Do not deploy to main or create chargeable cron service without suitable isolated credentials.",
+    "code_readback_check": "Both photo_gallery.py and crawl_catalog.py integration verified committed on recovery branch; offline test cases committed but not executed."
   },
   "private_manifest": {
     "provider": "Google Drive",
@@ -41,5 +44,6 @@
     "source_private_data_in_github": false
   },
   "batch_complete": false,
-  "next_batch_rule": "Do not claim photo stage progressed to next 50 until source photo extraction and original image bytes have been collected and verified for batch 1."
+  "next_batch_rule": "Do not claim photo stage progressed to next 50 until source photo extraction and original image bytes have been collected and verified for batch 1.",
+  "next_action": "Authenticate TinyFish Outfish Alpinus B2B browser profile through provider setup, or configure isolated authorized Render execution on recovery branch with private persistent photo archive; then retry only these 50 and verify actual image bytes and product IDs."
 }
