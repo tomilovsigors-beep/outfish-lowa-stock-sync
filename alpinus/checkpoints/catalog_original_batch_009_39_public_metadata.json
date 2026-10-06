@@ -1,0 +1,750 @@
+{
+  "source": "Render outfish-alpinus-readonly-test logs",
+  "captured_at": "2026-10-06T14:36Z",
+  "batch": "original_run_indices_401_to_439",
+  "supplier_count_at_capture": 439,
+  "sensitive_prices_excluded": true,
+  "products": [
+    {
+      "batch_index": 401,
+      "supplier_product_id": "673",
+      "source_url": "https://alpinusgroup.com/plecak-alpinus-otway-50-czarny-po18716/3-8-673",
+      "title": "Plecak Alpinus Otway 50, PO18716",
+      "symbol": "PO18716",
+      "eans": [
+        "5904555187160"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 402,
+      "supplier_product_id": "685",
+      "source_url": "https://alpinusgroup.com/saszetka-alpinus-murtosa-grantowy-ch18665/3-8-685",
+      "title": "Saszetka Alpinus Murtosa CH18665",
+      "symbol": "CH18665",
+      "eans": [
+        "5904555186651"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 403,
+      "supplier_product_id": "640",
+      "source_url": "https://alpinusgroup.com/namiot-alpinus-velebit-2-alu-zielony-ro18556/3-8-640",
+      "title": "Namiot Alpinus  VELEBIT 2 ALU RO18556",
+      "symbol": "RO18556",
+      "eans": [
+        "5904555185562"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 404,
+      "supplier_product_id": "668",
+      "source_url": "https://alpinusgroup.com/spiwor-alpinus-warm-1200-180x75cm-granatowy-ac1895/3-8-668",
+      "title": "Śpiwór Alpinus  Warm 1200 (Lewy) AC18952",
+      "symbol": "AC18952",
+      "eans": [
+        "5904555189522"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 405,
+      "supplier_product_id": "863",
+      "source_url": "https://alpinusgroup.com/spiwor-alpinus-ducklight-400-szary-ac11067-lewy/3-8-863",
+      "title": "Śpiwór puchowy Alpinus Ducklight 400 AC11067",
+      "symbol": "AC11067",
+      "eans": [
+        "5905616110677"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 406,
+      "supplier_product_id": "901",
+      "source_url": "https://alpinusgroup.com/materac-alpinus-torc-np11149/3-8-901",
+      "title": "Materac  Alpinus Torc NP11149",
+      "symbol": "NP11149",
+      "eans": [
+        "5905616111490"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 407,
+      "supplier_product_id": "699",
+      "source_url": "https://alpinusgroup.com/butelka-trytanowa-trysil-650-ml-alpinus-active-gra/3-8-699",
+      "title": "Butelka trytanowa Alpinus Trysil 650ml UZ11057",
+      "symbol": "UZ11057",
+      "eans": [
+        "5905616110578"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 408,
+      "supplier_product_id": "684",
+      "source_url": "https://alpinusgroup.com/recznik-alpinus-antilla-50x100cm-niebieski-ch18663/3-8-684",
+      "title": "Ręcznik chłodzący Alpinus  Antilla 50 cm x 100 cm CH18663",
+      "symbol": "CH18663",
+      "eans": [
+        "5904555186637"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 409,
+      "supplier_product_id": "900",
+      "source_url": "https://alpinusgroup.com/mata-alpinus-ostas-zj11147/3-8-900",
+      "title": "Mata samopompująca Alpinus Ostas ZJ11147",
+      "symbol": "ZJ11147",
+      "eans": [
+        "5905616111476"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 410,
+      "supplier_product_id": "639",
+      "source_url": "https://alpinusgroup.com/namiot-alpinus-velebit-2-zielony-ro18555/3-8-639",
+      "title": "Namiot Alpinus  VELEBIT 2  RO18555",
+      "symbol": "RO18555",
+      "eans": [
+        "5904555185555"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 411,
+      "supplier_product_id": "904",
+      "source_url": "https://alpinusgroup.com/mata-samopompujaca-alpinus-adrspach-lc11146/3-8-904",
+      "title": "Mata samopompująca Alpinus Adrspach LC11146",
+      "symbol": "LC11146",
+      "eans": [
+        "5905616111469"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 412,
+      "supplier_product_id": "641",
+      "source_url": "https://alpinusgroup.com/namiot-alpinus-reus-4-zielony-ro18557/3-8-641",
+      "title": "Namiot Alpinus  REUS 4 RO18557",
+      "symbol": "RO18557",
+      "eans": [
+        "5904555185579"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 413,
+      "supplier_product_id": "683",
+      "source_url": "https://alpinusgroup.com/hamak-alpinus-letna-niebiesko-szary-ch18664/3-8-683",
+      "title": "Hamak Alpinus Letna CH18664",
+      "symbol": "CH18664",
+      "eans": [
+        "5904555186644"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 414,
+      "supplier_product_id": "664",
+      "source_url": "https://alpinusgroup.com/spiwor-alpinus-classic-1050-215x80x50cm-czarno-pom/3-8-664",
+      "title": "Śpiwór Alpinus Classic 1050 (lewy) AC18645",
+      "symbol": "AC18645",
+      "eans": [
+        "5904555186453"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 415,
+      "supplier_product_id": "147",
+      "source_url": "https://alpinusgroup.com/talerzyki-do-kijkow-trekkingowych-alpinus-nx43646/3-8-147",
+      "title": "Talerzyki do kijków trekkingowych Alpinus NX43646",
+      "symbol": "NX43646",
+      "eans": [
+        "5908258436464"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 416,
+      "supplier_product_id": "291",
+      "source_url": "https://alpinusgroup.com/kubek-do-termosu-alpinus-cup-1l-czarny-hr18404/3-8-291",
+      "title": "Kubek do termosu  Alpinus Cup 1L HR18404",
+      "symbol": "HR18404",
+      "eans": [
+        "5904555184046"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 417,
+      "supplier_product_id": "138",
+      "source_url": "https://alpinusgroup.com/kijki-nordic-walking-alpinus-kungsleden-pomaranczo/3-8-138",
+      "title": "Kijki nordic walking Alpinus Kungsleden NX43603",
+      "symbol": "NX43603",
+      "eans": [
+        "5908258436037"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 418,
+      "supplier_product_id": "131",
+      "source_url": "https://alpinusgroup.com/kubek-emaliowany-alpinus-rys-bialy-0-28-l-al18045/3-8-131",
+      "title": "Kubek emaliowany  Alpinus Ryś 280 ml  AL18045",
+      "symbol": "AL18045",
+      "eans": [
+        "5904555180451"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 419,
+      "supplier_product_id": "43",
+      "source_url": "https://alpinusgroup.com/recznik-alpinus-costa-brava-60x120cm-niebieski-ch4/3-8-43",
+      "title": "Ręcznik Alpinus Costa Brava 60 cm x 120 cm CH43595",
+      "symbol": "CH43595",
+      "eans": [
+        "5908258435955"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 420,
+      "supplier_product_id": "38",
+      "source_url": "https://alpinusgroup.com/plecak-wodoodporny-alpinus-kayak-28-pomaranczowy-z/3-8-38",
+      "title": "Plecak wodoodporny Alpinus Kayak 28 pomarańczowy ZN43399",
+      "symbol": "ZN43399",
+      "eans": [
+        "5908258433999"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 421,
+      "supplier_product_id": "136",
+      "source_url": "https://alpinusgroup.com/kijki-nordic-walking-alpinus-braunberg-czerwone-nx/3-8-136",
+      "title": "Kijki nordic walking Alpinus Braunberg czerwone NX43601",
+      "symbol": "NX43601",
+      "eans": [
+        "5908258436013"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 422,
+      "supplier_product_id": "137",
+      "source_url": "https://alpinusgroup.com/kijki-nordic-walking-alpinus-lysefjord-niebieskie/3-8-137",
+      "title": "Kijki nordic walking Alpinus Lysefjord niebieskie NX43602",
+      "symbol": "NX43602",
+      "eans": [
+        "5908258436020"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 423,
+      "supplier_product_id": "286",
+      "source_url": "https://alpinusgroup.com/termos-alpinus-sahara-0-7l/3-8-286",
+      "title": "Termos  Alpinus Sahara 0,7 L",
+      "symbol": "HR18400",
+      "eans": [
+        "5904555184008"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 424,
+      "supplier_product_id": "287",
+      "source_url": "https://alpinusgroup.com/termos-alpinus-tactical-hb-1000n-sahara-1-0-czarny/3-8-287",
+      "title": "Termos  Alpinus Sahara1 L HR18401",
+      "symbol": "HR18401",
+      "eans": [
+        "5904555184015"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 425,
+      "supplier_product_id": "203",
+      "source_url": "https://alpinusgroup.com/torba-bawelniana-alpinus-drogowskaz-38-x-42-cm-mr0/3-8-203",
+      "title": "Torba bawełniana  Alpinus logo",
+      "symbol": "MR02980",
+      "eans": [
+        "2000000029801"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 426,
+      "supplier_product_id": "289",
+      "source_url": "https://alpinusgroup.com/kubek-do-termosu-alpinus-cup-0-5l-czarny-hr18410/3-8-289",
+      "title": "Kubek do termosu Alpinus Cup 0,5L HR18410",
+      "symbol": "HR18410",
+      "eans": [
+        "5904555184107"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 427,
+      "supplier_product_id": "285",
+      "source_url": "https://alpinusgroup.com/termos-alpinus-sahara-0-5l/3-8-285",
+      "title": "Termos  Alpinus Sahara 0,5L",
+      "symbol": "HR18399",
+      "eans": [
+        "5904555183995"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 428,
+      "supplier_product_id": "141",
+      "source_url": "https://alpinusgroup.com/plecak-alpinus-otway-40-oliwkowy-po43641/3-8-141",
+      "title": "Plecak Alpinus Otway 40 oliwkowy PO43641",
+      "symbol": "PO43641",
+      "eans": [
+        "5908258436419"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 429,
+      "supplier_product_id": "144",
+      "source_url": "https://alpinusgroup.com/koncowki-do-kijkow-nordic-walking-alpinus-nx43645/3-8-144",
+      "title": "Końcówki do kijków nordic walking Alpinus NX43645",
+      "symbol": "NX43645",
+      "eans": [
+        "5908258436457"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 430,
+      "supplier_product_id": "40",
+      "source_url": "https://alpinusgroup.com/recznik-alpinus-alicante-40x80cm-szary-ch43592/3-8-40",
+      "title": "Ręcznik Alpinus Alicante 40 cm x 80 cm CH43592",
+      "symbol": "CH43592",
+      "eans": [
+        "5908258435924"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 431,
+      "supplier_product_id": "130",
+      "source_url": "https://alpinusgroup.com/kubek-emaliowany-alpinus-kozica-zielony-0-28-l-al1/3-8-130",
+      "title": "Kubek emaliowany  Alpinus Kozica 280 ML AL18044",
+      "symbol": "AL18044",
+      "eans": [
+        "5904555180444"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 432,
+      "supplier_product_id": "290",
+      "source_url": "https://alpinusgroup.com/kubek-do-termosu-alpinus-cup-0-7l-czarny-hr18403/3-8-290",
+      "title": "Kubek do termosu Alpinus Cup 0,7L  HR18403",
+      "symbol": "HR18403",
+      "eans": [
+        "5904555184039"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 433,
+      "supplier_product_id": "41",
+      "source_url": "https://alpinusgroup.com/recznik-alpinus-canoa-blue-50x100cm-niebieski-ch43/3-8-41",
+      "title": "Ręcznik Alpinus Canoa 50 cm x 100 cm CH43593",
+      "symbol": "CH43593",
+      "eans": [
+        "5908258435931"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 434,
+      "supplier_product_id": "42",
+      "source_url": "https://alpinusgroup.com/recznik-alpinus-canoa-50x100cm-zielony-ch43594/3-8-42",
+      "title": "Ręcznik  Alpinus Canoa 50 cm x 100 cm CH43594",
+      "symbol": "CH43594",
+      "eans": [
+        "5908258435948"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 435,
+      "supplier_product_id": "293",
+      "source_url": "https://alpinusgroup.com/korek-do-termosu-alpinus-stopper-click-0-5l-0-7l-c/3-8-293",
+      "title": "Korek do termosu Alpinus Stopper \"Click\" 0,5L/0,7L",
+      "symbol": "HR18407",
+      "eans": [
+        "5904555184077"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 436,
+      "supplier_product_id": "292",
+      "source_url": "https://alpinusgroup.com/korek-do-termosu-alpinus-stopper-twist-0-5l-0-7l-c/3-8-292",
+      "title": "Korek do termosu  Alpinus Stopper \"Twist\" 0,5L/0,7L",
+      "symbol": "HR18405",
+      "eans": [
+        "5904555184053"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 437,
+      "supplier_product_id": "294",
+      "source_url": "https://alpinusgroup.com/korek-do-termosu-alpinus-stopper-twist-1l/3-8-294",
+      "title": "Korek do termosu  Alpinus Stopper \"Twist\" 1L",
+      "symbol": "HR18406",
+      "eans": [
+        "5904555184060"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 438,
+      "supplier_product_id": "295",
+      "source_url": "https://alpinusgroup.com/korek-do-termosu-alpinus-stopper-click-1l-czarny-h/3-8-295",
+      "title": "Korek do termosu  Alpinus Stopper \"Click\" 1L HR18408",
+      "symbol": "HR18408",
+      "eans": [
+        "5904555184084"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 439,
+      "supplier_product_id": "240",
+      "source_url": "https://alpinusgroup.com/czapka-dla-dzieci-alpinus-oulu-niebiesko-rozowa-st/3-7-240",
+      "title": "Czapka dla dzieci Alpinus Oulu niebiesko-różowa ST18341",
+      "symbol": "ST18341",
+      "eans": [
+        "5904555183414"
+      ],
+      "categories": [
+        "KIDS"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    }
+  ]
+}
