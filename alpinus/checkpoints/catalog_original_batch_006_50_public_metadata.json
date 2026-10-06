@@ -1,0 +1,1106 @@
+{
+  "source": "Render outfish-alpinus-readonly-test logs",
+  "captured_at": "2026-10-06T14:36Z",
+  "batch": "original_run_indices_251_to_300",
+  "supplier_count_at_capture": 439,
+  "sensitive_prices_excluded": true,
+  "products": [
+    {
+      "batch_index": 251,
+      "supplier_product_id": "984",
+      "source_url": "https://alpinusgroup.com/bluza-termoaktywna-damska-alpinus-lillehammer-ao11/3-5-984",
+      "title": "Bluza termoaktywna damska   Alpinus Lillehammer  AO11581",
+      "symbol": "AO11581",
+      "eans": [
+        "5905616115818",
+        "5905616115825",
+        "5905616115832",
+        "5905616117096"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 252,
+      "supplier_product_id": "1151",
+      "source_url": "https://alpinusgroup.com/koszulka-damska-alpinus-dirna-fp35477/3-5-1151",
+      "title": "Koszulka damska Alpinus Dirna FP35477",
+      "symbol": "FP35477",
+      "eans": [
+        "5907153353869",
+        "5907153353876",
+        "5907153353883",
+        "5907153353890",
+        "5907153353920",
+        "5907153353937",
+        "5907153354774"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 253,
+      "supplier_product_id": "997",
+      "source_url": "https://alpinusgroup.com/bluza-damska-alpinus-uba/3-5-997",
+      "title": "Bluza damska Alpinus UBA, MK11501",
+      "symbol": "MK11501",
+      "eans": [
+        "5905616115016",
+        "5905616115023",
+        "5905616115030",
+        "5905616115047",
+        "5905616115054",
+        "5905616115061"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 254,
+      "supplier_product_id": "943",
+      "source_url": "https://alpinusgroup.com/kurtka-damska-softshell-alpinus-majadita/3-5-943",
+      "title": "Kurtka damska softshell  Alpinus Majadita",
+      "symbol": "FF11349",
+      "eans": [
+        "5905616113494",
+        "5905616113500",
+        "5905616113517",
+        "5905616113524",
+        "5905616113531",
+        "5905616113548"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 255,
+      "supplier_product_id": "981",
+      "source_url": "https://alpinusgroup.com/bielizna-termoaktywna-damska-alpinus-verbier-set/3-5-981",
+      "title": "Bielizna termoaktywna damska  Alpinus Verbier Set",
+      "symbol": "JI11571",
+      "eans": [
+        "5905616115719",
+        "5905616115726",
+        "5905616115733",
+        "5905616115740"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 256,
+      "supplier_product_id": "885",
+      "source_url": "https://alpinusgroup.com/kurtka-damska-softshell-alpinus-minthi-mk18858/3-5-885",
+      "title": "Kurtka damska softshell Alpinus Minthi MK18858",
+      "symbol": "MK18858",
+      "eans": [
+        "5904555188587",
+        "5904555188594",
+        "5904555188600",
+        "5904555188617",
+        "5904555188624",
+        "5907153354064",
+        "5907153354071"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 257,
+      "supplier_product_id": "944",
+      "source_url": "https://alpinusgroup.com/spodenki-trekkingowe-alpinus-ajribab/3-5-944",
+      "title": "Spodenki trekkingowe damskie  Alpinus Ajribaba FF11361",
+      "symbol": "FF11361",
+      "eans": [
+        "5905616113616",
+        "5905616113623",
+        "5905616113630",
+        "5905616113647",
+        "5905616113654"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 258,
+      "supplier_product_id": "879",
+      "source_url": "https://alpinusgroup.com/kurtka-damska-3-warstwowa-alpinus-gingera-mk18827/3-5-879",
+      "title": "Kurtka damska 3-warstwowa Alpinus Gingera MK18827",
+      "symbol": "MK18827",
+      "eans": [
+        "5904555188273",
+        "5904555188280",
+        "5904555188297",
+        "5904555188303",
+        "5904555188310"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 259,
+      "supplier_product_id": "949",
+      "source_url": "https://alpinusgroup.com/koszulka-damska-alpinus-tulamba/3-5-949",
+      "title": "Koszulka damska  Alpinus Tulamba",
+      "symbol": "SI11182",
+      "eans": [
+        "5905616111827",
+        "5905616111834",
+        "5905616111841",
+        "5905616111858",
+        "5905616111865",
+        "5905616111872"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 260,
+      "supplier_product_id": "985",
+      "source_url": "https://alpinusgroup.com/spodnie-termoaktywne-damskie-alpinus-lillehammer-a/3-5-985",
+      "title": "Spodnie termoaktywne damskie   Alpinus Lillehammer  AO11584",
+      "symbol": "AO11584",
+      "eans": [
+        "5905616115849",
+        "5905616115856",
+        "5905616115863",
+        "5905616117102"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 261,
+      "supplier_product_id": "980",
+      "source_url": "https://alpinusgroup.com/plaszcz-zimowy-damski-alpinus-iparla-br11660/3-5-980",
+      "title": "Płaszcz zimowy damski  Alpinus Iparla BR11660",
+      "symbol": "BR11660",
+      "eans": [
+        "5905616116600",
+        "5905616116617",
+        "5905616116624",
+        "5905616116631",
+        "5905616116648",
+        "5905616116655",
+        "5907153350448"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 262,
+      "supplier_product_id": "340",
+      "source_url": "https://alpinusgroup.com/bielizna-termoaktywna-dla-chlopcow-alpinus-tactica/3-5-340",
+      "title": "Bielizna termoaktywna dla chłopców Alpinus Gausdal Set SI8922",
+      "symbol": "SI8922",
+      "eans": [
+        "5904555189225",
+        "5904555189232",
+        "5904555189249"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 263,
+      "supplier_product_id": "622",
+      "source_url": "https://alpinusgroup.com/kurtka-damska-alpinus-cortina-morska-yt18748/3-5-622",
+      "title": "Kurtka damska puchowa Alpinus Cortina YT18748",
+      "symbol": "YT18748",
+      "eans": [
+        "5904555187481",
+        "5904555187498",
+        "5904555187504",
+        "5904555187511",
+        "5904555187528"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 264,
+      "supplier_product_id": "862",
+      "source_url": "https://alpinusgroup.com/kurtka-damska-alpinus-tunari-sf11041/3-5-862",
+      "title": "Kurtka damska Alpinus Tunari SF11041",
+      "symbol": "SF11041",
+      "eans": [
+        "5905616110417",
+        "5905616110424",
+        "5905616110431",
+        "5905616110448",
+        "5905616110455",
+        "5907153350516",
+        "5907153351865"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 265,
+      "supplier_product_id": "343",
+      "source_url": "https://alpinusgroup.com/dwuwarstwowa-konstrukcja-dzieki-niej-bielizna-sw/3-5-343",
+      "title": "Spodnie termoaktywne damskie Alpinus Mora SI8933",
+      "symbol": "SI8933",
+      "eans": [
+        "5904555189331",
+        "5904555189348",
+        "5904555189355",
+        "5904555189362"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 266,
+      "supplier_product_id": "347",
+      "source_url": "https://alpinusgroup.com/bielizna-termoaktywna-dla-chlopcow-alpinus-active/3-5-347",
+      "title": "Bielizna termoaktywna dla chłopców Alpinus Idre Set SI1023",
+      "symbol": "SI1023",
+      "eans": [
+        "5905616110233",
+        "5905616110240",
+        "5905616110257"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 267,
+      "supplier_product_id": "623",
+      "source_url": "https://alpinusgroup.com/kurtka-damska-alpinus-rocca-czerwona-yt18753/3-5-623",
+      "title": "Kurtka puchowa damska Alpinus Rocca YT18753",
+      "symbol": "YT18753",
+      "eans": [
+        "5904555187535",
+        "5904555187542",
+        "5904555187559",
+        "5904555187566",
+        "5904555187573",
+        "5907153351872",
+        "5907153351889"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 268,
+      "supplier_product_id": "353",
+      "source_url": "https://alpinusgroup.com/spodnie-damskie-alpinus-marmore-czarne-ff18601/3-5-353",
+      "title": "Spodnie trekkingowe damskie Alpinus Marmore czarne FF18601",
+      "symbol": "FF18601",
+      "eans": [
+        "5904555186019",
+        "5904555186026",
+        "5904555186033",
+        "5904555186040",
+        "5904555186057",
+        "5907153354088"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 269,
+      "supplier_product_id": "342",
+      "source_url": "https://alpinusgroup.com/bluza-termoaktywna-damska-alpinus-tactical-mora-gr/3-5-342",
+      "title": "Bluza termoaktywna damska Alpinus Mora SI8929",
+      "symbol": "SI8929",
+      "eans": [
+        "5904555189294",
+        "5904555189300",
+        "5904555189317",
+        "5904555189324"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 270,
+      "supplier_product_id": "675",
+      "source_url": "https://alpinusgroup.com/kurtka-damska-alpinus-katla-oliwka-ho18774/3-5-675",
+      "title": "Kurtka damska  Alpinus Katla",
+      "symbol": "HO18774",
+      "eans": [
+        "5904555187740",
+        "5904555187757",
+        "5904555187764",
+        "5904555187771",
+        "5904555187788"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 271,
+      "supplier_product_id": "851",
+      "source_url": "https://alpinusgroup.com/koszulka-damska-alpinus-bona-czarna-mk18801/3-5-851",
+      "title": "Koszulka damska Alpinus Bona MK18801",
+      "symbol": "MK18801",
+      "eans": [
+        "5904555188013",
+        "5904555188020",
+        "5904555188037",
+        "5904555188044",
+        "5904555188051"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 272,
+      "supplier_product_id": "344",
+      "source_url": "https://alpinusgroup.com/bielizna-termoaktywna-dla-dziewczynek-alpinus-tact/3-5-344",
+      "title": "Bielizna termoaktywna dla dziewczynek  Alpinus Mora Set SI8937",
+      "symbol": "SI8937",
+      "eans": [
+        "5904555189379",
+        "5904555189386",
+        "5904555189393"
+      ],
+      "categories": [
+        "KIDS",
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 273,
+      "supplier_product_id": "617",
+      "source_url": "https://alpinusgroup.com/spodnie-damskie-alpinus-socompa-zielone-su18768/3-5-617",
+      "title": "Spodnie trekkingowe damskie Alpinus Socompa  SU18768",
+      "symbol": "SU18768",
+      "eans": [
+        "5904555187689",
+        "5904555187696",
+        "5904555187702",
+        "5904555187719",
+        "5904555187726",
+        "5907153350431"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 274,
+      "supplier_product_id": "702",
+      "source_url": "https://alpinusgroup.com/bluza-polarowa-damska-alpinus-grivola-el18666/3-5-702",
+      "title": "Bluza polarowa damska Alpinus Grivola EL18666",
+      "symbol": "EL18666",
+      "eans": [
+        "5904555186668",
+        "5904555186675",
+        "5904555186682",
+        "5904555186699",
+        "5904555186705"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 275,
+      "supplier_product_id": "341",
+      "source_url": "https://alpinusgroup.com/bielizna-termoaktywna-damska-alpinus-tactical-mora/3-5-341",
+      "title": "Bielizna termoaktywna damska  Alpinus Mora Set SI8925",
+      "symbol": "SI8925",
+      "eans": [
+        "5904555189256",
+        "5904555189263",
+        "5904555189270",
+        "5904555189287"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 276,
+      "supplier_product_id": "329",
+      "source_url": "https://alpinusgroup.com/bluza-termoaktywna-damska-alpinus-tactical-base-la/3-5-329",
+      "title": "Bluza termoaktywna damska Alpinus Tactical Base Layer czarno-niebieska GT43210",
+      "symbol": "GT43210",
+      "eans": [
+        "5908258432107",
+        "5908258432114",
+        "5908258432121",
+        "5908258432138"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 277,
+      "supplier_product_id": "333",
+      "source_url": "https://alpinusgroup.com/bluza-termoaktywna-damska-alpinus-pro-miyabi-editi/3-5-333",
+      "title": "Bluza termoaktywna damska Alpinus Pro Miyabi Edition szara GT43230",
+      "symbol": "GT43230",
+      "eans": [
+        "5908258432305",
+        "5908258432312",
+        "5908258432329",
+        "5908258432336"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 278,
+      "supplier_product_id": "331",
+      "source_url": "https://alpinusgroup.com/spodnie-termoaktywne-damskie-alpinus-active-base-l/3-5-331",
+      "title": "Spodnie termoaktywne damskie Alpinus Active Base Layer czarno-szare GT43185",
+      "symbol": "GT43185",
+      "eans": [
+        "5908258431858",
+        "5908258431865",
+        "5908258431872",
+        "5908258431889"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 279,
+      "supplier_product_id": "334",
+      "source_url": "https://alpinusgroup.com/spodnie-termoaktywne-damskie-alpinus-pro-miyabi-ed/3-5-334",
+      "title": "Spodnie termoaktywne damskie Alpinus Pro Miyabi Edition szare GT43235",
+      "symbol": "GT43235",
+      "eans": [
+        "5908258432350",
+        "5908258432367",
+        "5908258432374",
+        "5908258432381"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 280,
+      "supplier_product_id": "318",
+      "source_url": "https://alpinusgroup.com/bielizna-termoaktywna-dla-dzieci-alpinus-active-se/3-5-318",
+      "title": "Bielizna termoaktywna dla dzieci Alpinus Active Set czarno-szara GT43204",
+      "symbol": "GT43204",
+      "eans": [
+        "5908258432046",
+        "5908258432053",
+        "5908258432060",
+        "5908258432077",
+        "5908258432084"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 281,
+      "supplier_product_id": "330",
+      "source_url": "https://alpinusgroup.com/bluza-termoaktywna-damska-alpinus-active-base-laye/3-5-330",
+      "title": "Bluza termoaktywna damska Alpinus Active Base Layer czarno-szara GT43180",
+      "symbol": "GT43180",
+      "eans": [
+        "5908258431803",
+        "5908258431810",
+        "5908258431827",
+        "5908258431834"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 282,
+      "supplier_product_id": "328",
+      "source_url": "https://alpinusgroup.com/bielizna-termoaktywna-damska-alpinus-active-base-l/3-5-328",
+      "title": "Bielizna termoaktywna damska Alpinus Active Base Layer Set GT43253",
+      "symbol": "GT43253",
+      "eans": [
+        "5908258432534",
+        "5908258432541",
+        "5908258432558",
+        "5908258432565"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 283,
+      "supplier_product_id": "216",
+      "source_url": "https://alpinusgroup.com/kurtka-damska-softshell-alpinus-bergamo-szary-br18/3-5-216",
+      "title": "Kurtka damska Softshell Alpinus Bergamo szary BR18186",
+      "symbol": "BR18186",
+      "eans": [
+        "5904555181861",
+        "5904555181878",
+        "5904555181885",
+        "5904555181892"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 284,
+      "supplier_product_id": "212",
+      "source_url": "https://alpinusgroup.com/koszulka-damska-funkcyjna-alpinus-misurina-grafito/3-5-212",
+      "title": "Koszulka damska funkcyjna Alpinus Misurina grafitowa GT18290",
+      "symbol": "GT18290",
+      "eans": [
+        "5904555182905",
+        "5904555182912",
+        "5904555182929",
+        "5904555182936"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 285,
+      "supplier_product_id": "237",
+      "source_url": "https://alpinusgroup.com/czapka-damska-alpinus-sompion-burgundowa-st18338/3-5-237",
+      "title": "Czapka Alpinus Sompion ST18338",
+      "symbol": "ST18338",
+      "eans": [
+        "5904555183384"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 286,
+      "supplier_product_id": "214",
+      "source_url": "https://alpinusgroup.com/kamizelka-damska-alpinus-monza-mieta-br18178/3-5-214",
+      "title": "Kamizelka damska Alpinus Monza mięta BR18178",
+      "symbol": "BR18178",
+      "eans": [
+        "5904555181786",
+        "5904555181793",
+        "5904555181809",
+        "5904555181816"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 287,
+      "supplier_product_id": "234",
+      "source_url": "https://alpinusgroup.com/czapka-damska-alpinus-luosto-bezowa-st18335/3-5-234",
+      "title": "Czapka Alpinus Luosto ST18335",
+      "symbol": "ST18335",
+      "eans": [
+        "5904555183353"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 288,
+      "supplier_product_id": "236",
+      "source_url": "https://alpinusgroup.com/czapka-alpinus-sompion-czapka-alpinus-sompion-czap/3-5-236",
+      "title": "Czapka  Alpinus Sompion ST18337",
+      "symbol": "ST18337",
+      "eans": [
+        "5904555183377"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 289,
+      "supplier_product_id": "235",
+      "source_url": "https://alpinusgroup.com/czapka-damska-alpinus-luosto-bialo-szaro-rozowa-st/3-5-235",
+      "title": "Czapka Alpinus Luosto ST18336",
+      "symbol": "ST18336",
+      "eans": [
+        "5904555183360"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 290,
+      "supplier_product_id": "215",
+      "source_url": "https://alpinusgroup.com/kurtka-damska-softshell-alpinus-bergamo-pudrowy-ro/3-5-215",
+      "title": "Kurtka damska Softshell Alpinus Bergamo pudrowy róż BR18182",
+      "symbol": "BR18182",
+      "eans": [
+        "5904555181823",
+        "5904555181830",
+        "5904555181847",
+        "5904555181854"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 291,
+      "supplier_product_id": "232",
+      "source_url": "https://alpinusgroup.com/czapka-damska-alpinus-autiola-zolty-fuksja-st18333/3-5-232",
+      "title": "Czapka Alpinus Autiola ST18333",
+      "symbol": "ST18333",
+      "eans": [
+        "5904555183339"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 292,
+      "supplier_product_id": "213",
+      "source_url": "https://alpinusgroup.com/kamizelka-damska-alpinus-monza-grafit-br18174/3-5-213",
+      "title": "Kamizelka damska Alpinus Monza grafit BR18174",
+      "symbol": "BR18174",
+      "eans": [
+        "5904555181748",
+        "5904555181755",
+        "5904555181762",
+        "5904555181779"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 293,
+      "supplier_product_id": "257",
+      "source_url": "https://alpinusgroup.com/bielizna-termoaktywna-damska-alpinus-tactical-base/3-5-257",
+      "title": "Bielizna termoaktywna damska Alpinus Tactical Base Layer Set czarno-szara GT18370",
+      "symbol": "GT18370",
+      "eans": [
+        "5904555183704",
+        "5904555183711",
+        "5904555183728",
+        "5904555183735"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 294,
+      "supplier_product_id": "258",
+      "source_url": "https://alpinusgroup.com/bluza-termoaktywna-damska-alpinus-tactical-base-la/3-5-258",
+      "title": "Bluza termoaktywna damska Alpinus Tactical Base Layer czarno-szara GT18362",
+      "symbol": "GT18362",
+      "eans": [
+        "5904555183629",
+        "5904555183636",
+        "5904555183643",
+        "5904555183650"
+      ],
+      "categories": [
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 295,
+      "supplier_product_id": "1192",
+      "source_url": "https://alpinusgroup.com/plecak-alpinus-oliero-22/3-8-1192",
+      "title": "Plecak  Alpinus Oliero 22",
+      "symbol": "PO35502",
+      "eans": [
+        "5907153355023"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 296,
+      "supplier_product_id": "1203",
+      "source_url": "https://alpinusgroup.com/plecak-alpinus-toulouse-20-nh35623/3-8-1203",
+      "title": "Plecak  Alpinus Toulouse 20 NH35623",
+      "symbol": "NH35623",
+      "eans": [
+        "5907153356235"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 297,
+      "supplier_product_id": "1181",
+      "source_url": "https://alpinusgroup.com/plecak-alpinus-lecco-25/3-8-1181",
+      "title": "Plecak  Alpinus Lecco 25",
+      "symbol": "NH35484",
+      "eans": [
+        "5907153354842"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 298,
+      "supplier_product_id": "1168",
+      "source_url": "https://alpinusgroup.com/namiot-garda-3-lo35275/3-8-1168",
+      "title": "Namiot Garda 3 LO35275",
+      "symbol": "LO35275",
+      "eans": [
+        "5907153352756"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 299,
+      "supplier_product_id": "1142",
+      "source_url": "https://alpinusgroup.com/torba-alpinus-avila-60-nh35265/3-8-1142",
+      "title": "Torba  Alpinus Avila 60 NH35265",
+      "symbol": "NH35265",
+      "eans": [
+        "5907153352657"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 300,
+      "supplier_product_id": "1185",
+      "source_url": "https://alpinusgroup.com/plecak-alpinus-teno-24-nh11723/3-8-1185",
+      "title": "Plecak  Alpinus Teno 24 NH11723",
+      "symbol": "NH11723",
+      "eans": [
+        "5905616117232"
+      ],
+      "categories": [
+        "EQUIPMENT"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    }
+  ]
+}
