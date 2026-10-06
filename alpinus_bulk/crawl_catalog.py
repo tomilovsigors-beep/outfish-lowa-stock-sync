@@ -3,7 +3,7 @@ from datetime import datetime, timezone
 from urllib.parse import urlparse, urljoin
 from bs4 import BeautifulSoup
 from app import BASE_URL, open_logged_in_page
-from alpinus_bulk.photo_gallery import extract_image_urls
+from photo_gallery import extract_image_urls
 
 MAX_PRODUCTS=min(50,int(os.getenv("ALPINUS_MAX_PRODUCTS","50")))
 START_INDEX=int(os.getenv("ALPINUS_START_INDEX","0"))
