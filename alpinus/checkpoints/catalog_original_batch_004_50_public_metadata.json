@@ -1,0 +1,1150 @@
+{
+  "source": "Render outfish-alpinus-readonly-test logs",
+  "captured_at": "2026-10-06T14:36Z",
+  "batch": "original_run_indices_151_to_200",
+  "supplier_count_at_capture": 439,
+  "sensitive_prices_excluded": true,
+  "products": [
+    {
+      "batch_index": 151,
+      "supplier_product_id": "349",
+      "source_url": "https://alpinusgroup.com/kurtka-meska-alpinus-pourri-zielona-ff18606/3-6-349",
+      "title": "Kurtka męska softshell Alpinus Pourri FF18606",
+      "symbol": "FF18606",
+      "eans": [
+        "5904555186064",
+        "5904555186071",
+        "5904555186088",
+        "5904555186095",
+        "5904555186101",
+        "5905616114743"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 152,
+      "supplier_product_id": "674",
+      "source_url": "https://alpinusgroup.com/kurtka-meska-alpinus-felskinn-czarna-ii-ho18784/3-6-674",
+      "title": "Kurtka męska  Alpinus Felskinn II",
+      "symbol": "HO18784",
+      "eans": [
+        "5904555187849",
+        "5904555187856",
+        "5904555187863",
+        "5904555187870",
+        "5904555187887"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 153,
+      "supplier_product_id": "350",
+      "source_url": "https://alpinusgroup.com/kurtka-meska-alpinus-pourri-pomaranczowy-ff18611/3-6-350",
+      "title": "Kurtka męska softshell Alpinus Pourri FF18611",
+      "symbol": "FF18611",
+      "eans": [
+        "5904555186118",
+        "5904555186125",
+        "5904555186132",
+        "5904555186149",
+        "5904555186156",
+        "5905616114736"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 154,
+      "supplier_product_id": "339",
+      "source_url": "https://alpinusgroup.com/dwuwarstwowa-konstrukcja-dzieki-niej-bielizna-sw/3-6-339",
+      "title": "Spodnie termoaktywne męskie Alpinus Gausdal SI8917",
+      "symbol": "SI8917",
+      "eans": [
+        "5904555189171",
+        "5904555189188",
+        "5904555189195",
+        "5904555189201",
+        "5904555189218"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 155,
+      "supplier_product_id": "322",
+      "source_url": "https://alpinusgroup.com/bluza-termoaktywna-meska-alpinus-active-base-layer/3-6-322",
+      "title": "Bluza termoaktywna męska Alpinus Active Base Layer czarno-szara GT43189",
+      "symbol": "GT43189",
+      "eans": [
+        "5908258431896",
+        "5908258431902",
+        "5908258431919",
+        "5908258431926",
+        "5908258431933"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 156,
+      "supplier_product_id": "676",
+      "source_url": "https://alpinusgroup.com/kurtka-meska-alpinus-felskinn-granatowy-ho18790/3-6-676",
+      "title": "Kurtka męska  Alpinus Felskinn II HO18790",
+      "symbol": "HO18790",
+      "eans": [
+        "5904555187900",
+        "5904555187917",
+        "5904555187924",
+        "5904555187931",
+        "5904555187948"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 157,
+      "supplier_product_id": "338",
+      "source_url": "https://alpinusgroup.com/bluza-termoaktywna-meska-alpinus-tactical-gausdal/3-6-338",
+      "title": "Bluza termoaktywna męska Alpinus Gausdal SI8912",
+      "symbol": "SI8912",
+      "eans": [
+        "5904555189126",
+        "5904555189133",
+        "5904555189140",
+        "5904555189157",
+        "5904555189164"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 158,
+      "supplier_product_id": "345",
+      "source_url": "https://alpinusgroup.com/bielizna-termoaktywna-meska-alpinus-active-idre-se/3-6-345",
+      "title": "Bielizna termoaktywna męska Alpinus Idre Set SI8940",
+      "symbol": "SI8940",
+      "eans": [
+        "5904555189409",
+        "5904555189416",
+        "5904555189423",
+        "5904555189430",
+        "5904555189447"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 159,
+      "supplier_product_id": "649",
+      "source_url": "https://alpinusgroup.com/koszulka-meska-alpinus-polaris-koralowa-fu18550/3-6-649",
+      "title": "Koszulka męska Alpinus Polaris koralowa FU18550",
+      "symbol": "FU18550",
+      "eans": [
+        "5904555185500",
+        "5904555185517",
+        "5904555185524",
+        "5904555185531",
+        "5904555185548"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 160,
+      "supplier_product_id": "678",
+      "source_url": "https://alpinusgroup.com/bluza-polarowa-meska-alpinus-caen-tecnopile-oliwko/3-6-678",
+      "title": "Bluza polarowa męska  Alpinus Caen II 100 EL18993",
+      "symbol": "EL18993",
+      "eans": [
+        "5904555189935",
+        "5904555189942",
+        "5904555189959",
+        "5904555189966",
+        "5904555189973",
+        "5904555189980"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 161,
+      "supplier_product_id": "33",
+      "source_url": "https://alpinusgroup.com/skarpety-alpinus-puyo-3pack-czarne-fl43764/3-6-33",
+      "title": "Skarpety Alpinus  Puyo 3pack FL43764",
+      "symbol": "FL43764",
+      "eans": [
+        "5908258437645",
+        "5908258437652",
+        "5908258437669"
+      ],
+      "categories": [
+        "MEN",
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 162,
+      "supplier_product_id": "320",
+      "source_url": "https://alpinusgroup.com/bluza-termoaktywna-meska-alpinus-pro-miyabi-editio/3-6-320",
+      "title": "Bluza termoaktywna męska Alpinus Pro Miyabi Edition czarna GT43239",
+      "symbol": "GT43239",
+      "eans": [
+        "5908258432398",
+        "5908258432404",
+        "5908258432411",
+        "5908258432428",
+        "5908258432435"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 163,
+      "supplier_product_id": "18",
+      "source_url": "https://alpinusgroup.com/kurtka-meska-softshell-alpinus-stenshuvud-czarna-b/3-6-18",
+      "title": "Kurtka męska Softshell Alpinus Stenshuvud BR43371",
+      "symbol": "BR43371",
+      "eans": [
+        "5905616110585",
+        "5905616113661",
+        "5908258433715",
+        "5908258433722",
+        "5908258433739",
+        "5908258433746",
+        "5908258433753"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 164,
+      "supplier_product_id": "75",
+      "source_url": "https://alpinusgroup.com/bluza-termoaktywna-meska-alpinus-active-base-layer/3-6-75",
+      "title": "Bluza termoaktywna męska Alpinus Active Base Layer szara GT43860",
+      "symbol": "GT43860",
+      "eans": [
+        "5908258438604",
+        "5908258438611",
+        "5908258438628",
+        "5908258438635",
+        "5908258438642"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 165,
+      "supplier_product_id": "36",
+      "source_url": "https://alpinusgroup.com/skarpety-alpinus-alpamayo-3-pack-czarne-fl43773/3-6-36",
+      "title": "Skarpety  Alpinus Alpamayo 3-pack FL43773",
+      "symbol": "FL43773",
+      "eans": [
+        "5908258437737",
+        "5908258437744",
+        "5908258437751"
+      ],
+      "categories": [
+        "MEN",
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 166,
+      "supplier_product_id": "30",
+      "source_url": "https://alpinusgroup.com/czapka-alpinus-calera-miyabi-czarna-gt43528/3-6-30",
+      "title": "Czapka Alpinus Calera Miyabi GT43528",
+      "symbol": "GT43528",
+      "eans": [
+        "5908258435283"
+      ],
+      "categories": [
+        "MEN",
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 167,
+      "supplier_product_id": "32",
+      "source_url": "https://alpinusgroup.com/skarpety-alpinus-puyo-3pack-biale-fl43761/3-6-32",
+      "title": "Skarpety Alpinus  Puyo 3-pack FL43761",
+      "symbol": "FL43761",
+      "eans": [
+        "5908258437614",
+        "5908258437621",
+        "5908258437638"
+      ],
+      "categories": [
+        "MEN",
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 168,
+      "supplier_product_id": "34",
+      "source_url": "https://alpinusgroup.com/skarpety-alpinus-puyo-3pack-czarne-szare-biale-f/3-6-34",
+      "title": "Skarpety  Alpinus Puyo 3pack FL43767",
+      "symbol": "FL43767",
+      "eans": [],
+      "categories": [
+        "MEN",
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 169,
+      "supplier_product_id": "14",
+      "source_url": "https://alpinusgroup.com/kamizelka-meska-alpinus-athos-body-warmer-czarna-b/3-6-14",
+      "title": "Kamizelka męska Alpinus Athos Body Warmer czarna BR43351",
+      "symbol": "BR43351",
+      "eans": [
+        "5905616119663",
+        "5905616119670",
+        "5908258433517",
+        "5908258433524",
+        "5908258433531",
+        "5908258433548",
+        "5908258433555"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 170,
+      "supplier_product_id": "35",
+      "source_url": "https://alpinusgroup.com/skarpety-alpinus-alpamayo-3pack-biale-fl43770/3-6-35",
+      "title": "Skarpety Alpinus  Alpamayo 3pack FL43770",
+      "symbol": "FL43770",
+      "eans": [
+        "5908258437706",
+        "5908258437713",
+        "5908258437720"
+      ],
+      "categories": [
+        "MEN",
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 171,
+      "supplier_product_id": "37",
+      "source_url": "https://alpinusgroup.com/skarpety-alpinus-alpamayo-3pack-czarne-szare-bia/3-6-37",
+      "title": "Skarpety Alpinus Alpamayo 3pack  FL43776",
+      "symbol": "FL43776",
+      "eans": [
+        "5908258437768",
+        "5908258437775",
+        "5908258437782"
+      ],
+      "categories": [
+        "MEN",
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 172,
+      "supplier_product_id": "73",
+      "source_url": "https://alpinusgroup.com/spodnie-trekkingowe-alpinus-meskie-pyrenees-czarne/3-6-73",
+      "title": "Spodnie trekkingowe męskie Alpinus Pyrenees FF43791",
+      "symbol": "FF43791",
+      "eans": [
+        "5908258437911",
+        "5908258437928",
+        "5908258437935",
+        "5908258437942",
+        "5908258437959"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 173,
+      "supplier_product_id": "2",
+      "source_url": "https://alpinusgroup.com/komin-alpinus-utulik-miyabi-gray-szary-melanz-gt43/3-6-2",
+      "title": "Komin Alpinus Utulik Miyabi GT43251",
+      "symbol": "GT43251",
+      "eans": [
+        "5908258432510"
+      ],
+      "categories": [
+        "MEN",
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 174,
+      "supplier_product_id": "15",
+      "source_url": "https://alpinusgroup.com/kamizelka-meska-alpinus-athos-body-warmer-granatow/3-6-15",
+      "title": "Kamizelka męska Alpinus Athos Body Warmer granatowa BR43356",
+      "symbol": "BR43356",
+      "eans": [
+        "5905616119687",
+        "5905616119694",
+        "5908258433562",
+        "5908258433579",
+        "5908258433586",
+        "5908258433593",
+        "5908258433609"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 175,
+      "supplier_product_id": "319",
+      "source_url": "https://alpinusgroup.com/bielizna-termoaktywna-meska-alpinus-tactical-base/3-6-319",
+      "title": "Bielizna termoaktywna męska  Alpinus Tactical Base Layer Set  GT43276",
+      "symbol": "GT43276",
+      "eans": [
+        "5908258432763",
+        "5908258432770",
+        "5908258432787",
+        "5908258432794",
+        "5908258432800"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 176,
+      "supplier_product_id": "1",
+      "source_url": "https://alpinusgroup.com/kominiarka-alpinus-active-balaclava-unisex-czarna/3-6-1",
+      "title": "Kominiarka Alpinus Balaclava Unisex GT43249",
+      "symbol": "GT43249",
+      "eans": [
+        "5908258432497",
+        "5908258432503"
+      ],
+      "categories": [
+        "KIDS",
+        "MEN",
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 177,
+      "supplier_product_id": "323",
+      "source_url": "https://alpinusgroup.com/spodnie-termoaktywne-meskie-alpinus-active-base-la/3-6-323",
+      "title": "Spodnie termoaktywne męskie Alpinus Active Base Layer czarno-szare GT43194",
+      "symbol": "GT43194",
+      "eans": [
+        "5908258431940",
+        "5908258431957",
+        "5908258431964",
+        "5908258431971",
+        "5908258431988"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 178,
+      "supplier_product_id": "324",
+      "source_url": "https://alpinusgroup.com/bluza-termoaktywna-meska-alpinus-tactical-base-lay/3-6-324",
+      "title": "Bluza termoaktywna męska Alpinus Tactical Base Layer czarno-szara GT43219",
+      "symbol": "GT43219",
+      "eans": [
+        "5908258432190",
+        "5908258432206",
+        "5908258432213",
+        "5908258432220",
+        "5908258432237"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 179,
+      "supplier_product_id": "315",
+      "source_url": "https://alpinusgroup.com/buty-trekkingowe-alpinus-brahmatal-high-active-gra/3-6-315",
+      "title": "Buty trekkingowe Alpinus Brahmatal High GR43321",
+      "symbol": "GR43321",
+      "eans": [
+        "5908258433210",
+        "5908258433227",
+        "5908258433234",
+        "5908258433241",
+        "5908258433258",
+        "5908258433265",
+        "5908258433272",
+        "5908258433289",
+        "5908258433296",
+        "5908258433302",
+        "5908258433319"
+      ],
+      "categories": [
+        "MEN",
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 180,
+      "supplier_product_id": "77",
+      "source_url": "https://alpinusgroup.com/spodnie-termoaktywne-meskie-alpinus-active-base-la/3-6-77",
+      "title": "Spodnie termoaktywne męskie Alpinus Active Base Layer szare GT43865",
+      "symbol": "GT43865",
+      "eans": [
+        "5908258438659",
+        "5908258438666",
+        "5908258438673",
+        "5908258438680",
+        "5908258438697"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 181,
+      "supplier_product_id": "96",
+      "source_url": "https://alpinusgroup.com/buty-trekkingowe-alpinus-gr20-high-tactical-antrac/3-6-96",
+      "title": "Buty trekkingowe Alpinus GR20 High GR43629",
+      "symbol": "GR43629",
+      "eans": [
+        "5908258436297",
+        "5908258436303",
+        "5908258436310",
+        "5908258436327",
+        "5908258436334",
+        "5908258436341",
+        "5908258436358",
+        "5908258436365",
+        "5908258436372",
+        "5908258436389",
+        "5908258436396"
+      ],
+      "categories": [
+        "MEN",
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 182,
+      "supplier_product_id": "161",
+      "source_url": "https://alpinusgroup.com/kurtka-meska-zimowa-alpinus-causses-granatowa-br18/3-6-161",
+      "title": "Kurtka męska zimowa Alpinus Causses granatowa BR18103",
+      "symbol": "BR18103",
+      "eans": [
+        "5904555181038",
+        "5904555181045",
+        "5904555181052",
+        "5904555181069",
+        "5904555181076",
+        "5904555182653"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 183,
+      "supplier_product_id": "106",
+      "source_url": "https://alpinusgroup.com/komin-alpinus-viki-bialy-alp-topo-3/3-6-106",
+      "title": "Komin Alpinus Viki ALP TOPO 3",
+      "symbol": "ALP",
+      "eans": [
+        "5908258434583"
+      ],
+      "categories": [
+        "MEN",
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 184,
+      "supplier_product_id": "115",
+      "source_url": "https://alpinusgroup.com/kurtka-meska-zimowa-alpinus-causses-czarna-br43684/3-6-115",
+      "title": "Kurtka męska zimowa Alpinus Causses czarna BR43684",
+      "symbol": "BR43684",
+      "eans": [
+        "5904555182646",
+        "5907153355993",
+        "5908258436846",
+        "5908258436853",
+        "5908258436860",
+        "5908258436877",
+        "5908258436884"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 185,
+      "supplier_product_id": "127",
+      "source_url": "https://alpinusgroup.com/kurtka-meska-alpinus-nordend-niebieska-br43743/3-6-127",
+      "title": "Kurtka męska Alpinus Nordend niebieska BR43743",
+      "symbol": "BR43743",
+      "eans": [
+        "5908258437430",
+        "5908258437447",
+        "5908258437454",
+        "5908258437461",
+        "5908258437478"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 186,
+      "supplier_product_id": "107",
+      "source_url": "https://alpinusgroup.com/komin-alpinus-zuzi-komin-alpinus-zuzi-czerwony-alp/3-6-107",
+      "title": "Komin Alpinus Zuzi ALP HOS 1 \r\nKomin Alpinus Zuzi czerwony ALP HOS 1",
+      "symbol": "ALP",
+      "eans": [
+        "5908258434590"
+      ],
+      "categories": [
+        "MEN",
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 187,
+      "supplier_product_id": "105",
+      "source_url": "https://alpinusgroup.com/komin-alpinus-viki-pudrowy-alp-topo-2/3-6-105",
+      "title": "Komin Alpinus Viki ALP TOPO 2",
+      "symbol": "ALP",
+      "eans": [
+        "5908258434576"
+      ],
+      "categories": [
+        "MEN",
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 188,
+      "supplier_product_id": "148",
+      "source_url": "https://alpinusgroup.com/skarpety-trekkingowe-alpinus-valletto-czarne-fi180/3-6-148",
+      "title": "Skarpety trekkingowe merino coolmax Alpinus Valletto czarne FI18038",
+      "symbol": "FI18038",
+      "eans": [
+        "5904555180383",
+        "5904555180390",
+        "5904555184121"
+      ],
+      "categories": [
+        "MEN",
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 189,
+      "supplier_product_id": "149",
+      "source_url": "https://alpinusgroup.com/skarpety-trekkingowe-alpinus-valletto-niebieskie-f/3-6-149",
+      "title": "Skarpety trekkingowe merino coolmax  Alpinus Valletto FI18036",
+      "symbol": "FI18036",
+      "eans": [
+        "5904555180369",
+        "5904555180376",
+        "5904555184114"
+      ],
+      "categories": [
+        "MEN",
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 190,
+      "supplier_product_id": "100",
+      "source_url": "https://alpinusgroup.com/czapka-alpinus-mutenia-hat-niebieska-tt43842/3-6-100",
+      "title": "Czapka Alpinus Mutenia Hat TT43842",
+      "symbol": "TT43842",
+      "eans": [
+        "5908258438369",
+        "5908258438420"
+      ],
+      "categories": [
+        "MEN",
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 191,
+      "supplier_product_id": "117",
+      "source_url": "https://alpinusgroup.com/kurtka-meska-alpinus-collarada-granatowa-ff43782/3-6-117",
+      "title": "Kurtka męska 3-warstwowa Alpinus Collarada FF43782",
+      "symbol": "FF43782",
+      "eans": [
+        "5908258437829",
+        "5908258437836",
+        "5908258437843",
+        "5908258437850",
+        "5908258437867"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 192,
+      "supplier_product_id": "109",
+      "source_url": "https://alpinusgroup.com/komin-alpinus-mari-rozowo-turkusowy-alp-zgryz-2/3-6-109",
+      "title": "Komin Alpinus Mari ALP ZGRYZ 2",
+      "symbol": "ALP",
+      "eans": [
+        "5908258434613"
+      ],
+      "categories": [
+        "MEN",
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 193,
+      "supplier_product_id": "108",
+      "source_url": "https://alpinusgroup.com/komin-alpinus-mari-komin-alpinus-mari-komin-alpinu/3-6-108",
+      "title": "Komin Alpinus  Mari  ALP ZGRYZ 1\r\nKomin Alpinus  Mari\r\nKomin Alpinus Mari pomarańczowo-szary ALP ZGRYZ 1",
+      "symbol": "ALP",
+      "eans": [
+        "5908258434606"
+      ],
+      "categories": [
+        "MEN",
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": true,
+      "has_images": false
+    },
+    {
+      "batch_index": 194,
+      "supplier_product_id": "81",
+      "source_url": "https://alpinusgroup.com/bielizna-termoaktywna-meska-alpinus-active-base-la/3-6-81",
+      "title": "Bielizna termoaktywna męska Alpinus Active Base Layer Set szara GT43880",
+      "symbol": "GT43880",
+      "eans": [
+        "5908258438802",
+        "5908258438819",
+        "5908258438826",
+        "5908258438833",
+        "5908258438840"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 195,
+      "supplier_product_id": "158",
+      "source_url": "https://alpinusgroup.com/rekawiczki-wiosenno-jesienne-alpinus-maladeta-sz/3-6-158",
+      "title": "Rękawiczki wiosenno / jesienne Alpinus Maladeta szary R3122",
+      "symbol": "R3122",
+      "eans": [
+        "5904555180741",
+        "5904555180758"
+      ],
+      "categories": [
+        "MEN",
+        "WOMEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 196,
+      "supplier_product_id": "125",
+      "source_url": "https://alpinusgroup.com/kurtka-meska-alpinus-nordend-zielona-br43733/3-6-125",
+      "title": "Kurtka męska Alpinus Nordend zielona BR43733",
+      "symbol": "BR43733",
+      "eans": [
+        "5908258437331",
+        "5908258437348",
+        "5908258437355",
+        "5908258437362",
+        "5908258437379"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 197,
+      "supplier_product_id": "78",
+      "source_url": "https://alpinusgroup.com/spodnie-termoaktywne-meskie-alpinus-tactical-base/3-6-78",
+      "title": "Spodnie termoaktywne męskie Alpinus Tactical Base Layer niebieskie GT43875",
+      "symbol": "GT43875",
+      "eans": [
+        "5908258438758",
+        "5908258438765",
+        "5908258438772",
+        "5908258438789",
+        "5908258438796"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 198,
+      "supplier_product_id": "191",
+      "source_url": "https://alpinusgroup.com/spodenki-meskie-alpinus-rijana-oliwkowe-si18144/3-6-191",
+      "title": "Spodenki męskie Alpinus Rijana oliwkowe SI18144",
+      "symbol": "SI18144",
+      "eans": [
+        "5904555181441",
+        "5904555181458",
+        "5904555181465",
+        "5904555181472",
+        "5904555181489"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 199,
+      "supplier_product_id": "123",
+      "source_url": "https://alpinusgroup.com/kurtka-zimowa-meska-alpinus-trolltunga-zielona-br4/3-6-123",
+      "title": "Kurtka zimowa męska Alpinus Trolltunga BR43723",
+      "symbol": "BR43723",
+      "eans": [
+        "5905616114729",
+        "5908258437232",
+        "5908258437249",
+        "5908258437256",
+        "5908258437263",
+        "5908258437270"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    },
+    {
+      "batch_index": 200,
+      "supplier_product_id": "164",
+      "source_url": "https://alpinusgroup.com/kurtka-meska-alpinus-furggen-czarna-br18118/3-6-164",
+      "title": "Kurtka męska Alpinus Furggen BR18118",
+      "symbol": "BR18118",
+      "eans": [
+        "5904555181182",
+        "5904555181199",
+        "5904555181205",
+        "5904555181212",
+        "5904555181229",
+        "5904555187733",
+        "5907153351414"
+      ],
+      "categories": [
+        "MEN"
+      ],
+      "has_stock": true,
+      "has_description": true,
+      "has_attributes": true,
+      "has_rrp": true,
+      "has_cost": false,
+      "has_images": false
+    }
+  ]
+}
