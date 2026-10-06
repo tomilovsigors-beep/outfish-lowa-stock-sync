@@ -1,0 +1,651 @@
+{
+  "batch": "catalog_original_batch_003_50",
+  "snapshot_date": "2026-10-06",
+  "shopify_vendor_products_checked": 145,
+  "shopify_active_products_seen": 31,
+  "shopify_draft_products_seen": 114,
+  "fx_pln_to_eur": 0.228725,
+  "fx_timestamp": "2026-10-06T15:38:00Z",
+  "pricing": "supplier RRP PLN * FX rounded to nearest whole EUR",
+  "checks": "Complete Alpinus Shopify vendor listing; compare source base SKU and every source EAN against Shopify SKU and barcode; model-name collision excluding generic material terms; price floor EUR 20",
+  "counts": {
+    "SKIP_UNDER_20": 16,
+    "ELIGIBLE_CANDIDATE": 34
+  },
+  "changes_to_shopify": 0,
+  "exceptions": "Source variant-to-size mapping and photos are not yet verified, so eligible candidates are not automatically publishable or ready for safe creation",
+  "rows": [
+    {
+      "batch_index": 101,
+      "supplier_product_id": "925",
+      "symbol": "MH11160",
+      "title": "Czapka z daszkiem  Alpinus Utah MH11160",
+      "retail_eur": 18,
+      "decision": "SKIP_UNDER_20",
+      "reason": "retail below EUR 20; any existing Active remains untouched",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 102,
+      "supplier_product_id": "880",
+      "symbol": "MK18832",
+      "title": "Kurtka męska hardshell 3-warstwowa  Alpinus Besso MK18832",
+      "retail_eur": 160,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no SKU/EAN/model match; pre-import checks still required",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 103,
+      "supplier_product_id": "935",
+      "symbol": "FF11343",
+      "title": "Kurtka męska softshell  Alpinus ASO",
+      "retail_eur": 64,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no SKU/EAN/model match; pre-import checks still required",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 104,
+      "supplier_product_id": "924",
+      "symbol": "MH11168",
+      "title": "Czapka z daszkiem  Alpinus Arizona",
+      "retail_eur": 15,
+      "decision": "SKIP_UNDER_20",
+      "reason": "retail below EUR 20; any existing Active remains untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11018184458578",
+          "title": "Alpinus Arizona Cap blue",
+          "status": "ACTIVE",
+          "reasons": [
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11018181509458",
+          "title": "Alpinus Arizona Cap Olive",
+          "status": "ACTIVE"
+        },
+        {
+          "id": "gid://shopify/Product/11018184458578",
+          "title": "Alpinus Arizona Cap blue",
+          "status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "batch_index": 105,
+      "supplier_product_id": "927",
+      "symbol": "MH11158",
+      "title": "Czapka z daszkiem  Alpinus Carpathia MH11158",
+      "retail_eur": 18,
+      "decision": "SKIP_UNDER_20",
+      "reason": "retail below EUR 20; any existing Active remains untouched",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 106,
+      "supplier_product_id": "878",
+      "symbol": "MK18821",
+      "title": "Kurtka męska hardshell 3-warstwowa  Alpinus Stromlo MK18821",
+      "retail_eur": 137,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no SKU/EAN/model match; pre-import checks still required",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 107,
+      "supplier_product_id": "886",
+      "symbol": "RT11104",
+      "title": "Rękawiczki  Alpinus Scafell Pro RT11104",
+      "retail_eur": 27,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no SKU/EAN/model match; pre-import checks still required",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 108,
+      "supplier_product_id": "895",
+      "symbol": "FU11238",
+      "title": "Koszulka męska  Alpinus Kulin FU11238",
+      "retail_eur": 20,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no SKU/EAN/model match; pre-import checks still required",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 109,
+      "supplier_product_id": "919",
+      "symbol": "MH11164",
+      "title": "Czapka z daszkiem  Alpinus Manila",
+      "retail_eur": 16,
+      "decision": "SKIP_UNDER_20",
+      "reason": "retail below EUR 20; any existing Active remains untouched",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 110,
+      "supplier_product_id": "859",
+      "symbol": "SF11031",
+      "title": "Kurtka męska  Alpinus Ajusco SF11031",
+      "retail_eur": 91,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no SKU/EAN/model match; pre-import checks still required",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 111,
+      "supplier_product_id": "860",
+      "symbol": "SF11036",
+      "title": "Kurtka męska Alpinus Ajusco SF11036",
+      "retail_eur": 91,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no SKU/EAN/model match; pre-import checks still required",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 112,
+      "supplier_product_id": "921",
+      "symbol": "MH11172",
+      "title": "Czapka z daszkiem  Alpinus Porto",
+      "retail_eur": 11,
+      "decision": "SKIP_UNDER_20",
+      "reason": "retail below EUR 20; any existing Active remains untouched",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 113,
+      "supplier_product_id": "923",
+      "symbol": "MH11166",
+      "title": "Czapka z daszkiem  Alpinus Arizona",
+      "retail_eur": 15,
+      "decision": "SKIP_UNDER_20",
+      "reason": "retail below EUR 20; any existing Active remains untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11018181509458",
+          "title": "Alpinus Arizona Cap Olive",
+          "status": "ACTIVE",
+          "reasons": [
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11018181509458",
+          "title": "Alpinus Arizona Cap Olive",
+          "status": "ACTIVE"
+        },
+        {
+          "id": "gid://shopify/Product/11018184458578",
+          "title": "Alpinus Arizona Cap blue",
+          "status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "batch_index": 114,
+      "supplier_product_id": "936",
+      "symbol": "FF11337",
+      "title": "Kurtka męska softshell  Alpinus ASO",
+      "retail_eur": 64,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no SKU/EAN/model match; pre-import checks still required",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 115,
+      "supplier_product_id": "920",
+      "symbol": "MH11170",
+      "title": "Czapka z daszkiem  Alpinus Bilbao",
+      "retail_eur": 11,
+      "decision": "SKIP_UNDER_20",
+      "reason": "retail below EUR 20; any existing Active remains untouched",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 116,
+      "supplier_product_id": "883",
+      "symbol": "MK18852",
+      "title": "Kurtka męska softshell Alpinus Pelat MK18852",
+      "retail_eur": 91,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no SKU/EAN/model match; pre-import checks still required",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 117,
+      "supplier_product_id": "926",
+      "symbol": "MH11162",
+      "title": "Czapka z daszkiem  Alpinus Manila",
+      "retail_eur": 16,
+      "decision": "SKIP_UNDER_20",
+      "reason": "retail below EUR 20; any existing Active remains untouched",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 118,
+      "supplier_product_id": "891",
+      "symbol": "AR11133",
+      "title": "Bluza polarowa męska Alpinus Svene 200 AR11133",
+      "retail_eur": 80,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no SKU/EAN/model match; pre-import checks still required",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 119,
+      "supplier_product_id": "894",
+      "symbol": "AR11111",
+      "title": "Bluza polarowa męska Alpinus Dettifoss 200 AR11111",
+      "retail_eur": 80,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no SKU/EAN/model match; pre-import checks still required",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 120,
+      "supplier_product_id": "884",
+      "symbol": "MK18863",
+      "title": "Kurtka męska softshell  Alpinus Roignais MK18863",
+      "retail_eur": 91,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no SKU/EAN/model match; pre-import checks still required",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 121,
+      "supplier_product_id": "853",
+      "symbol": "MK18816",
+      "title": "Koszulka męska grafen Alpinus Dirfi MK18816",
+      "retail_eur": 23,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no SKU/EAN/model match; pre-import checks still required",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 122,
+      "supplier_product_id": "703",
+      "symbol": "FF18591",
+      "title": "Kurtka męska 2,5 warstwowa Alpinus Carniche 15K, FF18591",
+      "retail_eur": 91,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no SKU/EAN/model match; pre-import checks still required",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 123,
+      "supplier_product_id": "848",
+      "symbol": "FF18955",
+      "title": "Kurtka męska softshell  Alpinus ASO FF18955",
+      "retail_eur": 64,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no SKU/EAN/model match; pre-import checks still required",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 124,
+      "supplier_product_id": "861",
+      "symbol": "SF11051",
+      "title": "Kamizelka męska Alpinus Artos SF11051",
+      "retail_eur": 68,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no SKU/EAN/model match; pre-import checks still required",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 125,
+      "supplier_product_id": "625",
+      "symbol": "FU18481",
+      "title": "Koszulka męska Alpinus Skilbrum FU18481",
+      "retail_eur": 23,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no SKU/EAN/model match; pre-import checks still required",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 126,
+      "supplier_product_id": "620",
+      "symbol": "YT18738",
+      "title": "Kurtka męska puchowa Alpinus Monviso YT18738",
+      "retail_eur": 160,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no SKU/EAN/model match; pre-import checks still required",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 127,
+      "supplier_product_id": "850",
+      "symbol": "FF18965",
+      "title": "Kurtka męska softshell Alpinus ASO FF18965",
+      "retail_eur": 64,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no SKU/EAN/model match; pre-import checks still required",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 128,
+      "supplier_product_id": "645",
+      "symbol": "FU18506",
+      "title": "Koszulka męska Alpinus Numbur FU18506",
+      "retail_eur": 23,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no SKU/EAN/model match; pre-import checks still required",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 129,
+      "supplier_product_id": "843",
+      "symbol": "EH18727",
+      "title": "Wkładki do butów Alpinus Outdoor Comfort EH18727",
+      "retail_eur": 9,
+      "decision": "SKIP_UNDER_20",
+      "reason": "retail below EUR 20; any existing Active remains untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11018185572690",
+          "title": "Alpinus Outdoor Comfort EH18727 shoe inserts",
+          "status": "ACTIVE",
+          "reasons": [
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 130,
+      "supplier_product_id": "849",
+      "symbol": "FF18960",
+      "title": "Kurtka męska softshell  Alpinus ASO FF18960",
+      "retail_eur": 64,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no SKU/EAN/model match; pre-import checks still required",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 131,
+      "supplier_product_id": "844",
+      "symbol": "FE11089",
+      "title": "Skarpety merino Alpinus Kuldiga FE11089",
+      "retail_eur": 13,
+      "decision": "SKIP_UNDER_20",
+      "reason": "retail below EUR 20; any existing Active remains untouched",
+      "exact_matches": [],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11189214052690",
+          "title": "Merino Hiking Socks – Alpinus Kuldiga – 50% Merino Wool – Blue",
+          "status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "batch_index": 132,
+      "supplier_product_id": "839",
+      "symbol": "FI11072",
+      "title": "Skarpety Alpinus Lavaredo FI11072",
+      "retail_eur": 10,
+      "decision": "SKIP_UNDER_20",
+      "reason": "retail below EUR 20; any existing Active remains untouched",
+      "exact_matches": [],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/10880287506770",
+          "title": "Hiking Socks – Alpinus Lavaredo",
+          "status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "batch_index": 133,
+      "supplier_product_id": "624",
+      "symbol": "FU18476",
+      "title": "Koszulka męska Alpinus Skilbrum FU18476",
+      "retail_eur": 23,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no SKU/EAN/model match; pre-import checks still required",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 134,
+      "supplier_product_id": "845",
+      "symbol": "FE11087",
+      "title": "Skarpety merino Alpinus Kuldiga Low FE11087",
+      "retail_eur": 11,
+      "decision": "SKIP_UNDER_20",
+      "reason": "retail below EUR 20; any existing Active remains untouched",
+      "exact_matches": [],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11189214052690",
+          "title": "Merino Hiking Socks – Alpinus Kuldiga – 50% Merino Wool – Blue",
+          "status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "batch_index": 135,
+      "supplier_product_id": "838",
+      "symbol": "FI11069",
+      "title": "Skarpety Alpinus Lavaredo FI11069",
+      "retail_eur": 10,
+      "decision": "SKIP_UNDER_20",
+      "reason": "retail below EUR 20; any existing Active remains untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/10880287506770",
+          "title": "Hiking Socks – Alpinus Lavaredo",
+          "status": "ACTIVE",
+          "reasons": [
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/10880287506770",
+          "title": "Hiking Socks – Alpinus Lavaredo",
+          "status": "ACTIVE"
+        }
+      ]
+    },
+    {
+      "batch_index": 136,
+      "supplier_product_id": "852",
+      "symbol": "MK18806",
+      "title": "Koszulka męska grafen  Alpinus Dirfi MK18806",
+      "retail_eur": 23,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no SKU/EAN/model match; pre-import checks still required",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 137,
+      "supplier_product_id": "621",
+      "symbol": "YT18743",
+      "title": "Kurtka męska puchowa  Alpinus Pollux YT18743",
+      "retail_eur": 183,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no SKU/EAN/model match; pre-import checks still required",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 138,
+      "supplier_product_id": "841",
+      "symbol": "FI11081",
+      "title": "Skarpety Coolmax  Alpinus Zadar 3-pack FI11081",
+      "retail_eur": 16,
+      "decision": "SKIP_UNDER_20",
+      "reason": "retail below EUR 20; any existing Active remains untouched",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 139,
+      "supplier_product_id": "706",
+      "symbol": "FI11084",
+      "title": "Skarpety coolmax  Alpinus Split 3-pack FI11084",
+      "retail_eur": 15,
+      "decision": "SKIP_UNDER_20",
+      "reason": "retail below EUR 20; any existing Active remains untouched",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 140,
+      "supplier_product_id": "840",
+      "symbol": "FI11075",
+      "title": "Skarpety coolmax  Alpinus Triest FI11075",
+      "retail_eur": 10,
+      "decision": "SKIP_UNDER_20",
+      "reason": "retail below EUR 20; any existing Active remains untouched",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 141,
+      "supplier_product_id": "682",
+      "symbol": "EL11011",
+      "title": "Bluza polarowa męska Alpinus Caen II 100 EL11011",
+      "retail_eur": 80,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no SKU/EAN/model match; pre-import checks still required",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 142,
+      "supplier_product_id": "321",
+      "symbol": "GT43257",
+      "title": "Bielizna termoaktywna męska Alpinus Active Base Layer Set czarno-szara GT43257",
+      "retail_eur": 59,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no SKU/EAN/model match; pre-import checks still required",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 143,
+      "supplier_product_id": "647",
+      "symbol": "FU18540",
+      "title": "Koszulka męska  Alpinus Polaris II FU18540",
+      "retail_eur": 20,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no SKU/EAN/model match; pre-import checks still required",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 144,
+      "supplier_product_id": "681",
+      "symbol": "EL11017",
+      "title": "Bluza polarowa męska  Alpinus Caen II 100 EL11017",
+      "retail_eur": 80,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no SKU/EAN/model match; pre-import checks still required",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 145,
+      "supplier_product_id": "348",
+      "symbol": "SU18563",
+      "title": "Spodenki trekkingowe męskie Alpinus Terminio SU18563",
+      "retail_eur": 46,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no SKU/EAN/model match; pre-import checks still required",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 146,
+      "supplier_product_id": "680",
+      "symbol": "EL11005",
+      "title": "Bluza polarowa męska  Alpinus Caen II 100",
+      "retail_eur": 80,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no SKU/EAN/model match; pre-import checks still required",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 147,
+      "supplier_product_id": "337",
+      "symbol": "SI8907",
+      "title": "Bielizna termoaktywna męska Alpinus Gausdal Set SI8907",
+      "retail_eur": 50,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no SKU/EAN/model match; pre-import checks still required",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 148,
+      "supplier_product_id": "646",
+      "symbol": "FU18535",
+      "title": "Koszulka meska Alpinus Drefekal FU18535",
+      "retail_eur": 20,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no SKU/EAN/model match; pre-import checks still required",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 149,
+      "supplier_product_id": "346",
+      "symbol": "SI8945",
+      "title": "Bielizna termoaktywna męska Alpinus Idre Set SI8945",
+      "retail_eur": 39,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no SKU/EAN/model match; pre-import checks still required",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 150,
+      "supplier_product_id": "351",
+      "symbol": "SU18558",
+      "title": "Spodenki trtekingowe męskie Alpinus Terminio oliwkowe SU18558",
+      "retail_eur": 46,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no SKU/EAN/model match; pre-import checks still required",
+      "exact_matches": [],
+      "model_collisions": []
+    }
+  ]
+}
