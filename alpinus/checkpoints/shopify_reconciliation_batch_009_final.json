@@ -1,0 +1,1126 @@
+{
+  "batch": "catalog_original_batch_009_39",
+  "snapshot_date": "2026-10-06",
+  "shopify_vendor_products_checked": 145,
+  "shopify_active_products_seen": 31,
+  "shopify_draft_products_seen": 114,
+  "fx_pln_to_eur": 0.228725,
+  "fx_timestamp": "2026-10-06T15:38:00Z",
+  "pricing": "Supplier RRP PLN x PLN/EUR FX rounded to nearest whole EUR",
+  "checks": "Full Shopify vendor:Alpinus pagination, supplier SKU, all EAN vs variant SKU/barcode, distinctive model overlap, 20 EUR retail minimum",
+  "counts": {
+    "COMPLETE_DRAFT": 16,
+    "SKIP_UNDER_20": 21,
+    "HOLD_VARIANT_IDENTITY": 1,
+    "ELIGIBLE_CANDIDATE": 1
+  },
+  "changes_to_shopify": 0,
+  "exceptions": "Products eligible for further processing only; existing Active not altered; supplier EAN-size mapping, original photos and costs pending",
+  "rows": [
+    {
+      "batch_index": 401,
+      "supplier_product_id": "673",
+      "symbol": "PO18716",
+      "title": "Plecak Alpinus Otway 50, PO18716",
+      "model": "Otway",
+      "retail_eur": 105,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191406199122",
+          "status": "DRAFT",
+          "title": "Alpinus Otway 50 Backpack",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191406199122",
+          "status": "DRAFT",
+          "title": "Alpinus Otway 50 Backpack"
+        },
+        {
+          "id": "gid://shopify/Product/11191416652114",
+          "status": "DRAFT",
+          "title": "Alpinus Otway 40 Backpack – Olive"
+        }
+      ]
+    },
+    {
+      "batch_index": 402,
+      "supplier_product_id": "685",
+      "symbol": "CH18665",
+      "title": "Saszetka Alpinus Murtosa CH18665",
+      "model": "Murtosa",
+      "retail_eur": 18,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 403,
+      "supplier_product_id": "640",
+      "symbol": "RO18556",
+      "title": "Namiot Alpinus  VELEBIT 2 ALU RO18556",
+      "model": "VELEBIT",
+      "retail_eur": 183,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191407608146",
+          "status": "DRAFT",
+          "title": "Alpinus Velebit 2 ALU Tent",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191365566802",
+          "status": "DRAFT",
+          "title": "Alpinus Velebit 3 ALU Tent"
+        },
+        {
+          "id": "gid://shopify/Product/11191393714514",
+          "status": "DRAFT",
+          "title": "Alpinus Velebit 3 Tent"
+        },
+        {
+          "id": "gid://shopify/Product/11191403807058",
+          "status": "DRAFT",
+          "title": "Alpinus Velebit 2 Tent"
+        },
+        {
+          "id": "gid://shopify/Product/11191407608146",
+          "status": "DRAFT",
+          "title": "Alpinus Velebit 2 ALU Tent"
+        }
+      ]
+    },
+    {
+      "batch_index": 404,
+      "supplier_product_id": "668",
+      "symbol": "AC18952",
+      "title": "Śpiwór Alpinus  Warm 1200 (Lewy) AC18952",
+      "model": "Warm",
+      "retail_eur": 41,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191404265810",
+          "status": "DRAFT",
+          "title": "Alpinus Warm 1200 Sleeping Bag – Left",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191402299730",
+          "status": "DRAFT",
+          "title": "Alpinus Warm 1500 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191404265810",
+          "status": "DRAFT",
+          "title": "Alpinus Warm 1200 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191412949330",
+          "status": "DRAFT",
+          "title": "Alpinus Warm 1200 Sleeping Bag – Right"
+        }
+      ]
+    },
+    {
+      "batch_index": 405,
+      "supplier_product_id": "863",
+      "symbol": "AC11067",
+      "title": "Śpiwór puchowy Alpinus Ducklight 400 AC11067",
+      "model": "Ducklight",
+      "retail_eur": 194,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191413080402",
+          "status": "DRAFT",
+          "title": "Alpinus Ducklight 400 Down Sleeping Bag",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191412818258",
+          "status": "DRAFT",
+          "title": "Alpinus Ducklight 300 Down Sleeping Bag"
+        },
+        {
+          "id": "gid://shopify/Product/11191413080402",
+          "status": "DRAFT",
+          "title": "Alpinus Ducklight 400 Down Sleeping Bag"
+        }
+      ]
+    },
+    {
+      "batch_index": 406,
+      "supplier_product_id": "901",
+      "symbol": "NP11149",
+      "title": "Materac  Alpinus Torc NP11149",
+      "model": "Torc",
+      "retail_eur": 62,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191406559570",
+          "status": "DRAFT",
+          "title": "Alpinus Torc Camping Mattress",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191406559570",
+          "status": "DRAFT",
+          "title": "Alpinus Torc Camping Mattress"
+        }
+      ]
+    },
+    {
+      "batch_index": 407,
+      "supplier_product_id": "699",
+      "symbol": "UZ11057",
+      "title": "Butelka trytanowa Alpinus Trysil 650ml UZ11057",
+      "model": "Trysil",
+      "retail_eur": 11,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 408,
+      "supplier_product_id": "684",
+      "symbol": "CH18663",
+      "title": "Ręcznik chłodzący Alpinus  Antilla 50 cm x 100 cm CH18663",
+      "model": "Antilla",
+      "retail_eur": 7,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191413113170",
+          "status": "DRAFT",
+          "title": "Alpinus Antilla Cooling Towel 50 x 100 cm",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191397482834",
+          "status": "DRAFT",
+          "title": "Alpinus Antilla Cooling Towel 40 x 80 cm"
+        },
+        {
+          "id": "gid://shopify/Product/11191413113170",
+          "status": "DRAFT",
+          "title": "Alpinus Antilla Cooling Towel 50 x 100 cm"
+        }
+      ]
+    },
+    {
+      "batch_index": 409,
+      "supplier_product_id": "900",
+      "symbol": "ZJ11147",
+      "title": "Mata samopompująca Alpinus Ostas ZJ11147",
+      "model": "Ostas",
+      "retail_eur": 46,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191411867986",
+          "status": "DRAFT",
+          "title": "Alpinus Ostas Self-Inflating Mat",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191411867986",
+          "status": "DRAFT",
+          "title": "Alpinus Ostas Self-Inflating Mat"
+        }
+      ]
+    },
+    {
+      "batch_index": 410,
+      "supplier_product_id": "639",
+      "symbol": "RO18555",
+      "title": "Namiot Alpinus  VELEBIT 2  RO18555",
+      "model": "VELEBIT",
+      "retail_eur": 160,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191403807058",
+          "status": "DRAFT",
+          "title": "Alpinus Velebit 2 Tent",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191365566802",
+          "status": "DRAFT",
+          "title": "Alpinus Velebit 3 ALU Tent"
+        },
+        {
+          "id": "gid://shopify/Product/11191393714514",
+          "status": "DRAFT",
+          "title": "Alpinus Velebit 3 Tent"
+        },
+        {
+          "id": "gid://shopify/Product/11191403807058",
+          "status": "DRAFT",
+          "title": "Alpinus Velebit 2 Tent"
+        },
+        {
+          "id": "gid://shopify/Product/11191407608146",
+          "status": "DRAFT",
+          "title": "Alpinus Velebit 2 ALU Tent"
+        }
+      ]
+    },
+    {
+      "batch_index": 411,
+      "supplier_product_id": "904",
+      "symbol": "LC11146",
+      "title": "Mata samopompująca Alpinus Adrspach LC11146",
+      "model": "Adrspach",
+      "retail_eur": 30,
+      "decision": "HOLD_VARIANT_IDENTITY",
+      "reason": "possible existing product with shared model name",
+      "exact_matches": [],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191193764178",
+          "status": "DRAFT",
+          "title": "Alpinus Adrspach L Self-Inflating Mat"
+        },
+        {
+          "id": "gid://shopify/Product/11191278797138",
+          "status": "DRAFT",
+          "title": "Alpinus Adrspach M Self-Inflating Mat"
+        }
+      ]
+    },
+    {
+      "batch_index": 412,
+      "supplier_product_id": "641",
+      "symbol": "RO18557",
+      "title": "Namiot Alpinus  REUS 4 RO18557",
+      "model": "REUS",
+      "retail_eur": 183,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191407313234",
+          "status": "DRAFT",
+          "title": "Alpinus Reus 4 Tent",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191407313234",
+          "status": "DRAFT",
+          "title": "Alpinus Reus 4 Tent"
+        }
+      ]
+    },
+    {
+      "batch_index": 413,
+      "supplier_product_id": "683",
+      "symbol": "CH18664",
+      "title": "Hamak Alpinus Letna CH18664",
+      "model": "Letna",
+      "retail_eur": 27,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 414,
+      "supplier_product_id": "664",
+      "symbol": "AC18645",
+      "title": "Śpiwór Alpinus Classic 1050 (lewy) AC18645",
+      "model": "Classic",
+      "retail_eur": 46,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191406952786",
+          "status": "DRAFT",
+          "title": "Alpinus Classic 1050 Sleeping Bag – Left",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 415,
+      "supplier_product_id": "147",
+      "symbol": "NX43646",
+      "title": "Talerzyki do kijków trekkingowych Alpinus NX43646",
+      "model": "NX43646",
+      "retail_eur": 4,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191416553810",
+          "status": "DRAFT",
+          "title": "Alpinus Trekking Pole Baskets",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 416,
+      "supplier_product_id": "291",
+      "symbol": "HR18404",
+      "title": "Kubek do termosu  Alpinus Cup 1L HR18404",
+      "model": "Cup",
+      "retail_eur": 2,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191413932370",
+          "status": "DRAFT",
+          "title": "Alpinus Thermos Cup 1L",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 417,
+      "supplier_product_id": "138",
+      "symbol": "NX43603",
+      "title": "Kijki nordic walking Alpinus Kungsleden NX43603",
+      "model": "Kungsleden",
+      "retail_eur": 41,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191417995602",
+          "status": "DRAFT",
+          "title": "Alpinus Kungsleden Nordic Walking Poles",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191417995602",
+          "status": "DRAFT",
+          "title": "Alpinus Kungsleden Nordic Walking Poles"
+        }
+      ]
+    },
+    {
+      "batch_index": 418,
+      "supplier_product_id": "131",
+      "symbol": "AL18045",
+      "title": "Kubek emaliowany  Alpinus Ryś 280 ml  AL18045",
+      "model": "Ryś",
+      "retail_eur": 18,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191413178706",
+          "status": "DRAFT",
+          "title": "Alpinus Lynx Enamel Mug 280 ml",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 419,
+      "supplier_product_id": "43",
+      "symbol": "CH43595",
+      "title": "Ręcznik Alpinus Costa Brava 60 cm x 120 cm CH43595",
+      "model": "Costa",
+      "retail_eur": 13,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191417635154",
+          "status": "DRAFT",
+          "title": "Alpinus Costa Brava Towel 60 x 120 cm",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191417635154",
+          "status": "DRAFT",
+          "title": "Alpinus Costa Brava Towel 60 x 120 cm"
+        }
+      ]
+    },
+    {
+      "batch_index": 420,
+      "supplier_product_id": "38",
+      "symbol": "ZN43399",
+      "title": "Plecak wodoodporny Alpinus Kayak 28 pomarańczowy ZN43399",
+      "model": "Kayak",
+      "retail_eur": 68,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191413277010",
+          "status": "DRAFT",
+          "title": "Alpinus Kayak 28 Waterproof Backpack – Orange",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191413277010",
+          "status": "DRAFT",
+          "title": "Alpinus Kayak 28 Waterproof Backpack – Orange"
+        }
+      ]
+    },
+    {
+      "batch_index": 421,
+      "supplier_product_id": "136",
+      "symbol": "NX43601",
+      "title": "Kijki nordic walking Alpinus Braunberg czerwone NX43601",
+      "model": "Braunberg",
+      "retail_eur": 57,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191417471314",
+          "status": "DRAFT",
+          "title": "Alpinus Braunberg Nordic Walking Poles – Red",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191417471314",
+          "status": "DRAFT",
+          "title": "Alpinus Braunberg Nordic Walking Poles – Red"
+        }
+      ]
+    },
+    {
+      "batch_index": 422,
+      "supplier_product_id": "137",
+      "symbol": "NX43602",
+      "title": "Kijki nordic walking Alpinus Lysefjord niebieskie NX43602",
+      "model": "Lysefjord",
+      "retail_eur": 41,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191416521042",
+          "status": "DRAFT",
+          "title": "Alpinus Lysefjord Nordic Walking Poles – Blue",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191416521042",
+          "status": "DRAFT",
+          "title": "Alpinus Lysefjord Nordic Walking Poles – Blue"
+        }
+      ]
+    },
+    {
+      "batch_index": 423,
+      "supplier_product_id": "286",
+      "symbol": "HR18400",
+      "title": "Termos  Alpinus Sahara 0,7 L",
+      "model": "Sahara",
+      "retail_eur": 23,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191413145938",
+          "status": "DRAFT",
+          "title": "Alpinus Sahara 0.7L Thermos",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191413145938",
+          "status": "DRAFT",
+          "title": "Alpinus Sahara 0.7L Thermos"
+        },
+        {
+          "id": "gid://shopify/Product/11191418224978",
+          "status": "DRAFT",
+          "title": "Alpinus Sahara 1L Thermos"
+        },
+        {
+          "id": "gid://shopify/Product/11191418257746",
+          "status": "DRAFT",
+          "title": "Alpinus Sahara 0.5L Thermos"
+        }
+      ]
+    },
+    {
+      "batch_index": 424,
+      "supplier_product_id": "287",
+      "symbol": "HR18401",
+      "title": "Termos  Alpinus Sahara1 L HR18401",
+      "model": "Sahara1",
+      "retail_eur": 27,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191418224978",
+          "status": "DRAFT",
+          "title": "Alpinus Sahara 1L Thermos",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 425,
+      "supplier_product_id": "203",
+      "symbol": "MR02980",
+      "title": "Torba bawełniana  Alpinus logo",
+      "model": "logo",
+      "retail_eur": 6,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191413506386",
+          "status": "DRAFT",
+          "title": "Alpinus Cotton Logo Bag",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191413506386",
+          "status": "DRAFT",
+          "title": "Alpinus Cotton Logo Bag"
+        }
+      ]
+    },
+    {
+      "batch_index": 426,
+      "supplier_product_id": "289",
+      "symbol": "HR18410",
+      "title": "Kubek do termosu Alpinus Cup 0,5L HR18410",
+      "model": "Cup",
+      "retail_eur": 2,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191417766226",
+          "status": "DRAFT",
+          "title": "Alpinus Thermos Cup 0.5L",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 427,
+      "supplier_product_id": "285",
+      "symbol": "HR18399",
+      "title": "Termos  Alpinus Sahara 0,5L",
+      "model": "Sahara",
+      "retail_eur": 18,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191418257746",
+          "status": "DRAFT",
+          "title": "Alpinus Sahara 0.5L Thermos",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191413145938",
+          "status": "DRAFT",
+          "title": "Alpinus Sahara 0.7L Thermos"
+        },
+        {
+          "id": "gid://shopify/Product/11191418224978",
+          "status": "DRAFT",
+          "title": "Alpinus Sahara 1L Thermos"
+        },
+        {
+          "id": "gid://shopify/Product/11191418257746",
+          "status": "DRAFT",
+          "title": "Alpinus Sahara 0.5L Thermos"
+        }
+      ]
+    },
+    {
+      "batch_index": 428,
+      "supplier_product_id": "141",
+      "symbol": "PO43641",
+      "title": "Plecak Alpinus Otway 40 oliwkowy PO43641",
+      "model": "Otway",
+      "retail_eur": 98,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191416652114",
+          "status": "DRAFT",
+          "title": "Alpinus Otway 40 Backpack – Olive",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191406199122",
+          "status": "DRAFT",
+          "title": "Alpinus Otway 50 Backpack"
+        },
+        {
+          "id": "gid://shopify/Product/11191416652114",
+          "status": "DRAFT",
+          "title": "Alpinus Otway 40 Backpack – Olive"
+        }
+      ]
+    },
+    {
+      "batch_index": 429,
+      "supplier_product_id": "144",
+      "symbol": "NX43645",
+      "title": "Końcówki do kijków nordic walking Alpinus NX43645",
+      "model": "NX43645",
+      "retail_eur": 3,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191418290514",
+          "status": "DRAFT",
+          "title": "Alpinus Nordic Walking Pole Tips",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 430,
+      "supplier_product_id": "40",
+      "symbol": "CH43592",
+      "title": "Ręcznik Alpinus Alicante 40 cm x 80 cm CH43592",
+      "model": "Alicante",
+      "retail_eur": 9,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191416422738",
+          "status": "DRAFT",
+          "title": "Alpinus Alicante Towel 40 x 80 cm",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191416422738",
+          "status": "DRAFT",
+          "title": "Alpinus Alicante Towel 40 x 80 cm"
+        }
+      ]
+    },
+    {
+      "batch_index": 431,
+      "supplier_product_id": "130",
+      "symbol": "AL18044",
+      "title": "Kubek emaliowany  Alpinus Kozica 280 ML AL18044",
+      "model": "Kozica",
+      "retail_eur": 18,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191418093906",
+          "status": "DRAFT",
+          "title": "Alpinus Chamois Enamel Mug 280 ml",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 432,
+      "supplier_product_id": "290",
+      "symbol": "HR18403",
+      "title": "Kubek do termosu Alpinus Cup 0,7L  HR18403",
+      "model": "Cup",
+      "retail_eur": 2,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191418159442",
+          "status": "DRAFT",
+          "title": "Alpinus Thermos Cup 0.7L",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 433,
+      "supplier_product_id": "41",
+      "symbol": "CH43593",
+      "title": "Ręcznik Alpinus Canoa 50 cm x 100 cm CH43593",
+      "model": "Canoa",
+      "retail_eur": 11,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191134945618",
+          "status": "DRAFT",
+          "title": "Alpinus Canoa Towel 50 x 100 cm"
+        }
+      ]
+    },
+    {
+      "batch_index": 434,
+      "supplier_product_id": "42",
+      "symbol": "CH43594",
+      "title": "Ręcznik  Alpinus Canoa 50 cm x 100 cm CH43594",
+      "model": "Canoa",
+      "retail_eur": 11,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191134945618",
+          "status": "DRAFT",
+          "title": "Alpinus Canoa Towel 50 x 100 cm"
+        }
+      ]
+    },
+    {
+      "batch_index": 435,
+      "supplier_product_id": "293",
+      "symbol": "HR18407",
+      "title": "Korek do termosu Alpinus Stopper \"Click\" 0,5L/0,7L",
+      "model": "Stopper",
+      "retail_eur": 2,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191413604690",
+          "status": "DRAFT",
+          "title": "Alpinus Stopper Click 0.5L / 0.7L",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191413604690",
+          "status": "DRAFT",
+          "title": "Alpinus Stopper Click 0.5L / 0.7L"
+        },
+        {
+          "id": "gid://shopify/Product/11191413670226",
+          "status": "DRAFT",
+          "title": "Alpinus Stopper Twist 1L"
+        },
+        {
+          "id": "gid://shopify/Product/11191413702994",
+          "status": "DRAFT",
+          "title": "Alpinus Stopper Twist 0.5L / 0.7L"
+        },
+        {
+          "id": "gid://shopify/Product/11191413866834",
+          "status": "DRAFT",
+          "title": "Alpinus Stopper Click 1L"
+        }
+      ]
+    },
+    {
+      "batch_index": 436,
+      "supplier_product_id": "292",
+      "symbol": "HR18405",
+      "title": "Korek do termosu  Alpinus Stopper \"Twist\" 0,5L/0,7L",
+      "model": "Stopper",
+      "retail_eur": 1,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191413702994",
+          "status": "DRAFT",
+          "title": "Alpinus Stopper Twist 0.5L / 0.7L",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191413604690",
+          "status": "DRAFT",
+          "title": "Alpinus Stopper Click 0.5L / 0.7L"
+        },
+        {
+          "id": "gid://shopify/Product/11191413670226",
+          "status": "DRAFT",
+          "title": "Alpinus Stopper Twist 1L"
+        },
+        {
+          "id": "gid://shopify/Product/11191413702994",
+          "status": "DRAFT",
+          "title": "Alpinus Stopper Twist 0.5L / 0.7L"
+        },
+        {
+          "id": "gid://shopify/Product/11191413866834",
+          "status": "DRAFT",
+          "title": "Alpinus Stopper Click 1L"
+        }
+      ]
+    },
+    {
+      "batch_index": 437,
+      "supplier_product_id": "294",
+      "symbol": "HR18406",
+      "title": "Korek do termosu  Alpinus Stopper \"Twist\" 1L",
+      "model": "Stopper",
+      "retail_eur": 1,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191413670226",
+          "status": "DRAFT",
+          "title": "Alpinus Stopper Twist 1L",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191413604690",
+          "status": "DRAFT",
+          "title": "Alpinus Stopper Click 0.5L / 0.7L"
+        },
+        {
+          "id": "gid://shopify/Product/11191413670226",
+          "status": "DRAFT",
+          "title": "Alpinus Stopper Twist 1L"
+        },
+        {
+          "id": "gid://shopify/Product/11191413702994",
+          "status": "DRAFT",
+          "title": "Alpinus Stopper Twist 0.5L / 0.7L"
+        },
+        {
+          "id": "gid://shopify/Product/11191413866834",
+          "status": "DRAFT",
+          "title": "Alpinus Stopper Click 1L"
+        }
+      ]
+    },
+    {
+      "batch_index": 438,
+      "supplier_product_id": "295",
+      "symbol": "HR18408",
+      "title": "Korek do termosu  Alpinus Stopper \"Click\" 1L HR18408",
+      "model": "Stopper",
+      "retail_eur": 2,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191413866834",
+          "status": "DRAFT",
+          "title": "Alpinus Stopper Click 1L",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191413604690",
+          "status": "DRAFT",
+          "title": "Alpinus Stopper Click 0.5L / 0.7L"
+        },
+        {
+          "id": "gid://shopify/Product/11191413670226",
+          "status": "DRAFT",
+          "title": "Alpinus Stopper Twist 1L"
+        },
+        {
+          "id": "gid://shopify/Product/11191413702994",
+          "status": "DRAFT",
+          "title": "Alpinus Stopper Twist 0.5L / 0.7L"
+        },
+        {
+          "id": "gid://shopify/Product/11191413866834",
+          "status": "DRAFT",
+          "title": "Alpinus Stopper Click 1L"
+        }
+      ]
+    },
+    {
+      "batch_index": 439,
+      "supplier_product_id": "240",
+      "symbol": "ST18341",
+      "title": "Czapka dla dzieci Alpinus Oulu niebiesko-różowa ST18341",
+      "model": "Oulu",
+      "retail_eur": 19,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191099752786",
+          "status": "DRAFT",
+          "title": "Alpinus Oulu Kids Hat",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191099752786",
+          "status": "DRAFT",
+          "title": "Alpinus Oulu Kids Hat"
+        }
+      ]
+    }
+  ]
+}
