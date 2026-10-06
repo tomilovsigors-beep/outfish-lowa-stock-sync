@@ -5,10 +5,10 @@
   "fx_pln_to_eur": 0.228725,
   "fx_timestamp": "2026-10-06T15:38:00Z",
   "pricing": "supplier RRP PLN * FX rounded to nearest whole EUR",
-  "checks": "Complete vendor:Alpinus Shopify scan; base SKU, EAN as SKU, EAN as barcode, model-name collision",
+  "checks": "Complete vendor:Alpinus Shopify scan; base SKU, EAN as SKU, EAN as barcode, model-name collision; generic material words (e.g. Merino) not treated as model identity",
   "counts": {
-    "ELIGIBLE_CANDIDATE": 43,
-    "HOLD_VARIANT_IDENTITY": 5,
+    "ELIGIBLE_CANDIDATE": 46,
+    "HOLD_VARIANT_IDENTITY": 2,
     "SKIP_UNDER_20": 2
   },
   "changes_to_shopify": 0,
@@ -152,36 +152,10 @@
       "symbol": "GT11910",
       "title": "Bielizna termoaktywna unisex Set Alpinus Merino Aoraki pomarańczowe GT11910",
       "retail_eur": 112,
-      "decision": "HOLD_VARIANT_IDENTITY",
-      "reason": "same named model in Shopify, SKU/EAN differs",
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "Merino is generic material descriptor, not product-model collision; Aoraki not found among current Alpinus titles",
       "exact_matches": [],
-      "model_collisions": [
-        {
-          "id": "gid://shopify/Product/11018193830226",
-          "status": "ACTIVE",
-          "title": "Women’s Merino T-Shirt – Alpinus Otago – 160 g/m² – Red"
-        },
-        {
-          "id": "gid://shopify/Product/11018195304786",
-          "status": "ACTIVE",
-          "title": "Women’s Merino T-Shirt – Alpinus Otago – 160 g/m² – Blue"
-        },
-        {
-          "id": "gid://shopify/Product/11189214052690",
-          "status": "ACTIVE",
-          "title": "Merino Hiking Socks – Alpinus Kuldiga – 50% Merino Wool – Blue"
-        },
-        {
-          "id": "gid://shopify/Product/11189227684178",
-          "status": "ACTIVE",
-          "title": "Merino Coolmax Hiking Socks – Alpinus Sveg – Black/Grey"
-        },
-        {
-          "id": "gid://shopify/Product/11191413965138",
-          "status": "DRAFT",
-          "title": "Alpinus Bleik Merino Hat"
-        }
-      ]
+      "model_collisions": []
     },
     {
       "batch_index": 64,
@@ -222,36 +196,10 @@
       "symbol": "GT11918",
       "title": "Bluza termoaktywna unisex Alpinus Merino Aoraki  GT11918",
       "retail_eur": 68,
-      "decision": "HOLD_VARIANT_IDENTITY",
-      "reason": "same named model in Shopify, SKU/EAN differs",
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "Merino is generic material descriptor, not product-model collision; Aoraki not found among current Alpinus titles",
       "exact_matches": [],
-      "model_collisions": [
-        {
-          "id": "gid://shopify/Product/11018193830226",
-          "status": "ACTIVE",
-          "title": "Women’s Merino T-Shirt – Alpinus Otago – 160 g/m² – Red"
-        },
-        {
-          "id": "gid://shopify/Product/11018195304786",
-          "status": "ACTIVE",
-          "title": "Women’s Merino T-Shirt – Alpinus Otago – 160 g/m² – Blue"
-        },
-        {
-          "id": "gid://shopify/Product/11189214052690",
-          "status": "ACTIVE",
-          "title": "Merino Hiking Socks – Alpinus Kuldiga – 50% Merino Wool – Blue"
-        },
-        {
-          "id": "gid://shopify/Product/11189227684178",
-          "status": "ACTIVE",
-          "title": "Merino Coolmax Hiking Socks – Alpinus Sveg – Black/Grey"
-        },
-        {
-          "id": "gid://shopify/Product/11191413965138",
-          "status": "DRAFT",
-          "title": "Alpinus Bleik Merino Hat"
-        }
-      ]
+      "model_collisions": []
     },
     {
       "batch_index": 68,
@@ -386,36 +334,10 @@
       "symbol": "GT11914",
       "title": "Spodnie termoaktywne unisex Alpinus Merino Aoraki  GT11914",
       "retail_eur": 46,
-      "decision": "HOLD_VARIANT_IDENTITY",
-      "reason": "same named model in Shopify, SKU/EAN differs",
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "Merino is generic material descriptor, not product-model collision; Aoraki not found among current Alpinus titles",
       "exact_matches": [],
-      "model_collisions": [
-        {
-          "id": "gid://shopify/Product/11018193830226",
-          "status": "ACTIVE",
-          "title": "Women’s Merino T-Shirt – Alpinus Otago – 160 g/m² – Red"
-        },
-        {
-          "id": "gid://shopify/Product/11018195304786",
-          "status": "ACTIVE",
-          "title": "Women’s Merino T-Shirt – Alpinus Otago – 160 g/m² – Blue"
-        },
-        {
-          "id": "gid://shopify/Product/11189214052690",
-          "status": "ACTIVE",
-          "title": "Merino Hiking Socks – Alpinus Kuldiga – 50% Merino Wool – Blue"
-        },
-        {
-          "id": "gid://shopify/Product/11189227684178",
-          "status": "ACTIVE",
-          "title": "Merino Coolmax Hiking Socks – Alpinus Sveg – Black/Grey"
-        },
-        {
-          "id": "gid://shopify/Product/11191413965138",
-          "status": "DRAFT",
-          "title": "Alpinus Bleik Merino Hat"
-        }
-      ]
+      "model_collisions": []
     },
     {
       "batch_index": 80,
