@@ -1,0 +1,1635 @@
+{
+  "batch": "catalog_original_batch_007_50",
+  "snapshot_date": "2026-10-06",
+  "shopify_vendor_products_checked": 145,
+  "shopify_active_products_seen": 31,
+  "shopify_draft_products_seen": 114,
+  "fx_pln_to_eur": 0.228725,
+  "fx_timestamp": "2026-10-06T15:38:00Z",
+  "pricing": "Supplier RRP PLN x PLN/EUR FX rounded to nearest whole EUR",
+  "checks": "Full Shopify vendor:Alpinus pagination, supplier SKU, all EAN vs variant SKU/barcode, distinctive model overlap, 20 EUR retail minimum",
+  "counts": {
+    "COMPLETE_DRAFT": 26,
+    "SKIP_UNDER_20": 14,
+    "KEEP_ACTIVE": 2,
+    "HOLD_PRICE": 1,
+    "HOLD_VARIANT_IDENTITY": 5,
+    "ELIGIBLE_CANDIDATE": 2
+  },
+  "changes_to_shopify": 0,
+  "exceptions": "Products eligible for further processing only; existing Active not altered; supplier EAN-size mapping, original photos and costs pending",
+  "rows": [
+    {
+      "batch_index": 301,
+      "supplier_product_id": "1182",
+      "symbol": "NH35482",
+      "title": "Plecak  Alpinus Lecco 15",
+      "model": "Lecco",
+      "retail_eur": 36,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191098868050",
+          "status": "DRAFT",
+          "title": "Alpinus Lecco 15 Backpack",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191098638674",
+          "status": "DRAFT",
+          "title": "Alpinus Lecco 25 Backpack"
+        },
+        {
+          "id": "gid://shopify/Product/11191098868050",
+          "status": "DRAFT",
+          "title": "Alpinus Lecco 15 Backpack"
+        },
+        {
+          "id": "gid://shopify/Product/11191168303442",
+          "status": "DRAFT",
+          "title": "Alpinus Lecco 30 Backpack"
+        }
+      ]
+    },
+    {
+      "batch_index": 302,
+      "supplier_product_id": "1186",
+      "symbol": "NH11724",
+      "title": "Plecak  Alpinus Teno 24 NH11724",
+      "model": "Teno",
+      "retail_eur": 75,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191015702866",
+          "status": "DRAFT",
+          "title": "Alpinus Teno 24 Backpack",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11023320219986",
+          "status": "ACTIVE",
+          "title": "Hiking Backpack – Alpinus TENO 24 – 24 L – 950 g"
+        },
+        {
+          "id": "gid://shopify/Product/11191015702866",
+          "status": "DRAFT",
+          "title": "Alpinus Teno 24 Backpack"
+        }
+      ]
+    },
+    {
+      "batch_index": 303,
+      "supplier_product_id": "1149",
+      "symbol": "MO35278",
+      "title": "Karimata   Alpinus Orawa mini MO35278",
+      "model": "Orawa",
+      "retail_eur": 9,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191098409298",
+          "status": "DRAFT",
+          "title": "Alpinus Orawa Mini Sleeping Mat",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191098409298",
+          "status": "DRAFT",
+          "title": "Alpinus Orawa Mini Sleeping Mat"
+        },
+        {
+          "id": "gid://shopify/Product/11191167713618",
+          "status": "DRAFT",
+          "title": "Alpinus Orawa Sleeping Mat"
+        }
+      ]
+    },
+    {
+      "batch_index": 304,
+      "supplier_product_id": "1175",
+      "symbol": "DN35274",
+      "title": "Śpiwór Alpinus Wide & Long Fiber Pro 1250 (prawy)",
+      "model": "Wide",
+      "retail_eur": 62,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191134290258",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1250 Sleeping Bag – Right",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191133864274",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1050 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191134060882",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1050 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191134290258",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1250 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191134421330",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1250 Sleeping Bag – Left"
+        }
+      ]
+    },
+    {
+      "batch_index": 305,
+      "supplier_product_id": "1174",
+      "symbol": "DN35273",
+      "title": "Śpiwór Alpinus Wide & Long Fiber Pro 1250 (lewy)",
+      "model": "Wide",
+      "retail_eur": 62,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191134421330",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1250 Sleeping Bag – Left",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191133864274",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1050 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191134060882",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1050 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191134290258",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1250 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191134421330",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1250 Sleeping Bag – Left"
+        }
+      ]
+    },
+    {
+      "batch_index": 306,
+      "supplier_product_id": "1167",
+      "symbol": "LO35276",
+      "title": "Namiot Garda 4 LO35276",
+      "model": "",
+      "retail_eur": 160,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191098048850",
+          "status": "DRAFT",
+          "title": "Alpinus Garda 4 Tent",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 307,
+      "supplier_product_id": "1148",
+      "symbol": "NH35264",
+      "title": "Plecak  Alpinus Ovalau 12",
+      "model": "Ovalau",
+      "retail_eur": 23,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191098212690",
+          "status": "DRAFT",
+          "title": "Alpinus Ovalau 12 Backpack",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191098212690",
+          "status": "DRAFT",
+          "title": "Alpinus Ovalau 12 Backpack"
+        }
+      ]
+    },
+    {
+      "batch_index": 308,
+      "supplier_product_id": "1189",
+      "symbol": "PO35500",
+      "title": "Plecak  Alpinus Retba 30, PO35500",
+      "model": "Retba",
+      "retail_eur": 68,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191039394130",
+          "status": "DRAFT",
+          "title": "Alpinus Retba 30 Backpack",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191039394130",
+          "status": "DRAFT",
+          "title": "Alpinus Retba 30 Backpack"
+        }
+      ]
+    },
+    {
+      "batch_index": 309,
+      "supplier_product_id": "1176",
+      "symbol": "DN35271",
+      "title": "Śpiwór Alpinus Wide & Long Fiber Pro 1050 (lewy)",
+      "model": "Wide",
+      "retail_eur": 55,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191133864274",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1050 Sleeping Bag – Left",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191133864274",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1050 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191134060882",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1050 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191134290258",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1250 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191134421330",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1250 Sleeping Bag – Left"
+        }
+      ]
+    },
+    {
+      "batch_index": 310,
+      "supplier_product_id": "1190",
+      "symbol": "PO35499",
+      "title": "Plecak  Alpinus Moturiki 15",
+      "model": "Moturiki",
+      "retail_eur": 27,
+      "decision": "KEEP_ACTIVE",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11023256125778",
+          "status": "ACTIVE",
+          "title": "Ultralight Daypack – Alpinus MOTURIKI – 15 L – 240 g",
+          "reasons": [
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11023256125778",
+          "status": "ACTIVE",
+          "title": "Ultralight Daypack – Alpinus MOTURIKI – 15 L – 240 g"
+        }
+      ]
+    },
+    {
+      "batch_index": 311,
+      "supplier_product_id": "1202",
+      "symbol": "NH35622",
+      "title": "Plecak  Alpinus Grenoble 25",
+      "model": "Grenoble",
+      "retail_eur": 46,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191015637330",
+          "status": "DRAFT",
+          "title": "Alpinus Grenoble 25 Backpack",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191015637330",
+          "status": "DRAFT",
+          "title": "Alpinus Grenoble 25 Backpack"
+        }
+      ]
+    },
+    {
+      "batch_index": 312,
+      "supplier_product_id": "1191",
+      "symbol": "PO35501",
+      "title": "Plecak  Alpinus Oliero 22",
+      "model": "Oliero",
+      "retail_eur": 68,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191039557970",
+          "status": "DRAFT",
+          "title": "Alpinus Oliero 22 Backpack",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11023244820818",
+          "status": "ACTIVE",
+          "title": "Hiking Daypack – Alpinus OLIERO 22 – 22 L – 560 g"
+        },
+        {
+          "id": "gid://shopify/Product/11191039557970",
+          "status": "DRAFT",
+          "title": "Alpinus Oliero 22 Backpack"
+        }
+      ]
+    },
+    {
+      "batch_index": 313,
+      "supplier_product_id": "1141",
+      "symbol": "NH35267",
+      "title": "Kosmetyczka   Alpinus Ampat NH35267",
+      "model": "Ampat",
+      "retail_eur": 18,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191040180562",
+          "status": "DRAFT",
+          "title": "Alpinus Ampat Toiletry Bag",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191040180562",
+          "status": "DRAFT",
+          "title": "Alpinus Ampat Toiletry Bag"
+        }
+      ]
+    },
+    {
+      "batch_index": 314,
+      "supplier_product_id": "1177",
+      "symbol": "DN35272",
+      "title": "Śpiwór Alpinus Wide & Long Fiber Pro 1050 (prawy)",
+      "model": "Wide",
+      "retail_eur": 55,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191134060882",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1050 Sleeping Bag – Right",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191133864274",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1050 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191134060882",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1050 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191134290258",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1250 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191134421330",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1250 Sleeping Bag – Left"
+        }
+      ]
+    },
+    {
+      "batch_index": 315,
+      "supplier_product_id": "1117",
+      "symbol": "NH35032",
+      "title": "Plecak Alpinus Negoiu 20 NH35032",
+      "model": "Negoiu",
+      "retail_eur": 68,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191141466450",
+          "status": "DRAFT",
+          "title": "Alpinus Negoiu 20 Backpack",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191141466450",
+          "status": "DRAFT",
+          "title": "Alpinus Negoiu 20 Backpack"
+        }
+      ]
+    },
+    {
+      "batch_index": 316,
+      "supplier_product_id": "1108",
+      "symbol": "UZ35040",
+      "title": "Butelka trytanowa  Alpinus Trysil GOPR 650ml",
+      "model": "Trysil",
+      "retail_eur": 11,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 317,
+      "supplier_product_id": "1121",
+      "symbol": "LF11704",
+      "title": "Plecak Alpinus Mismi 28, LF11704",
+      "model": "Mismi",
+      "retail_eur": 57,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191134781778",
+          "status": "DRAFT",
+          "title": "Alpinus Mismi 28 Backpack",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191134781778",
+          "status": "DRAFT",
+          "title": "Alpinus Mismi 28 Backpack"
+        }
+      ]
+    },
+    {
+      "batch_index": 318,
+      "supplier_product_id": "1099",
+      "symbol": "OS11449",
+      "title": "Worek wodoszczelny  Alpinus Tutunendo-Hobart 10 OS11449",
+      "model": "Tutunendo-Hobart",
+      "retail_eur": 15,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191277650258",
+          "status": "DRAFT",
+          "title": "Alpinus Tutunendo-Hobart 10 Waterproof Dry Bag",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191260643666",
+          "status": "DRAFT",
+          "title": "Alpinus Tutunendo-Hobart 30 Waterproof Dry Bag"
+        },
+        {
+          "id": "gid://shopify/Product/11191276929362",
+          "status": "DRAFT",
+          "title": "Alpinus Tutunendo-Hobart 5 Waterproof Dry Bag"
+        },
+        {
+          "id": "gid://shopify/Product/11191277650258",
+          "status": "DRAFT",
+          "title": "Alpinus Tutunendo-Hobart 10 Waterproof Dry Bag"
+        }
+      ]
+    },
+    {
+      "batch_index": 319,
+      "supplier_product_id": "1119",
+      "symbol": "LF11702",
+      "title": "Plecak  Alpinus Ampato 30L",
+      "model": "Ampato",
+      "retail_eur": 68,
+      "decision": "KEEP_ACTIVE",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11023334015314",
+          "status": "ACTIVE",
+          "title": "Hiking Backpack – Alpinus AMPATO 30 – 30 L – 1.271 kg",
+          "reasons": [
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11023334015314",
+          "status": "ACTIVE",
+          "title": "Hiking Backpack – Alpinus AMPATO 30 – 30 L – 1.271 kg"
+        }
+      ]
+    },
+    {
+      "batch_index": 320,
+      "supplier_product_id": "1106",
+      "symbol": "LE11855",
+      "title": "Torbo-plecak wodoodporny  Alpinus Maui 30, LE11855",
+      "model": "Maui",
+      "retail_eur": 91,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191167942994",
+          "status": "DRAFT",
+          "title": "Alpinus Maui 30 Waterproof Backpack Bag",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191167942994",
+          "status": "DRAFT",
+          "title": "Alpinus Maui 30 Waterproof Backpack Bag"
+        }
+      ]
+    },
+    {
+      "batch_index": 321,
+      "supplier_product_id": "1109",
+      "symbol": "AI35028",
+      "title": "Plecak Alpinus Peyto 22, AI35028",
+      "model": "Peyto",
+      "retail_eur": 46,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191141564754",
+          "status": "DRAFT",
+          "title": "Alpinus Peyto 22 Backpack",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191141564754",
+          "status": "DRAFT",
+          "title": "Alpinus Peyto 22 Backpack"
+        }
+      ]
+    },
+    {
+      "batch_index": 322,
+      "supplier_product_id": "1105",
+      "symbol": "OS11454",
+      "title": "Worek wodoodporny  Alpinus Tutunendo 20 , OS11454",
+      "model": "Tutunendo",
+      "retail_eur": 13,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191141400914",
+          "status": "DRAFT",
+          "title": "Alpinus Tutunendo 20 Waterproof Dry Bag",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191134519634",
+          "status": "DRAFT",
+          "title": "Alpinus Tutunendo-Hobar 50 Waterproof Dry Bag"
+        },
+        {
+          "id": "gid://shopify/Product/11191135142226",
+          "status": "DRAFT",
+          "title": "Alpinus Tutunendo 5 Waterproof Dry Bag"
+        },
+        {
+          "id": "gid://shopify/Product/11191135437138",
+          "status": "DRAFT",
+          "title": "Alpinus Tutunendo 10 Waterproof Dry Bag"
+        },
+        {
+          "id": "gid://shopify/Product/11191141400914",
+          "status": "DRAFT",
+          "title": "Alpinus Tutunendo 20 Waterproof Dry Bag"
+        },
+        {
+          "id": "gid://shopify/Product/11191260643666",
+          "status": "DRAFT",
+          "title": "Alpinus Tutunendo-Hobart 30 Waterproof Dry Bag"
+        },
+        {
+          "id": "gid://shopify/Product/11191276929362",
+          "status": "DRAFT",
+          "title": "Alpinus Tutunendo-Hobart 5 Waterproof Dry Bag"
+        },
+        {
+          "id": "gid://shopify/Product/11191277650258",
+          "status": "DRAFT",
+          "title": "Alpinus Tutunendo-Hobart 10 Waterproof Dry Bag"
+        }
+      ]
+    },
+    {
+      "batch_index": 323,
+      "supplier_product_id": "1103",
+      "symbol": "OS11452",
+      "title": "Worek wodoodporny   Alpinus Tutunendo 5 , OS11452",
+      "model": "Tutunendo",
+      "retail_eur": 8,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191135142226",
+          "status": "DRAFT",
+          "title": "Alpinus Tutunendo 5 Waterproof Dry Bag",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191134519634",
+          "status": "DRAFT",
+          "title": "Alpinus Tutunendo-Hobar 50 Waterproof Dry Bag"
+        },
+        {
+          "id": "gid://shopify/Product/11191135142226",
+          "status": "DRAFT",
+          "title": "Alpinus Tutunendo 5 Waterproof Dry Bag"
+        },
+        {
+          "id": "gid://shopify/Product/11191135437138",
+          "status": "DRAFT",
+          "title": "Alpinus Tutunendo 10 Waterproof Dry Bag"
+        },
+        {
+          "id": "gid://shopify/Product/11191141400914",
+          "status": "DRAFT",
+          "title": "Alpinus Tutunendo 20 Waterproof Dry Bag"
+        },
+        {
+          "id": "gid://shopify/Product/11191260643666",
+          "status": "DRAFT",
+          "title": "Alpinus Tutunendo-Hobart 30 Waterproof Dry Bag"
+        },
+        {
+          "id": "gid://shopify/Product/11191276929362",
+          "status": "DRAFT",
+          "title": "Alpinus Tutunendo-Hobart 5 Waterproof Dry Bag"
+        },
+        {
+          "id": "gid://shopify/Product/11191277650258",
+          "status": "DRAFT",
+          "title": "Alpinus Tutunendo-Hobart 10 Waterproof Dry Bag"
+        }
+      ]
+    },
+    {
+      "batch_index": 324,
+      "supplier_product_id": "1138",
+      "symbol": "CH35030",
+      "title": "Ręcznik  Alpinus Canoa 50 cm x 100 cm, CH35030",
+      "model": "Canoa",
+      "retail_eur": 11,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191134945618",
+          "status": "DRAFT",
+          "title": "Alpinus Canoa Towel 50 x 100 cm",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191134945618",
+          "status": "DRAFT",
+          "title": "Alpinus Canoa Towel 50 x 100 cm"
+        }
+      ]
+    },
+    {
+      "batch_index": 325,
+      "supplier_product_id": "1111",
+      "symbol": "CH35029",
+      "title": "Ręcznik  Alpinus Tarifa 75 cm x 150 cm \r\n, CH35029",
+      "model": "Tarifa",
+      "retail_eur": 16,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191167746386",
+          "status": "DRAFT",
+          "title": "Alpinus Tarifa Towel 75 x 150 cm",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191167746386",
+          "status": "DRAFT",
+          "title": "Alpinus Tarifa Towel 75 x 150 cm"
+        }
+      ]
+    },
+    {
+      "batch_index": 326,
+      "supplier_product_id": "1104",
+      "symbol": "OS11453",
+      "title": "Worek wodoodporny  Alpinus Tutunendo 10, OS11453",
+      "model": "Tutunendo",
+      "retail_eur": 9,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191135437138",
+          "status": "DRAFT",
+          "title": "Alpinus Tutunendo 10 Waterproof Dry Bag",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191134519634",
+          "status": "DRAFT",
+          "title": "Alpinus Tutunendo-Hobar 50 Waterproof Dry Bag"
+        },
+        {
+          "id": "gid://shopify/Product/11191135142226",
+          "status": "DRAFT",
+          "title": "Alpinus Tutunendo 5 Waterproof Dry Bag"
+        },
+        {
+          "id": "gid://shopify/Product/11191135437138",
+          "status": "DRAFT",
+          "title": "Alpinus Tutunendo 10 Waterproof Dry Bag"
+        },
+        {
+          "id": "gid://shopify/Product/11191141400914",
+          "status": "DRAFT",
+          "title": "Alpinus Tutunendo 20 Waterproof Dry Bag"
+        },
+        {
+          "id": "gid://shopify/Product/11191260643666",
+          "status": "DRAFT",
+          "title": "Alpinus Tutunendo-Hobart 30 Waterproof Dry Bag"
+        },
+        {
+          "id": "gid://shopify/Product/11191276929362",
+          "status": "DRAFT",
+          "title": "Alpinus Tutunendo-Hobart 5 Waterproof Dry Bag"
+        },
+        {
+          "id": "gid://shopify/Product/11191277650258",
+          "status": "DRAFT",
+          "title": "Alpinus Tutunendo-Hobart 10 Waterproof Dry Bag"
+        }
+      ]
+    },
+    {
+      "batch_index": 327,
+      "supplier_product_id": "1143",
+      "symbol": "NH35268",
+      "title": "Torba  Alpinus Avila 60 NH35268",
+      "model": "Avila",
+      "retail_eur": 41,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191134650706",
+          "status": "DRAFT",
+          "title": "Alpinus Avila 60 Travel Bag",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191099031890",
+          "status": "DRAFT",
+          "title": "Alpinus Avila 60 Travel Bag"
+        },
+        {
+          "id": "gid://shopify/Product/11191134650706",
+          "status": "DRAFT",
+          "title": "Alpinus Avila 60 Travel Bag"
+        }
+      ]
+    },
+    {
+      "batch_index": 328,
+      "supplier_product_id": "1140",
+      "symbol": "MO35279",
+      "title": "Krzesło turystyczne   Alpinus Anacostia MO35279",
+      "model": "Anacostia",
+      "retail_eur": 41,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191135043922",
+          "status": "DRAFT",
+          "title": "Alpinus Anacostia Camping Chair",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191135043922",
+          "status": "DRAFT",
+          "title": "Alpinus Anacostia Camping Chair"
+        }
+      ]
+    },
+    {
+      "batch_index": 329,
+      "supplier_product_id": "1114",
+      "symbol": "CH35036",
+      "title": "Ręcznik ultralekki  Alpinus Hum 40 cm x 80 cm, CH35036",
+      "model": "Hum",
+      "retail_eur": 7,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191135535442",
+          "status": "DRAFT",
+          "title": "Alpinus Hum Ultralight Towel 40 x 80 cm",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 330,
+      "supplier_product_id": "1139",
+      "symbol": "MO35277",
+      "title": "Karimata Alpinus Orawa MO35277",
+      "model": "Orawa",
+      "retail_eur": 23,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191167713618",
+          "status": "DRAFT",
+          "title": "Alpinus Orawa Sleeping Mat",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191098409298",
+          "status": "DRAFT",
+          "title": "Alpinus Orawa Mini Sleeping Mat"
+        },
+        {
+          "id": "gid://shopify/Product/11191167713618",
+          "status": "DRAFT",
+          "title": "Alpinus Orawa Sleeping Mat"
+        }
+      ]
+    },
+    {
+      "batch_index": 331,
+      "supplier_product_id": "1102",
+      "symbol": "OS11451",
+      "title": "Worek wodoszczelny  Alpinus Tutunendo-Hobar 50, OS11451",
+      "model": "Tutunendo-Hobar",
+      "retail_eur": 23,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191134519634",
+          "status": "DRAFT",
+          "title": "Alpinus Tutunendo-Hobar 50 Waterproof Dry Bag",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191134519634",
+          "status": "DRAFT",
+          "title": "Alpinus Tutunendo-Hobar 50 Waterproof Dry Bag"
+        }
+      ]
+    },
+    {
+      "batch_index": 332,
+      "supplier_product_id": "1107",
+      "symbol": "UZ35039",
+      "title": "Butelka trytanowa  Alpinus Trysil GOPR 650ml",
+      "model": "Trysil",
+      "retail_eur": null,
+      "decision": "HOLD_PRICE",
+      "reason": "missing verified RRP",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 333,
+      "supplier_product_id": "1101",
+      "symbol": "OS11450",
+      "title": "Worek wodoszczelny  Alpinus Tutunendo-Hobart 30, OS11450",
+      "model": "Tutunendo-Hobart",
+      "retail_eur": 18,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191260643666",
+          "status": "DRAFT",
+          "title": "Alpinus Tutunendo-Hobart 30 Waterproof Dry Bag",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191260643666",
+          "status": "DRAFT",
+          "title": "Alpinus Tutunendo-Hobart 30 Waterproof Dry Bag"
+        },
+        {
+          "id": "gid://shopify/Product/11191276929362",
+          "status": "DRAFT",
+          "title": "Alpinus Tutunendo-Hobart 5 Waterproof Dry Bag"
+        },
+        {
+          "id": "gid://shopify/Product/11191277650258",
+          "status": "DRAFT",
+          "title": "Alpinus Tutunendo-Hobart 10 Waterproof Dry Bag"
+        }
+      ]
+    },
+    {
+      "batch_index": 334,
+      "supplier_product_id": "1100",
+      "symbol": "OS11448",
+      "title": "Worek wodoszczelny Alpinus Tutunendo-Hobart 5, OS11448",
+      "model": "Tutunendo-Hobart",
+      "retail_eur": 13,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191276929362",
+          "status": "DRAFT",
+          "title": "Alpinus Tutunendo-Hobart 5 Waterproof Dry Bag",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191260643666",
+          "status": "DRAFT",
+          "title": "Alpinus Tutunendo-Hobart 30 Waterproof Dry Bag"
+        },
+        {
+          "id": "gid://shopify/Product/11191276929362",
+          "status": "DRAFT",
+          "title": "Alpinus Tutunendo-Hobart 5 Waterproof Dry Bag"
+        },
+        {
+          "id": "gid://shopify/Product/11191277650258",
+          "status": "DRAFT",
+          "title": "Alpinus Tutunendo-Hobart 10 Waterproof Dry Bag"
+        }
+      ]
+    },
+    {
+      "batch_index": 335,
+      "supplier_product_id": "1090",
+      "symbol": "NH11729",
+      "title": "Plecak Alpinus Mallcu 28 NH11729",
+      "model": "Mallcu",
+      "retail_eur": 57,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191168106834",
+          "status": "DRAFT",
+          "title": "Alpinus Mallcu 28 Backpack",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191168106834",
+          "status": "DRAFT",
+          "title": "Alpinus Mallcu 28 Backpack"
+        }
+      ]
+    },
+    {
+      "batch_index": 336,
+      "supplier_product_id": "1078",
+      "symbol": "NH11387",
+      "title": "Plecak Alpinus Grenoble 25 NH11387",
+      "model": "Grenoble",
+      "retail_eur": 46,
+      "decision": "HOLD_VARIANT_IDENTITY",
+      "reason": "possible existing product with shared model name",
+      "exact_matches": [],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191015637330",
+          "status": "DRAFT",
+          "title": "Alpinus Grenoble 25 Backpack"
+        }
+      ]
+    },
+    {
+      "batch_index": 337,
+      "supplier_product_id": "1059",
+      "symbol": "GO11972",
+      "title": "Butelka trytanowa Alpinus Nuolja 1l  GO11972",
+      "model": "Nuolja",
+      "retail_eur": 13,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191168532818",
+          "status": "DRAFT",
+          "title": "Alpinus Nuolja 1L Tritan Bottle",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191168532818",
+          "status": "DRAFT",
+          "title": "Alpinus Nuolja 1L Tritan Bottle"
+        }
+      ]
+    },
+    {
+      "batch_index": 338,
+      "supplier_product_id": "1084",
+      "symbol": "NH11721",
+      "title": "Plecak  Alpinus Teide 24 NH11721",
+      "model": "Teide",
+      "retail_eur": 52,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 339,
+      "supplier_product_id": "1062",
+      "symbol": "LC35025",
+      "title": "Mata samopompująca  Alpinus Adrspach L LC35024",
+      "model": "Adrspach",
+      "retail_eur": 57,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191193764178",
+          "status": "DRAFT",
+          "title": "Alpinus Adrspach L Self-Inflating Mat",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191193764178",
+          "status": "DRAFT",
+          "title": "Alpinus Adrspach L Self-Inflating Mat"
+        },
+        {
+          "id": "gid://shopify/Product/11191278797138",
+          "status": "DRAFT",
+          "title": "Alpinus Adrspach M Self-Inflating Mat"
+        }
+      ]
+    },
+    {
+      "batch_index": 340,
+      "supplier_product_id": "1082",
+      "symbol": "NH11722",
+      "title": "Plecak Alpinus Teide 24 NH11722",
+      "model": "Teide",
+      "retail_eur": 52,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 341,
+      "supplier_product_id": "1061",
+      "symbol": "LC35024",
+      "title": "Mata samopompująca  Alpinus Adrspach M LC35024",
+      "model": "Adrspach",
+      "retail_eur": 41,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191278797138",
+          "status": "DRAFT",
+          "title": "Alpinus Adrspach M Self-Inflating Mat",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191193764178",
+          "status": "DRAFT",
+          "title": "Alpinus Adrspach L Self-Inflating Mat"
+        },
+        {
+          "id": "gid://shopify/Product/11191278797138",
+          "status": "DRAFT",
+          "title": "Alpinus Adrspach M Self-Inflating Mat"
+        }
+      ]
+    },
+    {
+      "batch_index": 342,
+      "supplier_product_id": "1095",
+      "symbol": "NH11718",
+      "title": "Plecak  Alpinus Lecco 30",
+      "model": "Lecco",
+      "retail_eur": 46,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191168303442",
+          "status": "DRAFT",
+          "title": "Alpinus Lecco 30 Backpack",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191098638674",
+          "status": "DRAFT",
+          "title": "Alpinus Lecco 25 Backpack"
+        },
+        {
+          "id": "gid://shopify/Product/11191098868050",
+          "status": "DRAFT",
+          "title": "Alpinus Lecco 15 Backpack"
+        },
+        {
+          "id": "gid://shopify/Product/11191168303442",
+          "status": "DRAFT",
+          "title": "Alpinus Lecco 30 Backpack"
+        }
+      ]
+    },
+    {
+      "batch_index": 343,
+      "supplier_product_id": "1096",
+      "symbol": "NH11719",
+      "title": "Plecak Alpinus Lecco 30 NH11719",
+      "model": "Lecco",
+      "retail_eur": 46,
+      "decision": "HOLD_VARIANT_IDENTITY",
+      "reason": "possible existing product with shared model name",
+      "exact_matches": [],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191098638674",
+          "status": "DRAFT",
+          "title": "Alpinus Lecco 25 Backpack"
+        },
+        {
+          "id": "gid://shopify/Product/11191098868050",
+          "status": "DRAFT",
+          "title": "Alpinus Lecco 15 Backpack"
+        },
+        {
+          "id": "gid://shopify/Product/11191168303442",
+          "status": "DRAFT",
+          "title": "Alpinus Lecco 30 Backpack"
+        }
+      ]
+    },
+    {
+      "batch_index": 344,
+      "supplier_product_id": "1060",
+      "symbol": "GO11973",
+      "title": "Butelka trytanowa  Alpinus Skierfe 1l GO11973",
+      "model": "Skierfe",
+      "retail_eur": 13,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191278534994",
+          "status": "DRAFT",
+          "title": "Alpinus Skierfe 1L Tritan Bottle",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191278534994",
+          "status": "DRAFT",
+          "title": "Alpinus Skierfe 1L Tritan Bottle"
+        }
+      ]
+    },
+    {
+      "batch_index": 345,
+      "supplier_product_id": "1093",
+      "symbol": "NH11716",
+      "title": "Plecak Alpinus Lecco 25 NH11716",
+      "model": "Lecco",
+      "retail_eur": 41,
+      "decision": "HOLD_VARIANT_IDENTITY",
+      "reason": "possible existing product with shared model name",
+      "exact_matches": [],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191098638674",
+          "status": "DRAFT",
+          "title": "Alpinus Lecco 25 Backpack"
+        },
+        {
+          "id": "gid://shopify/Product/11191098868050",
+          "status": "DRAFT",
+          "title": "Alpinus Lecco 15 Backpack"
+        },
+        {
+          "id": "gid://shopify/Product/11191168303442",
+          "status": "DRAFT",
+          "title": "Alpinus Lecco 30 Backpack"
+        }
+      ]
+    },
+    {
+      "batch_index": 346,
+      "supplier_product_id": "1044",
+      "symbol": "DN11789",
+      "title": "Śpiwór Alpinus Fiber Pro 1300 lewy DN11789",
+      "model": "Fiber",
+      "retail_eur": 57,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191365206354",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1300 Sleeping Bag – Left",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191133864274",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1050 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191134060882",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1050 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191134290258",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1250 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191134421330",
+          "status": "DRAFT",
+          "title": "Alpinus Wide & Long Fiber Pro 1250 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191365206354",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1300 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191365861714",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1300 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191366746450",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro Women's 1300 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191367008594",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 800 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191367205202",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro Women's 1300 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191393091922",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1100 Sleeping Bag – Left"
+        },
+        {
+          "id": "gid://shopify/Product/11191393222994",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1100 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191393386834",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1500 Sleeping Bag – Right"
+        },
+        {
+          "id": "gid://shopify/Product/11191393550674",
+          "status": "DRAFT",
+          "title": "Alpinus Fiber Pro 1500 Sleeping Bag – Left"
+        }
+      ]
+    },
+    {
+      "batch_index": 347,
+      "supplier_product_id": "1086",
+      "symbol": "NH11715",
+      "title": "Plecak Alpinus Lecco 15 NH11715",
+      "model": "Lecco",
+      "retail_eur": 36,
+      "decision": "HOLD_VARIANT_IDENTITY",
+      "reason": "possible existing product with shared model name",
+      "exact_matches": [],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191098638674",
+          "status": "DRAFT",
+          "title": "Alpinus Lecco 25 Backpack"
+        },
+        {
+          "id": "gid://shopify/Product/11191098868050",
+          "status": "DRAFT",
+          "title": "Alpinus Lecco 15 Backpack"
+        },
+        {
+          "id": "gid://shopify/Product/11191168303442",
+          "status": "DRAFT",
+          "title": "Alpinus Lecco 30 Backpack"
+        }
+      ]
+    },
+    {
+      "batch_index": 348,
+      "supplier_product_id": "1092",
+      "symbol": "NH11730",
+      "title": "Plecak Alpinus Veymont 55 NH11730",
+      "model": "Veymont",
+      "retail_eur": 114,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191362847058",
+          "status": "DRAFT",
+          "title": "Alpinus Veymont 55 Backpack",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11023346303314",
+          "status": "ACTIVE",
+          "title": "Hiking Backpack – Alpinus VEYMONT 45 – 45 L – 1.4 kg"
+        },
+        {
+          "id": "gid://shopify/Product/11191362847058",
+          "status": "DRAFT",
+          "title": "Alpinus Veymont 55 Backpack"
+        }
+      ]
+    },
+    {
+      "batch_index": 349,
+      "supplier_product_id": "1089",
+      "symbol": "NH11725",
+      "title": "Plecak  Alpinus Ornak 30 NH11725",
+      "model": "Ornak",
+      "retail_eur": 68,
+      "decision": "COMPLETE_DRAFT",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11191278305618",
+          "status": "DRAFT",
+          "title": "Alpinus Ornak 30 Backpack",
+          "reasons": [
+            "BASE_SKU",
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191278305618",
+          "status": "DRAFT",
+          "title": "Alpinus Ornak 30 Backpack"
+        }
+      ]
+    },
+    {
+      "batch_index": 350,
+      "supplier_product_id": "1094",
+      "symbol": "NH11717",
+      "title": "Plecak  Alpinus Lecco 25 NH11717",
+      "model": "Lecco",
+      "retail_eur": 41,
+      "decision": "HOLD_VARIANT_IDENTITY",
+      "reason": "possible existing product with shared model name",
+      "exact_matches": [],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11191098638674",
+          "status": "DRAFT",
+          "title": "Alpinus Lecco 25 Backpack"
+        },
+        {
+          "id": "gid://shopify/Product/11191098868050",
+          "status": "DRAFT",
+          "title": "Alpinus Lecco 15 Backpack"
+        },
+        {
+          "id": "gid://shopify/Product/11191168303442",
+          "status": "DRAFT",
+          "title": "Alpinus Lecco 30 Backpack"
+        }
+      ]
+    }
+  ]
+}
