@@ -1,0 +1,788 @@
+{
+  "batch": "catalog_original_batch_005_50",
+  "snapshot_date": "2026-10-06",
+  "shopify_vendor_products_checked": 145,
+  "shopify_active_products_seen": 31,
+  "shopify_draft_products_seen": 114,
+  "fx_pln_to_eur": 0.228725,
+  "fx_timestamp": "2026-10-06T15:38:00Z",
+  "pricing": "Supplier RRP PLN x PLN/EUR FX rounded to nearest whole EUR",
+  "checks": "Full Shopify vendor:Alpinus pagination, supplier SKU, all EAN vs variant SKU/barcode, distinctive model overlap, 20 EUR retail minimum",
+  "counts": {
+    "ELIGIBLE_CANDIDATE": 31,
+    "SKIP_UNDER_20": 8,
+    "HOLD_VARIANT_IDENTITY": 7,
+    "KEEP_ACTIVE": 4
+  },
+  "changes_to_shopify": 0,
+  "exceptions": "Products eligible for further processing only; existing Active not altered; supplier EAN-size mapping, original photos and costs pending",
+  "rows": [
+    {
+      "batch_index": 201,
+      "supplier_product_id": "243",
+      "symbol": "AR18342",
+      "title": "Bluza polarowa męska Alpinus Dettifoss 200 AR18342",
+      "model": "Dettifoss",
+      "retail_eur": 80,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 202,
+      "supplier_product_id": "199",
+      "symbol": "FF18133",
+      "title": "Kurtka męska 2,5-warstwowa Alpinus Carniche 10K FF18133",
+      "model": "Carniche",
+      "retail_eur": 91,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 203,
+      "supplier_product_id": "268",
+      "symbol": "AR18454",
+      "title": "Bluza polarowa męska Alpinus Svene Polartec 200 szary melanż AR18454",
+      "model": "Svene",
+      "retail_eur": 80,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 204,
+      "supplier_product_id": "267",
+      "symbol": "SU18299",
+      "title": "Kurtka męska Alpinus 2-warstwowa Paterno czarna SU18299",
+      "model": "2-warstwowa",
+      "retail_eur": 87,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 205,
+      "supplier_product_id": "253",
+      "symbol": "BR18259",
+      "title": "Bluza męska Alpinus Lugano BR18259",
+      "model": "Lugano",
+      "retail_eur": 57,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 206,
+      "supplier_product_id": "251",
+      "symbol": "BR18249",
+      "title": "Bluza męska Alpinus Bellagio BR18249",
+      "model": "Bellagio",
+      "retail_eur": 46,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 207,
+      "supplier_product_id": "255",
+      "symbol": "TT18275",
+      "title": "Czapka  Alpinus Matind Hat TT18275",
+      "model": "Matind",
+      "retail_eur": 25,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 208,
+      "supplier_product_id": "210",
+      "symbol": "GT18282",
+      "title": "Koszulka męska funkcyjna Alpinus Braies GT18282",
+      "model": "Braies",
+      "retail_eur": 32,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 209,
+      "supplier_product_id": "249",
+      "symbol": "BR18239",
+      "title": "Koszulka męska Alpinus Como BR18239",
+      "model": "Como",
+      "retail_eur": 27,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 210,
+      "supplier_product_id": "209",
+      "symbol": "AR18277",
+      "title": "Bluza polarowa męska Alpinus Antelao 200 AR18277",
+      "model": "Antelao",
+      "retail_eur": 91,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 211,
+      "supplier_product_id": "196",
+      "symbol": "SI18159",
+      "title": "Spodenki męskie Alpinus Askja szare  SI18159",
+      "model": "Askja",
+      "retail_eur": 23,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 212,
+      "supplier_product_id": "200",
+      "symbol": "FF18138",
+      "title": "Kurtka męska 2,5 warstwowa Alpinus Carniche 15K FF18138",
+      "model": "Carniche",
+      "retail_eur": 91,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 213,
+      "supplier_product_id": "256",
+      "symbol": "TT18273",
+      "title": "Czapka Alpinus Matind Hat TT18273",
+      "model": "Matind",
+      "retail_eur": 25,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 214,
+      "supplier_product_id": "254",
+      "symbol": "TT18271",
+      "title": "Czapka Alpinus Mutenia Thinsulate Hat TT18271",
+      "model": "Mutenia",
+      "retail_eur": 27,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 215,
+      "supplier_product_id": "195",
+      "symbol": "SI18154",
+      "title": "Spodenki męskie Alpinus Hekla zielone SI18154",
+      "model": "Hekla",
+      "retail_eur": 23,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 216,
+      "supplier_product_id": "250",
+      "symbol": "BR18244",
+      "title": "Bluza męska Alpinus Bellagio BR18244",
+      "model": "Bellagio",
+      "retail_eur": 46,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 217,
+      "supplier_product_id": "261",
+      "symbol": "FF18169",
+      "title": "Spodenki trekkingowe męskie Alpinus Ferrera FF18169",
+      "model": "Ferrera",
+      "retail_eur": 46,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 218,
+      "supplier_product_id": "194",
+      "symbol": "SI18149",
+      "title": "Spodenki męskie Alpinus Bajadilla szare SI18149",
+      "model": "Bajadilla",
+      "retail_eur": 23,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 219,
+      "supplier_product_id": "260",
+      "symbol": "FF18164",
+      "title": "Spodenki trekkingowe męskie Alpinus Ferrera  FF18164",
+      "model": "Ferrera",
+      "retail_eur": 46,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 220,
+      "supplier_product_id": "252",
+      "symbol": "BR18254",
+      "title": "Bluza męska Alpinus Lugano BR18254",
+      "model": "Lugano",
+      "retail_eur": 57,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 221,
+      "supplier_product_id": "273",
+      "symbol": "FI18439",
+      "title": "Skarpety trekkingowe merino coolmax  Alpinus Sveg FI18439",
+      "model": "Sveg",
+      "retail_eur": 13,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11189227684178",
+          "status": "ACTIVE",
+          "title": "Merino Coolmax Hiking Socks – Alpinus Sveg – Black/Grey",
+          "reasons": [
+            "EAN_AS_SKU"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11189227684178",
+          "status": "ACTIVE",
+          "title": "Merino Coolmax Hiking Socks – Alpinus Sveg – Black/Grey"
+        }
+      ]
+    },
+    {
+      "batch_index": 222,
+      "supplier_product_id": "272",
+      "symbol": "FI18442",
+      "title": "Skarpety trekkingowe merino coolmax  Alpinus Sveg FI18442",
+      "model": "Sveg",
+      "retail_eur": 13,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11189227684178",
+          "status": "ACTIVE",
+          "title": "Merino Coolmax Hiking Socks – Alpinus Sveg – Black/Grey"
+        }
+      ]
+    },
+    {
+      "batch_index": 223,
+      "supplier_product_id": "270",
+      "symbol": "FI18433",
+      "title": "Skarpety trekkingowe merino  Alpinus Avrill FI18433",
+      "model": "Avrill",
+      "retail_eur": 13,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 224,
+      "supplier_product_id": "271",
+      "symbol": "FI18436",
+      "title": "Skarpety trekkingowe merino  Alpinus Avrill FI18436",
+      "model": "Avrill",
+      "retail_eur": 13,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 225,
+      "supplier_product_id": "276",
+      "symbol": "FI18451",
+      "title": "Skarpety trekkingowe merino coolmax  Alpinus Sveg Low FI18451",
+      "model": "Sveg",
+      "retail_eur": 10,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11189227684178",
+          "status": "ACTIVE",
+          "title": "Merino Coolmax Hiking Socks – Alpinus Sveg – Black/Grey"
+        }
+      ]
+    },
+    {
+      "batch_index": 226,
+      "supplier_product_id": "274",
+      "symbol": "FI18445",
+      "title": "Skarpety trekkingowe merino coolmax  Alpinus Sveg\r\nSkarpety Alpinus Sveg FI18445 niebiesko żółte",
+      "model": "Sveg",
+      "retail_eur": 13,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11189227684178",
+          "status": "ACTIVE",
+          "title": "Merino Coolmax Hiking Socks – Alpinus Sveg – Black/Grey"
+        }
+      ]
+    },
+    {
+      "batch_index": 227,
+      "supplier_product_id": "275",
+      "symbol": "FI18448",
+      "title": "Skarpety trekkingowe merino coolmax  Alpinus Sveg Low FI18448",
+      "model": "Sveg",
+      "retail_eur": 10,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11189227684178",
+          "status": "ACTIVE",
+          "title": "Merino Coolmax Hiking Socks – Alpinus Sveg – Black/Grey"
+        }
+      ]
+    },
+    {
+      "batch_index": 228,
+      "supplier_product_id": "298",
+      "symbol": "AR18574",
+      "title": "Bluza polarowa Alpinus Caen 200 AR18574",
+      "model": "Caen",
+      "retail_eur": 87,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 229,
+      "supplier_product_id": "299",
+      "symbol": "AR18580",
+      "title": "Bluza polarowa Alpinus Caen 200 AR18580",
+      "model": "Caen",
+      "retail_eur": 87,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 230,
+      "supplier_product_id": "1198",
+      "symbol": "IM35538",
+      "title": "Kurtka damska puchowa  Alpinus Kiruna IM35538",
+      "model": "Kiruna",
+      "retail_eur": 91,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 231,
+      "supplier_product_id": "1166",
+      "symbol": "SU35421",
+      "title": "Spodnie joggery damskie  Alpinus Tatlica SU35421",
+      "model": "Tatlica",
+      "retail_eur": 64,
+      "decision": "HOLD_VARIANT_IDENTITY",
+      "reason": "possible existing product with shared model name",
+      "exact_matches": [],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/10751037636946",
+          "status": "ACTIVE",
+          "title": "Women’s Hiking Jogger Pants – Alpinus Tatlica – Quick-Dry – Black"
+        }
+      ]
+    },
+    {
+      "batch_index": 232,
+      "supplier_product_id": "1155",
+      "symbol": "JI35316",
+      "title": "Koszulka damska merino  Alpinus Otago",
+      "model": "Otago",
+      "retail_eur": 34,
+      "decision": "HOLD_VARIANT_IDENTITY",
+      "reason": "possible existing product with shared model name",
+      "exact_matches": [],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11018193830226",
+          "status": "ACTIVE",
+          "title": "Women’s Merino T-Shirt – Alpinus Otago – 160 g/m² – Red"
+        },
+        {
+          "id": "gid://shopify/Product/11018195304786",
+          "status": "ACTIVE",
+          "title": "Women’s Merino T-Shirt – Alpinus Otago – 160 g/m² – Blue"
+        }
+      ]
+    },
+    {
+      "batch_index": 233,
+      "supplier_product_id": "1160",
+      "symbol": "JI35340",
+      "title": "Koszulka damska merino  Alpinus Otago JI35340",
+      "model": "Otago",
+      "retail_eur": 34,
+      "decision": "KEEP_ACTIVE",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/11018193830226",
+          "status": "ACTIVE",
+          "title": "Women’s Merino T-Shirt – Alpinus Otago – 160 g/m² – Red",
+          "reasons": [
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11018193830226",
+          "status": "ACTIVE",
+          "title": "Women’s Merino T-Shirt – Alpinus Otago – 160 g/m² – Red"
+        },
+        {
+          "id": "gid://shopify/Product/11018195304786",
+          "status": "ACTIVE",
+          "title": "Women’s Merino T-Shirt – Alpinus Otago – 160 g/m² – Blue"
+        }
+      ]
+    },
+    {
+      "batch_index": 234,
+      "supplier_product_id": "1170",
+      "symbol": "MG35354",
+      "title": "Buty trekkingowe  Alpinus Caulana W MG35354",
+      "model": "Caulana",
+      "retail_eur": 110,
+      "decision": "HOLD_VARIANT_IDENTITY",
+      "reason": "possible existing product with shared model name",
+      "exact_matches": [],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11027954925906",
+          "status": "ACTIVE",
+          "title": "Women's Hiking Boots — ALPINUS CAULANA W — Beige"
+        },
+        {
+          "id": "gid://shopify/Product/11189248131410",
+          "status": "ACTIVE",
+          "title": "Trekking Boots – Alpinus Caulana M – Nubuck / HDTX Light / Vibram – Black"
+        }
+      ]
+    },
+    {
+      "batch_index": 235,
+      "supplier_product_id": "1164",
+      "symbol": "FN35427",
+      "title": "Legginsy trekkingowe damskie  Alpinus Orta FN35427",
+      "model": "Orta",
+      "retail_eur": 46,
+      "decision": "HOLD_VARIANT_IDENTITY",
+      "reason": "possible existing product with shared model name",
+      "exact_matches": [],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/10751013880146",
+          "status": "ACTIVE",
+          "title": "Women’s Trekking Leggings – Alpinus Orta – 250 g/m²"
+        }
+      ]
+    },
+    {
+      "batch_index": 236,
+      "supplier_product_id": "1154",
+      "symbol": "FS35400",
+      "title": "Kamizelka damska  Alpinus Aluta FS35400",
+      "model": "Aluta",
+      "retail_eur": 64,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 237,
+      "supplier_product_id": "1199",
+      "symbol": "IM35545",
+      "title": "Kurtka damska puchowa  Alpinus Kiruna IM35545",
+      "model": "Kiruna",
+      "retail_eur": 91,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 238,
+      "supplier_product_id": "1171",
+      "symbol": "MG35360",
+      "title": "Buty trekkingowe  Alpinus Bordaglia W, MG35360",
+      "model": "Bordaglia",
+      "retail_eur": 121,
+      "decision": "HOLD_VARIANT_IDENTITY",
+      "reason": "possible existing product with shared model name",
+      "exact_matches": [],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/11028007289170",
+          "status": "ACTIVE",
+          "title": "Alpinus Bordaglia W trekking shoes"
+        }
+      ]
+    },
+    {
+      "batch_index": 239,
+      "supplier_product_id": "1152",
+      "symbol": "FP35476",
+      "title": "Koszulka damska  Alpinus Dirna FP35476",
+      "model": "Dirna",
+      "retail_eur": 18,
+      "decision": "SKIP_UNDER_20",
+      "reason": "calculated retail below EUR 20; existing Active untouched",
+      "exact_matches": [],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/10751282479442",
+          "status": "ACTIVE",
+          "title": "Women’s T-Shirt – Alpinus Dirna"
+        },
+        {
+          "id": "gid://shopify/Product/10751316984146",
+          "status": "ACTIVE",
+          "title": "Women’s T-Shirt – Alpinus Dirna – Pink"
+        }
+      ]
+    },
+    {
+      "batch_index": 240,
+      "supplier_product_id": "1165",
+      "symbol": "SU35415",
+      "title": "Spodnie joggery damskie  Alpinus Tatlica SU35415",
+      "model": "Tatlica",
+      "retail_eur": 64,
+      "decision": "HOLD_VARIANT_IDENTITY",
+      "reason": "possible existing product with shared model name",
+      "exact_matches": [],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/10751037636946",
+          "status": "ACTIVE",
+          "title": "Women’s Hiking Jogger Pants – Alpinus Tatlica – Quick-Dry – Black"
+        }
+      ]
+    },
+    {
+      "batch_index": 241,
+      "supplier_product_id": "1209",
+      "symbol": "SF35592",
+      "title": "Kurtka damska puchowa  Alpinus Rocca YT35613",
+      "model": "Rocca",
+      "retail_eur": 160,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 242,
+      "supplier_product_id": "1153",
+      "symbol": "FS35394",
+      "title": "Kamizelka damska   Alpinus Aluta FS35394",
+      "model": "Aluta",
+      "retail_eur": 64,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 243,
+      "supplier_product_id": "1005",
+      "symbol": "GH11593",
+      "title": "Buty trekkingowe  Alpinus Peneda Low HDTX  GH11593",
+      "model": "Peneda",
+      "retail_eur": 103,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 244,
+      "supplier_product_id": "1150",
+      "symbol": "FF35409",
+      "title": "Spodnie trekkingowe damskie  Alpinus Marmore",
+      "model": "Marmore",
+      "retail_eur": 46,
+      "decision": "KEEP_ACTIVE",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/10751068963154",
+          "status": "ACTIVE",
+          "title": "Women’s Trekking Pants – Alpinus Marmore – UPF 50+ / Quick-Dry / 4-Way Stretch – 250 g",
+          "reasons": [
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/10751068963154",
+          "status": "ACTIVE",
+          "title": "Women’s Trekking Pants – Alpinus Marmore – UPF 50+ / Quick-Dry / 4-Way Stretch – 250 g"
+        }
+      ]
+    },
+    {
+      "batch_index": 245,
+      "supplier_product_id": "1128",
+      "symbol": "SU35052",
+      "title": "Spodnie trekkingowe damskie Alpinus Socompa  SU35052",
+      "model": "Socompa",
+      "retail_eur": 75,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 246,
+      "supplier_product_id": "1130",
+      "symbol": "SI35154",
+      "title": "Bielizna termoaktywna damska  Alpinus Idre Set SI35154",
+      "model": "Idre",
+      "retail_eur": 39,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    },
+    {
+      "batch_index": 247,
+      "supplier_product_id": "1124",
+      "symbol": "QN35045",
+      "title": "Płaszcz damski przeciwdeszczowy  Alpinus Urmia QN35045",
+      "model": "Urmia",
+      "retail_eur": 91,
+      "decision": "KEEP_ACTIVE",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/10750891655506",
+          "status": "ACTIVE",
+          "title": "Women’s Membrane Raincoat – Alpinus Urmia – 8,000 mm – Brick Red – 650 g",
+          "reasons": [
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/10750891655506",
+          "status": "ACTIVE",
+          "title": "Women’s Membrane Raincoat – Alpinus Urmia – 8,000 mm – Brick Red – 650 g"
+        }
+      ]
+    },
+    {
+      "batch_index": 248,
+      "supplier_product_id": "1074",
+      "symbol": "NQ35000",
+      "title": "Kurtka damska 2-warstwowa  Alpinus Selenga NQ35000",
+      "model": "Selenga",
+      "retail_eur": 80,
+      "decision": "HOLD_VARIANT_IDENTITY",
+      "reason": "possible existing product with shared model name",
+      "exact_matches": [],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/10750909251922",
+          "status": "ACTIVE",
+          "title": "Women’s Rain Jacket – Alpinus Selenga – 10,000 mm / DWR – Blue"
+        }
+      ]
+    },
+    {
+      "batch_index": 249,
+      "supplier_product_id": "1146",
+      "symbol": "GO35280",
+      "title": "Sandały  Alpinus Ladeira W,  GO35280",
+      "model": "Ladeira",
+      "retail_eur": 32,
+      "decision": "KEEP_ACTIVE",
+      "reason": "matched supplier SKU/EAN to Shopify SKU or barcode",
+      "exact_matches": [
+        {
+          "id": "gid://shopify/Product/10925704675666",
+          "status": "ACTIVE",
+          "title": "Women’s Outdoor Sandals Alpinus Ladeira W — Beige",
+          "reasons": [
+            "EAN_AS_BARCODE"
+          ]
+        }
+      ],
+      "model_collisions": [
+        {
+          "id": "gid://shopify/Product/10925704675666",
+          "status": "ACTIVE",
+          "title": "Women’s Outdoor Sandals Alpinus Ladeira W — Beige"
+        }
+      ]
+    },
+    {
+      "batch_index": 250,
+      "supplier_product_id": "996",
+      "symbol": "MK11495",
+      "title": "Bluza damska  Alpinus UBA, MK11495",
+      "model": "UBA",
+      "retail_eur": 64,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no Shopify identifier/model collision; still requires size/image verification before creation",
+      "exact_matches": [],
+      "model_collisions": []
+    }
+  ]
+}
