@@ -2,7 +2,7 @@
   "stage": "3_original_supplier_photos",
   "batch": 1,
   "report_date": "2026-10-06",
-  "status": "BLOCKED_PENDING_AUTHENTICATED_PHOTO_RECRAWL",
+  "status": "BLOCKED_AUTHENTICATION_NOT_SAVED_IN_TINYFISH_PROFILE",
   "selected_scope": "First 50 eligible supplier products, original catalog indices 1-59 (not 1-50 contiguous); selection reuses Stage 2 batch 1 verified supplier IDs",
   "totals": {
     "products_in_batch": 50,
@@ -26,7 +26,18 @@
     "remaining_issue": "Need authenticated source crawl and real image-file retrieval/checksums plus reliable private image upload. A list of URL candidates by itself is not a photo archive.",
     "browser_context_check": "Two browser profiles exist (Default and Outfish Alpinus B2B), but neither reports alpinusgroup.com as signed in. Website automation requires establishing an authenticated profile before running.",
     "render_execution_check": "Existing recurring Render job runs main and does not execute the recovery branch image fix; there is no supported in-place command execution or safe branch switch in available Render actions. Do not deploy to main or create chargeable cron service without suitable isolated credentials.",
-    "code_readback_check": "Both photo_gallery.py and crawl_catalog.py integration verified committed on recovery branch; offline test cases committed but not executed."
+    "code_readback_check": "Both photo_gallery.py and crawl_catalog.py integration verified committed on recovery branch; offline test cases committed but not executed.",
+    "authenticated_profile_live_test": {
+      "profile_id": "prof_c5beb643e8d74adb",
+      "result": "NOT_AUTHENTICATED",
+      "supplier_product_id": "1204",
+      "source_url": "https://alpinusgroup.com/kurtka-meska-softshell-alpinus-arbent-su11922/3-6-1204",
+      "redirected_to": "/logowanie/7",
+      "message": "Dostęp tylko dla zalogowanych kontrahentów",
+      "image_urls_found": 0,
+      "verified_photo_files": 0,
+      "run_id": "14320744-648f-49f2-bb85-c22b22bad5f8"
+    }
   },
   "private_manifest": {
     "provider": "Google Drive",
