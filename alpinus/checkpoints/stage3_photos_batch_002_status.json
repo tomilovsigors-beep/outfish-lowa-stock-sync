@@ -1,0 +1,60 @@
+{
+  "stage": "3_supplier_photographs",
+  "batch": 2,
+  "source_snapshot": "2026-10-06",
+  "status": "PARTIAL_IMAGES_ARCHIVED_DEFECTS_DEFERRED",
+  "batch_processed": 50,
+  "source_catalog_positions": "60–121, eligible supplier subset only",
+  "verified_supplier_photo_copies": 47,
+  "products_with_photo_copies": 47,
+  "products_without_photo": 3,
+  "missing_photo_products": [
+    {
+      "supplier_product_id": "1008",
+      "symbol": "BR11959",
+      "catalog_index": 61
+    },
+    {
+      "supplier_product_id": "1035",
+      "symbol": "FP11898",
+      "catalog_index": 60
+    },
+    {
+      "supplier_product_id": "990",
+      "symbol": "YT11537",
+      "catalog_index": 62
+    }
+  ],
+  "image_quality": "Only /img/small/ thumbnails, not verified full resolution; high-res issue deferred",
+  "source_verification": "Actual image bytes downloaded by authorized Render and checked for file signature, minimum length and SHA256; private Google Docs inline-image copy verified by readback",
+  "private_archive": {
+    "provider": "Google Drive Docs",
+    "document_id": "1JuNIJxF-Nu-IEVd80C1T1aiilsdk_TgfiNa6LL4hIHY",
+    "folder_id": "14RMSK-P-iWAqPce96RWzDk529iUxC07v",
+    "private_owner_only_verified": true,
+    "embedded_images_readback": 47,
+    "sku_and_supplier_id_labels_readback": 47,
+    "unique_source_uris": 47
+  },
+  "render": {
+    "job_id": "crn-dau3nlek1f9s73a7qpu0",
+    "runner": "alpinus_bulk/photo_stage3_batch2.py",
+    "photo_only_flag": "ALPINUS_STAGE3_PHOTO_BATCH=002",
+    "summary": {
+      "processed": 50,
+      "products_with_downloads": 47,
+      "verified_file_count": 47,
+      "failures": 0,
+      "durable_storage": false
+    },
+    "flag_reset_to": "off",
+    "reset_deployment": "dep-db2l7uui0phs7390jg40"
+  },
+  "shopify": {
+    "products_created": 0,
+    "products_updated": 0,
+    "photos_uploaded": 0,
+    "active_modified": 0
+  },
+  "next": "Stage 3 batch 3 - next 50 eligible products; track missing/high-resolution in final cleanup"
+}
