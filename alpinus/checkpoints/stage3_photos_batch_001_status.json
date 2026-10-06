@@ -2,7 +2,7 @@
   "stage": "3_original_supplier_photos",
   "batch": 1,
   "report_date": "2026-10-06",
-  "status": "BLOCKED_AUTHENTICATION_NOT_SAVED_IN_TINYFISH_PROFILE",
+  "status": "BLOCKED_AUTH_NOT_PERSISTING_TINYFISH_PROFILE",
   "selected_scope": "First 50 eligible supplier products, original catalog indices 1-59 (not 1-50 contiguous); selection reuses Stage 2 batch 1 verified supplier IDs",
   "totals": {
     "products_in_batch": 50,
@@ -37,6 +37,16 @@
       "image_urls_found": 0,
       "verified_photo_files": 0,
       "run_id": "14320744-648f-49f2-bb85-c22b22bad5f8"
+    },
+    "latest_tinyfish_profile_auth_check": {
+      "run_id": "b621a920-2918-4e9d-8ab2-7329913bc577",
+      "supplier_id": "1204",
+      "sku": "SU11922",
+      "authenticated": false,
+      "redirected_to": "https://alpinusgroup.com/logowanie/7",
+      "gallery_photo_urls_found": 0,
+      "profile_signed_in_sites": [],
+      "note": "User reported Save profile, but browser profile listing still has no site sign-in and live authenticated page check redirects to /logowanie/7."
     }
   },
   "private_manifest": {
