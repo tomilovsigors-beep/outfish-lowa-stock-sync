@@ -1,0 +1,469 @@
+{
+  "batch": "catalog_original_batch_001_50",
+  "snapshot_date": "2026-10-06",
+  "shopify_vendor_products_checked": 145,
+  "fx_pln_to_eur": 0.228725,
+  "fx_timestamp": "2026-10-06T15:38:00Z",
+  "pricing": "supplier RRP PLN * FX rounded to nearest whole EUR",
+  "checks": "Base SKU vs Shopify SKU and EAN vs Shopify SKU or barcode; model-name collision review",
+  "counts": {
+    "ELIGIBLE_CANDIDATE": 41,
+    "HOLD_VARIANT_IDENTITY": 2,
+    "SKIP_UNDER_20": 6,
+    "KEEP_ACTIVE": 1
+  },
+  "changes_to_shopify": 0,
+  "exceptions": "Some supplier multi-size EAN mappings not safely verified; candidates are NOT yet authorized for Draft import",
+  "rows": [
+    {
+      "batch_index": 1,
+      "supplier_product_id": "1204",
+      "symbol": "SU11922",
+      "title": "Kurtka męska softshell  Alpinus Arbent SU11922",
+      "retail_eur": 57,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    },
+    {
+      "batch_index": 2,
+      "supplier_product_id": "1193",
+      "symbol": "MK35089",
+      "title": "Kurtka męska narciarska softshell  Alpinus Ariz MK35089",
+      "retail_eur": 171,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    },
+    {
+      "batch_index": 3,
+      "supplier_product_id": "1205",
+      "symbol": "BR35119",
+      "title": "Kurtka męska narciarska   Alpinus Tochal BR35119",
+      "retail_eur": 183,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    },
+    {
+      "batch_index": 4,
+      "supplier_product_id": "1211",
+      "symbol": "TT35554",
+      "title": "Czapka merino  Alpinus Bleik TT35554",
+      "retail_eur": 23,
+      "decision": "HOLD_VARIANT_IDENTITY",
+      "reason": "Bleik model exists as Draft with different SKU; needs color-specific identity check"
+    },
+    {
+      "batch_index": 5,
+      "supplier_product_id": "1179",
+      "symbol": "MK35468",
+      "title": "Koszulka męska grafen  Alpinus Dirfi MK35468",
+      "retail_eur": 23,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    },
+    {
+      "batch_index": 6,
+      "supplier_product_id": "1216",
+      "symbol": "GC35626",
+      "title": "Czapka merino  Alpinus Dunree GC35626",
+      "retail_eur": 23,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    },
+    {
+      "batch_index": 7,
+      "supplier_product_id": "1196",
+      "symbol": "IM35531",
+      "title": "Kurtka męska puchowa  Alpinus Kiruna IM35531",
+      "retail_eur": 91,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    },
+    {
+      "batch_index": 8,
+      "supplier_product_id": "1194",
+      "symbol": "MK35095",
+      "title": "Spodnie narciarskie softshell męskie  Alpinus Kamar MK35095",
+      "retail_eur": 126,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    },
+    {
+      "batch_index": 9,
+      "supplier_product_id": "1206",
+      "symbol": "BR35125",
+      "title": "Kurtka męska narciarska   Alpinus Tochal BR35125",
+      "retail_eur": 183,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    },
+    {
+      "batch_index": 10,
+      "supplier_product_id": "1201",
+      "symbol": "ES35510",
+      "title": "Kurtka męska merino  Alpinus Wanaka ES35510",
+      "retail_eur": 114,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    },
+    {
+      "batch_index": 11,
+      "supplier_product_id": "1220",
+      "symbol": "BR35107",
+      "title": "Kurtka męska narciarska  Alpinus Cedras BR35107",
+      "retail_eur": 183,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    },
+    {
+      "batch_index": 12,
+      "supplier_product_id": "1197",
+      "symbol": "IM35524",
+      "title": "Kurtka męska puchowa  Alpinus Kiruna  IM35524",
+      "retail_eur": 91,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    },
+    {
+      "batch_index": 13,
+      "supplier_product_id": "1213",
+      "symbol": "GC35628",
+      "title": "Opaska merino  Alpinus Melmore GC35628",
+      "retail_eur": 13,
+      "decision": "SKIP_UNDER_20",
+      "reason": "retail below threshold"
+    },
+    {
+      "batch_index": 14,
+      "supplier_product_id": "1210",
+      "symbol": "TT35552",
+      "title": "Czapka merino  Alpinus Bleik TT35552",
+      "retail_eur": 23,
+      "decision": "HOLD_VARIANT_IDENTITY",
+      "reason": "Bleik model exists as Draft with different SKU; needs color-specific identity check"
+    },
+    {
+      "batch_index": 15,
+      "supplier_product_id": "1214",
+      "symbol": "GC35624",
+      "title": "Czapka merino  Alpinus Lugmore GC35624",
+      "retail_eur": 23,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    },
+    {
+      "batch_index": 16,
+      "supplier_product_id": "1215",
+      "symbol": "GC35625",
+      "title": "Czapka merino Alpinus Nephin GC35625",
+      "retail_eur": 18,
+      "decision": "SKIP_UNDER_20",
+      "reason": "retail below threshold"
+    },
+    {
+      "batch_index": 17,
+      "supplier_product_id": "1195",
+      "symbol": "IM35517",
+      "title": "Kurtka męska puchowa  Alpinus Kiruna IM35517",
+      "retail_eur": 91,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    },
+    {
+      "batch_index": 18,
+      "supplier_product_id": "1217",
+      "symbol": "GC35627",
+      "title": "Czapka Alpinus Hulsig GC35627",
+      "retail_eur": 13,
+      "decision": "SKIP_UNDER_20",
+      "reason": "retail below threshold"
+    },
+    {
+      "batch_index": 19,
+      "supplier_product_id": "1200",
+      "symbol": "ES35503",
+      "title": "Kurtka męska merino  Alpinus Wanaka ES35503",
+      "retail_eur": 114,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    },
+    {
+      "batch_index": 20,
+      "supplier_product_id": "1180",
+      "symbol": "GA35703",
+      "title": "Bokserki męskie  Alpinus Guana GA35703",
+      "retail_eur": 10,
+      "decision": "SKIP_UNDER_20",
+      "reason": "retail below threshold"
+    },
+    {
+      "batch_index": 21,
+      "supplier_product_id": "1173",
+      "symbol": "MG35374",
+      "title": "Buty trekkingowe  Alpinus Gemona Low MG35374",
+      "retail_eur": 91,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    },
+    {
+      "batch_index": 22,
+      "supplier_product_id": "1127",
+      "symbol": "EV35170",
+      "title": "Rękawiczki wodoodporne Alpinus Bracklinn czarne EV35170",
+      "retail_eur": 46,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    },
+    {
+      "batch_index": 23,
+      "supplier_product_id": "1129",
+      "symbol": "SI35149",
+      "title": "Męska bielizna termoaktywna  Alpinus Gausdal SI35149",
+      "retail_eur": 50,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    },
+    {
+      "batch_index": 24,
+      "supplier_product_id": "1115",
+      "symbol": "MK35058",
+      "title": "Kurtka męska softshell   Alpinus Roignais MK35058",
+      "retail_eur": 91,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    },
+    {
+      "batch_index": 25,
+      "supplier_product_id": "1097",
+      "symbol": "MH35137",
+      "title": "Czapka z daszkiem  Alpinus Bilbao",
+      "retail_eur": 11,
+      "decision": "SKIP_UNDER_20",
+      "reason": "retail below threshold"
+    },
+    {
+      "batch_index": 26,
+      "supplier_product_id": "1133",
+      "symbol": "NX35143",
+      "title": "Raczki   Alpinus Krywań NX35143",
+      "retail_eur": 30,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    },
+    {
+      "batch_index": 27,
+      "supplier_product_id": "1159",
+      "symbol": "JI35334",
+      "title": "Koszulka męska merino Alpinus Otago",
+      "retail_eur": 34,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    },
+    {
+      "batch_index": 28,
+      "supplier_product_id": "1172",
+      "symbol": "MG35366",
+      "title": "Buty trekkingowe  Alpinus Gemona Mid MG35366",
+      "retail_eur": 105,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    },
+    {
+      "batch_index": 29,
+      "supplier_product_id": "1132",
+      "symbol": "SF35174",
+      "title": "Kurtka męska Alpinus Hozat  SF35174",
+      "retail_eur": 80,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    },
+    {
+      "batch_index": 30,
+      "supplier_product_id": "1169",
+      "symbol": "MG35346",
+      "title": "Buty trekkingowe  Alpinus Caulana M, MG35346",
+      "retail_eur": 110,
+      "decision": "KEEP_ACTIVE",
+      "reason": "existing Active matched by EAN stored as variant SKU"
+    },
+    {
+      "batch_index": 31,
+      "supplier_product_id": "1137",
+      "symbol": "RT35261",
+      "title": "Rękawiczki Alpinus Scafell Pro RT35261",
+      "retail_eur": 27,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    },
+    {
+      "batch_index": 32,
+      "supplier_product_id": "1136",
+      "symbol": "QN35190",
+      "title": "Płaszcz męski Alpinus Ararat",
+      "retail_eur": 126,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    },
+    {
+      "batch_index": 33,
+      "supplier_product_id": "1178",
+      "symbol": "MK35442",
+      "title": "Spodnie trekkingowe męskie  Alpinus Dekan MK35442",
+      "retail_eur": 57,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    },
+    {
+      "batch_index": 34,
+      "supplier_product_id": "1075",
+      "symbol": "AO35158",
+      "title": "Bielizna termoaktywna męska Alpinus Lakdah Set AO35158",
+      "retail_eur": 52,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    },
+    {
+      "batch_index": 35,
+      "supplier_product_id": "1125",
+      "symbol": "AO35162",
+      "title": "Bielizna termoaktywna męska Alpinus Hemis Set AO35162",
+      "retail_eur": 46,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    },
+    {
+      "batch_index": 36,
+      "supplier_product_id": "1145",
+      "symbol": "GO35293",
+      "title": "Sandały  Alpinus Arelho GO35280",
+      "retail_eur": 39,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    },
+    {
+      "batch_index": 37,
+      "supplier_product_id": "1131",
+      "symbol": "SF35180",
+      "title": "Kurtka męska Alpinus Hozat  SF35180",
+      "retail_eur": 80,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    },
+    {
+      "batch_index": 38,
+      "supplier_product_id": "1126",
+      "symbol": "AO35166",
+      "title": "Bielizna termoaktywna męska Alpinus Hemis Set AO35166",
+      "retail_eur": 46,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    },
+    {
+      "batch_index": 39,
+      "supplier_product_id": "1098",
+      "symbol": "MH35139",
+      "title": "Czapka z daszkiem  Alpinus Bilbao MH35139",
+      "retail_eur": 11,
+      "decision": "SKIP_UNDER_20",
+      "reason": "retail below threshold"
+    },
+    {
+      "batch_index": 40,
+      "supplier_product_id": "1147",
+      "symbol": "GO35299",
+      "title": "Sandały  Alpinus Leirosa M,  GO35280",
+      "retail_eur": 34,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    },
+    {
+      "batch_index": 41,
+      "supplier_product_id": "1054",
+      "symbol": "FF11982",
+      "title": "Kurtka męska softshell  Alpinus Pourri",
+      "retail_eur": 68,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    },
+    {
+      "batch_index": 42,
+      "supplier_product_id": "1069",
+      "symbol": "NQ35006",
+      "title": "Kurtka męska 2,5-warstwowa  Alpinus Girdima",
+      "retail_eur": 110,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    },
+    {
+      "batch_index": 43,
+      "supplier_product_id": "1071",
+      "symbol": "NQ11994",
+      "title": "Kurtka męska 2-warstwowa  Alpinus Arys NQ11994",
+      "retail_eur": 80,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    },
+    {
+      "batch_index": 44,
+      "supplier_product_id": "1033",
+      "symbol": "FP11892",
+      "title": "Koszulka męska  Alpinus Kitreli FP11892",
+      "retail_eur": 20,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    },
+    {
+      "batch_index": 45,
+      "supplier_product_id": "1032",
+      "symbol": "FP11886",
+      "title": "Koszulka męska  Alpinus Tokat  FP11886",
+      "retail_eur": 20,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    },
+    {
+      "batch_index": 46,
+      "supplier_product_id": "1070",
+      "symbol": "NQ11988",
+      "title": "Kurtka męska 2-warstwowa  Alpinus Arys NQ11988",
+      "retail_eur": 80,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    },
+    {
+      "batch_index": 47,
+      "supplier_product_id": "1057",
+      "symbol": "JA11940",
+      "title": "Spodnie trekkingowe męskie  Alpinus Vitorog",
+      "retail_eur": 57,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    },
+    {
+      "batch_index": 48,
+      "supplier_product_id": "1058",
+      "symbol": "JA11946",
+      "title": "Spodnie trekkingowe męskie  Alpinus Vitorog",
+      "retail_eur": 57,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    },
+    {
+      "batch_index": 49,
+      "supplier_product_id": "1031",
+      "symbol": "FP11880",
+      "title": "Koszulka męska  Alpinus Tokat FP11880",
+      "retail_eur": 20,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    },
+    {
+      "batch_index": 50,
+      "supplier_product_id": "1030",
+      "symbol": "FP11874",
+      "title": "Koszulka męska  Alpinus Tokat FP11874",
+      "retail_eur": 20,
+      "decision": "ELIGIBLE_CANDIDATE",
+      "reason": "no exact EAN/SKU collision in 145 Alpinus Shopify records; no write until variant/photo prerequisites verified"
+    }
+  ]
+}
