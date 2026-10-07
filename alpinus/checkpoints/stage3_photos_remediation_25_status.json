@@ -1,0 +1,330 @@
+{
+  "stage": "3_supplier_photographs_final_remediation",
+  "status": "R25_COMPLETE_19_RECOVERED_6_STILL_MISSING",
+  "scope": {
+    "products": 25,
+    "selection": "All products deferred by stage3 initial pass"
+  },
+  "render": {
+    "service_id": "crn-dau3nlek1f9s73a7qpu0",
+    "flag": "ALPINUS_STAGE3_PHOTO_BATCH=R25",
+    "successful_run_window_utc": [
+      "2026-10-07T07:40:19Z",
+      "2026-10-07T07:41:24.57812Z"
+    ],
+    "summary": {
+      "processed": 25,
+      "products_recovered": 19,
+      "products_still_missing": 6,
+      "verified_assets": 66
+    },
+    "reset_to": "off",
+    "reset_deploy": "dep-db2vjqks728c73ar7mp0"
+  },
+  "recovered_products": [
+    {
+      "catalog_index": 122,
+      "supplier_product_id": "703",
+      "sku": "FF18591",
+      "verified_assets": 4,
+      "best": {
+        "url": "https://alpinusgroup.com/img/2953691/product.jpg",
+        "kind": "og",
+        "bytes": 343661,
+        "sha256": "5e3fcf174427ad68e515bb4435bd4c657eb0c3292a13028bb65d6236e663c717"
+      },
+      "max_verified_bytes": 343661
+    },
+    {
+      "catalog_index": 123,
+      "supplier_product_id": "848",
+      "sku": "FF18955",
+      "verified_assets": 4,
+      "best": {
+        "url": "https://alpinusgroup.com/img/3749351/product.jpg",
+        "kind": "og",
+        "bytes": 407040,
+        "sha256": "70edd5ac9f6240b9c803626689719037d45a457a95e0663fbbe9ddc03eb3203c"
+      },
+      "max_verified_bytes": 407040
+    },
+    {
+      "catalog_index": 124,
+      "supplier_product_id": "861",
+      "sku": "SF11051",
+      "verified_assets": 4,
+      "best": {
+        "url": "https://alpinusgroup.com/img/2946441/product.jpg",
+        "kind": "og",
+        "bytes": 376513,
+        "sha256": "bb703874a40d32ef919c01d72890125dda4e7510b46a6826b07e7f52618cf493"
+      },
+      "max_verified_bytes": 376513
+    },
+    {
+      "catalog_index": 125,
+      "supplier_product_id": "625",
+      "sku": "FU18481",
+      "verified_assets": 4,
+      "best": {
+        "url": "https://alpinusgroup.com/img/2954211/product.jpg",
+        "kind": "og",
+        "bytes": 370871,
+        "sha256": "3edaebaff27196117e1c60522e164acc3f0fe778214acfe5334230dbc828de82"
+      },
+      "max_verified_bytes": 370871
+    },
+    {
+      "catalog_index": 197,
+      "supplier_product_id": "78",
+      "sku": "GT43875",
+      "verified_assets": 4,
+      "best": {
+        "url": "https://alpinusgroup.com/img/3988021/product.jpg",
+        "kind": "og",
+        "bytes": 117937,
+        "sha256": "3cebb613bc17ba3f3a129bea3a02abe7cd7f32477e1b9dd08e7a4a3468d27775"
+      },
+      "max_verified_bytes": 117937
+    },
+    {
+      "catalog_index": 198,
+      "supplier_product_id": "191",
+      "sku": "SI18144",
+      "verified_assets": 4,
+      "best": {
+        "url": "https://alpinusgroup.com/img/2939971/product.jpg",
+        "kind": "og",
+        "bytes": 351536,
+        "sha256": "06d933813309016d65eb7b1a24a6b58229907f783587feabdb579572a358c979"
+      },
+      "max_verified_bytes": 351536
+    },
+    {
+      "catalog_index": 196,
+      "supplier_product_id": "125",
+      "sku": "BR43733",
+      "verified_assets": 4,
+      "best": {
+        "url": "https://alpinusgroup.com/img/2937361/product.jpg",
+        "kind": "og",
+        "bytes": 352058,
+        "sha256": "a9657fd1dcc047c9cd5f570a4fbfd86fb2ea7ed455c24067d5c58c1677c16e30"
+      },
+      "max_verified_bytes": 352058
+    },
+    {
+      "catalog_index": 270,
+      "supplier_product_id": "675",
+      "sku": "HO18774",
+      "verified_assets": 4,
+      "best": {
+        "url": "https://alpinusgroup.com/img/2937601/product.jpg",
+        "kind": "og",
+        "bytes": 411065,
+        "sha256": "6c78f7c48c5d9b06954e5fc960730d10fc8ad65e0c3c642c456437ad10910554"
+      },
+      "max_verified_bytes": 411065
+    },
+    {
+      "catalog_index": 272,
+      "supplier_product_id": "344",
+      "sku": "SI8937",
+      "verified_assets": 4,
+      "best": {
+        "url": "https://alpinusgroup.com/img/2884021/product.jpg",
+        "kind": "og",
+        "bytes": 333709,
+        "sha256": "78a4a334c5a85c0daaac2c8a3552c8e4221a10a5d66042a4d43c13632f071e0c"
+      },
+      "max_verified_bytes": 333709
+    },
+    {
+      "catalog_index": 273,
+      "supplier_product_id": "617",
+      "sku": "SU18768",
+      "verified_assets": 4,
+      "best": {
+        "url": "https://alpinusgroup.com/img/2946011/product.jpg",
+        "kind": "og",
+        "bytes": 280912,
+        "sha256": "6f95975f1e9e80cca5b33420dee1cd5ff7f81dccf42d91fd4ecbd899349b6517"
+      },
+      "max_verified_bytes": 280912
+    },
+    {
+      "catalog_index": 271,
+      "supplier_product_id": "851",
+      "sku": "MK18801",
+      "verified_assets": 4,
+      "best": {
+        "url": "https://alpinusgroup.com/img/2939451/product.jpg",
+        "kind": "og",
+        "bytes": 277493,
+        "sha256": "d992fcee6bc4eab575848ee5d6fc3570451f9c19cb76abb6215e1dba36b89190"
+      },
+      "max_verified_bytes": 277493
+    },
+    {
+      "catalog_index": 287,
+      "supplier_product_id": "234",
+      "sku": "ST18335",
+      "verified_assets": 3,
+      "best": {
+        "url": "https://alpinusgroup.com/img/3968951/product.jpg",
+        "kind": "og",
+        "bytes": 218457,
+        "sha256": "8390bb9c44ee04787a58624d79bc292c74cb476719ec89c5bd6e80f52dc31736"
+      },
+      "max_verified_bytes": 218457
+    },
+    {
+      "catalog_index": 298,
+      "supplier_product_id": "1168",
+      "sku": "LO35275",
+      "verified_assets": 2,
+      "best": {
+        "url": "https://alpinusgroup.com/img/4080961/product.jpg",
+        "kind": "og",
+        "bytes": 153834,
+        "sha256": "1e9f433e341a39b100869c772d842f37d22a1d68a6a9c4f404e6c9885f1e5622"
+      },
+      "max_verified_bytes": 153834
+    },
+    {
+      "catalog_index": 306,
+      "supplier_product_id": "1167",
+      "sku": "LO35276",
+      "verified_assets": 2,
+      "best": {
+        "url": "https://alpinusgroup.com/img/4081081/product.jpg",
+        "kind": "og",
+        "bytes": 153834,
+        "sha256": "1e9f433e341a39b100869c772d842f37d22a1d68a6a9c4f404e6c9885f1e5622"
+      },
+      "max_verified_bytes": 153834
+    },
+    {
+      "catalog_index": 340,
+      "supplier_product_id": "1082",
+      "sku": "NH11722",
+      "verified_assets": 3,
+      "best": {
+        "url": "https://alpinusgroup.com/img/3357601/product.jpg",
+        "kind": "og",
+        "bytes": 187554,
+        "sha256": "1d0a74dd607f8d5af1fa4ca90dd62931b6d493954c6221e4abea6e8fd129ec37"
+      },
+      "max_verified_bytes": 187554
+    },
+    {
+      "catalog_index": 341,
+      "supplier_product_id": "1061",
+      "sku": "LC35024",
+      "verified_assets": 3,
+      "best": {
+        "url": "https://alpinusgroup.com/img/3982111/product.jpg",
+        "kind": "og",
+        "bytes": 116511,
+        "sha256": "4552d5a5d2413a539445ed9d3493331133e31f815706a27c20c3827d10fd9ca1"
+      },
+      "max_verified_bytes": 116511
+    },
+    {
+      "catalog_index": 342,
+      "supplier_product_id": "1095",
+      "sku": "NH11718",
+      "verified_assets": 3,
+      "best": {
+        "url": "https://alpinusgroup.com/img/3982311/product.jpg",
+        "kind": "og",
+        "bytes": 220065,
+        "sha256": "d507f5d5d7ad6bf386b572c7652374ef4d56ad26ad6071f6896261d94ad6b3d5"
+      },
+      "max_verified_bytes": 220065
+    },
+    {
+      "catalog_index": 424,
+      "supplier_product_id": "287",
+      "sku": "HR18401",
+      "verified_assets": 3,
+      "best": {
+        "url": "https://alpinusgroup.com/img/4038941/product.jpg",
+        "kind": "og",
+        "bytes": 85393,
+        "sha256": "471c49814d91b4c3ce33d9f25379f7bdbca4567854faa4f82f220276493d7db5"
+      },
+      "max_verified_bytes": 85393
+    },
+    {
+      "catalog_index": 428,
+      "supplier_product_id": "141",
+      "sku": "PO43641",
+      "verified_assets": 3,
+      "best": {
+        "url": "https://alpinusgroup.com/img/3718791/product.jpg",
+        "kind": "og",
+        "bytes": 425565,
+        "sha256": "872df1b3e1dd97d1f0f19bd81619ba499605293094b184f41e7dcb5ff5eb5f2c"
+      },
+      "max_verified_bytes": 425565
+    }
+  ],
+  "still_missing": [
+    {
+      "catalog_index": 60,
+      "supplier_product_id": "1035",
+      "sku": "FP11898"
+    },
+    {
+      "catalog_index": 62,
+      "supplier_product_id": "990",
+      "sku": "YT11537"
+    },
+    {
+      "catalog_index": 61,
+      "supplier_product_id": "1008",
+      "sku": "BR11959"
+    },
+    {
+      "catalog_index": 1,
+      "supplier_product_id": "1204",
+      "sku": "SU11922"
+    },
+    {
+      "catalog_index": 308,
+      "supplier_product_id": "1189",
+      "sku": "PO35500"
+    },
+    {
+      "catalog_index": 396,
+      "supplier_product_id": "669",
+      "sku": "AC18953"
+    }
+  ],
+  "private_archive": {
+    "provider": "Google Docs",
+    "document_id": "1xJbs9kpKBEbM2CyrhiFladRepp218xCsXhrSjIyEq2Y",
+    "folder_id": "14RMSK-P-iWAqPce96RWzDk529iUxC07v",
+    "private": true,
+    "embedded_images_readback": 66,
+    "unique_source_uris": 66,
+    "mapped_labels_readback": 66
+  },
+  "quality": {
+    "large_source_images_verified_for_recovered_products": 19,
+    "large_source_pattern": "https://alpinusgroup.com/img/<id>/product.jpg",
+    "large_image_size_range_bytes": [
+      85393,
+      425565
+    ],
+    "thumbnail_problem_resolved_for_recovered_products": true
+  },
+  "shopify_writes": {
+    "created": 0,
+    "updated": 0,
+    "images_uploaded": 0,
+    "active_modified": 0
+  },
+  "next": "Final exceptional remediation for 6 products still missing; after that, run full-resolution upgrade pass for the 277 products currently stored only as thumbnails."
+}
