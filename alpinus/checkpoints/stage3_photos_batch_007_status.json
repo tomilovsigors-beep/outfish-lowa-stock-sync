@@ -1,0 +1,66 @@
+{
+  "stage": "3_supplier_photographs",
+  "batch": 7,
+  "status": "NO_USABLE_SUPPLIER_GALLERY_IMAGES_DEFERRED",
+  "scope": {
+    "products": 2,
+    "source_catalog_range": [
+      424,
+      428
+    ]
+  },
+  "outcome": {
+    "products_processed": 2,
+    "products_with_verified_photo_bytes": 0,
+    "thumbnail_images_stored_privately": 0,
+    "products_without_usable_photo": 2,
+    "missing_or_invalid": [
+      {
+        "catalog_index": 424,
+        "supplier_product_id": "287",
+        "sku": "HR18401",
+        "reason": "no gallery candidate"
+      },
+      {
+        "catalog_index": 428,
+        "supplier_product_id": "141",
+        "sku": "PO43641",
+        "reason": "no gallery candidate"
+      }
+    ],
+    "validation": "Authenticated Render mini-batch 007 completed successfully after allowing exact count=2; supplier pages exposed zero gallery candidates for both products. Private Drive control document read back successfully."
+  },
+  "private_archive": {
+    "provider": "Google Docs",
+    "document_id": "1HSdSPvNNBgw19kwRtIgrzZ-ciwAWlny1Om6MR7kOs94",
+    "folder_id": "14RMSK-P-iWAqPce96RWzDk529iUxC07v",
+    "private": true,
+    "embedded_images_readback": 0,
+    "control_text_readback": true
+  },
+  "render": {
+    "service_id": "crn-dau3nlek1f9s73a7qpu0",
+    "runner": "alpinus_bulk/photo_stage3_batch7.py",
+    "flag": "ALPINUS_STAGE3_PHOTO_BATCH=007",
+    "successful_run_window_utc": [
+      "2026-10-07T07:15:03Z",
+      "2026-10-07T07:16:14.695796Z"
+    ],
+    "summary": {
+      "processed": 2,
+      "products_with_downloads": 0,
+      "verified_file_count": 0,
+      "failures": 0,
+      "durable_storage": false
+    },
+    "flag_reset_to": "off",
+    "reset_deploy": "dep-db2v3pid0e5s73ei6bl0"
+  },
+  "shopify_writes": {
+    "created": 0,
+    "updated": 0,
+    "images_uploaded": 0,
+    "active_modified": 0
+  },
+  "next": "Run final remediation for all missing and thumbnail-only photos across stage3."
+}
