@@ -14,14 +14,16 @@ from engine import (
 
 
 app = Flask(__name__)
-add_recovery_routes(app, shop)
 
 
 def shop():
     return Shopify()
 
 
-add_recovery_routes(app, shop)\n\n\ndef supplier_rows():
+add_recovery_routes(app, shop)
+
+
+def supplier_rows():
     url = os.getenv(
         "SUPPLIER_XLSX_URL"
     )
