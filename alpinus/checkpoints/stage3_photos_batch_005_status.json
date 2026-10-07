@@ -1,0 +1,109 @@
+{
+  "stage": "3_supplier_photographs",
+  "batch": 5,
+  "source_snapshot": "2026-10-06",
+  "status": "PARTIAL_THUMBNAILS_ARCHIVED_EXCEPTIONS_DEFERRED",
+  "scope": {
+    "products": 50,
+    "source_catalog_range": [
+      270,
+      339
+    ],
+    "selection": "stage2 batch5 exact eligible supplier IDs"
+  },
+  "outcome": {
+    "products_processed": 50,
+    "products_with_verified_photo_bytes": 42,
+    "thumbnail_images_stored_privately": 42,
+    "products_without_usable_photo": 8,
+    "missing_or_invalid": [
+      {
+        "catalog_index": 270,
+        "supplier_product_id": "675",
+        "sku": "HO18774",
+        "reason": "no gallery candidate"
+      },
+      {
+        "catalog_index": 271,
+        "supplier_product_id": "851",
+        "sku": "MK18801",
+        "reason": "no gallery candidate"
+      },
+      {
+        "catalog_index": 272,
+        "supplier_product_id": "344",
+        "sku": "SI8937",
+        "reason": "no gallery candidate"
+      },
+      {
+        "catalog_index": 273,
+        "supplier_product_id": "617",
+        "sku": "SU18768",
+        "reason": "no gallery candidate"
+      },
+      {
+        "catalog_index": 287,
+        "supplier_product_id": "234",
+        "sku": "ST18335",
+        "reason": "no gallery candidate"
+      },
+      {
+        "catalog_index": 298,
+        "supplier_product_id": "1168",
+        "sku": "LO35275",
+        "reason": "photo_invalid_magic_or_too_small"
+      },
+      {
+        "catalog_index": 306,
+        "supplier_product_id": "1167",
+        "sku": "LO35276",
+        "reason": "photo_invalid_magic_or_too_small"
+      },
+      {
+        "catalog_index": 308,
+        "supplier_product_id": "1189",
+        "sku": "PO35500",
+        "reason": "photo_http_404"
+      }
+    ],
+    "image_quality": "Supplier /img/small/ thumbnails only; original full-resolution retrieval deferred to final remediation",
+    "validation": "One isolated successful Render cron run used for truth (2026-10-07 06:15:32–06:16:46 UTC). 42 actual image files passed signature/minimum-length/SHA-256 validation. Drive document was read back: 42 inline image objects, 42 unique source URIs, 42 mapped supplier IDs/SKUs, owner-only folder."
+  },
+  "private_archive": {
+    "provider": "Google Docs",
+    "document_id": "1k8Yd1PeJmN-WfX6nl3dKONbSGqSGuHu7mySdHv2Q59E",
+    "folder_id": "14RMSK-P-iWAqPce96RWzDk529iUxC07v",
+    "private": true,
+    "embedded_images_readback": 42,
+    "unique_supplier_ids_readback": 42,
+    "unique_source_uris": 42
+  },
+  "render": {
+    "service_id": "crn-dau3nlek1f9s73a7qpu0",
+    "runner": "alpinus_bulk/photo_stage3_batch5.py",
+    "flag": "ALPINUS_STAGE3_PHOTO_BATCH=005",
+    "successful_run_window_utc": [
+      "2026-10-07T06:15:32Z",
+      "2026-10-07T06:16:46Z"
+    ],
+    "summary": {
+      "processed": 50,
+      "products_with_downloads": 42,
+      "verified_file_count": 42,
+      "failures": 0,
+      "durable_storage": false
+    },
+    "asset_errors": 3,
+    "flag_reset_to": "off",
+    "reset_deploy": "dep-db2ua3navr4c7394r2bg",
+    "reset_deploy_status": "live"
+  },
+  "shopify_writes": {
+    "created": 0,
+    "updated": 0,
+    "images_uploaded": 0,
+    "active_modified": 0
+  },
+  "security": "No private supplier text or wholesale prices published in GitHub; photo bytes stored only in private Drive",
+  "next": "Proceed stage3 batch006; exceptions and high-resolution originals deferred until catalog-wide photo pass finishes."
+}
