@@ -10,7 +10,8 @@ def main():
         return 0
     # Browser install is idempotent and keeps this compatible with the current Render image.
     subprocess.run([sys.executable, "-m", "playwright", "install", "chromium"], check=True)
-    command = ("alpinus_bulk/stage4_variant_url_diag.py" if batch == "V4U" else
+    command = ("alpinus_bulk/stage4_variants_batch2.py" if batch == "V402" else
+               "alpinus_bulk/stage4_variant_url_diag.py" if batch == "V4U" else
                "alpinus_bulk/stage4_variant_diag.py" if batch == "V4D" else
                "alpinus_bulk/stage4_variants_batch1.py" if batch == "V401" else
                "alpinus_bulk/photo_stage3_exact3.py" if batch == "R3E" else
