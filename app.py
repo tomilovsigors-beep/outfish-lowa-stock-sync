@@ -6,6 +6,7 @@ from flask import Flask, jsonify, request
 
 from supplier import parse_xlsx_bytes
 from shopify import Shopify
+from recovery_api import add_recovery_routes
 from engine import (
     make_dry_run,
     build_sync_batch,
@@ -13,6 +14,7 @@ from engine import (
 
 
 app = Flask(__name__)
+add_recovery_routes(app, shop)
 
 
 def shop():
