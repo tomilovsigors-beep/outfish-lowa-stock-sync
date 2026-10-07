@@ -1,0 +1,99 @@
+{
+  "stage": "3_supplier_photographs_final_exact_recovery",
+  "status": "THREE_MORE_EXACT_OFFICIAL_SKUS_RECOVERED_THREE_STILL_MISSING",
+  "scope": {
+    "attempted_exact_official": 3,
+    "recovered": 3,
+    "remaining_missing": 3
+  },
+  "recovered_products": [
+    {
+      "catalog_index": 1,
+      "supplier_product_id": "1204",
+      "sku": "SU11922",
+      "best": {
+        "url": "https://www.alpinus.eu/img/3468951/kurtka_arbent_czarna_su11922-02",
+        "kind": "dom",
+        "bytes": 397719,
+        "sha256": "f05cadc8ff7be630519c1ccc34002974fbb2b8fc1609c56f973ee1c0bf64dd9f"
+      },
+      "verified_assets": 12,
+      "max_bytes": 397719
+    },
+    {
+      "catalog_index": 60,
+      "supplier_product_id": "1035",
+      "sku": "FP11898",
+      "best": {
+        "url": "https://www.alpinus.eu/img/3499101/koszulka-meska-alpinus-kitreli",
+        "kind": "dom",
+        "bytes": 489389,
+        "sha256": "8356d9ae32b896fc272eddd54513e729fc009e331a28e601671b118346aed5b8"
+      },
+      "verified_assets": 16,
+      "max_bytes": 489389
+    },
+    {
+      "catalog_index": 61,
+      "supplier_product_id": "1008",
+      "sku": "BR11959",
+      "best": {
+        "url": "https://www.alpinus.eu/en/img/5039181/stenshuvud_szary_3-detal-kurtka-meska-softshell",
+        "kind": "dom",
+        "bytes": 404251,
+        "sha256": "fe81d09e89353c06dbb1316c7be3d5ec951909b8fc519253644b165aa1f09372"
+      },
+      "verified_assets": 13,
+      "max_bytes": 404251
+    }
+  ],
+  "still_missing": [
+    {
+      "catalog_index": 62,
+      "supplier_product_id": "990",
+      "sku": "YT11537",
+      "reason": "No exact official Alpinus page/image match found; a Monviso result with different SKU was rejected."
+    },
+    {
+      "catalog_index": 308,
+      "supplier_product_id": "1189",
+      "sku": "PO35500",
+      "reason": "No exact official Alpinus image source found; third-party marketplace images not imported."
+    },
+    {
+      "catalog_index": 396,
+      "supplier_product_id": "669",
+      "sku": "AC18953",
+      "reason": "No exact official Alpinus image source found; third-party marketplace images not imported."
+    }
+  ],
+  "private_archive": {
+    "provider": "Google Docs",
+    "document_id": "13GI3QRo5AXJgNKXfQQsxX7oIv2rzGPCAWyKkX0pTByI",
+    "folder_id": "14RMSK-P-iWAqPce96RWzDk529iUxC07v",
+    "private": true,
+    "embedded_images_readback": 3,
+    "selection": "one best large exact official image per SKU"
+  },
+  "render": {
+    "service_id": "crn-dau3nlek1f9s73a7qpu0",
+    "flag": "ALPINUS_STAGE3_PHOTO_BATCH=R3E",
+    "successful_run_window_utc": [
+      "2026-10-07T08:10:26Z",
+      "2026-10-07T08:11:44.943007Z"
+    ],
+    "summary": {
+      "processed": 3,
+      "recovered": 3,
+      "verified_assets": 41
+    },
+    "reset_to": "off",
+    "reset_deploy": "dep-db3024ss728c73asm3e0"
+  },
+  "shopify_writes": {
+    "created": 0,
+    "updated": 0,
+    "images_uploaded": 0,
+    "active_modified": 0
+  }
+}
