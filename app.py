@@ -21,7 +21,7 @@ def shop():
     return Shopify()
 
 
-def supplier_rows():
+add_recovery_routes(app, shop)\n\n\ndef supplier_rows():
     url = os.getenv(
         "SUPPLIER_XLSX_URL"
     )
