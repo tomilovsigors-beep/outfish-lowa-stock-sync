@@ -36,8 +36,9 @@ def extension(data):
 
 
 async def main():
-    if len(SELECTED) != 50 or len({x["supplier_product_id"] for x in SELECTED}) != 50:
-        raise RuntimeError("Expected exactly 50 unique suppliers")
+    expected_count = 2 if os.getenv("ALPINUS_STAGE3_PHOTO_BATCH") == "007" else 50
+    if len(SELECTED) != expected_count or len({x["supplier_product_id"] for x in SELECTED}) != expected_count:
+        raise RuntimeError(f"Expected exactly {expected_count} unique suppliers")
     browser = pw = context = None
     try:
         pw, browser, context, _ = await open_logged_in_page()
