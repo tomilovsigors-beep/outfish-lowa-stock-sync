@@ -1,0 +1,202 @@
+[
+  {
+    "batch": 1,
+    "catalog_index": 1,
+    "supplier_product_id": "1204",
+    "sku": "SU11922",
+    "reason": "no gallery candidate",
+    "url": "https://alpinusgroup.com/kurtka-meska-softshell-alpinus-arbent-su11922/3-6-1204"
+  },
+  {
+    "batch": 2,
+    "catalog_index": 60,
+    "supplier_product_id": "1035",
+    "sku": "FP11898",
+    "reason": "no gallery candidate",
+    "url": "https://alpinusgroup.com/koszulka-meska-alpinus-kitreli-fp11904/3-6-1035"
+  },
+  {
+    "batch": 2,
+    "catalog_index": 61,
+    "supplier_product_id": "1008",
+    "sku": "BR11959",
+    "reason": "no gallery candidate",
+    "url": "https://alpinusgroup.com/kurtka-meska-softshell-alpinus-stenshuvud-br43371/3-6-1008"
+  },
+  {
+    "batch": 2,
+    "catalog_index": 62,
+    "supplier_product_id": "990",
+    "sku": "YT11537",
+    "reason": "no gallery candidate",
+    "url": "https://alpinusgroup.com/kurtka-meska-puchowa-alpinus-monviso-yt11537/3-6-990"
+  },
+  {
+    "batch": 3,
+    "catalog_index": 122,
+    "supplier_product_id": "703",
+    "sku": "FF18591",
+    "reason": "no gallery candidate",
+    "url": "https://alpinusgroup.com/kurtka-meska-2-5-warstwowa-alpinus-carniche-ff1859/3-6-703"
+  },
+  {
+    "batch": 3,
+    "catalog_index": 123,
+    "supplier_product_id": "848",
+    "sku": "FF18955",
+    "reason": "no gallery candidate",
+    "url": "https://alpinusgroup.com/kurtka-meska-softshell-alpinus-aso-ff18955/3-6-848"
+  },
+  {
+    "batch": 3,
+    "catalog_index": 124,
+    "supplier_product_id": "861",
+    "sku": "SF11051",
+    "reason": "no gallery candidate",
+    "url": "https://alpinusgroup.com/kamizelka-meska-alpinus-artos-sf11051/3-6-861"
+  },
+  {
+    "batch": 3,
+    "catalog_index": 125,
+    "supplier_product_id": "625",
+    "sku": "FU18481",
+    "reason": "no gallery candidate",
+    "url": "https://alpinusgroup.com/koszulka-meska-alpinus-skilbrum-oliwka-fu18481/3-6-625"
+  },
+  {
+    "batch": 4,
+    "catalog_index": 196,
+    "supplier_product_id": "125",
+    "sku": "BR43733",
+    "reason": "no gallery candidate",
+    "url": "https://alpinusgroup.com/kurtka-meska-alpinus-nordend-zielona-br43733/3-6-125"
+  },
+  {
+    "batch": 4,
+    "catalog_index": 197,
+    "supplier_product_id": "78",
+    "sku": "GT43875",
+    "reason": "no gallery candidate",
+    "url": "https://alpinusgroup.com/spodnie-termoaktywne-meskie-alpinus-tactical-base/3-6-78"
+  },
+  {
+    "batch": 4,
+    "catalog_index": 198,
+    "supplier_product_id": "191",
+    "sku": "SI18144",
+    "reason": "no gallery candidate",
+    "url": "https://alpinusgroup.com/spodenki-meskie-alpinus-rijana-oliwkowe-si18144/3-6-191"
+  },
+  {
+    "batch": 5,
+    "catalog_index": 270,
+    "supplier_product_id": "675",
+    "sku": "HO18774",
+    "reason": "no gallery candidate",
+    "url": "https://alpinusgroup.com/kurtka-damska-alpinus-katla-oliwka-ho18774/3-5-675"
+  },
+  {
+    "batch": 5,
+    "catalog_index": 271,
+    "supplier_product_id": "851",
+    "sku": "MK18801",
+    "reason": "no gallery candidate",
+    "url": "https://alpinusgroup.com/koszulka-damska-alpinus-bona-czarna-mk18801/3-5-851"
+  },
+  {
+    "batch": 5,
+    "catalog_index": 272,
+    "supplier_product_id": "344",
+    "sku": "SI8937",
+    "reason": "no gallery candidate",
+    "url": "https://alpinusgroup.com/bielizna-termoaktywna-dla-dziewczynek-alpinus-tact/3-5-344"
+  },
+  {
+    "batch": 5,
+    "catalog_index": 273,
+    "supplier_product_id": "617",
+    "sku": "SU18768",
+    "reason": "no gallery candidate",
+    "url": "https://alpinusgroup.com/spodnie-damskie-alpinus-socompa-zielone-su18768/3-5-617"
+  },
+  {
+    "batch": 5,
+    "catalog_index": 287,
+    "supplier_product_id": "234",
+    "sku": "ST18335",
+    "reason": "no gallery candidate",
+    "url": "https://alpinusgroup.com/czapka-damska-alpinus-luosto-bezowa-st18335/3-5-234"
+  },
+  {
+    "batch": 5,
+    "catalog_index": 298,
+    "supplier_product_id": "1168",
+    "sku": "LO35275",
+    "reason": "invalid_or_too_small",
+    "url": "https://alpinusgroup.com/namiot-garda-3-lo35275/3-8-1168"
+  },
+  {
+    "batch": 5,
+    "catalog_index": 306,
+    "supplier_product_id": "1167",
+    "sku": "LO35276",
+    "reason": "invalid_or_too_small",
+    "url": "https://alpinusgroup.com/namiot-garda-4-lo35276/3-8-1167"
+  },
+  {
+    "batch": 5,
+    "catalog_index": 308,
+    "supplier_product_id": "1189",
+    "sku": "PO35500",
+    "reason": "http_404",
+    "url": "https://alpinusgroup.com/plecak-alpinus-retba-30-po35500/3-8-1189"
+  },
+  {
+    "batch": 6,
+    "catalog_index": 340,
+    "supplier_product_id": "1082",
+    "sku": "NH11722",
+    "reason": "no gallery candidate",
+    "url": "https://alpinusgroup.com/plecak-alpinus-teide-24-nh11722/3-8-1082"
+  },
+  {
+    "batch": 6,
+    "catalog_index": 341,
+    "supplier_product_id": "1061",
+    "sku": "LC35024",
+    "reason": "no gallery candidate",
+    "url": "https://alpinusgroup.com/mata-samopompujaca-alpinus-adrspach-m-lc35024/3-8-1061"
+  },
+  {
+    "batch": 6,
+    "catalog_index": 342,
+    "supplier_product_id": "1095",
+    "sku": "NH11718",
+    "reason": "no gallery candidate",
+    "url": "https://alpinusgroup.com/plecak-alpinus-lecco-30/3-8-1095"
+  },
+  {
+    "batch": 6,
+    "catalog_index": 396,
+    "supplier_product_id": "669",
+    "sku": "AC18953",
+    "reason": "http_404",
+    "url": "https://alpinusgroup.com/spiwor-alpinus-warm-1200-180x75cm-granatowy-ac1895/3-8-669"
+  },
+  {
+    "batch": 7,
+    "catalog_index": 424,
+    "supplier_product_id": "287",
+    "sku": "HR18401",
+    "reason": "no gallery candidate",
+    "url": "https://alpinusgroup.com/termos-alpinus-tactical-hb-1000n-sahara-1-0-czarny/3-8-287"
+  },
+  {
+    "batch": 7,
+    "catalog_index": 428,
+    "supplier_product_id": "141",
+    "sku": "PO43641",
+    "reason": "no gallery candidate",
+    "url": "https://alpinusgroup.com/plecak-alpinus-otway-40-oliwkowy-po43641/3-8-141"
+  }
+]
