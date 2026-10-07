@@ -1,0 +1,84 @@
+{
+  "stage": "3_supplier_photographs",
+  "batch": 6,
+  "source_snapshot": "2026-10-06",
+  "status": "PARTIAL_THUMBNAILS_ARCHIVED_EXCEPTIONS_DEFERRED",
+  "scope": {
+    "products": 50,
+    "source_catalog_range": [
+      340,
+      423
+    ],
+    "selection": "stage2 batch6 exact eligible supplier IDs"
+  },
+  "outcome": {
+    "products_processed": 50,
+    "products_with_verified_photo_bytes": 46,
+    "thumbnail_images_stored_privately": 46,
+    "products_without_usable_photo": 4,
+    "missing_or_invalid": [
+      {
+        "catalog_index": 340,
+        "supplier_product_id": "1082",
+        "sku": "NH11722",
+        "reason": "no gallery candidate"
+      },
+      {
+        "catalog_index": 341,
+        "supplier_product_id": "1061",
+        "sku": "LC35024",
+        "reason": "no gallery candidate"
+      },
+      {
+        "catalog_index": 342,
+        "supplier_product_id": "1095",
+        "sku": "NH11718",
+        "reason": "no gallery candidate"
+      },
+      {
+        "catalog_index": 396,
+        "supplier_product_id": "669",
+        "sku": "AC18953",
+        "reason": "photo_http_404"
+      }
+    ],
+    "image_quality": "Supplier thumbnails only; full-resolution originals deferred to final remediation",
+    "validation": "One successful isolated Render run (2026-10-07 06:40:11–06:41:15 UTC) produced 46 verified image files. Each passed image-format/minimum-size/SHA-256 checks. Private Google Doc readback confirmed 46 inline images, 46 unique source URIs, 46 supplier_product_id/SKU labels, owner-only folder."
+  },
+  "private_archive": {
+    "provider": "Google Docs",
+    "document_id": "1Xksw4bisMDsDNB_rDsiW4Dw5u9f60DkGoKilPVoTu94",
+    "folder_id": "14RMSK-P-iWAqPce96RWzDk529iUxC07v",
+    "private": true,
+    "embedded_images_readback": 46,
+    "unique_supplier_ids_readback": 46,
+    "unique_source_uris": 46
+  },
+  "render": {
+    "service_id": "crn-dau3nlek1f9s73a7qpu0",
+    "runner": "alpinus_bulk/photo_stage3_batch6.py",
+    "flag": "ALPINUS_STAGE3_PHOTO_BATCH=006",
+    "successful_run_window_utc": [
+      "2026-10-07T06:40:11Z",
+      "2026-10-07T06:41:15Z"
+    ],
+    "summary": {
+      "processed": 50,
+      "products_with_downloads": 46,
+      "verified_file_count": 46,
+      "failures": 0,
+      "durable_storage": false
+    },
+    "asset_errors": 1,
+    "flag_reset_to": "off",
+    "reset_deploy": "dep-db2uq4om7kps73cdnqjg"
+  },
+  "shopify_writes": {
+    "created": 0,
+    "updated": 0,
+    "images_uploaded": 0,
+    "active_modified": 0
+  },
+  "security": "No supplier private prose/prices or binaries in GitHub; photos only in owner-only Drive",
+  "next": "Proceed final stage3 mini-batch 007 of remaining 2 eligible products, then run deferred remediation for all missing/full-resolution photos."
+}
