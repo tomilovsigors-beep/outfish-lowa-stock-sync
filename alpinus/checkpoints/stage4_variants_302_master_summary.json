@@ -1,0 +1,29 @@
+{
+  "stage": 4,
+  "status": "STAGE4_VARIANTS_302_COMPLETE_WITH_EXCEPTION_QUEUE",
+  "total_processed": 302,
+  "exact_variant_maps": 0,
+  "single_products": 84,
+  "single_product_one_ean": 84,
+  "one_size_one_ean": 0,
+  "ambiguous_mappings": 188,
+  "identity_review": 30,
+  "products_failing_minimum_size_rule": 23,
+  "total_resolved_variants": 0,
+  "unresolved_exception_queue": 218,
+  "shopify_writes": {
+    "created": 0,
+    "updated": 0,
+    "active_modified": 0
+  },
+  "batches": [
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    2
+  ],
+  "next": "Stage 5 — final product descriptions"
+}
