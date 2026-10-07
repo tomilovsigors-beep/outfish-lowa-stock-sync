@@ -1,6 +1,6 @@
 {
   "stage": "3_supplier_photographs",
-  "status": "INITIAL_PASS_COMPLETE_R25_REMEDIATION_COMPLETE_6_STILL_MISSING",
+  "status": "STAGE3_PHOTO_RECOVERY_COMPLETE_299_OF_302_WITH_VERIFIED_PHOTO",
   "eligible_products_total": 302,
   "batches_completed": 7,
   "batch_results": [
@@ -50,49 +50,32 @@
   "totals": {
     "products_processed": 302,
     "products_with_private_supplier_thumbnail_copy": 277,
-    "products_without_usable_photo": 6,
-    "full_resolution_originals_verified": 19,
+    "products_without_usable_photo": 3,
+    "full_resolution_originals_verified": 22,
     "initial_pass_coverage_percent": 91.72,
-    "products_with_any_verified_private_photo": 296,
-    "coverage_after_r25_percent": 98.01
+    "products_with_any_verified_private_photo": 299,
+    "coverage_after_r25_percent": 98.01,
+    "coverage_after_exact3_percent": 99.01
   },
-  "quality_note": "296/302 products now have at least one verified private supplier image. 19 previously missing products were recovered with large supplier product.jpg sources (85KB–425KB). 277 products still primarily have verified /img/small/ thumbnail copies and remain candidates for a later full-resolution upgrade pass. Six products remain without any usable supplier image.",
+  "quality_note": "299/302 products now have at least one verified private photo. 22 products have verified large official/source images from remediation. 277 initial records still primarily have verified supplier thumbnails and can be upgraded later. Exact third-party marketplace photos were deliberately not imported for the final three unresolved products.",
   "deferred_products": [
-    {
-      "catalog_index": 1,
-      "supplier_product_id": "1204",
-      "sku": "SU11922",
-      "reason": "still_missing_after_expanded_remediation"
-    },
-    {
-      "catalog_index": 60,
-      "supplier_product_id": "1035",
-      "sku": "FP11898",
-      "reason": "still_missing_after_expanded_remediation"
-    },
-    {
-      "catalog_index": 61,
-      "supplier_product_id": "1008",
-      "sku": "BR11959",
-      "reason": "still_missing_after_expanded_remediation"
-    },
     {
       "catalog_index": 62,
       "supplier_product_id": "990",
       "sku": "YT11537",
-      "reason": "still_missing_after_expanded_remediation"
+      "reason": "no_exact_official_photo_found"
     },
     {
       "catalog_index": 308,
       "supplier_product_id": "1189",
       "sku": "PO35500",
-      "reason": "still_missing_after_expanded_remediation"
+      "reason": "no_exact_official_photo_found"
     },
     {
       "catalog_index": 396,
       "supplier_product_id": "669",
       "sku": "AC18953",
-      "reason": "still_missing_after_expanded_remediation"
+      "reason": "no_exact_official_photo_found"
     }
   ],
   "private_storage": {
@@ -114,7 +97,7 @@
     "images_uploaded": 0,
     "active_modified": 0
   },
-  "next_action": "Try final exceptional recovery for the 6 still-missing products. Then, if desired, run full-resolution upgrade pass for the 277 thumbnail-only products.",
+  "next_action": "Photo stage may proceed as operationally complete at 299/302 coverage. Keep YT11537, PO35500 and AC18953 as a final exception queue; separately run a full-resolution upgrade pass for thumbnail-only products if required.",
   "remediation_25": {
     "status": "COMPLETE",
     "processed": 25,
@@ -123,5 +106,17 @@
     "verified_assets_archived": 66,
     "private_archive_document_id": "1xJbs9kpKBEbM2CyrhiFladRepp218xCsXhrSjIyEq2Y",
     "report_path": "alpinus/checkpoints/stage3_photos_remediation_25_status.json"
+  },
+  "exact_official_recovery_3": {
+    "status": "COMPLETE",
+    "processed": 3,
+    "recovered": 3,
+    "private_archive_document_id": "13GI3QRo5AXJgNKXfQQsxX7oIv2rzGPCAWyKkX0pTByI",
+    "report_path": "alpinus/checkpoints/stage3_photos_final_exact3_status.json",
+    "skus": [
+      "SU11922",
+      "FP11898",
+      "BR11959"
+    ]
   }
 }
