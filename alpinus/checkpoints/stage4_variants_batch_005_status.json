@@ -1,0 +1,21 @@
+{
+  "stage": 4,
+  "batch": "005",
+  "status": "STAGE4_BATCH005_COMPLETE_WITH_EXCEPTION_QUEUE",
+  "processed_products": 50,
+  "exact_variant_map_products": 0,
+  "single_product_one_ean": 31,
+  "one_size_one_ean": 0,
+  "partial_or_ambiguous": 14,
+  "identity_review": 5,
+  "min_two_sizes_failures": 5,
+  "resolved_variant_count": 0,
+  "private_drive_document_id": "1DQQG8_Jydp9VkoFqZ14wLmlaEwOIgtfyYTZp6K5qQFM",
+  "readback_verified": true,
+  "shopify_writes": {
+    "created": 0,
+    "updated": 0,
+    "active_modified": 0
+  },
+  "next": "Stage4 batch006"
+}
