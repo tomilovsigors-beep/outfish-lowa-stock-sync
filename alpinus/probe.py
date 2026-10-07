@@ -4,9 +4,12 @@ import os
 
 def main():
     # Reuse the existing Render cron but switch it to the bulk Alpinus crawler.
+    batch = os.getenv("ALPINUS_STAGE3_PHOTO_BATCH", "")
+    if batch.upper() == "OFF":
+        print("ALPINUS_STAGE3_PHOTO_BATCH=OFF; no-op", flush=True)
+        return 0
     # Browser install is idempotent and keeps this compatible with the current Render image.
     subprocess.run([sys.executable, "-m", "playwright", "install", "chromium"], check=True)
-    batch = os.getenv("ALPINUS_STAGE3_PHOTO_BATCH", "")
     command = ("alpinus_bulk/stage4_variant_url_diag.py" if batch == "V4U" else
                "alpinus_bulk/stage4_variant_diag.py" if batch == "V4D" else
                "alpinus_bulk/stage4_variants_batch1.py" if batch == "V401" else
