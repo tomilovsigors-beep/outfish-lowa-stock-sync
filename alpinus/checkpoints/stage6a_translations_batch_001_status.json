@@ -1,0 +1,25 @@
+{
+  "stage": "6A_translations",
+  "batch": "001",
+  "status": "STAGE6A_TRANSLATIONS_BATCH001_COMPLETE",
+  "processed_products": 50,
+  "languages": [
+    "LV",
+    "RU"
+  ],
+  "lv_translations": 50,
+  "ru_translations": 50,
+  "unique_supplier_ids": 50,
+  "private_drive_document_id": "1O8QH_KWt--AFnKtlEPCvfbVHaR0fHFp986I6vTK3Aws",
+  "source_stage5_document_id": "1O8QH_KWt--AFnKtlEPCvfbVHaR0fHFp986I6vTK3Aws",
+  "native_localisation": true,
+  "blind_machine_translation": false,
+  "seo_done": false,
+  "readback_verified": true,
+  "shopify_writes": {
+    "created": 0,
+    "updated": 0,
+    "active_modified": 0
+  },
+  "next": "Stage6A batch002"
+}
