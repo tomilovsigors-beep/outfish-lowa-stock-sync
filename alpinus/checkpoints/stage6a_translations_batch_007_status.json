@@ -1,0 +1,25 @@
+{
+  "stage": "6A_translations",
+  "batch": "007",
+  "status": "STAGE6A_TRANSLATIONS_BATCH007_COMPLETE",
+  "processed_products": 2,
+  "languages": [
+    "LV",
+    "RU"
+  ],
+  "lv_translations": 2,
+  "ru_translations": 2,
+  "unique_supplier_ids": 2,
+  "private_drive_document_id": "1UnWVeuNR3esn8Qz3RJVnBKxu0TKqLRSXF0rosYj-ePE",
+  "source_stage5_document_id": "1GdXu2TYiEzTWaD4vyBqZmG7mH08e8eZiP506N3koyUY",
+  "native_localisation": true,
+  "blind_machine_translation": false,
+  "seo_done": false,
+  "readback_verified": true,
+  "shopify_writes": {
+    "created": 0,
+    "updated": 0,
+    "active_modified": 0
+  },
+  "next": "Stage6A master summary"
+}
