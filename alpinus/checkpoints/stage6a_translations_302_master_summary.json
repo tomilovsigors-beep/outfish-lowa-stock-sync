@@ -1,0 +1,29 @@
+{
+  "stage": "6A_translations",
+  "status": "STAGE6A_TRANSLATIONS_302_COMPLETE",
+  "total_processed": 302,
+  "languages": [
+    "LV",
+    "RU"
+  ],
+  "lv_translations": 302,
+  "ru_translations": 302,
+  "unique_supplier_ids": 302,
+  "batches": [
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    2
+  ],
+  "readback_verified": true,
+  "seo_done": false,
+  "shopify_writes": {
+    "created": 0,
+    "updated": 0,
+    "active_modified": 0
+  },
+  "next": "Stage 6B — SEO"
+}
