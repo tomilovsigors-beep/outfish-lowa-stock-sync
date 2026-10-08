@@ -1,0 +1,27 @@
+{
+  "stage": 5,
+  "status": "STAGE5_FINAL_DESCRIPTIONS_302_COMPLETE",
+  "language": "English",
+  "total_processed": 302,
+  "final_descriptions": 302,
+  "unique_supplier_ids": 302,
+  "factual_source_only": true,
+  "invented_claims": false,
+  "translations_done": false,
+  "seo_done": false,
+  "batches": [
+    50,
+    50,
+    50,
+    50,
+    50,
+    50,
+    2
+  ],
+  "shopify_writes": {
+    "created": 0,
+    "updated": 0,
+    "active_modified": 0
+  },
+  "next": "Stage 6 — translations / SEO"
+}
