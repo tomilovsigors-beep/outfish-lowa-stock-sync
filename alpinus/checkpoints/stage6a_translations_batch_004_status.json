@@ -1,0 +1,18 @@
+{
+  "stage": "6A_translations",
+  "batch": "004",
+  "status": "BLOCKED_PRIVATE_DRIVE_PERSISTENCE",
+  "source_stage5_document_id": "1XMVudJC8jxVihAcDeEhr-MHA8nnLOFJuHdcrr8Oy83I",
+  "source_products_verified": 50,
+  "unique_supplier_ids_verified": 50,
+  "private_drive_write_completed": false,
+  "readback_verified": false,
+  "blocker": "Google Drive connector currently blocks even a single-character append and new document creation",
+  "shopify_writes": {
+    "created": 0,
+    "updated": 0,
+    "active_modified": 0
+  },
+  "seo_done": false,
+  "next": "Retry Stage6A batch004 private Drive persistence and readback before batch005"
+}
