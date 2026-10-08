@@ -1,0 +1,22 @@
+{
+  "stage": 5,
+  "batch": "007",
+  "status": "STAGE5_FINAL_DESCRIPTIONS_BATCH007_COMPLETE",
+  "language": "English",
+  "processed_products": 2,
+  "final_descriptions": 2,
+  "unique_supplier_ids": 2,
+  "private_drive_document_id": "1GdXu2TYiEzTWaD4vyBqZmG7mH08e8eZiP506N3koyUY",
+  "source_stage2_document_id": "1if47D9L5K-J0gO7aWtk96UgCDF48vQsckZASpD37mkc",
+  "factual_source_only": true,
+  "invented_claims": false,
+  "translations_done": false,
+  "seo_done": false,
+  "readback_verified": true,
+  "shopify_writes": {
+    "created": 0,
+    "updated": 0,
+    "active_modified": 0
+  },
+  "next": "Stage5 master summary"
+}
