@@ -1,0 +1,20 @@
+{
+  "stage": "6B_seo_html",
+  "batch": "007",
+  "status": "STAGE6B_SEO_BATCH007_COMPLETE",
+  "processed_products": 2,
+  "unique_supplier_ids": 2,
+  "html_blocks": 2,
+  "source_stage5_document_id": "1GdXu2TYiEzTWaD4vyBqZmG7mH08e8eZiP506N3koyUY",
+  "private_drive_document_id": "1Nopc4er39IOgVTiyKNIW6x6c4E1tRrTb6x2ORiwrbaA",
+  "clean_html_per_product": true,
+  "factual_source_only": true,
+  "ambiguous_gtin_ean_omitted": true,
+  "readback_verified": true,
+  "shopify_writes": {
+    "created": 0,
+    "updated": 0,
+    "active_modified": 0
+  },
+  "next": "Stage6B master summary"
+}
