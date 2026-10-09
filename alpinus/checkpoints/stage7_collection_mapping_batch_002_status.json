@@ -1,0 +1,17 @@
+{
+  "stage": "7_collection_mapping",
+  "batch": "002",
+  "status": "STAGE7_COLLECTION_MAPPING_BATCH002_COMPLETE",
+  "processed_products": 50,
+  "unique_supplier_ids": 50,
+  "private_drive_document_id": "1B9Eli1XawI3OufXIl56G6x87oVvRCeGveey6exEmSMk",
+  "readback_verified": true,
+  "existing_collections_only": true,
+  "brand_only": 0,
+  "shopify_writes": {
+    "created": 0,
+    "updated": 0,
+    "active_modified": 0
+  },
+  "next": "batch003"
+}
