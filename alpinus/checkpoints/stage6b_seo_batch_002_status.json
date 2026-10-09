@@ -1,0 +1,21 @@
+{
+  "stage": "6B_seo_html",
+  "batch": "002",
+  "status": "STAGE6B_SEO_BATCH002_COMPLETE",
+  "processed_products": 50,
+  "unique_supplier_ids": 50,
+  "html_blocks": 50,
+  "source_stage5_document_id": "1Kiybko4g1_0UCM_42EGSH8mI6mM7siYYeQKTCaqN5Uk",
+  "private_drive_document_id": "125HBp51sB1GRoU43Ya5b1NI15yHu5sHEDnXUNZNbvd8",
+  "prompt_source": "user supplied SEO/GEO product copywriting prompt",
+  "clean_html_per_product": true,
+  "factual_source_only": true,
+  "ambiguous_gtin_ean_omitted": true,
+  "readback_verified": true,
+  "shopify_writes": {
+    "created": 0,
+    "updated": 0,
+    "active_modified": 0
+  },
+  "next": "Stage6B batch003"
+}
