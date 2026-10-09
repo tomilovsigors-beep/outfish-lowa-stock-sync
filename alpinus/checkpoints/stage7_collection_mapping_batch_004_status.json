@@ -1,0 +1,25 @@
+{
+  "stage": "7_collection_mapping",
+  "batch": "004",
+  "status": "STAGE7_COLLECTION_MAPPING_BATCH004_COMPLETE",
+  "processed_products": 50,
+  "unique_supplier_ids": 50,
+  "collection_mapping_lines": 50,
+  "private_drive_document_id": "1HJ0CPAloO8NT5WABQDuFRHX-GeuFzLqbDT17qStMpLc",
+  "readback_verified": true,
+  "correct_private_folder_verified": true,
+  "shared": false,
+  "owner_only": true,
+  "existing_collections_only": true,
+  "brand_collection_alpinus_all": true,
+  "brand_only": 0,
+  "accidental_duplicate_supplier_ids": 0,
+  "shopify_writes": {
+    "created": 0,
+    "updated": 0,
+    "active_modified": 0
+  },
+  "stage7_total_complete": 200,
+  "stage7_total": 302,
+  "next": "batch005"
+}
