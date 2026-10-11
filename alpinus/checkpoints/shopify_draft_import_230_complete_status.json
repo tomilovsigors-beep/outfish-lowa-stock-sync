@@ -1,0 +1,20 @@
+{
+  "stage": "shopify_draft_import",
+  "status": "DRAFT_IMPORT_COMPLETE_READBACK_PASS_NOT_READY_TO_PUBLISH",
+  "source_product_rows": 302,
+  "source_unique_base_skus": 301,
+  "existing_store_sku_matches_before_import": 71,
+  "new_draft_products": 230,
+  "duplicate_source_sku_rows_skipped": 1,
+  "all_new_products_status": "DRAFT",
+  "all_new_variant_prices": "0.00_TEMPORARY",
+  "inventory": "0_PENDING_QA",
+  "new_product_images": "PENDING",
+  "product_size_variants": "PENDING",
+  "new_product_languages": "EN_SOURCE_ONLY_LV_RU_PENDING",
+  "shopify_active_modified": 0,
+  "existing_shopify_products_updated": 0,
+  "source_batches": 7,
+  "verification": "Shopify Admin GraphQL full pagination 50+50+50+50+30; 230 unique SKU; all DRAFT",
+  "publish_allowed": false
+}
