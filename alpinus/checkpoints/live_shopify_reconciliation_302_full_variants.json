@@ -1,0 +1,22 @@
+{
+  "stage": "pre_import_reconciliation",
+  "status": "FULL_ALPINUS_VARIANTS_CHECKED",
+  "supplier_products": 302,
+  "shopify_alpinus_products": 145,
+  "shopify_active": 31,
+  "shopify_draft": 114,
+  "shopify_variants_verified": 239,
+  "shopify_products_with_unfetched_variants": 0,
+  "exact_supplier_base_sku_matches": 71,
+  "exact_active_matches": 0,
+  "duplicate_exact_matches": 0,
+  "no_match_in_alpinus": 231,
+  "batch_001_004_no_alpinus_sku_matches": 200,
+  "scope_caveat": "Not yet checked against other vendors or model/title equivalents; not approval to import",
+  "shopify_writes": {
+    "created": 0,
+    "updated": 0,
+    "active_modified": 0
+  },
+  "next": "Cross-vendor SKU and same-model guard then pre-import decision"
+}
