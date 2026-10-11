@@ -1,0 +1,16 @@
+{
+  "stage": "pre_import_live_reconciliation",
+  "status": "PARTIAL_SKU_MATCH_VERIFIED_NOT_IMPORT_READY",
+  "supplier_total": 302,
+  "supplier_distinct_ids": 302,
+  "shopify_alpinus_products": 145,
+  "shopify_active": 31,
+  "shopify_draft": 114,
+  "exact_matches_in_returned_variant_skus": 71,
+  "no_exact_match_in_returned_variant_skus": 231,
+  "variant_visibility_limited": true,
+  "shopify_created": 0,
+  "shopify_updated": 0,
+  "shopify_active_modified": 0,
+  "next": "Confirm variant-complete matching and existing DRAFT treatment before import"
+}
