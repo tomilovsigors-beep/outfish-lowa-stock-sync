@@ -1,0 +1,19 @@
+{
+  "stage": "preimport_reconciliation",
+  "status": "PRIVATE_REGISTER_READBACK_PASS_PENDING_FINAL_QA",
+  "supplier_total": 302,
+  "unique_supplier_ids": 302,
+  "existing_sku": 71,
+  "draft_candidates_pending_qa": 229,
+  "model_review": 2,
+  "shopify_alpinus_products_reviewed": 145,
+  "private_document_id": "1TWpDafkb5nct3uJCp31o8f12J4EBWtXPo0BkOeiIf1c",
+  "private_folder_verified": true,
+  "owner_only": true,
+  "drive_readback_verified": true,
+  "shopify_writes": {
+    "created": 0,
+    "updated": 0,
+    "active_modified": 0
+  }
+}
