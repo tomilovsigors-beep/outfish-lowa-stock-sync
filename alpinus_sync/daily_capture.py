@@ -28,7 +28,7 @@ def parse_detail(html, product):
     found = {}
     for row in soup.select(".attribute-button-ui.last-lvl-ui.table-row-ui"):
         size_el = row.select_one(".name-column-ui.supply-value-lq") or row.select_one(".name-column-ui")
-        size = re.sub(r"\\s+", " ", size_el.get_text(" ",strip=True)).strip().upper() if size_el else ""
+        size = re.sub(r"\s+", " ", size_el.get_text(" ",strip=True)).strip().upper() if size_el else ""
         stock_el = row.select_one("[data-stock-value]")
         raw = stock_el.get("data-stock-value") if stock_el else None
         if size not in product["sizes"]:
