@@ -5,7 +5,11 @@ from datetime import datetime, timezone
 
 
 def convert(events, mapping, verified_at=None):
-    verified_at = verified_at or datetime.now(timezone.utc).isoformat()
+    if not verified_at:
+        raise ValueError("verified_at_required: Stage4 logs have no timestamp")
+    dt = datetime.fromisoformat(verified_at.replace("Z", "+00:00"))
+    if dt.tzinfo is None or dt > datetime.now(timezone.utc):
+        raise ValueError("verified_at must be timezone-aware and not in future")
     lookup = {}
     mapped_skus = set()
     for m in mapping:
