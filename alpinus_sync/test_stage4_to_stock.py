@@ -25,6 +25,10 @@ class TestConversion(unittest.TestCase):
         with self.assertRaises(ValueError):
             convert([P,S,{"event":"stage4_exact_error","error":"auth"}],M)
 
+    def test_missing_capture_timestamp_denied(self):
+        with self.assertRaises(ValueError):
+            convert([P,S],M)
+
     def test_duplicate_mapping_denied(self):
         with self.assertRaises(ValueError):
             convert([P,S],M+M)
