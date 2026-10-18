@@ -58,9 +58,10 @@ if __name__ == "__main__":
     p = argparse.ArgumentParser()
     p.add_argument("stage4_events_jsonl")
     p.add_argument("approved_variant_mapping_json")
+    p.add_argument("--verified-at", required=True, help="Real supplier capture time (ISO 8601 UTC); not the conversion time")
     args = p.parse_args()
     with open(args.stage4_events_jsonl, encoding="utf-8") as f:
         events = [json.loads(s) for s in f if s.strip()]
     with open(args.approved_variant_mapping_json, encoding="utf-8") as f:
         mapping = json.load(f)
-    print(json.dumps(convert(events, mapping), ensure_ascii=False, indent=2))
+    print(json.dumps(convert(events, mapping, args.verified_at), ensure_ascii=False, indent=2))
