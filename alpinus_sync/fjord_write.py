@@ -1,5 +1,18 @@
 """Guarded Shopify stock update at exactly one warehouse."""
-from alpinus_sync.render_end_to_end import shopify
+import json
+import os
+import urllib.request
+
+def shopify(query, variables):
+    shop=os.environ['SHOPIFY_SHOP_DOMAIN']
+    if not shop.endswith('.myshopify.com') or '/' in shop:
+        raise RuntimeError('invalid_shop_domain')
+    request=urllib.request.Request('https://'+shop+'/admin/api/2025-10/graphql.json',data=json.dumps({'query':query,'variables':variables}).encode(),headers={'Content-Type':'application/json','X-Shopify-Access-Token':os.environ['SHOPIFY_ADMIN_ACCESS_TOKEN']})
+    with urllib.request.urlopen(request,timeout=30) as response:
+        result=json.load(response)
+    if result.get('errors'):
+        raise RuntimeError('shopify_graphql_failure')
+    return result['data']
 
 FJORD = "gid://shopify/Location/107805770066"
 
