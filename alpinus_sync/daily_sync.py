@@ -84,5 +84,5 @@ async def run():
 if __name__=="__main__":
     try: print(json.dumps(asyncio.run(run())))
     except Exception as exc:
-        print(json.dumps({"result":"FAILED_CLOSED","error_type":type(exc).__name__}),file=sys.stderr)
+        print(json.dumps({"result":"FAILED_CLOSED","error_type":type(exc).__name__, "safe_detail": str(exc)[:220] if type(exc).__name__ in ("Error", "RuntimeError", "ValueError", "KeyError") else "redacted"}),file=sys.stderr)
         raise SystemExit(1)
