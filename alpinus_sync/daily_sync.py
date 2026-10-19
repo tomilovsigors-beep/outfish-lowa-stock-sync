@@ -37,7 +37,20 @@ async def capture():
         for product in PRODUCTS:
             response=await context.request.get(product["url"],timeout=30000)
             if response.status!=200: raise RuntimeError("supplier_http_failure")
-            all_rows.extend(parse_detail(await response.text(), product))
+            html=await response.text()
+            try:
+                all_rows.extend(parse_detail(html, product))
+            except ValueError as exc:
+                if str(exc) == "supplier_product_code_mismatch":
+                    from urllib.parse import urlparse
+                    final=urlparse(response.url)
+                    expected=urlparse(product["url"])
+                    if final.hostname != expected.hostname or final.path != expected.path:
+                        raise RuntimeError("supplier_redirected_from_product_page")
+                    if "logowanie" in html.casefold() or "zaloguj się" in html.casefold():
+                        raise RuntimeError("supplier_auth_page_instead_of_product")
+                    raise RuntimeError("supplier_product_html_missing_identity")
+                raise
         if len(all_rows)!=8: raise RuntimeError("supplier_incomplete_batch")
         return all_rows
     finally:
