@@ -19,12 +19,12 @@ async def open_logged_in_page():
         await page.wait_for_load_state("networkidle",timeout=15000)
     except PlaywrightTimeoutError:
         pass
-    email=page.locator('input[name="email"]:visible').first
-    password=page.locator('input[name="password"]:visible').first
+    email=page.locator('input[name="email"]').first
+    password=page.locator('input[name="password"]').first
     if await email.count() and await password.count():
         await email.fill(LOGIN)
         await password.fill(PASSWORD)
-        submit=page.get_by_role("button",name="Zaloguj się",exact=True)
+        submit=page.locator("button.sign-in-lq.enter-key-trigger-lq").first
         if await submit.count():
             await submit.click(timeout=15000)
         else:
@@ -33,6 +33,6 @@ async def open_logged_in_page():
             await page.wait_for_load_state("networkidle",timeout=30000)
         except PlaywrightTimeoutError:
             pass
-    if await page.locator('input[name="password"]:visible').count():
+    if "Wyloguj" not in await page.content() and "Jesteś zalogowany" not in await page.content():
         raise RuntimeError("ALPINUS authentication failed")
     return p,browser,context,page
