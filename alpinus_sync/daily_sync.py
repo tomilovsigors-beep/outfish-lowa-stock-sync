@@ -77,6 +77,12 @@ def snapshot():
     return result
 
 async def run():
+    if os.getenv("ALPINUS_DIAGNOSE") == "YES":
+        if os.getenv("ALPINUS_ENABLE_WRITES") == "YES":
+            raise RuntimeError("diagnostic_requires_writes_off")
+        from alpinus_sync.diagnose_render import run as diagnose
+        await diagnose()
+        return {"result":"DIAGNOSTIC_COMPLETED_NO_WRITES","writes_enabled":False}
     rows=await capture()
     source={r["sku"]:r["quantity"] for r in rows}
     if len(source)!=8 or set(source)!=set(APPROVED):raise RuntimeError("supplier_wrong_variants")
